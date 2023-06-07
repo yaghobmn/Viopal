@@ -1,0 +1,1 @@
+trojan://xxoo@138.124.183.222:443/?type=tcp&security=tls&sni=s100.divarcdn.com&allowInsecure=1#Channel%20id%3A%20%40AlienVPN402%20%287%29
