@@ -1,1 +1,2 @@
 vless://e760d041-5fb3-4b2f-f5b8-f10891f1720c@speedtest.wlftest.xyz:443?security=reality&encryption=none&pbk=NT3ozRtEyDjNV_2rUXFAf65Uf52OfdKANpePb3eZQAA&headerType=none&fp=ios&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.speedtest.net&sid=ce#namahdod
+vless://df0dc171-51b4-4b5f-9d83-d0ff67fed121@hrh.gozargah.one:443?security=reality&encryption=none&pbk=DD32tcj78deQKT7X63cVBtmxs2k4hKPgQ196UG7ygXM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.zula.ir&sid=6ba85179e30d4fc2#MCI
