@@ -1,1 +1,1 @@
-trojan://xxoo@138.124.183.222:443/?type=tcp&security=tls&sni=s100.divarcdn.com&allowInsecure=1#Channel%20id%3A%20%40AlienVPN402%20%287%29
+vless://e760d041-5fb3-4b2f-f5b8-f10891f1720c@speedtest.wlftest.xyz:443?security=reality&encryption=none&pbk=NT3ozRtEyDjNV_2rUXFAf65Uf52OfdKANpePb3eZQAA&headerType=none&fp=ios&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.speedtest.net&sid=ce#namahdod
