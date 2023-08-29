@@ -95,23 +95,23 @@
       "tag": "Internet",
       "outbounds": [
         "Best Latency",
-        "xwvpn1",
-        "xwvpn2"
+        "tel:vpn_xw",
+        "id: vpn_xw"
       ]
     },
     {
       "type": "urltest",
       "tag": "Best Latency",
       "outbounds": [
-        "xwvpn1",
-        "xwvpn2"
+        "tel:vpn_xw",
+        "id: vpn_xw"
       ],
       "url": "https://detectportal.firefox.com/success.txt",
       "interval": "1m0s"
     },
     {
       "type": "tuic",
-      "tag": "xwvpn1",
+      "tag": "tel:vpn_xw",
       "server": "88.151.192.110",
       "server_port": 2053,
       "uuid": "0ccece5c-a874-49f4-85a8-13c48565ecab",
@@ -129,7 +129,7 @@
     },
     {
       "type": "tuic",
-      "tag": "xwvpn2",
+      "tag": "id: vpn_xw",
       "server": "88.151.192.143",
       "server_port": 2083,
       "uuid": "73c2ab4f-3d6b-416c-b369-f9a499fd381d",
