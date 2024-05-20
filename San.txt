@@ -132,7 +132,7 @@
       "statsOutboundDownlink": true
     }
   },
-  "remarks": "Bp Frag - 104.16.126.25",
+  "remarks": "BP Frag - 104.16.126.25",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
