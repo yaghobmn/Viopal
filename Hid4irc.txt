@@ -82,7 +82,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "u0"
+        "ip4",
+        "ip6"
       ],
       "default": "u0"
     },
@@ -90,20 +91,39 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "u0"
+        "ip4",
+        "ip6"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
     },
     {
       "type": "wireguard",
-      "tag": "u0",
+      "tag": "ip6",
       "local_address": [
         "172.16.0.2/32","2606:4700:110:8c40:2f96:f631:bae8:e379/128"
       ],
       "private_key": "iNFzntrMqBrWNeZOjYDMrctpzVeBAdIr0gZGdAbT+1Q=",
       "server": "2606:4700:d0::5553:259:cdc1:e154",
       "server_port": 2371,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [
+      168,58,13
+      ],
+      "mtu": 1280,
+        "fake_packets": "8-15",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "20-250"
+    },
+    {
+      "type": "wireguard",
+      "tag": "ip4",
+      "local_address": [
+        "172.16.0.2/32","2606:4700:110:8c40:2f96:f631:bae8:e379/128"
+      ],
+      "private_key": "iNFzntrMqBrWNeZOjYDMrctpzVeBAdIr0gZGdAbT+1Q=",
+      "server": "188.114.99.48",
+      "server_port": 3854,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [
       168,58,13
