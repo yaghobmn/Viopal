@@ -116,6 +116,27 @@
       "fake_packets_delay": "20-250"
     },
     {
+      "auth_str": "dongtaiwang.com",
+      "disable_mtu_discovery": false,
+      "down_mbps": 100,
+      "hop_interval": 10,
+      "obfs": "",
+      "server": "108.181.5.133",
+      "server_port": 26022,
+      "tls": {
+        "alpn": [
+          "h3"
+        ],
+        "enabled": true,
+        "insecure": true,
+        "server_name": "google.com"
+      },
+      "up_mbps": 80,
+      "type": "hysteria",
+      "domain_strategy": "",
+      "tag": "hys"
+    },
+    {
       "type": "dns",
       "tag": "dns-out"
     },
