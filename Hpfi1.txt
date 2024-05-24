@@ -85,7 +85,7 @@
         "u0",
         "hys"
       ],
-      "default": "u0"
+      "default": "auto"
     },
     {
       "type": "urltest",
@@ -125,6 +125,7 @@
             "auth_str": "dongtaiwang.com",
             "tls": {
                 "enabled": true,
+                "insecure": true,
                 "server_name": "google.com",
                 "alpn": [
                     "h3"
