@@ -118,6 +118,7 @@
     {
             "type": "hysteria",
             "tag":"hys",
+            "obfs": "",
             "server": "108.181.5.133",
             "server_port": 26022,
             "up_mbps": 80,
