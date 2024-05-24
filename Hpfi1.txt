@@ -135,7 +135,7 @@
                 ]
             }
         },
-         vless://95699d50-1aa8-44cc-95ed-515b30d2c842@104.16.126.25:443?path=%2FnJ1Opj0Pa18KftG6%3Fed%3D2560&security=tls&encryption=none&alpn=h2,http/1.1&host=piSH.pages.deV&fp=chrome&type=ws&sni=PisH.PAgEs.dEv&fragment=20-40,4-8,hellotls#P+Frag
+         vless://95699d50-1aa8-44cc-95ed-515b30d2c842@104.16.126.25:443?path=%2FnJ1Opj0Pa18KftG6%3Fed%3D2560&security=tls&encryption=none&alpn=h2,http/1.1&host=piSH.pages.deV&fp=chrome&type=ws&sni=PisH.PAgEs.dEv&fragment=20-40,4-8,hellotls#P+Frag,
     {
       "type": "dns",
       "tag": "dns-out"
