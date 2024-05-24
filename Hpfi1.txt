@@ -14,6 +14,12 @@
       },
       {
         "tag": "dns-direct",
+        "address": "https://94.140.14.14/dns-query",
+        "address_resolver": "dns-local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-direct",
         "address": "1.1.1.1",
         "address_resolver": "dns-local",
         "detour": "direct"
