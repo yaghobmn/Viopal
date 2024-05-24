@@ -143,12 +143,12 @@
         "size": "20-40",
         "sleep": "4-8"
       },
-      "server": "104.16.126.25",
+      "server": "162.159.245.195",
       "server_port": 443,
-      "uuid": "95699d50-1aa8-44cc-95ed-515b30d2c842",
+      "uuid": "a21cbcf6-4c51-46e4-b608-7e821deef6fe",
       "tls": {
         "enabled": true,
-        "server_name": "PisH.PAgEs.dEv",
+        "server_name": "ue1.yaghobaliom.website",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -156,9 +156,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/nJ1Opj0Pa18KftG6",
+        "path": "/siob",
         "headers": {
-          "Host": "piSH.pages.deV"
+          "Host": "ue1.yaghobaliom.website"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
