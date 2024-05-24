@@ -14,7 +14,7 @@
       },
       {
         "tag": "dns-direct",
-        "address": "https://94.140.14.14/dns-query",
+        "address": "1.1.1.1",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
@@ -140,7 +140,7 @@
       "tag": "P Frag",
       "tls_fragment": {
         "enabled": true,
-        "size": "200-400",
+        "size": "20-40",
         "sleep": "4-8"
       },
       "server": "104.16.126.25",
