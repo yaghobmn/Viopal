@@ -83,8 +83,7 @@
       "outbounds": [
         "auto",
         "u0",
-        "hys",
-        "P Frag"
+        "hys"
       ],
       "default": "auto"
     },
@@ -93,8 +92,7 @@
       "tag": "auto",
       "outbounds": [
         "u0",
-        "hys",
-        "P Frag"
+        "hys"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -135,36 +133,6 @@
                 ]
             }
         },
-        {
-      "type": "vless",
-      "tag": "P Frag",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "20-40",
-        "sleep": "4-8"
-      },
-      "server": "162.159.245.195",
-      "server_port": 443,
-      "uuid": "a21cbcf6-4c51-46e4-b608-7e821deef6fe",
-      "tls": {
-        "enabled": true,
-        "server_name": "ue1.yaghobaliom.website",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/siob",
-        "headers": {
-          "Host": "ue1.yaghobaliom.website"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
     {
       "type": "dns",
       "tag": "dns-out"
