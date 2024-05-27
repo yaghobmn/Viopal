@@ -85,7 +85,7 @@
         "u0",
         "hys"
       ],
-      "default": "u0"
+      "default": "auto"
     },
     {
       "type": "urltest",
