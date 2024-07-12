@@ -82,7 +82,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "u0"
+        "u0",
+        "hys"
       ],
       "default": "auto"
     },
@@ -90,7 +91,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "u0"
+        "u0",
+        "hys"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -112,6 +114,18 @@
       "fake_packets": "8-15",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "20-250"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hys",
+      "server": "157.254.158.7",
+      "server_port": 10429,
+      "password": "18d4bcb1-dfab-4af2-b2cb-f8e61384da22",
+      "tls": {
+        "enabled": true,
+        "server_name": "gpt.nai3.cc",
+        "insecure": true
+      }
     },
     {
       "type": "dns",
