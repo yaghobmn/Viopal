@@ -82,7 +82,11 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "u0"
+        "u0",
+        "hys",
+        "sh_bpb",
+        "she1",
+        "she2"
       ],
       "default": "auto"
     },
@@ -90,7 +94,11 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "u0"
+        "u0",
+        "hys",
+        "sh_bpb",
+        "she1",
+        "she2"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -112,6 +120,76 @@
       "fake_packets": "8-15",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "20-250"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hys",
+      "server": "157.254.158.7",
+      "server_port": 10429,
+      "password": "18d4bcb1-dfab-4af2-b2cb-f8e61384da22",
+      "tls": {
+        "enabled": true,
+        "server_name": "gpt.nai3.cc",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "sh_bpb",
+      "server": "104.16.126.25",
+      "server_port": 443,
+      "uuid": "31c292d8-fc01-400d-a6b4-eb5b3396bcf7",
+      "tls": {
+        "enabled": true,
+        "server_name": "ShODiBAX.paGeS.Dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/awhiKUz7x5DIDLb6",
+        "headers": {
+          "Host": "ShODiBAX.paGeS.Dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+     {
+      "type": "vless",
+      "tag": "she1",
+      "server": "104.21.94.168",
+      "server_port": 8080,
+      "uuid": "34376d1b-efcb-4e9d-81b8-914f63b79ff1",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+        "headers": {
+          "Host": "unlimiteddev-vpn.unlimiteddev.Community."
+        },
+        "max_early_data": 8080,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+     {
+      "type": "vless",
+      "tag": "she2",
+      "server": "162.159.138.232",
+      "server_port": 2082,
+      "uuid": "ad8d6bc3-7540-459e-a75a-1febfa413f78",
+      "transport": {
+        "type": "ws",
+        "path": "/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel",
+        "headers": {
+          "Host": "C1.unique69.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
     },
     {
       "type": "dns",
