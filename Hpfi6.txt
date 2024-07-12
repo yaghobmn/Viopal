@@ -96,7 +96,7 @@
       "outbounds": [
         "u0",
         "hys",
-        "sh_bpb"
+        "sh_bpb",
         "she1",
         "she2"
       ],
