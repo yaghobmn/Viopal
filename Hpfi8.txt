@@ -82,15 +82,23 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "u0"
+        "u0",
+        "hys",
+        "sh_bpb",
+        "she1",
+        "she2"
       ],
-      "default": "u0"
+      "default": "auto"
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "u0"
+        "u0",
+        "hys",
+        "sh_bpb",
+        "she1",
+        "she2"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -112,6 +120,77 @@
         "fake_packets": "8-15",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "20-250"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hys",
+      "server": "157.254.158.7",
+      "server_port": 10429,
+      "password": "18d4bcb1-dfab-4af2-b2cb-f8e61384da22",
+      "tls": {
+        "enabled": true,
+        "server_name": "gpt.nai3.cc",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "sh_bpb",
+      "server": "104.16.126.25",
+      "server_port": 443,
+      "uuid": "31c292d8-fc01-400d-a6b4-eb5b3396bcf7",
+      "tls": {
+        "enabled": true,
+        "server_name": "ShODiBAX.paGeS.Dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/awhiKUz7x5DIDLb6",
+        "headers": {
+          "Host": "ShODiBAX.paGeS.Dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+     {
+      "type": "vless",
+      "tag": "she1",
+      "server": "104.17.147.22",
+      "server_port": 2095,
+      "uuid": "telegram-id-ArV2ray",
+      "transport": {
+        "type": "ws",
+        "path": "/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+        "headers": {
+          "Host": "2.www.speedtest.net.deb.debian.org.mehpow.ir."
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+     {
+      "type": "vless",
+      "tag": "she2",
+      "server": "104.17.147.22",
+      "server_port": 2095,
+      "uuid": "telegram-id-ArV2ray",
+      "transport": {
+        "type": "ws",
+        "path": "/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+        "headers": {
+          "Host": "2.www.speedtest.net.deb.debian.org.mehpow.ir."
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
     },
     {
       "type": "dns",
