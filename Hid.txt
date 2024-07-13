@@ -161,16 +161,16 @@
      {
       "type": "vless",
       "tag": "she1",
-      "server": "104.21.94.168",
-      "server_port": 8080,
-      "uuid": "34376d1b-efcb-4e9d-81b8-914f63b79ff1",
+      "server": "104.17.147.22",
+      "server_port": 2095,
+      "uuid": "telegram-id-ArV2ray",
       "transport": {
         "type": "ws",
-        "path": "/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+        "path": "/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
         "headers": {
-          "Host": "unlimiteddev-vpn.unlimiteddev.Community."
+          "Host": "2.www.speedtest.net.deb.debian.org.mehpow.ir."
         },
-        "max_early_data": 8080,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
@@ -178,15 +178,16 @@
      {
       "type": "vless",
       "tag": "she2",
-      "server": "162.159.138.232",
-      "server_port": 2082,
-      "uuid": "ad8d6bc3-7540-459e-a75a-1febfa413f78",
+      "server": "104.17.147.22",
+      "server_port": 2095,
+      "uuid": "telegram-id-ArV2ray",
       "transport": {
         "type": "ws",
-        "path": "/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel/@SevenVpnChannel",
+        "path": "/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
         "headers": {
-          "Host": "C1.unique69.com"
+          "Host": "2.www.speedtest.net.deb.debian.org.mehpow.ir."
         },
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
