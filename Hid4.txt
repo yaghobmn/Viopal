@@ -161,26 +161,9 @@
     {
       "type": "vless",
       "tag": "she1",
-      "server": "zula.ir",
-      "server_port": 80,
-      "uuid": "d3d92bd3-62bc-4ed2-a820-9e97a09b50f1",
-      "transport": {
-        "type": "ws",
-        "path": "/join-telegram-AfV2ray",
-        "headers": {
-          "Host": "www.roghanali.ir."
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "she2",
       "server": "185.146.173.93",
       "server_port": 2095,
-      "uuid": "DIGIV2rAy",
+      "uuid": "DIGiV2RAY",
       "transport": {
         "type": "ws",
         "path": "/DigiconnecT",
@@ -188,6 +171,23 @@
           "Host": "wWw.vArZeSh3.Com.QUENTIN.1.1.1.1.radiotehran.org."
         },
         "max_early_data": 1024,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "she2",
+      "server": "104.17.147.22",
+      "server_port": 80,
+      "uuid": "Telegram-ipV2Ray-saq",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram-ipV2Ray",
+        "headers": {
+          "Host": "c.2.www.speedtest.net.zula.ir.zemestanil.ir"
+        },
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
