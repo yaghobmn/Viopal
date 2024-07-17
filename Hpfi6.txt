@@ -85,6 +85,7 @@
         "u0",
         "hys",
         "sh_bpb",
+        "sh_bpb2",
         "she1",
         "she2"
       ],
@@ -97,6 +98,7 @@
         "u0",
         "hys",
         "sh_bpb",
+        "sh_bpb2",
         "she1",
         "she2"
       ],
@@ -137,6 +139,31 @@
       "type": "vless",
       "tag": "sh_bpb",
       "server": "104.16.126.25",
+      "server_port": 443,
+      "uuid": "31c292d8-fc01-400d-a6b4-eb5b3396bcf7",
+      "tls": {
+        "enabled": true,
+        "server_name": "ShODiBAX.paGeS.Dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/awhiKUz7x5DIDLb6",
+        "headers": {
+          "Host": "ShODiBAX.paGeS.Dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+     {
+      "type": "vless",
+      "tag": "sh_bpb2",
+      "server": "zula.ir",
       "server_port": 443,
       "uuid": "31c292d8-fc01-400d-a6b4-eb5b3396bcf7",
       "tls": {
