@@ -1,14 +1,14 @@
-#bpb1
-vless://31c292d8-fc01-400d-a6b4-eb5b3396bcf7@104.16.126.25:443?path=%2FawhiKUz7x5DIDLb6%3Fed%3D2560&security=tls&encryption=none&alpn=http/1.1&host=ShODiBAX.paGeS.Dev&fp=chrome&type=ws&sni=ShODiBAX.paGeS.Dev#sh_bpb1
+#cyper1
+vless://5bdf790f-0af2-4481-a624-41b66e7e3489@104.16.128.33:443?path=%2Fcdn.ircp.online%2F%40ln2ray%3Fed%3D2560&security=tls&encryption=none&alpn=http/1.1&host=lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev&fp=firefox&type=ws&sni=lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev#cyper1
 
-#bpb2
-vless://31c292d8-fc01-400d-a6b4-eb5b3396bcf7@zula.ir:443?path=%2FawhiKUz7x5DIDLb6%3Fed%3D2560&security=tls&encryption=none&alpn=http/1.1&host=ShODiBAX.paGeS.Dev&fp=chrome&type=ws&sni=ShODiBAX.paGeS.Dev#sh_bpb2
+#cyper2
+vless://5bdf790f-0af2-4481-a624-41b66e7e3489@104.17.147.22:443?path=%2Fcdn.ircp.online%2F%40ln2ray%3Fed%3D2560&security=tls&encryption=none&alpn=http/1.1&host=lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev&fp=firefox&type=ws&sni=lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev#cyper2
 
-#bpb3
-vless://31c292d8-fc01-400d-a6b4-eb5b3396bcf7@104.17.147.22:443?path=%2FawhiKUz7x5DIDLb6%3Fed%3D2560&security=tls&encryption=none&alpn=http/1.1&host=ShODiBAX.paGeS.Dev&fp=chrome&type=ws&sni=ShODiBAX.paGeS.Dev#sh_bpb3
+#cyper3
+vless://5bdf790f-0af2-4481-a624-41b66e7e3489@zula.ir:443?path=%2Fcdn.ircp.online%2F%40ln2ray%3Fed%3D2560&security=tls&encryption=none&alpn=http/1.1&host=lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev&fp=firefox&type=ws&sni=lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev#cyper3
 
-#bpb4
-vless://31c292d8-fc01-400d-a6b4-eb5b3396bcf7@104.16.128.33:443?path=%2FawhiKUz7x5DIDLb6%3Fed%3D2560&security=tls&encryption=none&alpn=http/1.1&host=ShODiBAX.paGeS.Dev&fp=chrome&type=ws&sni=ShODiBAX.paGeS.Dev#sh_bpb4
+#cyper4
+vless://5bdf790f-0af2-4481-a624-41b66e7e3489@104.16.126.25:443?path=%2Fcdn.ircp.online%2F%40ln2ray%3Fed%3D2560&security=tls&encryption=none&alpn=http/1.1&host=lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev&fp=firefox&type=ws&sni=lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev#cyper4
 
 #ss1_🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9037
 ss://YWVzLTI1Ni1jZmI6VE4yWXFnaHhlRkRLWmZMVQ@45.89.52.66:9037#%F0%9F%94%92%20SS-TCP-NA%20%F0%9F%87%B9%F0%9F%87%B7%20TR-45.89.52.66%3A9037
