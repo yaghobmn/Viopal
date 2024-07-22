@@ -1,33 +1,487 @@
-#cyper1
-vless://5bdf790f-0af2-4481-a624-41b66e7e3489@104.16.128.33:443?path=%2Fcdn.ircp.online%2F%40ln2ray%3Fed%3D2560&security=tls&encryption=none&alpn=http/1.1&host=orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev&fp=firefox&type=ws&sni=orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev#cyper1
+{
+  "log": {
+    "level": "warn",
+    "output": "box.log",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns-remote",
+        "address": "udp://1.1.1.1",
+        "address_resolver": "dns-direct",
+        "detour": "select"
+      },
+      {
+        "tag": "dns-direct",
+        "address": "1.1.1.1",
+        "address_resolver": "dns-local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-local",
+        "address": "local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-block",
+        "address": "rcode://success"
+      }
+    ],
+    "rules": [
+      {
+        "domain": "engage.cloudflareclient.com",
+        "server": "dns-direct"
+      },
+      {
+        "domain_suffix": ".ir",
+        "geosite": "ir",
+        "server": "dns-direct"
+      },
+      {
+        "domain": "cp.cloudflare.com",
+        "server": "dns-remote",
+        "rewrite_ttl": 3000
+      }
+    ],
+    "final": "dns-remote",
+    "independent_cache": true
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "mtu": 9000,
+      "inet4_address": "172.19.0.1/28",
+      "auto_route": true,
+      "strict_route": true,
+      "endpoint_independent_nat": true,
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "0.0.0.0",
+      "listen_port": 2334,
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "direct",
+      "tag": "dns-in",
+      "listen": "0.0.0.0",
+      "listen_port": 6440,
+      "override_address": "1.1.1.1",
+      "override_port": 53
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "u0",
+        "shadowsocks § 0",
+        "vless § 1",
+        "104.17.148.22:80 (1) § 2",
+        "vless § 3",
+        "104.18.101.41:8080 (1) § 4",
+        "104.26.15.16:80 (1) § 5",
+        "☬ SHΞЯVIN™ (38) § 6",
+        "IRVLESS-FREE-HYSTERIA5 § 7",
+        "cyper1 § 8",
+        "cyper2 § 9",
+        "cyper3 § 10",
+        "cyper4 § 11",
+        "🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9037 § 12",
+        "🔒 SS-TCP-NA 🇬🇧 GB-77.72.5.150:989 § 13",
+        "🔒 SS-TCP-NA 🇱🇺 LU-92.38.163.53:989 § 14",
+        "🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9024 § 15",
+        "🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9042 § 16",
+        "🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9097 § 17"
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "u0",
+        "shadowsocks § 0",
+        "vless § 1",
+        "104.17.148.22:80 (1) § 2",
+        "vless § 3",
+        "104.18.101.41:8080 (1) § 4",
+        "104.26.15.16:80 (1) § 5",
+        "☬ SHΞЯVIN™ (38) § 6",
+        "IRVLESS-FREE-HYSTERIA5 § 7",
+        "cyper1 § 8",
+        "cyper2 § 9",
+        "cyper3 § 10",
+        "cyper4 § 11",
+        "🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9037 § 12",
+        "🔒 SS-TCP-NA 🇬🇧 GB-77.72.5.150:989 § 13",
+        "🔒 SS-TCP-NA 🇱🇺 LU-92.38.163.53:989 § 14",
+        "🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9024 § 15",
+        "🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9042 § 16",
+        "🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9097 § 17"
+      ],
+      "url": "http://connectivitycheck.gstatic.com/generate_204",
+      "interval": "10m0s",
+      "idle_timeout": "1h40m0s"
+    },
+    {
+      "type": "wireguard",
+      "tag": "u0",
+      "local_address": [
+        "172.16.0.2/32","2606:4700:110:83bf:baae:2177:8e0:117/128"
+      ],
+      "private_key": "MHDf0Pla+Z6aQPp7lSnOySSHsP7bxd4Z99nDtQnvWWk=",
+      "server": "188.114.99.187",
+      "server_port": 928,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [
+      162,110,117
+      ],
+      "mtu": 1280,
+        "fake_packets": "8-15",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "20-250"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks § 0",
+      "server": "31.171.153.181",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "vless",
+      "tag": "vless § 1",
+      "server": "104.17.148.22",
+      "server_port": 8080,
+      "uuid": "telegram-id-PcV2ray",
+      "transport": {
+        "type": "ws",
+        "path": "/-PcV2ry--PcV2ry-TEL--PcV2ry-TEL--PcV2ry",
+        "headers": {
+          "Host": "1.V.V2.www.speedtest.net.b.www.speedtest.net.salatinmacvc.iR."
+        },
+        "max_early_data": 8080,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "104.17.148.22:80 (1) § 2",
+      "server": "104.17.148.22",
+      "server_port": 80,
+      "uuid": "Telegram-ipV2Ray-zaa",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram-ipV2Ray",
+        "headers": {
+          "Host": "c.2.www.speedtest.net.zula.ir.zemestanil.iR."
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "vless § 3",
+      "server": "188.114.96.3",
+      "server_port": 8080,
+      "uuid": "3eed910d-ffb6-4fd0-a498-4403756012b5",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+        "headers": {
+          "Host": "unlimiteddev-vpn.unlimiteddev.Community."
+        },
+        "max_early_data": 8080,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "104.18.101.41:8080 (1) § 4",
+      "server": "104.18.101.41",
+      "server_port": 8080,
+      "uuid": "803a2957-2f05-4259-acab-78e2904d0a6d",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg",
+        "headers": {
+          "Host": "join-to.vmessorg.Community."
+        },
+        "max_early_data": 8080,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "104.26.15.16:80 (1) § 5",
+      "server": "104.26.15.16",
+      "server_port": 80,
+      "uuid": "518bd7b3-f67c-4fce-f601-54506be8969c",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram:@Client_Proo-Telegram:@Client_Proo-Telegram:@Client_Proo-Telegram:@Client_Proo-Telegram:@Client_Proo",
+        "headers": {
+          "Host": "Tgju.orG.BaZar.ir.visAa.CoM.SairKop.WebSitE."
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "☬ SHΞЯVIN™ (38) § 6",
+      "server": "89.47.198.98",
+      "server_port": 51011,
+      "uuid": "f1652ca5-c3fc-4ec6-83af-2f85579da0ed",
+      "transport": {
+        "type": "http",
+        "host": "telewebion.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "hysteria2",
+      "tag": "IRVLESS-FREE-HYSTERIA5 § 7",
+      "server": "54.38.225.44",
+      "server_port": 4380,
+      "obfs": {
+        "type": "salamander",
+        "password": "irvless"
+      },
+      "password": "irvless:4d42728f-e25b-4fa9-ea20-0d12eca2e3f5",
+      "tls": {
+        "enabled": true,
+        "server_name": "withoutme.hbmc.net"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "cyper1 § 8",
+      "server": "104.16.128.33",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper2 § 9",
+      "server": "104.17.147.22",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper3 § 10",
+      "server": "zula.ir",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper4 § 11",
+      "server": "104.16.126.25",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9037 § 12",
+      "server": "45.89.52.66",
+      "server_port": 9037,
+      "method": "aes-256-cfb",
+      "password": "TN2YqghxeFDKZfLU"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇬🇧 GB-77.72.5.150:989 § 13",
+      "server": "77.72.5.150",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇱🇺 LU-92.38.163.53:989 § 14",
+      "server": "92.38.163.53",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9024 § 15",
+      "server": "80.92.204.106",
+      "server_port": 9024,
+      "method": "aes-256-cfb",
+      "password": "BejrQvtu9sqUeNuZ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9042 § 16",
+      "server": "45.89.52.66",
+      "server_port": 9042,
+      "method": "aes-256-cfb",
+      "password": "S7KwUu7yBy58S3Ga"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9097 § 17",
+      "server": "80.92.204.106",
+      "server_port": 9097,
+      "method": "aes-256-cfb",
+      "password": "Sn5B7jTqr76aCJT8"
+    },
 
-#cyper2
-vless://5bdf790f-0af2-4481-a624-41b66e7e3489@104.17.147.22:443?path=%2Fcdn.ircp.online%2F%40ln2ray%3Fed%3D2560&security=tls&encryption=none&alpn=http/1.1&host=orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev&fp=firefox&type=ws&sni=orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev#cyper2
-
-#cyper3
-vless://5bdf790f-0af2-4481-a624-41b66e7e3489@zula.ir:443?path=%2Fcdn.ircp.online%2F%40ln2ray%3Fed%3D2560&security=tls&encryption=none&alpn=http/1.1&host=orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev&fp=firefox&type=ws&sni=orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev#cyper3
-
-#cyper4
-vless://5bdf790f-0af2-4481-a624-41b66e7e3489@104.16.126.25:443?path=%2Fcdn.ircp.online%2F%40ln2ray%3Fed%3D2560&security=tls&encryption=none&alpn=http/1.1&host=orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev&fp=firefox&type=ws&sni=orange-boat-5a21.vdfaedhtqgyfuildx.workers.dev#cyper4
-
-#ss1_🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9037
-ss://YWVzLTI1Ni1jZmI6VE4yWXFnaHhlRkRLWmZMVQ@45.89.52.66:9037#%F0%9F%94%92%20SS-TCP-NA%20%F0%9F%87%B9%F0%9F%87%B7%20TR-45.89.52.66%3A9037
-
-#ss2_🔒 SS-TCP-NA 🇬🇧 GB-77.72.5.150:989
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@77.72.5.150:989#%F0%9F%94%92%20SS-TCP-NA%20%F0%9F%87%AC%F0%9F%87%A7%20GB-77.72.5.150%3A989
-
-#ss3_🔒 SS-TCP-NA 🇱🇺 LU-92.38.163.53:989
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@92.38.163.53:989#%F0%9F%94%92%20SS-TCP-NA%20%F0%9F%87%B1%F0%9F%87%BA%20LU-92.38.163.53%3A989
-
-#ss4_🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9024
-ss://YWVzLTI1Ni1jZmI6QmVqclF2dHU5c3FVZU51Wg@80.92.204.106:9024#%F0%9F%94%92%20SS-TCP-NA%20%F0%9F%87%A9%F0%9F%87%AA%20DE-80.92.204.106%3A9024
-
-#ss5_🔒 SS-TCP-NA 🇹🇷 TR-45.89.52.66:9042
-ss://YWVzLTI1Ni1jZmI6UzdLd1V1N3lCeTU4UzNHYQ@45.89.52.66:9042#%F0%9F%94%92%20SS-TCP-NA%20%F0%9F%87%B9%F0%9F%87%B7%20TR-45.89.52.66%3A9042
-
-ss6_🔒 SS-TCP-NA 🇩🇪 DE-80.92.204.106:9097
-ss://YWVzLTI1Ni1jZmI6U241QjdqVHFyNzZhQ0pUOA@80.92.204.106:9097#%F0%9F%94%92%20SS-TCP-NA%20%F0%9F%87%A9%F0%9F%87%AA%20DE-80.92.204.106%3A9097
-
-#hys1_F57
-hysteria2://@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489@h.88981401.xyz/?insecure=1&obfs=salamander&obfs-password=@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489&pinSHA256=deadbeef&sni=let-him-cook.ircp.online
-
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "direct",
+      "tag": "bypass"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "geoip": {
+      "path": "geo-assets/sagernet-sing-geoip-geoip.db"
+    },
+    "geosite": {
+      "path": "geo-assets/sagernet-sing-geosite-geosite.db"
+    },
+    "rules": [
+      {
+        "inbound": "dns-in",
+        "outbound": "dns-out"
+      },
+      {
+        "port": 53,
+        "outbound": "dns-out"
+      },
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "select"
+      },
+      {
+        "geoip": "private",
+        "outbound": "bypass"
+      },
+      {
+        "domain_suffix": ".ir",
+        "geosite": "ir",
+        "geoip": "ir",
+        "outbound": "bypass"
+      }
+    ],
+    "auto_detect_interface": true,
+    "override_android_vpn": true
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "clash.db"
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:6756"
+    }
+  }
+}
