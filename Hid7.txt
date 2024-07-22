@@ -83,7 +83,6 @@
       "outbounds": [
         "auto",
         "u0",
-        "shadowsocks § 0",
         "vless § 1",
         "104.17.148.22:80 (1) § 2",
         "vless § 3",
@@ -103,7 +102,6 @@
       "tag": "auto",
       "outbounds": [
         "u0",
-        "shadowsocks § 0",
         "vless § 1",
         "104.17.148.22:80 (1) § 2",
         "vless § 3",
@@ -137,14 +135,6 @@
         "fake_packets": "8-15",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "20-250"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "shadowsocks § 0",
-      "server": "31.171.153.181",
-      "server_port": 989,
-      "method": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3"
     },
     {
       "type": "vless",
