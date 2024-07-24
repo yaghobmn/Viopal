@@ -88,8 +88,6 @@
         "cyper2 § 9",
         "cyper3 § 10",
         "cyper4 § 11",
-        "FreeConfig1-@King_Network7 § 0",
-        "FreeConfig2-@King_Network7 § 1",
         "🔒 HYSTERIA-UDP 🇮🇳 IN-103.68.108.25:443 § 2"
       ],
       "default": "auto"
@@ -104,8 +102,6 @@
         "cyper2 § 9",
         "cyper3 § 10",
         "cyper4 § 11",
-        "FreeConfig1-@King_Network7 § 0",
-        "FreeConfig2-@King_Network7 § 1",
         "🔒 HYSTERIA-UDP 🇮🇳 IN-103.68.108.25:443 § 2"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
@@ -243,38 +239,6 @@
           "Host": "green-king-8dd5.cwkfgrtubj.workers.dev"
         },
         "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "FreeConfig1-@King_Network7 § 0",
-      "server": "www.speedtest.net",
-      "server_port": 80,
-      "uuid": "cfd9f531-af08-4b53-8014-a1463f302a8b",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "31.V.v.ww.speedtest.net.zula.ir.nanesarvar.ir."
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "FreeConfig2-@King_Network7 § 1",
-      "server": "www.speedtest.net",
-      "server_port": 80,
-      "uuid": "2fe9deb2-e534-4a4a-9bd8-ce7ea6a29f78",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "5.www.speedtest.net.ftp.debian.org.nanesarvar.ir."
-        },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
