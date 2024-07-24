@@ -258,7 +258,7 @@
     {
       "type": "vless",
       "tag": "cyper1 § 8",
-      "server": "104.16.128.33",
+      "server": "18.66.161.80",
       "server_port": 443,
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
@@ -333,7 +333,7 @@
     {
       "type": "vless",
       "tag": "cyper4 § 11",
-      "server": "104.16.126.25",
+      "server": "31.43.179.4",
       "server_port": 443,
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
