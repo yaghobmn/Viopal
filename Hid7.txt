@@ -333,7 +333,7 @@
     {
       "type": "vless",
       "tag": "cyper4 § 11",
-      "server": "31.43.179.4",
+      "server": "45.135.235.95",
       "server_port": 443,
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
