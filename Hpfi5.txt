@@ -83,13 +83,7 @@
       "outbounds": [
         "auto",
         "u0",
-        "vless § 1",
-        "104.17.148.22:80 (1) § 2",
-        "vless § 3",
-        "104.18.101.41:8080 (1) § 4",
-        "104.26.15.16:80 (1) § 5",
-        "☬ SHΞЯVIN™ (38) § 6",
-        "IRVLESS-FREE-HYSTERIA5 § 7",
+        "104.17.148.22:8080",
         "cyper1 § 8",
         "cyper2 § 9",
         "cyper3 § 10",
@@ -105,13 +99,7 @@
       "tag": "auto",
       "outbounds": [
         "u0",
-        "vless § 1",
-        "104.17.148.22:80 (1) § 2",
-        "vless § 3",
-        "104.18.101.41:8080 (1) § 4",
-        "104.26.15.16:80 (1) § 5",
-        "☬ SHΞЯVIN™ (38) § 6",
-        "IRVLESS-FREE-HYSTERIA5 § 7",
+        "104.17.148.22:8080",
         "cyper1 § 8",
         "cyper2 § 9",
         "cyper3 § 10",
@@ -144,7 +132,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless § 1",
+      "tag": "104.17.148.22:8080",
       "server": "104.17.148.22",
       "server_port": 8080,
       "uuid": "telegram-id-PcV2ray",
@@ -158,102 +146,6 @@
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "104.17.148.22:80 (1) § 2",
-      "server": "104.17.148.22",
-      "server_port": 80,
-      "uuid": "Telegram-ipV2Ray-zaa",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram-ipV2Ray",
-        "headers": {
-          "Host": "c.2.www.speedtest.net.zula.ir.zemestanil.iR."
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "vless § 3",
-      "server": "188.114.96.3",
-      "server_port": 8080,
-      "uuid": "3eed910d-ffb6-4fd0-a498-4403756012b5",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
-        "headers": {
-          "Host": "unlimiteddev-vpn.unlimiteddev.Community."
-        },
-        "max_early_data": 8080,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "104.18.101.41:8080 (1) § 4",
-      "server": "104.18.101.41",
-      "server_port": 8080,
-      "uuid": "803a2957-2f05-4259-acab-78e2904d0a6d",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg",
-        "headers": {
-          "Host": "join-to.vmessorg.Community."
-        },
-        "max_early_data": 8080,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "104.26.15.16:80 (1) § 5",
-      "server": "104.26.15.16",
-      "server_port": 80,
-      "uuid": "518bd7b3-f67c-4fce-f601-54506be8969c",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram:@Client_Proo-Telegram:@Client_Proo-Telegram:@Client_Proo-Telegram:@Client_Proo-Telegram:@Client_Proo",
-        "headers": {
-          "Host": "Tgju.orG.BaZar.ir.visAa.CoM.SairKop.WebSitE."
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "☬ SHΞЯVIN™ (38) § 6",
-      "server": "89.47.198.98",
-      "server_port": 51011,
-      "uuid": "f1652ca5-c3fc-4ec6-83af-2f85579da0ed",
-      "transport": {
-        "type": "http",
-        "host": "telewebion.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "hysteria2",
-      "tag": "IRVLESS-FREE-HYSTERIA5 § 7",
-      "server": "54.38.225.44",
-      "server_port": 4380,
-      "obfs": {
-        "type": "salamander",
-        "password": "irvless"
-      },
-      "password": "irvless:4d42728f-e25b-4fa9-ea20-0d12eca2e3f5",
-      "tls": {
-        "enabled": true,
-        "server_name": "withoutme.hbmc.net"
-      }
     },
     {
       "type": "vless",
