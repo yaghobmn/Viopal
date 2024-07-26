@@ -88,7 +88,10 @@
         "cyper2 § 9",
         "cyper3 § 10",
         "cyper4 § 11",
-        "🔒 HYSTERIA-UDP 🇮🇳 IN-103.68.108.25:443 § 2"
+        "🔒 HYSTERIA-UDP 🇮🇳 IN-103.68.108.25:443 § 2",
+        "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.200.108:443 § 0",
+        "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.212.157:443 § 1",
+        "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.208.164:443 § 2"
       ],
       "default": "auto"
     },
@@ -102,7 +105,10 @@
         "cyper2 § 9",
         "cyper3 § 10",
         "cyper4 § 11",
-        "🔒 HYSTERIA-UDP 🇮🇳 IN-103.68.108.25:443 § 2"
+        "🔒 HYSTERIA-UDP 🇮🇳 IN-103.68.108.25:443 § 2",
+        "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.200.108:443 § 0",
+        "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.212.157:443 § 1",
+        "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.208.164:443 § 2"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -252,6 +258,42 @@
       "tls": {
         "enabled": true,
         "server_name": "google.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.200.108:443 § 0",
+      "server": "160.251.200.108",
+      "server_port": 45105,
+      "password": "0ec39bfb-7040-4953-9399-406c61ded790",
+      "tls": {
+        "enabled": true,
+        "server_name": "haneda.lol",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.212.157:443 § 1",
+      "server": "160.251.212.157",
+      "server_port": 45302,
+      "password": "0ec39bfb-7040-4953-9399-406c61ded790",
+      "tls": {
+        "enabled": true,
+        "server_name": "haneda.lol",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.208.164:443 § 2",
+      "server": "160.251.208.164",
+      "server_port": 45523,
+      "password": "0ec39bfb-7040-4953-9399-406c61ded790",
+      "tls": {
+        "enabled": true,
+        "server_name": "haneda.lol",
         "insecure": true
       }
     },
