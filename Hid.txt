@@ -83,15 +83,14 @@
       "outbounds": [
         "auto",
         "u0",
-        "104.17.148.22:8080",
         "cyper1 § 8",
         "cyper2 § 9",
         "cyper3 § 10",
         "cyper4 § 11",
-        "🔒 HYSTERIA-UDP 🇮🇳 IN-103.68.108.25:443 § 2",
-        "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.200.108:443 § 0",
-        "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.212.157:443 § 1",
-        "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.208.164:443 § 2"
+        "cyper5",
+        "cyper6",
+        "cyper7",
+        "cyper8"
       ],
       "default": "auto"
     },
@@ -100,15 +99,14 @@
       "tag": "auto",
       "outbounds": [
         "u0",
-        "104.17.148.22:8080",
         "cyper1 § 8",
         "cyper2 § 9",
         "cyper3 § 10",
         "cyper4 § 11",
-        "🔒 HYSTERIA-UDP 🇮🇳 IN-103.68.108.25:443 § 2",
-        "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.200.108:443 § 0",
-        "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.212.157:443 § 1",
-        "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.208.164:443 § 2"
+        "cyper5",
+        "cyper6",
+        "cyper7",
+        "cyper8"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -131,23 +129,6 @@
       "fake_packets": "8-15",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "20-250"
-    },
-    {
-      "type": "vless",
-      "tag": "104.17.148.22:8080",
-      "server": "104.17.148.22",
-      "server_port": 8080,
-      "uuid": "telegram-id-PcV2ray",
-      "transport": {
-        "type": "ws",
-        "path": "/-PcV2ry--PcV2ry-TEL--PcV2ry-TEL--PcV2ry",
-        "headers": {
-          "Host": "1.V.V2.www.speedtest.net.b.www.speedtest.net.salatinmacvc.iR."
-        },
-        "max_early_data": 8080,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
     },
     {
       "type": "vless",
@@ -250,52 +231,104 @@
       "packet_encoding": ""
     },
     {
-      "type": "hysteria2",
-      "tag": "🔒 HYSTERIA-UDP 🇮🇳 IN-103.68.108.25:443 § 2",
-      "server": "103.68.108.25",
+      "type": "vless",
+      "tag": "cyper5",
+      "server": "194.59.5.111",
       "server_port": 443,
-      "password": "v2meowmeowmeow",
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
-        "insecure": true
-      }
+        "server_name": "green-king-8dd5.cwkfgrtubj.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "green-king-8dd5.cwkfgrtubj.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
     },
     {
-      "type": "hysteria2",
-      "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.200.108:443 § 0",
-      "server": "160.251.200.108",
-      "server_port": 45105,
-      "password": "0ec39bfb-7040-4953-9399-406c61ded790",
+      "type": "vless",
+      "tag": "cyper6",
+      "server": "194.76.18.225",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
         "enabled": true,
-        "server_name": "haneda.lol",
-        "insecure": true
-      }
+        "server_name": "green-king-8dd5.cwkfgrtubj.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "green-king-8dd5.cwkfgrtubj.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
     },
     {
-      "type": "hysteria2",
-      "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.212.157:443 § 1",
-      "server": "160.251.212.157",
-      "server_port": 45302,
-      "password": "0ec39bfb-7040-4953-9399-406c61ded790",
+      "type": "vless",
+      "tag": "cyper7",
+      "server": "92.243.74.84",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
         "enabled": true,
-        "server_name": "haneda.lol",
-        "insecure": true
-      }
+        "server_name": "green-king-8dd5.cwkfgrtubj.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "green-king-8dd5.cwkfgrtubj.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
     },
     {
-      "type": "hysteria2",
-      "tag": "🔒 HYSTERIA-UDP 🇯🇵 JP-160.251.208.164:443 § 2",
-      "server": "160.251.208.164",
-      "server_port": 45523,
-      "password": "0ec39bfb-7040-4953-9399-406c61ded790",
+      "type": "vless",
+      "tag": "cyper8",
+      "server": "194.76.18.172",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
         "enabled": true,
-        "server_name": "haneda.lol",
-        "insecure": true
-      }
+        "server_name": "green-king-8dd5.cwkfgrtubj.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "green-king-8dd5.cwkfgrtubj.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
     },
     {
       "type": "dns",
