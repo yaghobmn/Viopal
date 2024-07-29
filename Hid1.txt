@@ -8,13 +8,13 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "udp://1.1.1.1",
+        "address": "tcp://9.9.9.13",
         "address_resolver": "dns-direct",
         "detour": "select"
       },
       {
         "tag": "dns-direct",
-        "address": "1.1.1.1",
+        "address": "9.9.9.13",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
@@ -119,16 +119,17 @@
         "172.16.0.2/32","2606:4700:110:83e3:3c14:ef8d:b1d1:9574/128"
       ],
       "private_key": "qOjrymUAkFmaixWly7mikdSE3HLA2kmK8BADyJvar2A=",
-      "server": "188.114.99.187",
-      "server_port": 928,
+      "server": "2606:4700:d1::1c6b:6aa3:9f79:2eea",
+      "server_port": 2408,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [
       61,192,175
       ],
-      "mtu": 1280,
-      "fake_packets": "8-15",
+      "mtu":1280,
+      "domain_strategy": "prefer_ipv6",
+      "fake_packets": "40-80",
       "fake_packets_size": "40-100",
-      "fake_packets_delay": "20-250"
+      "fake_packets_delay": "4-8"
     },
     {
       "type": "vless",
