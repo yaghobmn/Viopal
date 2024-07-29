@@ -82,20 +82,37 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "u0"
+        "u0",
+        "cyper1 § 8",
+        "cyper2 § 9",
+        "cyper3 § 10",
+        "cyper4 § 11",
+        "cyper5",
+        "cyper6",
+        "cyper7",
+        "cyper8"
       ],
-      "default": "u0"
+      "default": "auto"
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "u0"
+        "u0",
+        "cyper1 § 8",
+        "cyper2 § 9",
+        "cyper3 § 10",
+        "cyper4 § 11",
+        "cyper5",
+        "cyper6",
+        "cyper7",
+        "cyper8"
       ],
-      "url": "http://cp.cloudflare.com/",
-      "interval": "10m0s"
+      "url": "http://connectivitycheck.gstatic.com/generate_204",
+      "interval": "10m0s",
+      "idle_timeout": "1h40m0s"
     },
-    {
+   {
       "type": "wireguard",
       "tag": "u0",
       "local_address": [
@@ -109,9 +126,209 @@
       200,33,99
       ],
       "mtu": 1280,
-        "fake_packets": "8-15",
+      "fake_packets": "8-15",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "20-250"
+    },
+    {
+      "type": "vless",
+      "tag": "cyper1 § 8",
+      "server": "18.66.161.80",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "spring-dawn-9711.7157crazy.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "spring-dawn-9711.7157crazy.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper2 § 9",
+      "server": "104.17.147.22",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "spring-dawn-9711.7157crazy.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "spring-dawn-9711.7157crazy.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper3 § 10",
+      "server": "zula.ir",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "spring-dawn-9711.7157crazy.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "spring-dawn-9711.7157crazy.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper4 § 11",
+      "server": "45.135.235.95",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "spring-dawn-9711.7157crazy.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "spring-dawn-9711.7157crazy.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper5",
+      "server": "194.59.5.111",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "spring-dawn-9711.7157crazy.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "spring-dawn-9711.7157crazy.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper6",
+      "server": "194.76.18.225",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "spring-dawn-9711.7157crazy.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "spring-dawn-9711.7157crazy.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper7",
+      "server": "92.243.74.84",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "spring-dawn-9711.7157crazy.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "spring-dawn-9711.7157crazy.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper8",
+      "server": "194.76.18.172",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "spring-dawn-9711.7157crazy.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "spring-dawn-9711.7157crazy.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
     },
     {
       "type": "dns",
