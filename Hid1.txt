@@ -99,7 +99,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "u0",
+        "u04",
         "u06",
         "cyper1 § 8",
         "cyper2 § 9",
