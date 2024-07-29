@@ -82,7 +82,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "u0",
+        "u04",
+        "u06",
         "cyper1 § 8",
         "cyper2 § 9",
         "cyper3 § 10",
@@ -98,7 +99,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "u0",
+        "u04",
+        "u06",
         "cyper1 § 8",
         "cyper2 § 9",
         "cyper3 § 10",
@@ -114,7 +116,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "u0",
+      "tag": "u06",
       "local_address": [
         "172.16.0.2/32","2606:4700:110:87e6:d2f4:335b:9707:92bd/128"
       ],
@@ -127,6 +129,25 @@
       ],
       "mtu":1280,
       "domain_strategy": "prefer_ipv6",
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8"
+    },
+    {
+      "type": "wireguard",
+      "tag": "u04",
+      "local_address": [
+        "172.16.0.2/32","2606:4700:110:8eb6:3bc3:5fb9:d831:8169/128"
+      ],
+      "private_key": "sP7TomHd8fzRiYLy/J2YS0Pvu5vpbeHEAaz+8HBSpmU=",
+      "server": "162.159.192.68",
+      "server_port": 859,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [
+      162,216,206
+      ],
+      "mtu":1280,
+      "domain_strategy": "prefer_ipv4",
       "fake_packets": "40-80",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "4-8"
