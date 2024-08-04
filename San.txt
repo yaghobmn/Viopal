@@ -71,14 +71,14 @@
             "http/1.1"
           ],
           "fingerprint": "chrome",
-          "serverName": "72c71CAD.YoskOp.PagEs.dEV",
+          "serverName": "yOSkoP.pAgeS.dev",
           "show": false
         },
         "wsSettings": {
           "headers": {
-            "Host": "72C71CAd.YoSKOP.PaGES.dev"
+            "Host": "YosKoP.PAGeS.Dev"
           },
-          "path": "/PnswQhIxD9x0HPWs?ed=2560"
+          "path": "/RTQ1V7VeHEAWwrFb?ed=2560"
         }
       },
       "tag": "proxy"
