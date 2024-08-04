@@ -73,13 +73,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "PisH.PAgEs.dEv"
+          "serverName": "piSH.PaGes.DEV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "piSH.pages.deV"
+            "Host": "piSh.PaGes.DeV"
           },
-          "path": "/nJ1Opj0Pa18KftG6?ed=2560"
+          "path": "/0wvXoqKtuodgYjBY?ed=2560"
         }
       },
       "tag": "proxy"
