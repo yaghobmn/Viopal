@@ -230,7 +230,7 @@
     {
       "type": "vless",
       "tag": "cyper4 § 11",
-      "server": "45.135.235.95",
+      "server": "108.157.194.80",
       "server_port": 443,
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
@@ -280,7 +280,7 @@
     {
       "type": "vless",
       "tag": "cyper6",
-      "server": "194.76.18.225",
+      "server": "104.16.250.25",
       "server_port": 443,
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
@@ -305,7 +305,7 @@
     {
       "type": "vless",
       "tag": "cyper7",
-      "server": "92.243.74.84",
+      "server": "66.235.200.135",
       "server_port": 443,
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
@@ -330,7 +330,7 @@
     {
       "type": "vless",
       "tag": "cyper8",
-      "server": "194.76.18.172",
+      "server": "172.67.163.30",
       "server_port": 443,
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
