@@ -84,8 +84,15 @@
         "auto",
         "Warp-IR",
         "Warp-Main",
-        "hys",
-        "Warp-IP6"
+        "Warp-IP6",
+        "cyper1 § 8",
+        "cyper2 § 9",
+        "cyper3 § 10",
+        "cyper4 § 11",
+        "cyper5",
+        "cyper6",
+        "cyper7",
+        "cyper8"
       ],
       "default": "auto"
     },
@@ -95,8 +102,15 @@
       "outbounds": [
         "Warp-IR",
         "Warp-Main",
-        "hys",
-        "Warp-IP6"
+        "Warp-IP6",
+        "cyper1 § 8",
+        "cyper2 § 9",
+        "cyper3 § 10",
+        "cyper4 § 11",
+        "cyper5",
+        "cyper6",
+        "cyper7",
+        "cyper8"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -133,25 +147,7 @@
       "reserved": [31,52,149],
       "mtu": 1280,
       "fake_packets": "5-10"
-    },
-    {
-            "type": "hysteria",
-            "tag":"hys",
-            "obfs": "",
-            "server": "108.181.5.133",
-            "server_port": 26022,
-            "up_mbps": 80,
-            "down_mbps": 100,
-            "auth_str": "dongtaiwang.com",
-            "tls": {
-                "enabled": true,
-                "insecure": true,
-                "server_name": "google.com",
-                "alpn": [
-                    "h3"
-                ]
-            }
-        },
+    }
       {
       "type": "wireguard",
       "tag": "Warp-IP6",
@@ -168,6 +164,206 @@
       "fake_packets": "8-15",
       "fake_packets_size": "40-100",
       "fake_packets_delay": "20-250"
+    },
+    {
+      "type": "vless",
+      "tag": "cyper1 § 8",
+      "server": "18.66.161.80",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper2 § 9",
+      "server": "104.17.147.22",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper3 § 10",
+      "server": "zula.ir",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper4 § 11",
+      "server": "108.157.194.80",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper5",
+      "server": "194.59.5.111",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper6",
+      "server": "104.16.250.25",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper7",
+      "server": "66.235.200.135",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper8",
+      "server": "172.67.163.30",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.ircp.online/@ln2ray",
+        "headers": {
+          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
     },
     {
       "type": "dns",
