@@ -147,7 +147,7 @@
       "reserved": [31,52,149],
       "mtu": 1280,
       "fake_packets": "5-10"
-    }
+    },
       {
       "type": "wireguard",
       "tag": "Warp-IP6",
