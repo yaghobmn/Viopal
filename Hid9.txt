@@ -1,3 +1,4 @@
+//profile-update-interval: 24
 {
   "log": {
     "level": "warn",
