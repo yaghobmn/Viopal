@@ -169,7 +169,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "spring-dawn-9711.7157crazy.workers.dev"
         },
@@ -194,7 +194,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "spring-dawn-9711.7157crazy.workers.dev"
         },
@@ -219,7 +219,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "spring-dawn-9711.7157crazy.workers.dev"
         },
@@ -244,7 +244,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "spring-dawn-9711.7157crazy.workers.dev"
         },
@@ -269,7 +269,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "spring-dawn-9711.7157crazy.workers.dev"
         },
@@ -294,7 +294,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "spring-dawn-9711.7157crazy.workers.dev"
         },
@@ -319,7 +319,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "spring-dawn-9711.7157crazy.workers.dev"
         },
@@ -344,7 +344,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "spring-dawn-9711.7157crazy.workers.dev"
         },

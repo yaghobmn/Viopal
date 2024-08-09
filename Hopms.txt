@@ -181,7 +181,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
         },
@@ -206,7 +206,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
         },
@@ -231,7 +231,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
         },
@@ -256,7 +256,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
         },
@@ -281,7 +281,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
         },
@@ -306,7 +306,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
         },
@@ -331,7 +331,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
         },
@@ -356,7 +356,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.ircp.online/@ln2ray",
+        "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
         },
