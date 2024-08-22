@@ -1,0 +1,420 @@
+//profile-update-interval: 24
+{
+  "log": {
+    "level": "warn",
+    "output": "box.log",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns-remote",
+        "address": "udp://1.1.1.1",
+        "address_resolver": "dns-direct",
+        "detour": "select"
+      },
+      {
+        "tag": "dns-direct",
+        "address": "1.1.1.1",
+        "address_resolver": "dns-local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-local",
+        "address": "local",
+        "detour": "direct"
+      },
+      {
+        "tag": "dns-block",
+        "address": "rcode://success"
+      }
+    ],
+    "rules": [
+      {
+        "domain": "engage.cloudflareclient.com",
+        "server": "dns-direct"
+      },
+      {
+        "domain_suffix": ".ir",
+        "geosite": "ir",
+        "server": "dns-direct"
+      },
+      {
+        "domain": "cp.cloudflare.com",
+        "server": "dns-remote",
+        "rewrite_ttl": 3000
+      }
+    ],
+    "final": "dns-remote",
+    "independent_cache": true
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "mtu": 9000,
+      "inet4_address": "172.19.0.1/28",
+      "auto_route": true,
+      "strict_route": true,
+      "endpoint_independent_nat": true,
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "0.0.0.0",
+      "listen_port": 2334,
+      "sniff": true,
+      "sniff_override_destination": true
+    },
+    {
+      "type": "direct",
+      "tag": "dns-in",
+      "listen": "0.0.0.0",
+      "listen_port": 6440,
+      "override_address": "1.1.1.1",
+      "override_port": 53
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "u04",
+        "u06",
+        "cyper1 § 8",
+        "cyper2 § 9",
+        "cyper3 § 10",
+        "cyper4 § 11",
+        "cyper5",
+        "cyper6",
+        "cyper7",
+        "cyper8"
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "u04",
+        "u06",
+        "cyper1 § 8",
+        "cyper2 § 9",
+        "cyper3 § 10",
+        "cyper4 § 11",
+        "cyper5",
+        "cyper6",
+        "cyper7",
+        "cyper8"
+      ],
+      "url": "http://connectivitycheck.gstatic.com/generate_204",
+      "interval": "10m0s",
+      "idle_timeout": "1h40m0s"
+    },
+    {
+      "type": "wireguard",
+      "tag": "u06",
+      "local_address": [
+        "172.16.0.2/32","2606:4700:110:83e3:3c14:ef8d:b1d1:9574/128"
+      ],
+      "private_key": "cBTK/i+o4qa6pqvLXXQrG31YxWid/AWHZ8+CGqQ0snk=",
+      "server": "2606:4700:d1::1c6b:6aa3:9f79:2eea",
+      "server_port": 2408,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [
+      164,219,120
+      ],
+      "mtu":1280,
+      "domain_strategy": "prefer_ipv6",
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8"
+    },
+    {
+      "type": "wireguard",
+      "tag": "u04",
+      "local_address": [
+        "172.16.0.2/32","2606:4700:110:842f:b3fc:3ac0:d77e:6eec/128"
+      ],
+      "private_key": "yH10YZFaD1hL/2NTTw/8SmyU9gGeT0l9LBld2FFan0I=",
+      "server": "162.159.192.68",
+      "server_port": 859,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [
+      156,125,225
+      ],
+      "mtu":1280,
+      "domain_strategy": "prefer_ipv4",
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8"
+    },
+    {
+      "type": "vless",
+      "tag": "cyper1 § 8",
+      "server": "162.159.62.2",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "floral-grass-f605.famous8236.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.55994421.xyz/@ln2ray",
+        "headers": {
+          "Host": "floral-grass-f605.famous8236.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper2 § 9",
+      "server": "104.17.147.22",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "floral-grass-f605.famous8236.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.55994421.xyz/@ln2ray",
+        "headers": {
+          "Host": "floral-grass-f605.famous8236.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper3 § 10",
+      "server": "zula.ir",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "floral-grass-f605.famous8236.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.55994421.xyz/@ln2ray",
+        "headers": {
+          "Host": "floral-grass-f605.famous8236.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper4 § 11",
+      "server": "[2a06:98c1:3120::3]",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "floral-grass-f605.famous8236.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.55994421.xyz/@ln2ray",
+        "headers": {
+          "Host": "floral-grass-f605.famous8236.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper5",
+      "server": "194.59.5.111",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "floral-grass-f605.famous8236.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.55994421.xyz/@ln2ray",
+        "headers": {
+          "Host": "floral-grass-f605.famous8236.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper6",
+      "server": "104.16.250.25",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "floral-grass-f605.famous8236.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.55994421.xyz/@ln2ray",
+        "headers": {
+          "Host": "floral-grass-f605.famous8236.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper7",
+      "server": "66.235.200.135",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "floral-grass-f605.famous8236.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.55994421.xyz/@ln2ray",
+        "headers": {
+          "Host": "floral-grass-f605.famous8236.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper8",
+      "server": "172.67.163.30",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "floral-grass-f605.famous8236.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn.55994421.xyz/@ln2ray",
+        "headers": {
+          "Host": "floral-grass-f605.famous8236.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "direct",
+      "tag": "bypass"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "geoip": {
+      "path": "geo-assets/sagernet-sing-geoip-geoip.db"
+    },
+    "geosite": {
+      "path": "geo-assets/sagernet-sing-geosite-geosite.db"
+    },
+    "rules": [
+      {
+        "inbound": "dns-in",
+        "outbound": "dns-out"
+      },
+      {
+        "port": 53,
+        "outbound": "dns-out"
+      },
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "select"
+      },
+      {
+        "geoip": "private",
+        "outbound": "bypass"
+      },
+      {
+        "domain_suffix": ".ir",
+        "geosite": "ir",
+        "geoip": "ir",
+        "outbound": "bypass"
+      }
+    ],
+    "auto_detect_interface": true,
+    "override_android_vpn": true
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "clash.db"
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:6756"
+    }
+  }
+}
