@@ -91,7 +91,12 @@
         "cyper5",
         "cyper6",
         "cyper7",
-        "cyper8"
+        "cyper8",
+	"cyper_fastly1",
+	"cyper_fastly2",
+	"cyper_fastly3",
+	"cyper_fastly4",
+	"cyper_fastly5"
       ],
       "default": "auto"
     },
@@ -108,7 +113,12 @@
         "cyper5",
         "cyper6",
         "cyper7",
-        "cyper8"
+        "cyper8",
+	"cyper_fastly1",
+	"cyper_fastly2",
+	"cyper_fastly3",
+	"cyper_fastly4",
+	"cyper_fastly5"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",

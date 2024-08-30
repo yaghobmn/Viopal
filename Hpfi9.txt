@@ -92,7 +92,12 @@
         "cyper5",
         "cyper6",
         "cyper7",
-        "cyper8"
+        "cyper8",
+	"cyper_fastly1",
+	"cyper_fastly2",
+	"cyper_fastly3",
+	"cyper_fastly4",
+	"cyper_fastly5"
       ],
       "default": "auto"
     },
@@ -109,7 +114,12 @@
         "cyper5",
         "cyper6",
         "cyper7",
-        "cyper8"
+        "cyper8",
+	"cyper_fastly1",
+	"cyper_fastly2",
+	"cyper_fastly3",
+	"cyper_fastly4",
+	"cyper_fastly5"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -347,6 +357,131 @@
         "path": "/cdn.55994421.xyz/@ln2ray",
         "headers": {
           "Host": "spring-dawn-9711.7157crazy.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper_fastly1",
+      "server": "167.82.69.227",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "Yakdjopb.it",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@ln2ray?ed=2560",
+        "headers": {
+          "Host": "Yakdjopb.it"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper_fastly2",
+      "server": "151.101.114.217",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "Yakdjopb.it",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@ln2ray?ed=2560",
+        "headers": {
+          "Host": "Yakdjopb.it"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper_fastly3",
+      "server": "151.101.7.222",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "Yakdjopb.it",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@ln2ray?ed=2560",
+        "headers": {
+          "Host": "Yakdjopb.it"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper_fastly4",
+      "server": "151.101.112.93",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "Yakdjopb.it",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@ln2ray?ed=2560",
+        "headers": {
+          "Host": "Yakdjopb.it"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper_fastly5",
+      "server": "167.82.15.81",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "Yakdjopb.it",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@ln2ray?ed=2560",
+        "headers": {
+          "Host": "Yakdjopb.it"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
