@@ -383,6 +383,7 @@
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
         "enabled": true,
+        "insecure": true,
         "server_name": "Yakdjopb.it",
         "utls": {
           "enabled": true,
@@ -408,6 +409,7 @@
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
         "enabled": true,
+        "insecure": true,
         "server_name": "Yakdjopb.it",
         "utls": {
           "enabled": true,
@@ -433,6 +435,7 @@
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
         "enabled": true,
+        "insecure": true,
         "server_name": "Yakdjopb.it",
         "utls": {
           "enabled": true,
@@ -458,6 +461,7 @@
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
         "enabled": true,
+        "insecure": true,
         "server_name": "Yakdjopb.it",
         "utls": {
           "enabled": true,
@@ -483,6 +487,7 @@
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
         "enabled": true,
+        "insecure": true,
         "server_name": "Yakdjopb.it",
         "utls": {
           "enabled": true,
