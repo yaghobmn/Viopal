@@ -338,7 +338,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/@ln2ray?ed=2560",
+        "path": "/@ln2ray",
         "headers": {
           "Host": "Yakdjopb.it"
         },
@@ -364,7 +364,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/@ln2ray?ed=2560",
+        "path": "/@ln2ray",
         "headers": {
           "Host": "Yakdjopb.it"
         },
@@ -390,7 +390,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/@ln2ray?ed=2560",
+        "path": "/@ln2ray",
         "headers": {
           "Host": "Yakdjopb.it"
         },
@@ -416,7 +416,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/@ln2ray?ed=2560",
+        "path": "/@ln2ray",
         "headers": {
           "Host": "Yakdjopb.it"
         },
@@ -442,7 +442,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/@ln2ray?ed=2560",
+        "path": "/@ln2ray",
         "headers": {
           "Host": "Yakdjopb.it"
         },
