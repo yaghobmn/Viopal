@@ -97,7 +97,10 @@
 	"cyper_fastly2",
 	"cyper_fastly3",
 	"cyper_fastly4",
-	"cyper_fastly5"
+	"cyper_fastly5",
+        "cyper_gcore1",
+        "cyper_gcore2",
+        "cyper_gcore3"
       ],
       "default": "auto"
     },
@@ -120,10 +123,91 @@
 	"cyper_fastly2",
 	"cyper_fastly3",
 	"cyper_fastly4",
-	"cyper_fastly5"
+	"cyper_fastly5",
+        "cyper_gcore1",
+        "cyper_gcore2",
+        "cyper_gcore3"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
+    },
+    {
+      "type": "vless",
+      "tag": "cyper_gcore1",
+      "server": "92.223.124.62",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcore.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@ln2ray",
+        "headers": {
+          "Host": "yaroondop.it"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper_gcore2",
+      "server": "92.223.124.35",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcore.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@ln2ray",
+        "headers": {
+          "Host": "yaroondop.it"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "cyper_gcore3",
+      "server": "150.107.126.62",
+      "server_port": 443,
+      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "gcore.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@ln2ray",
+        "headers": {
+          "Host": "yaroondop.it"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
     },
     {
       "type": "wireguard",
