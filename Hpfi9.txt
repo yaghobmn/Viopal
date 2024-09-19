@@ -554,7 +554,7 @@
     {
       "type": "vless",
       "tag": "cyper_fastly5",
-      "server": "167.82.15.81",
+      "server": "140.248.152.109",
       "server_port": 443,
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "tls": {
