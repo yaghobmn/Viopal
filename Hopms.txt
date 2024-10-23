@@ -264,10 +264,10 @@
       "tag": "cyper1 § 8",
       "server": "162.159.62.2",
       "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "uuid": "31c292d8-fc01-400d-a6b4-eb5b3396bcf7",
       "tls": {
         "enabled": true,
-        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "server_name": "ShoDIBaX.paGES.Dev",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -275,9 +275,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
+        "path": "/awhiKUz7x5DIDLb6?ed=2560",
         "headers": {
-          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+          "Host": "ShoDIBaX.paGES.Dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -289,10 +289,10 @@
       "tag": "cyper2 § 9",
       "server": "104.17.147.22",
       "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "uuid": "31c292d8-fc01-400d-a6b4-eb5b3396bcf7",
       "tls": {
         "enabled": true,
-        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "server_name": "ShoDIBaX.paGES.Dev",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -300,9 +300,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
+        "path": "/awhiKUz7x5DIDLb6?ed=2560",
         "headers": {
-          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+          "Host": "ShoDIBaX.paGES.Dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -314,10 +314,10 @@
       "tag": "cyper3 § 10",
       "server": "zula.ir",
       "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "uuid": "31c292d8-fc01-400d-a6b4-eb5b3396bcf7",
       "tls": {
         "enabled": true,
-        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "server_name": "ShoDIBaX.paGES.Dev",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -325,9 +325,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
+        "path": "/awhiKUz7x5DIDLb6?ed=2560",
         "headers": {
-          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+          "Host": "ShoDIBaX.paGES.Dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -339,10 +339,10 @@
       "tag": "cyper4 § 11",
       "server": "[2a06:98c1:3120::3]",
       "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "uuid": "31c292d8-fc01-400d-a6b4-eb5b3396bcf7",
       "tls": {
         "enabled": true,
-        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "server_name": "ShoDIBaX.paGES.Dev",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -350,9 +350,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
+        "path": "/awhiKUz7x5DIDLb6?ed=2560",
         "headers": {
-          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+          "Host": "ShoDIBaX.paGES.Dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -364,10 +364,10 @@
       "tag": "cyper5",
       "server": "194.59.5.111",
       "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "uuid": "31c292d8-fc01-400d-a6b4-eb5b3396bcf7",
       "tls": {
         "enabled": true,
-        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "server_name": "ShoDIBaX.paGES.Dev",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -375,9 +375,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
+        "path": "/awhiKUz7x5DIDLb6?ed=2560",
         "headers": {
-          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+          "Host": "ShoDIBaX.paGES.Dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -389,10 +389,10 @@
       "tag": "cyper6",
       "server": "104.16.250.25",
       "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "uuid": "31c292d8-fc01-400d-a6b4-eb5b3396bcf7",
       "tls": {
         "enabled": true,
-        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "server_name": "ShoDIBaX.paGES.Dev",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -400,9 +400,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
+        "path": "/awhiKUz7x5DIDLb6?ed=2560",
         "headers": {
-          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+          "Host": "ShoDIBaX.paGES.Dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -414,10 +414,10 @@
       "tag": "cyper7",
       "server": "66.235.200.135",
       "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "uuid": "31c292d8-fc01-400d-a6b4-eb5b3396bcf7",
       "tls": {
         "enabled": true,
-        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "server_name": "ShODiBAX.paGeS.Dev",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -425,9 +425,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
+        "path": "/awhiKUz7x5DIDLb6?ed=2560",
         "headers": {
-          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+          "Host": "ShoDIBaX.paGES.Dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -439,10 +439,10 @@
       "tag": "cyper8",
       "server": "172.67.163.30",
       "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "uuid": "31c292d8-fc01-400d-a6b4-eb5b3396bcf7",
       "tls": {
         "enabled": true,
-        "server_name": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev",
+        "server_name": "ShoDIBaX.paGES.Dev",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -450,9 +450,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
+        "path": "/awhiKUz7x5DIDLb6?ed=2560",
         "headers": {
-          "Host": "lingering-sound-d9cb.samogleavjydxmjq35cjysbjuxvjc.workers.dev"
+          "Host": "ShoDIBaX.paGES.Dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
