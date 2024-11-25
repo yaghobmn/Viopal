@@ -1,9 +1,8 @@
 //profile-update-interval: 24
 hysteria2://KevinZakarian@kevin.serverv.net:8443?&insecure=1&obfs=salamander&obfs-password=KevinZakarian#KevinVPN
-vless://28c05d48-e2f4-70d0-7a4c-392c9bd43849@***Ø§Ø´ØªØ±Ø§Ú©â Ø®ÙØ¯ Ø±Ø§ Ø±ÙØ²Ø§ÙÙ Ø¨Ø±ÙØ²Ø±Ø³Ø§ÙÛ Ú©ÙÛØ¯***:1?security=none&type=httpupgrade#%F0%9F%8C%B5%40Deamnet%20%20%DA%86%D9%86%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%DB%8C%20%D9%85%D8%A7%F0%9F%8C%B5
-vless://28c05d48-e2f4-70d0-7a4c-392c9bd43849@cdn.011010100110111101110011011101000110000101110010110111010001100.de:443?security=tls&type=httpupgrade&path=%2Fquran%2Fdeam_net69.13+TB%2F%3Fed%3D2560&host=bc2fc969a6eddd07.jostar-data.nl&sni=wwwbc2fc969a6eddd07.jostar-data.nl&fp=firefox&alpn=h3#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20TLS%20%F0%9F%8C%A9
-vmess://eyJhZGQiOiAiY2RuLjAxMTAxMDEwMDExMDExMTEwMTExMDAxMTAxMTEwMTAwMDExMDAwMDEwMTExMDAxMDExMDExMTAxMDAwMTEwMC5kZSIsICJhaWQiOiAiMCIsICJob3N0IjogInNiMjQuaXIuYmMyZmM5NjlhNmVkZGQwNy53d3cuc3BlZWR0ZXN0Lm5ldC5raXNoLmlyLnRhYm5hay5pci5lbnRla2hhYi5pci5sZWFkZXIuaXIuYXNpYXRlY2guaXIuZGl2YXIuaXIuc2hhaHItYmFuay5pci5wb3N0YmFuay5pci5xbWIuaXIuc2lkLmlyLmNvZGFsLmlyLmFudGVuLmlyLjAxMTAxMDEwMDExMDExMTEwMTExMDAxMTAxMTEwMTAwMDExMDAwMDEwMTExMDAxMDExMDExMTAxMDAwMTEwMC5kRS4iLCAiaWQiOiAiMjhjMDVkNDgtZTJmNC03MGQwLTdhNGMtMzkyYzliZDQzODQ5IiwgIm5ldCI6ICJodHRwdXBncmFkZSIsICJwYXRoIjogIi9hcGkwMS9kZWFtX25ldDY5LjEzIFRCLz9lZD0yNTYwIiwgInBvcnQiOiA4MCwgInBzIjogIlx1ZDgzY1x1ZGRlOVx1ZDgzY1x1ZGRlYSBHZXJtYW55IFx1ZDgzY1x1ZGYyOSIsICJzY3kiOiAiYXV0byIsICJ0bHMiOiAibm9uZSIsICJ2IjogIjIifQ==
-hysteria2://28c05d48e2f470d07a4c392c9bd43849@quran.mci.ai:443?sni=#%F0%9F%87%B9%F0%9F%87%B7%20T%C3%BCrkiye%20%28Hysteria%29%20%E2%9A%A1
+
+hysteria2://28c05d48e2f470d07a4c392c9bd43849@quran.mci.ai:443?security=tls&insecure=0#%F0%9F%87%B9%F0%9F%87%B7%20T%C3%BCrkiye%20%28Hysteria%29%20%E2%9A%A1
+hysteria2://28c05d48e2f470d07a4c392c9bd43849@jostar-data.nl:443?security=tls&insecure=0#%F0%9F%87%A9%F0%9F%87%AA%20Deutschland%20%28Hysteria%29%20%E2%9A%A1
 
 hysteria2://KevinZakarian@179.61.132.90:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#%F0%9F%87%BA%F0%9F%87%B8
 hysteria2://KevinZakarian@179.61.132.91:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#%F0%9F%87%A9%F0%9F%87%AA
