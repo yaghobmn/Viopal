@@ -362,7 +362,7 @@
     {
       "type": "vless",
       "tag": "cyper5",
-      "server": "194.59.5.111",
+      "server": "23.227.60.161",
       "server_port": 443,
       "uuid": "31c292d8-fc01-400d-a6b4-eb5b3396bcf7",
       "tls": {
