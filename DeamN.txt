@@ -1,6 +1,4 @@
 //profile-update-interval: 24
-hysteria2://KevinZakarian@kevin.serverv.net:8443?&insecure=1&obfs=salamander&obfs-password=KevinZakarian#KevinVPN
-hysteria2://KevinZakarian@kevin.serverv.net:443?obfs=salamander&obfs-password=KevinZakarian&insecure=1#KevinVPN2
 hysteria2://KevinZakarian@kevin.serverv.net:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#KevinVPN
 hysteria2://KevinZakarian@kevin.serverv.net:443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#KevinVPN2
 
