@@ -94,6 +94,7 @@
         "cyper7",
         "cyper8",
         "KevinVPN",
+        "KevinVPN2",
 	"cyper_fastly1",
 	"cyper_fastly2",
 	"cyper_fastly3",
@@ -121,6 +122,7 @@
         "cyper7",
         "cyper8",
         "KevinVPN",
+        "KevinVPN2",
 	"cyper_fastly1",
 	"cyper_fastly2",
 	"cyper_fastly3",
@@ -435,6 +437,21 @@
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
+    },
+        {
+      "type": "hysteria2",
+      "tag": "KevinVPN2",
+      "server": "kevin.serverv.net",
+      "server_port": 443,
+      "obfs": {
+        "type": "salamander",
+        "password": "KevinZakarian"
+      },
+      "password": "KevinZakarian",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
     },
     {
       "type": "hysteria2",
