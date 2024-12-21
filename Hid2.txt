@@ -355,6 +355,21 @@
       },
       "packet_encoding": ""
     },
+   {
+      "type": "hysteria2",
+      "tag": "KevinVPN",
+      "server": "kevin.iserver.store",
+      "server_port": 8443,
+      "obfs": {
+        "type": "salamander",
+        "password": "Telegram:@KevinZakarian"
+      },
+      "password": "Telegram:@KevinZakarian",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
     {
       "type": "dns",
       "tag": "dns-out"
