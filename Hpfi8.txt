@@ -1,3 +1,4 @@
+//profile-update-interval: 24
 {
   "log": {
     "level": "warn",
@@ -84,24 +85,15 @@
         "auto",
         "u04",
         "u06",
-        "cyper1 § 8",
-        "cyper2 § 9",
-        "cyper3 § 10",
-        "cyper4 § 11",
+        "cyper1",
+        "cyper2",
+        "cyper3",
+        "cyper4",
         "cyper5",
         "cyper6",
         "cyper7",
         "cyper8",
-        "KevinVPN",
-        "KevinVPN2",
-	"cyper_fastly1",
-	"cyper_fastly2",
-	"cyper_fastly3",
-	"cyper_fastly4",
-	"cyper_fastly5",
-        "cyper_gcore1",
-        "cyper_gcore2",
-        "cyper_gcore3"
+        "KevinVPN"
       ],
       "default": "auto"
     },
@@ -111,106 +103,19 @@
       "outbounds": [
         "u04",
         "u06",
-        "cyper1 § 8",
-        "cyper2 § 9",
-        "cyper3 § 10",
-        "cyper4 § 11",
+        "cyper1",
+        "cyper2",
+        "cyper3",
+        "cyper4",
         "cyper5",
         "cyper6",
         "cyper7",
         "cyper8",
-        "KevinVPN",
-        "KevinVPN2",
-	"cyper_fastly1",
-	"cyper_fastly2",
-	"cyper_fastly3",
-	"cyper_fastly4",
-	"cyper_fastly5",
-        "cyper_gcore1",
-        "cyper_gcore2",
-        "cyper_gcore3"
+        "KevinVPN"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
       "idle_timeout": "1h40m0s"
-    },
-    {
-      "type": "vless",
-      "tag": "cyper_gcore1",
-      "server": "92.223.124.62",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "gcore.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@ln2ray",
-        "headers": {
-          "Host": "yaroondop.it"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "cyper_gcore2",
-      "server": "92.223.124.35",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "gcore.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@ln2ray",
-        "headers": {
-          "Host": "yaroondop.it"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "cyper_gcore3",
-      "server": "150.107.126.62",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "gcore.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@ln2ray",
-        "headers": {
-          "Host": "yaroondop.it"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
     },
     {
       "type": "wireguard",
@@ -252,7 +157,7 @@
     },
     {
       "type": "vless",
-      "tag": "cyper1 § 8",
+      "tag": "cyper1",
       "server": "162.159.62.2",
       "server_port": 443,
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
@@ -277,7 +182,7 @@
     },
     {
       "type": "vless",
-      "tag": "cyper2 § 9",
+      "tag": "cyper2",
       "server": "104.17.147.22",
       "server_port": 443,
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
@@ -302,7 +207,7 @@
     },
     {
       "type": "vless",
-      "tag": "cyper3 § 10",
+      "tag": "cyper3",
       "server": "zula.ir",
       "server_port": 443,
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
@@ -327,7 +232,7 @@
     },
     {
       "type": "vless",
-      "tag": "cyper4 § 11",
+      "tag": "cyper4",
       "server": "[2a06:98c1:3120::3]",
       "server_port": 443,
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
@@ -425,36 +330,6 @@
       },
       "packet_encoding": ""
     },
-        {
-      "type": "hysteria2",
-      "tag": "KevinVPN2",
-      "server": "kevin.serverv.net",
-      "server_port": 443,
-      "obfs": {
-        "type": "salamander",
-        "password": "KevinZakarian"
-      },
-      "password": "KevinZakarian",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "KevinVPN",
-      "server": "kevin.serverv.net",
-      "server_port": 8443,
-      "obfs": {
-        "type": "salamander",
-        "password": "KevinZakarian"
-      },
-      "password": "KevinZakarian",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      }
-    },
     {
       "type": "vless",
       "tag": "cyper8",
@@ -481,134 +356,19 @@
       "packet_encoding": ""
     },
     {
-      "type": "vless",
-      "tag": "cyper_fastly1",
-      "server": "167.82.69.227",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "type": "hysteria2",
+      "tag": "KevinVPN",
+      "server": "kevin.iserver.store",
+      "server_port": 8443,
+      "obfs": {
+        "type": "salamander",
+        "password": "Telegram:@KevinZakarian"
+      },
+      "password": "Telegram:@KevinZakarian",
       "tls": {
         "enabled": true,
-        "insecure": true,
-        "server_name": "Yakdjopb.it",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@ln2ray",
-        "headers": {
-          "Host": "Yakdjopb.it"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "cyper_fastly2",
-      "server": "199.232.12.41",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "Yakdjopb.it",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@ln2ray",
-        "headers": {
-          "Host": "Yakdjopb.it"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "cyper_fastly3",
-      "server": "151.101.7.222",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "Yakdjopb.it",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@ln2ray",
-        "headers": {
-          "Host": "Yakdjopb.it"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "cyper_fastly4",
-      "server": "199.232.0.130",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "Yakdjopb.it",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@ln2ray",
-        "headers": {
-          "Host": "Yakdjopb.it"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "cyper_fastly5",
-      "server": "140.248.152.109",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "Yakdjopb.it",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@ln2ray",
-        "headers": {
-          "Host": "Yakdjopb.it"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
+        "insecure": true
+      }
     },
     {
       "type": "dns",
