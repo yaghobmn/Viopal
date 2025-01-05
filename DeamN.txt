@@ -1,5 +1,7 @@
 //profile-update-interval: 24
 hysteria2://Telegram%3A%40KevinZakarian@kevin.iserver.store:8443?security=tls&obfs=salamander&obfs-password=Telegram%3A%40KevinZakarian&insecure=1#KevinVPN
+hysteria2://yVdMahZlkkgk@h2.88981401.xyz:443?security=tls&insecure=0&sni=hy2.55994421.xyz#ln2ray
+
 
 
 hysteria2://Telegram%3AMikronet-plus@asghar.mikronetplus.store:20378?security=tls&obfs=salamander&obfs-password=Telegram%3AMikronet_plus&insecure=0#%F0%9F%87%B7%F0%9F%87%BA
