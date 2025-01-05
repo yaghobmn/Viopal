@@ -85,14 +85,7 @@
         "auto",
         "u04",
         "u06",
-        "cyper1",
-        "cyper2",
-        "cyper3",
-        "cyper4",
-        "cyper5",
-        "cyper6",
-        "cyper7",
-        "cyper8",
+        "𝐈𝐑𝐂𝐏\n@Ln2Ray § hy2+ech",
         "KevinVPN"
       ],
       "default": "auto"
@@ -103,14 +96,7 @@
       "outbounds": [
         "u04",
         "u06",
-        "cyper1",
-        "cyper2",
-        "cyper3",
-        "cyper4",
-        "cyper5",
-        "cyper6",
-        "cyper7",
-        "cyper8",
+        "𝐈𝐑𝐂𝐏\n@Ln2Ray § hy2+ech",
         "KevinVPN"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
@@ -156,204 +142,29 @@
       "fake_packets_delay": "4-8"
     },
     {
-      "type": "vless",
-      "tag": "cyper1",
-      "server": "162.159.62.2",
+      "type": "hysteria2",
+      "tag": "𝐈𝐑𝐂𝐏\n@Ln2Ray § hy2+ech",
+      "domain_strategy": "prefer_ipv6",
+      "server": "h2.88981401.xyz",
       "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "password": "yVdMahZlkkgk",
       "tls": {
         "enabled": true,
-        "server_name": "green-king-8dd5.cwkfgrtubj.workers.dev",
-        "utls": {
+        "server_name": "hy2.55994421.xyz",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AFf+DQBTAAAgACBgC+U935o5TbXkGxia/GgQYBb3+goW2Z0l/6se3ObxZwAIAAEA",
+            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
-        "headers": {
-          "Host": "green-king-8dd5.cwkfgrtubj.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "cyper2",
-      "server": "104.17.147.22",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "server_name": "green-king-8dd5.cwkfgrtubj.workers.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
-        "headers": {
-          "Host": "green-king-8dd5.cwkfgrtubj.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "cyper3",
-      "server": "zula.ir",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "server_name": "green-king-8dd5.cwkfgrtubj.workers.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
-        "headers": {
-          "Host": "green-king-8dd5.cwkfgrtubj.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "cyper4",
-      "server": "[2a06:98c1:3120::3]",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "server_name": "green-king-8dd5.cwkfgrtubj.workers.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
-        "headers": {
-          "Host": "green-king-8dd5.cwkfgrtubj.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "cyper5",
-      "server": "23.227.60.161",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "server_name": "green-king-8dd5.cwkfgrtubj.workers.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
-        "headers": {
-          "Host": "green-king-8dd5.cwkfgrtubj.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "cyper6",
-      "server": "104.16.250.25",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "server_name": "green-king-8dd5.cwkfgrtubj.workers.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
-        "headers": {
-          "Host": "green-king-8dd5.cwkfgrtubj.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "cyper7",
-      "server": "66.235.200.135",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "server_name": "green-king-8dd5.cwkfgrtubj.workers.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
-        "headers": {
-          "Host": "green-king-8dd5.cwkfgrtubj.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "cyper8",
-      "server": "172.67.163.30",
-      "server_port": 443,
-      "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "server_name": "green-king-8dd5.cwkfgrtubj.workers.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn.55994421.xyz/@ln2ray",
-        "headers": {
-          "Host": "green-king-8dd5.cwkfgrtubj.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
+      }
     },
    {
       "type": "hysteria2",
