@@ -91,7 +91,7 @@
         "cyper6",
         "cyper7",
         "cyper8",
-        "KevinVPN"
+        "KevinVPN\n@KevinZakarian"
       ],
       "default": "auto"
     },
@@ -107,7 +107,7 @@
         "cyper6",
         "cyper7",
         "cyper8",
-        "KevinVPN"
+        "KevinVPN\n@KevinZakarian"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -315,7 +315,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "KevinVPN",
+      "tag": "KevinVPN\n@KevinZakarian",
       "server": "kevin.iserver.store",
       "server_port": 8443,
       "obfs": {
