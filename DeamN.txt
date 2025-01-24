@@ -1,5 +1,5 @@
 //profile-update-interval: 24
-hysteria2://Telegram%3A%40KevinZakarian@kevin.iserver.store:8443?security=tls&obfs=salamander&obfs-password=Telegram%3A%40KevinZakarian&insecure=1#KevinVPN
+hysteria2://Telegram%3A%40KevinZakarian@kevin.iserver.store:443?security=tls&obfs=salamander&obfs-password=Telegram%3A%40KevinZakarian&insecure=1#KevinVPN
 hysteria2://yVdMahZlkkgk@h2.88981401.xyz:443?security=tls&insecure=0&sni=hy2.55994421.xyz#ln2ray
 
 
@@ -8,11 +8,11 @@ hysteria2://dongtaiwang.com@46.17.41.189:50717?security=tls&insecure=1&sni=www.b
 hysteria2://9bb452b106ffc217@[2001:19f0:1000:18b3:5400:5ff:fe19:3f6d]:443?security=tls&obfs=salamander&obfs-password=cd29099d&insecure=1&sni=vkvd127.mycdn.me#%F0%9F%87%BA%F0%9F%87%B8
 hysteria2://e3f4729d-2bdf-4326-a2a7-c8678da4121c@107.149.212.189:47085?security=tls&insecure=1&sni=www.bing.com#%F0%9F%87%BA%F0%9F%87%B8
 hysteria2://123456@192.3.85.237:443?security=tls&insecure=1&sni=bing.com#%F0%9F%87%BA%F0%9F%87%B8
-hysteria2://Telegram%3A%40KevinZakarian@[2606:a8c0:101:18::a]:8443?security=tls&obfs=salamander&obfs-password=Telegram%3A%40KevinZakarian&insecure=1&sni=kevin.iserver.store#%F0%9F%87%BA%F0%9F%87%B8%20%20
-hysteria2://Telegram%3A%40KevinZakarian@[2606:a8c0:101:78::a]:8443?security=tls&obfs=salamander&obfs-password=Telegram%3A%40KevinZakarian&insecure=1&sni=kevin.iserver.store#%F0%9F%87%BA%F0%9F%87%B8%20
-hysteria2://Telegram%3A%40KevinZakarian@[2606:a8c0:3:146::a]:8443?security=tls&obfs=salamander&obfs-password=Telegram%3A%40KevinZakarian&insecure=1&sni=kevin.iserver.store#%F0%9F%87%BA%F0%9F%87%B8%20%20%20
+hysteria2://Telegram%3A%40KevinZakarian@[2606:a8c0:101:18::a]:443?security=tls&obfs=salamander&obfs-password=Telegram%3A%40KevinZakarian&insecure=1&sni=kevin.iserver.store#%F0%9F%87%BA%F0%9F%87%B8%20%20
+hysteria2://Telegram%3A%40KevinZakarian@[2606:a8c0:101:78::a]:443?security=tls&obfs=salamander&obfs-password=Telegram%3A%40KevinZakarian&insecure=1&sni=kevin.iserver.store#%F0%9F%87%BA%F0%9F%87%B8%20
+hysteria2://Telegram%3A%40KevinZakarian@[2606:a8c0:3:146::a]:443?security=tls&obfs=salamander&obfs-password=Telegram%3A%40KevinZakarian&insecure=1&sni=kevin.iserver.store#%F0%9F%87%BA%F0%9F%87%B8%20%20%20
 hysteria2://Telegram%3AMikronet-plus@mikronetplus.mikronetplus.store:3678?security=tls&obfs=salamander&obfs-password=Telegram%3AMikronet_plus&insecure=0#%F0%9F%87%AB%F0%9F%87%AE
-hysteria2://Telegram%3A%40KevinZakarian@kevin.iserver.store:8443?security=tls&obfs=salamander&obfs-password=Telegram%3A%40KevinZakarian&insecure=1#%F0%9F%87%BA%F0%9F%87%B8
+hysteria2://Telegram%3A%40KevinZakarian@kevin.iserver.store:443?security=tls&obfs=salamander&obfs-password=Telegram%3A%40KevinZakarian&insecure=1#%F0%9F%87%BA%F0%9F%87%B8
 
 
 
