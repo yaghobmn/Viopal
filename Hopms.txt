@@ -188,7 +188,7 @@
         "type": "salamander",
         "password": "@KevinZakarian"
       },
-      "password": "@KevinZakarian",
+      "password": "@KevinZakarianA",
       "tls": {
         "enabled": true,
         "insecure": true
