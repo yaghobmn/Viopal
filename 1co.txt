@@ -85,7 +85,8 @@
         "auto",
         "u04",
         "u06",
-        "𝐈𝐑𝐂𝐏\n@Ln2Ray § hy2+ech",
+        "🇬🇧 YAPC",
+        "🇬🇧 YAPC IPv6Only",
         "KevinVPN\n@KevinZakarian"
       ],
       "default": "auto"
@@ -96,7 +97,8 @@
       "outbounds": [
         "u04",
         "u06",
-        "𝐈𝐑𝐂𝐏\n@Ln2Ray § hy2+ech",
+        "🇬🇧 YAPC",
+        "🇬🇧 YAPC IPv6Only",
         "KevinVPN\n@KevinZakarian"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
@@ -143,24 +145,55 @@
     },
     {
       "type": "hysteria2",
-      "tag": "𝐈𝐑𝐂𝐏\n@Ln2Ray § hy2+ech",
-      "domain_strategy": "prefer_ipv6",
-      "server": "h2.88981401.xyz",
-      "server_port": 443,
-      "password": "yVdMahZlkkgk",
+      "tag": "🇬🇧 YAPC",
+      "domain_strategy": "ipv4_only",
+      "server": "yet-another-public-config-1.flazzard.com",
+      "server_port": 35754,
+      "obfs": {
+        "type": "salamander",
+        "password": "yet-another-public-config-1"
+      },
+      "password": "yet-another-public-config-1",
       "tls": {
         "enabled": true,
-        "server_name": "hy2.55994421.xyz",
+        "server_name": "yet-another-public-config-1.qpal.us.kg",
         "alpn": "h3",
         "min_version": "1.3",
         "max_version": "1.3",
         "ech": {
           "enabled": true,
-          "pq_signature_schemes_enabled": true,
           "config": [
             "-----BEGIN ECH CONFIGS-----",
-            "AFf+DQBTAAAgACBgC+U935o5TbXkGxia/GgQYBb3+goW2Z0l/6se3ObxZwAIAAEA",
-            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "AEr+DQBGAAAgACCHxu43IXY1+1o63pQc6j+D64SYcIh7Mn2fhzLbSUp3RgAIAAEA",
+            "AQABAAMAE2hvbWEuY3lic2VjZ3VydS5jb20AAA==",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇬🇧 YAPC IPv6Only",
+      "domain_strategy": "ipv6_only",
+      "server": "yet-another-public-config-1-ipv6.flazzard.com",
+      "server_port": 35406,
+      "obfs": {
+        "type": "salamander",
+        "password": "yet-another-public-config-1"
+      },
+      "password": "yet-another-public-config-1",
+      "tls": {
+        "enabled": true,
+        "server_name": "yet-another-public-config-1.qpal.us.kg",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AEr+DQBGAAAgACCHxu43IXY1+1o63pQc6j+D64SYcIh7Mn2fhzLbSUp3RgAIAAEA",
+            "AQABAAMAE2hvbWEuY3lic2VjZ3VydS5jb20AAA==",
             "-----END ECH CONFIGS-----"
           ]
         }
