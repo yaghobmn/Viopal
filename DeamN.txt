@@ -1,8 +1,6 @@
 //profile-update-interval: 24
 hysteria2://%40KevinZakarianA@keviny.iserver.store:8443?security=tls&obfs=salamander&obfs-password=%40KevinZakarian&insecure=1#KevinVPN
-hysteria2://yet-another-public-config-1@yet-another-public-config-1.flazzard.com:35940?security=tls&obfs=salamander&obfs-password=yet-another-public-config-1&insecure=1#%F0%9F%87%AC%F0%9F%87%A7%20YAPC
-hysteria2://yet-another-public-config-1@yet-another-public-config-1-ipv6.flazzard.com:35689?security=tls&obfs=salamander&obfs-password=yet-another-public-config-1&insecure=1#%F0%9F%87%AC%F0%9F%87%A7%20YAPC%20IPv6Only
-
+hysteria2://Telegram--%3E%40Ln2Ray@chopper.88981401.xyz:35940?security=tls&obfs=salamander&obfs-password=Telegram--%3E%40Ln2Ray&insecure=1#%F0%9F%87%B3%F0%9F%87%B1%20IRCP%5Cn%40Ln2Ray
 
 
 vless://c3231e14-aca0-43d0-8970-8b4eb2ec3c3f@chopper.lnmarketplace.net:443?security=tls&alpn=h2&encryption=none&headerType=none&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=chopper.lnmarketplace.net#IRCP%20%7C%20%40Ln2ray
