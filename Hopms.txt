@@ -156,7 +156,6 @@
       "fake_packets_size": "40-100",
       "fake_packets_delay": "20-250"
     },
-
     {
       "type": "vless",
       "tag": "IRCP | @Ln2ray",
