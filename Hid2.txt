@@ -87,6 +87,8 @@
         "u06",
         "🇬🇧 YAPC",
         "🇬🇧 YAPC IPv6Only",
+        "🇳🇱 IRCP\n@Ln2Ray",
+        "IRCP | @Ln2ray",
         "KevinVPN\n@KevinZakarian"
       ],
       "default": "auto"
@@ -99,6 +101,8 @@
         "u06",
         "🇬🇧 YAPC",
         "🇬🇧 YAPC IPv6Only",
+        "🇳🇱 IRCP\n@Ln2Ray",
+        "IRCP | @Ln2ray",
         "KevinVPN\n@KevinZakarian"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
@@ -200,6 +204,52 @@
       }
     },
    {
+      "type": "vless",
+      "tag": "IRCP | @Ln2ray",
+      "server": "chopper.lnmarketplace.net",
+      "server_port": 443,
+      "uuid": "c3231e14-aca0-43d0-8970-8b4eb2ec3c3f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "chopper.lnmarketplace.net",
+        "alpn": "h2",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "packet_encoding": ""
+    },
+{
+      "type": "hysteria2",
+      "tag": "🇳🇱 IRCP\n@Ln2Ray",
+      "domain_strategy": "ipv4_only",
+      "server": "chopper.88981401.xyz",
+      "server_port": 35638,
+      "obfs": {
+        "type": "salamander",
+        "password": "Telegram-->@Ln2Ray"
+      },
+      "password": "Telegram-->@Ln2Ray",
+      "tls": {
+        "enabled": true,
+        "server_name": "chopper.55994421.xyz",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AEv+DQBHAAAgACCv/adP9Sbsji0Ksj8E4HLmKQyZGvxV6YsFXE1t1mtMLgAIAAEA",
+            "AQABAAMAFGNob3BwZXIuNTU5OTQ0MjEueHl6AAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+{
       "type": "hysteria2",
       "tag": "KevinVPN\n@KevinZakarian",
       "server": "keviny.iserver.store",
