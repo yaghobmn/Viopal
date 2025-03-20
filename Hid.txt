@@ -87,6 +87,7 @@
         "u06",
         "🇳🇱 IRCP\n@Ln2Ray",
         "IRCP | @Ln2ray",
+        "@KevinZakarian",
         "KevinVPN\n@KevinZakarian"
       ],
       "default": "auto"
@@ -99,6 +100,7 @@
         "u06",
         "🇳🇱 IRCP\n@Ln2Ray",
         "IRCP | @Ln2ray",
+        "@KevinZakarian",
         "KevinVPN\n@KevinZakarian"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
@@ -143,6 +145,21 @@
       "fake_packets_size": "40-100",
       "fake_packets_delay": "4-8"
     },
+   {
+            "obfs": {
+                "password": "@KevinZakarian",
+                "type": "salamander"
+            },
+            "password": "@KevinZakarian",
+            "server": "kevin.iserver.store",
+            "server_port": 8443,
+            "tag": "@KevinZakarian",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
    {
       "type": "vless",
       "tag": "IRCP | @Ln2ray",

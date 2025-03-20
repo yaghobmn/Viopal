@@ -88,6 +88,7 @@
         "Warp-IP6",
         "🇳🇱 IRCP\n@Ln2Ray",
         "IRCP | @Ln2ray",
+        "@KevinZakarian",
         "KevinVPN\n@KevinZakarian"
       ],
       "default": "auto"
@@ -101,6 +102,7 @@
         "Warp-IP6",
         "🇳🇱 IRCP\n@Ln2Ray",
         "IRCP | @Ln2ray",
+        "@KevinZakarian",
         "KevinVPN\n@KevinZakarian"
       ],
       "url": "http://cp.cloudflare.com/",
@@ -157,6 +159,21 @@
       "fake_packets_delay": "20-250"
     },
     {
+            "obfs": {
+                "password": "@KevinZakarian",
+                "type": "salamander"
+            },
+            "password": "@KevinZakarian",
+            "server": "kevin.iserver.store",
+            "server_port": 8443,
+            "tag": "@KevinZakarian",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+   {
       "type": "vless",
       "tag": "IRCP | @Ln2ray",
       "server": "chopper.lnmarketplace.net",
