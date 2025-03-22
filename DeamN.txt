@@ -1,5 +1,5 @@
 //profile-update-interval: 24
-hysteria2://%40KevinZakarianA@keviny.iserver.store:8443?security=tls&obfs=salamander&obfs-password=%40KevinZakarian&insecure=1#KevinVPN
+hysteria2://%40KevinZakarian1@keviny.iserver.store:8443?security=tls&obfs=salamander&obfs-password=%40KevinZakarian&insecure=1#KevinVPN
 hysteria2://Telegram--%3E%40Ln2Ray@chopper.88981401.xyz:35940?security=tls&obfs=salamander&obfs-password=Telegram--%3E%40Ln2Ray&insecure=1#%F0%9F%87%B3%F0%9F%87%B1%20IRCP%5Cn%40Ln2Ray
 hysteria2://%40KevinZakarian@kevin.iserver.store:8443?security=tls&obfs=salamander&obfs-password=%40KevinZakarian&insecure=1#Kevintw
 
