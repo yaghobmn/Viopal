@@ -209,9 +209,9 @@
       "server_port": 8443,
       "obfs": {
         "type": "salamander",
-        "password": "@KevinZakarian"
+        "password": "KevinZakarian"
       },
-      "password": "@KevinZakarian",
+      "password": "KevinZakarian",
       "tls": {
         "enabled": true,
         "insecure": true
