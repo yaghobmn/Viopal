@@ -147,10 +147,10 @@
     },
    {
             "obfs": {
-                "password": "@KevinZakarian",
+                "password": "KevinZakarian",
                 "type": "salamander"
             },
-            "password": "@KevinZakarian",
+            "password": "KevinZakarian",
             "server": "kevin.iserver.store",
             "server_port": 8443,
             "tag": "@KevinZakarian",
