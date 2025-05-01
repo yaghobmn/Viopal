@@ -148,17 +148,20 @@
    {
       "type": "vless",
       "tag": "IRCP | @Ln2ray",
-      "server": "chopper.lnmarketplace.net",
+      "server": "157.173.127.239",
       "server_port": 443,
-      "uuid": "c3231e14-aca0-43d0-8970-8b4eb2ec3c3f",
-      "flow": "xtls-rprx-vision",
+      "uuid": "667b5dfa-7ec4-45d7-ba9c-6957eed8cfbb",
       "tls": {
         "enabled": true,
-        "server_name": "chopper.lnmarketplace.net",
-        "alpn": "h2",
+        "server_name": "analytics.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "c5VJpRsIyrxNp0eS3Lz5EMQH6jWBsvSTK7hNZQ77bl4",
+          "short_id": "4fd4ad"
         }
       },
       "packet_encoding": ""
