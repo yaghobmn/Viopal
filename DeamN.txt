@@ -3,9 +3,6 @@ hysteria2://TWz9M3gH8Z@179.61.138.128:18443?security=tls&obfs=salamander&obfs-pa
 hysteria2://Telegram--%3E%40Ln2Ray@gavazn.88981401.xyz:45940?security=tls&obfs=salamander&obfs-password=Telegram--%3E%40Ln2Ray&insecure=1&sni=gavazn.55994421.xyz#%F0%9F%87%B3%F0%9F%87%B1%20IRCP%5Cn%40Ln2Ray
 
 
-vless://c3231e14-aca0-43d0-8970-8b4eb2ec3c3f@chopper.lnmarketplace.net:443?security=tls&alpn=h2&encryption=none&headerType=none&fp=randomized&type=tcp&flow=xtls-rprx-vision&sni=chopper.lnmarketplace.net#IRCP%20%7C%20%40Ln2ray
 
 
-vless://cbb4251b-9b20-4c42-b09d-df77666bda12@95.217.183.108:2087?security=reality&encryption=none&pbk=6ezm4CcEWfvptuqvMaweZW5jTaX-M4SdZE2r8JkKsQ0&fp=chrome&type=grpc&sni=www.target.com&sid=bc6f0833#%F0%9F%87%AB%F0%9F%87%AE
 vless://667b5dfa-7ec4-45d7-ba9c-6957eed8cfbb@157.173.127.239:443?security=reality&encryption=none&pbk=c5VJpRsIyrxNp0eS3Lz5EMQH6jWBsvSTK7hNZQ77bl4&headerType=&fp=chrome&type=tcp&sni=analytics.google.com&sid=4fd4ad#%F0%9F%87%A9%F0%9F%87%AA
-vless://bc7dbc36-f3a7-4cc8-9364-eba6e889cee2@188.245.253.147:223?security=reality&encryption=none&pbk=JOKX-kH_SOPrdPG26TdJzO6YSDItrRGXKhtv70Bn81o&headerType=&fp=chrome&type=tcp&sni=SHOPTOR.SODOGODPING.IR&sid=c7f175a94bd79f8d#%F0%9F%87%A9%F0%9F%87%AA%40FREE2CONFIG%20
