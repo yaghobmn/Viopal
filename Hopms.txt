@@ -235,7 +235,7 @@
 {
       "type": "hysteria2",
       "tag": "KevinVPN\n@KevinZakarian",
-      l"server": "179.61.138.128",
+      l"server": 179.61.138.128,
       "server_port": 18443,
       "obfs": {
         "type": "salamander",
