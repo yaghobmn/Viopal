@@ -151,6 +151,7 @@
       "server": "162.55.36.107",
       "server_port": 577,
       "uuid": "bf4631cc-27eb-4b8e-ab85-5db1ddab6125",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "stackoverflow.com",
