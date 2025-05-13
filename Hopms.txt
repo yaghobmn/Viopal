@@ -161,20 +161,20 @@
     {
       "type": "vless",
       "tag": "IRCP | @Ln2ray",
-      "server": "157.173.127.239",
-      "server_port": 443,
-      "uuid": "667b5dfa-7ec4-45d7-ba9c-6957eed8cfbb",
+      "server": "162.55.36.107",
+      "server_port": 577,
+      "uuid": "bf4631cc-27eb-4b8e-ab85-5db1ddab6125",
       "tls": {
         "enabled": true,
-        "server_name": "analytics.google.com",
+        "server_name": "stackoverflow.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "c5VJpRsIyrxNp0eS3Lz5EMQH6jWBsvSTK7hNZQ77bl4",
-          "short_id": "4fd4ad"
+          "public_key": "AU2O1no3apJnMhDrfHwDACAwFDo8-DZkCL66AXSRbh8",
+          "short_id": "9b28132c703433"
         }
       },
       "packet_encoding": ""
