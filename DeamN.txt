@@ -5,6 +5,7 @@ hysteria2://Telegram--%3E%40Ln2Ray@gavazn.88981401.xyz:45940?security=tls&obfs=s
 
 hysteria2://b4dd408a-542d-4898-8d43-47dcad8255e8@146.56.102.200:34237?security=tls&insecure=1&sni=anycast.us.kg#%F0%9F%87%B0%F0%9F%87%B7%40FREE2CONFIG
 hysteria2://Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM@45.15.167.181:443?security=tls&obfs=salamander&obfs-password=%40SiNAVM-SiNAVM-SiNAVM-%40SiNAVM-%40SiNAVM&insecure=0&sni=sinavm.soft10.ir#%F0%9F%87%A9%F0%9F%87%AA%40FREE2CONFIG
+hysteria2://Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM@sinavm.ru:8080?security=tls&obfs=salamander&alpn=h3&obfs-password=Bia-Telegram__SiNAVM-SiNAVM__Bia__SiNAVM&insecure=1#%F0%9F%87%AC%F0%9F%87%A7%40%F0%9D%97%A6%F0%9D%97%B6%F0%9D%97%A1%F0%9D%97%94%F0%9D%97%A9%F0%9D%97%A0%F0%9F%91%88%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
 
 
 vless://c7c922da-ab54-433c-8046-1f9bf9d95c23@45.82.251.68:1001?security=reality&encryption=none&pbk=8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0&headerType=none&fp=chrome&type=tcp&sni=telewebion.com&sid=5fab0deb#%F0%9F%87%A8%F0%9F%87%BE%40FREE2CONFIG
