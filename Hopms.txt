@@ -239,7 +239,7 @@
 {
       "type": "hysteria2",
       "tag": "KevinVPN\n@KevinZakarian",
-      "server": "kevin.iserver.store",
+      "server": "kevinz.iserver.store",
       "server_port": 8443,
       "obfs": {
         "type": "salamander",
