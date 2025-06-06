@@ -239,13 +239,13 @@
 {
       "type": "hysteria2",
       "tag": "KevinVPN\n@KevinZakarian",
-      "server": "kevinz.iserver.store",
+      "server": "kevinx.iserver.store",
       "server_port": 8443,
       "obfs": {
         "type": "salamander",
         "password": "KevinZakarian"
       },
-      "password": "KevinZakarian",
+      "password": "pWBKC4Frsk",
       "tls": {
         "enabled": true,
         "insecure": true
