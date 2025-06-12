@@ -238,7 +238,7 @@
         "type": "salamander",
         "password": "KevinZakarian"
       },
-      "password": "pWBKC4Frsk",
+      "password": "IaxeUoXGKQ",
       "tls": {
         "enabled": true,
         "insecure": true
