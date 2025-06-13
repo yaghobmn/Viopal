@@ -90,6 +90,24 @@
         "IRCP | @Ln2ray",
         "🇳🇱 IRCP IPV6\n@Ln2Ray",
         "🇫🇮@FREE2CONFIG 0",
+        "🇫🇷@FREE2CONFIG § 0",
+        "🇮🇹@FREE2CONFIG § 1",
+        "🇺🇸@FREE2CONFIG § 2",
+        "🇫🇮@FREE2CONFIG § 3",
+        "🇩🇪@FREE2CONFIG § 4",
+        "🇨🇦@FREE2CONFIG § 5",
+        "🇨🇦@FREE2CONFIG § 6",
+        "🇰🇷@FREE2CONFIG § 7",
+        "🇰🇿@FREE2CONFIG § 8",
+        "🇷🇺@FREE2CONFIG § 9",
+        "🇬🇧@FREE2CONFIG § 10",
+        "🇮🇱@FREE2CONFIG § 11",
+        "🇷🇺@FREE2CONFIG § 12",
+        "🇦🇱@FREE2CONFIG § 13",
+        "🇦🇪@FREE2CONFIG § 14",
+        "🇩🇪@FREE2CONFIG § 15",
+        "🇺🇸@FREE2CONFIG § 16",
+        "🇦🇺@FREE2CONFIG § 17",
         "KevinVPN\n@KevinZakarian"
       ],
       "default": "auto"
@@ -105,6 +123,24 @@
         "IRCP | @Ln2ray",
         "🇳🇱 IRCP IPV6\n@Ln2Ray",
         "🇫🇮@FREE2CONFIG 0",
+        "🇫🇷@FREE2CONFIG § 0",
+        "🇮🇹@FREE2CONFIG § 1",
+        "🇺🇸@FREE2CONFIG § 2",
+        "🇫🇮@FREE2CONFIG § 3",
+        "🇩🇪@FREE2CONFIG § 4",
+        "🇨🇦@FREE2CONFIG § 5",
+        "🇨🇦@FREE2CONFIG § 6",
+        "🇰🇷@FREE2CONFIG § 7",
+        "🇰🇿@FREE2CONFIG § 8",
+        "🇷🇺@FREE2CONFIG § 9",
+        "🇬🇧@FREE2CONFIG § 10",
+        "🇮🇱@FREE2CONFIG § 11",
+        "🇷🇺@FREE2CONFIG § 12",
+        "🇦🇱@FREE2CONFIG § 13",
+        "🇦🇪@FREE2CONFIG § 14",
+        "🇩🇪@FREE2CONFIG § 15",
+        "🇺🇸@FREE2CONFIG § 16",
+        "🇦🇺@FREE2CONFIG § 17",
         "KevinVPN\n@KevinZakarian"
       ],
       "url": "http://cp.cloudflare.com/",
@@ -187,7 +223,403 @@
       },
       "packet_encoding": ""
     },
-{
+    {
+      "type": "vless",
+      "tag": "🇫🇷@FREE2CONFIG § 0",
+      "server": "146.59.15.81",
+      "server_port": 443,
+      "uuid": "c14b2731-7db6-49ee-9271-b1efc56c2630",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "l8HS4g_h8xPWlhQm8hmj5ohKNMrMCBcoHSNBFij79Sk",
+          "short_id": "5bb805"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇹@FREE2CONFIG § 1",
+      "server": "141.227.140.214",
+      "server_port": 2030,
+      "uuid": "c8a71f9b-692d-4916-ad73-f070ac00257f",
+      "tls": {
+        "enabled": true,
+        "server_name": "wordpress.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+          "short_id": "7fe29733"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸@FREE2CONFIG § 2",
+      "server": "148.135.195.96",
+      "server_port": 44356,
+      "uuid": "594e62b9-bb88-4264-b3fe-57f66202a96d",
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "hoyeyIygWaTAIdW2Cw42wBdeXfRkQCWoKq278YyyuU8",
+          "short_id": "67dea0af00c9d222"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮@FREE2CONFIG § 3",
+      "server": "157.180.23.58",
+      "server_port": 2052,
+      "uuid": "392af9cc-9d20-41fb-9509-ee53090fe2ae",
+      "tls": {
+        "enabled": true,
+        "server_name": "wordpress.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+          "short_id": "4156caa9"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "@seyyedmt-@seyyedmt@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪@FREE2CONFIG § 4",
+      "server": "91.107.136.205",
+      "server_port": 443,
+      "uuid": "3d2d549f-c33f-4ef9-a9ab-b7ad4571f171",
+      "tls": {
+        "enabled": true,
+        "server_name": "tgju.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qSr0HyOelGxKsy1ZnEdtfKSPOtWcpfeYwoUMxFzHOmE",
+          "short_id": "5c5478b03df213cb"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦@FREE2CONFIG § 5",
+      "server": "148.113.174.213",
+      "server_port": 28495,
+      "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
+          "short_id": "0ecc2c1392"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦@FREE2CONFIG § 6",
+      "server": "178.128.231.204",
+      "server_port": 8080,
+      "uuid": "acd867f1-a71b-4a17-a473-2b57930d8678",
+      "tls": {
+        "enabled": true,
+        "server_name": "rEfErSion.Com.",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CZWbmrDdvesNCBlbMBuvHsJiR8Hsxmsd8DWDR_2JrjM",
+          "short_id": "8e36c7e79b74a6fa"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷@FREE2CONFIG § 7",
+      "server": "113.29.230.65",
+      "server_port": 8880,
+      "uuid": "54af7d89-3ac6-426b-82c2-993984064066",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "afyGbyVtSnU4-TVYh_UG3eAOwjrH2MNgxcxKeD_aOEM",
+          "short_id": "93c21ebdd1f7349e"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇿@FREE2CONFIG § 8",
+      "server": "176.120.72.63",
+      "server_port": 38339,
+      "uuid": "481c5606-b586-44d7-bc2e-d8ef30d67f62",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA",
+          "short_id": "e16883e511"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺@FREE2CONFIG § 9",
+      "server": "89.169.1.40",
+      "server_port": 28495,
+      "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
+          "short_id": "0ecc2c1392"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧@FREE2CONFIG § 10",
+      "server": "147.45.179.201",
+      "server_port": 443,
+      "uuid": "9835fbea-cfb1-402a-bdc6-16ca140c6788",
+      "tls": {
+        "enabled": true,
+        "server_name": "mirror.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "J0_Stw7IIr6naIGCtZ1ZB75HfD-KIITZMy84jQVufyU",
+          "short_id": "3303c7a5"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇱@FREE2CONFIG § 11",
+      "server": "77.91.74.189",
+      "server_port": 28495,
+      "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
+          "short_id": "0ecc2c1392"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺@FREE2CONFIG § 12",
+      "server": "5.181.171.10",
+      "server_port": 443,
+      "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇱@FREE2CONFIG § 13",
+      "server": "45.15.170.80",
+      "server_port": 28495,
+      "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
+          "short_id": "0ecc2c1392"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪@FREE2CONFIG § 14",
+      "server": "151.243.101.176",
+      "server_port": 443,
+      "uuid": "9835fbea-cfb1-402a-bdc6-16ca140c6788",
+      "tls": {
+        "enabled": true,
+        "server_name": "mirror.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "chH1NLDKKYvMZFZrxlDcOA9CwguHR1JSLbrB7xOjTXI",
+          "short_id": "e12cc034"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪@FREE2CONFIG § 15",
+      "server": "157.173.127.224",
+      "server_port": 443,
+      "uuid": "bec44ac3-a662-4179-a9dd-2aa881706dde",
+      "tls": {
+        "enabled": true,
+        "server_name": "analytics.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Ajk0QudeMVQocN88OG14PpsxparFuRJlvqzXDlW-gyQ",
+          "short_id": "aba7bc9a"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸@FREE2CONFIG § 16",
+      "server": "45.82.251.83",
+      "server_port": 1001,
+      "uuid": "c7c922da-ab54-433c-8046-1f9bf9d95c23",
+      "tls": {
+        "enabled": true,
+        "server_name": "telewebion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
+          "short_id": "5fab0deb"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇺@FREE2CONFIG § 17",
+      "server": "170.64.156.152",
+      "server_port": 3114,
+      "uuid": "4d54fc83-3d4f-409f-a255-a3f3bfeec95c",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sunucun.com.tr",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HmhJeIza6ZLRu38PWEI00aKv-Nqp4SglYXvDZj9rbhM",
+          "short_id": "c03adf0e43c6bb75"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
       "type": "hysteria2",
       "tag": "IRCP | @Ln2ray",
       "domain_strategy": "ipv4_only",
