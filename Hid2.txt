@@ -88,6 +88,7 @@
         "🇳🇱 IRCP\n@Ln2Ray",
         "IRCP | @Ln2ray",
         "🇳🇱 IRCP IPV6\n@Ln2Ray",
+        "🇫🇮@FREE2CONFIG 0",
         "KevinVPN\n@KevinZakarian"
       ],
       "default": "auto"
@@ -101,6 +102,7 @@
         "🇳🇱 IRCP\n@Ln2Ray",
         "IRCP | @Ln2ray",
         "🇳🇱 IRCP IPV6\n@Ln2Ray",
+        "🇫🇮@FREE2CONFIG 0",
         "KevinVPN\n@KevinZakarian"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
@@ -146,6 +148,33 @@
       "fake_packets_delay": "4-8"
     },
    {
+      "type": "vless",
+      "tag": "🇫🇮@FREE2CONFIG 0",
+      "server": "157.180.23.58",
+      "server_port": 2052,
+      "uuid": "392af9cc-9d20-41fb-9509-ee53090fe2ae",
+      "tls": {
+        "enabled": true,
+        "server_name": "wordpress.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BamXEb50W1rXENIC96WfSvMiFGE7hnbu_GcXkBv-8H8",
+          "short_id": "4156caa9"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "@seyyedmt-@seyyedmt@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt-@seyyedmt",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+{
       "type": "hysteria2",
       "tag": "IRCP | @Ln2ray",
       "domain_strategy": "ipv4_only",
