@@ -90,24 +90,19 @@
         "⚫️ IRCP",
         "امید مهدوی 🇨🇦",
         "عزیز مرادی ��",
-        "محمد خواجوی 🇭🇰",
-        "دانیال شه بخش 🇯🇵",
-        "خدانور لجه ای 🇳🇱",
+        "VPNy-NL",
         "VPNy-DE",
         "VPNy-US",
         "VPNy-NL",
-        "none 2 § 0",
-        "none 3 § 1",
-        "🔒 VL-WS-NONE 4 § 2",
-        "🇸 美国2 专线 5 § 3",
-        "6 § 4",
-        "Channel id: @ShadowProxy66�� 7 § 5",
-        "Channel id: @ShadowProxy66🇺🇸 8 § 6",
-        "new server 11 § 7",
-        "new server 12 § 8",
-        "Channel id: @ShadowProxy66�� 13 § 9",
-        "Channel id: @ShadowProxy66🇺🇸 14 § 10",
-        "🔒 15 § 11"
+        "47 § 0",
+        "48 § 1",
+        "93 § 2",
+        "100 § 3",
+        "108 § 4",
+        "113 § 5",
+        "114 § 6",
+        "none 3 § 7",
+        "none 4"
       ],
       "default": "auto"
     },
@@ -122,24 +117,19 @@
         "⚫️ IRCP",
         "امید مهدوی 🇨🇦",
         "عزیز مرادی ��",
-        "محمد خواجوی 🇭🇰",
-        "دانیال شه بخش 🇯🇵",
-        "خدانور لجه ای 🇳🇱",
+        "VPNy-NL",
         "VPNy-DE",
         "VPNy-US",
         "VPNy-NL",
-        "none 2 § 0",
-        "none 3 § 1",
-        "🔒 VL-WS-NONE 4 § 2",
-        "🇸 美国2 专线 5 § 3",
-        "6 § 4",
-        "Channel id: @ShadowProxy66�� 7 § 5",
-        "Channel id: @ShadowProxy66🇺🇸 8 § 6",
-        "new server 11 § 7",
-        "new server 12 § 8",
-        "Channel id: @ShadowProxy66�� 13 § 9",
-        "Channel id: @ShadowProxy66🇺🇸 14 § 10",
-        "🔒 15 § 11"
+        "47 § 0",
+        "48 § 1",
+        "93 § 2",
+        "100 § 3",
+        "108 § 4",
+        "113 § 5",
+        "114 § 6",
+        "none 3 § 7",
+        "none 4"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -208,77 +198,17 @@
             "username": "purevpn0s10104588"
         },
     {
-            "headers": {
-                "Host": [
-                    "stream.meet.google.com"
-                ]
-            },
-            "password": "ee56wgpe",
-            "path": "",
-            "server": "prox-hk.pointtoserver.com",
-            "server_port": 10799,
-            "domain_strategy": "",
-            "tag": "محمد خواجوی 🇭🇰",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": false,
-
-                "server_name": "discord.gg"
-            },
-            "type": "http",
-            "username": "purevpn0s10104588"
-        },
-    {
-            "headers": {
-                "Host": [
-                    "stream.meet.google.com"
-                ]
-            },
-            "password": "ee56wgpe",
-            "path": "",
-            "server": "prox-jp.pointtoserver.com",
-            "server_port": 10799,
-            "domain_strategy": "",
-            "tag": "دانیال شه بخش 🇯🇵",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": false,
-
-                "server_name": "discord.gg"
-            },
-            "type": "http",
-            "username": "purevpn0s10104588"
-        },
-    {
-            "headers": {
-                "Host": [
-                    "stream.meet.google.com"
-                ]
-            },
-            "password": "ee56wgpe",
-            "path": "",
-            "server": "prox-nl.pointtoserver.com",
-            "server_port": 10799,
-            "domain_strategy": "",
-            "tag": "خدانور لجه ای 🇳🇱",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": false,
-
-                "server_name": "discord.gg"
-            },
-            "type": "http",
-            "username": "purevpn0s10104588"
-        },
+      "headers": {
+        "Host": "google.com",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+      },
+      "password": "TDCIgn08dB",
+      "server": "141.11.62.217",
+      "server_port": 8443,
+      "tag": "VPNy-NL",
+      "type": "http",
+      "username": "VPNy-NL-A"
+    },
     {
       "headers": {
         "Host": "google.com",
@@ -317,23 +247,98 @@
     },
     {
       "type": "vless",
-      "tag": "none 2 § 0",
-      "server": "172.67.75.172",
-      "server_port": 8080,
-      "uuid": "9314580d-c11e-4f32-d544-566e6142565a",
+      "tag": "47 § 0",
+      "server": "tn6.adamlinux.ir",
+      "server_port": 8051,
+      "uuid": "f3746db9-6028-4b82-92a9-bd4486b9b06e",
       "transport": {
-        "type": "ws",
+        "type": "http",
         "path": "/",
-        "headers": {
-          "Host": "0612.heweiyi.dpdns.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "method": "GET"
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "none 3 § 1",
+      "tag": "48 § 1",
+      "server": "tn6.adamlinux.ir",
+      "server_port": 8051,
+      "uuid": "e4a8b102-c3fe-4836-a9b1-0646bee557b0",
+      "transport": {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "93 § 2",
+      "server": "tn6.adamlinux.ir",
+      "server_port": 8051,
+      "uuid": "f6e92d60-bed7-470a-b010-0fdfd09a8e98",
+      "transport": {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "100 § 3",
+      "server": "tn6.adamlinux.ir",
+      "server_port": 8051,
+      "uuid": "9c89feb3-a2a9-44de-a7f4-9318ec03104c",
+      "transport": {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "108 § 4",
+      "server": "tn6.adamlinux.ir",
+      "server_port": 8051,
+      "uuid": "37d03843-c035-40e7-a71d-8007ec03d750",
+      "transport": {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "113 § 5",
+      "server": "tn6.adamlinux.ir",
+      "server_port": 8051,
+      "uuid": "1d6b55be-75d3-4ea2-bedf-98f3a757c458",
+      "transport": {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "114 § 6",
+      "server": "tn6.adamlinux.ir",
+      "server_port": 8051,
+      "uuid": "db1a33f9-78ea-4992-96bf-fd21a7d30225",
+      "transport": {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "none 3 § 7",
       "server": "8.210.29.68",
       "server_port": 443,
       "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
@@ -349,145 +354,28 @@
     },
     {
       "type": "vless",
-      "tag": "🔒 VL-WS-NONE 4 § 2",
-      "server": "104.24.56.187",
-      "server_port": 80,
-      "uuid": "e6236ebc-7334-4bed-977f-0c20bcdfcc00",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "a1.ghormehsabzi.dpdns.org"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国2 专线 5 § 3",
-      "server": "us.xn--3bs984e5qg.xyz",
-      "server_port": 39730,
-      "password": "a5b3c236-5c88-4d60-83bb-608e62214fb0",
+      "tag": "none 4",
+      "server": "185.235.241.208",
+      "server_port": 2087,
+      "uuid": "567e9338-bb36-42d5-8e07-d6b1450d5651",
       "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "6 § 4",
-      "server": "5.223.41.62",
-      "server_port": 48851,
-      "uuid": "ae96b87b-bc2c-4133-90a3-1366b1c57d2e",
-      "transport": {
-        "type": "http",
-        "host": "speedtest.net",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Channel id: @ShadowProxy66�� 7 § 5",
-      "server": "638855440304530894.qazvin-drc-tusaba.info",
-      "server_port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Channel id: @ShadowProxy66🇺🇸 8 § 6",
-      "server": "638855440313811037.rasht-drc-tusaba.info",
-      "server_port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "new server 11 § 7",
-      "server": "638855440313811037.rasht-drc-tusaba.info",
-      "server_port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "new server 12 § 8",
-      "server": "638855440304530894.qazvin-drc-tusaba.info",
-      "server_port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Channel id: @ShadowProxy66�� 13 § 9",
-      "server": "45.142.120.134",
-      "server_port": 80,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram:@ShadowProxy66/",
-        "headers": {
-          "Host": "uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz"
+        "enabled": true,
+        "server_name": "maps.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality": {
+          "enabled": true,
+          "public_key": "Ih0HZjPvGjLGORRBc7ivhazmBTlYILGMe9WHO17WNWc",
+          "short_id": "71a2"
+        }
       },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Channel id: @ShadowProxy66🇺🇸 14 § 10",
-      "server": "31.43.179.107",
-      "server_port": 80,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
       "transport": {
-        "type": "ws",
-        "path": "/Telegram:@ShadowProxy66/",
-        "headers": {
-          "Host": "uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "🔒 15 § 11",
-      "server": "31.43.179.145",
-      "server_port": 80,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "transport": {
-        "type": "ws",
-        "path": "/Telegram:@ShadowProxy66/",
-        "headers": {
-          "Host": "uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "grpc",
+        "service_name": "Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": ""
     },
