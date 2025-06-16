@@ -95,6 +95,8 @@
         "VPNy-DE",
         "VPNy-US",
         "VPNy-NL2",
+        "VPNy-NLL",
+        "VPNy-DEE",
         "47 § 0",
         "48 § 1",
         "93 § 2",
@@ -123,6 +125,8 @@
         "VPNy-DE",
         "VPNy-US",
         "VPNy-NL2",
+        "VPNy-NLL",
+        "VPNy-DEE",
         "47 § 0",
         "48 § 1",
         "93 § 2",
@@ -257,6 +261,30 @@
       "tag": "VPNy-NL2",
       "type": "http",
       "username": "VPNy-NL"
+    },
+    {
+      "headers": {
+        "Host": "google.com",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+      },
+      "password": "HoscSnOUaT",
+      "server": "141.11.62.217",
+      "server_port": 8443,
+      "tag": "VPNy-NLL",
+      "type": "http",
+      "username": "KevinZakarian-NL"
+    },
+    {
+      "headers": {
+        "Host": "google.com",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+      },
+      "password": "PKws9aYcaP",
+      "server": "179.61.138.128",
+      "server_port": 11001,
+      "tag": "VPNy-DEE",
+      "type": "http",
+      "username": "KevinZakarian-DE"
     },
     {
       "type": "vless",
