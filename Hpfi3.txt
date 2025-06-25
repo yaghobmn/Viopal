@@ -96,7 +96,31 @@
         "Canada ðŸ‡¨ðŸ‡¦",
         "Denmark ðŸ‡©ðŸ‡°",
         "Italy ðŸ‡®ðŸ‡¹",
-        "United Kingdom ðŸ‡¬ðŸ‡§"
+        "United Kingdom ðŸ‡¬ðŸ‡§",
+        "GB-\u003e-\u003eMTN-\u003e@DeamNet_Proxy § 0",
+        "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy § 1",
+        "GB-\u003e-\u003eMTN-\u003e@DeamNet_Proxy (2) § 2",
+        "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (1) § 3",
+        "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (2) § 4",
+        "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy (2) § 5",
+        "GB-\u003e-\u003eMTN-\u003e@DeamNet_Proxy (4) § 6",
+        "✅ %40PewezaVPN (نت ملی)_1 § 7",
+        "✅ %40PewezaVPN (نت ملی)_4 § 8",
+        "vless § 9",
+        "81.29.255.187:699 (1) § 10",
+        "vless § 11",
+        "shadowsocks § 12",
+        "shadowsocks § 13",
+        "shadowsocks § 14",
+        "shadowsocks § 15",
+        "shadowsocks § 16",
+        "vless § 17",
+        "vless § 18",
+        "vless § 19",
+        "🔒 VL-TCP-NONE 🇮🇷 IR-85.133.249.124:39387 § 20",
+        "🇮🇷IR_216_@Surfboardv2ray § 21",
+        "🔒 SS-TCP-NA 🇮🇷 IR-37.32.22.18:8132 § 22",
+        "🔒 SS-TCP-NA 🇮🇷 IR-37.32.20.78:8132 § 23"
       ],
       "default": "auto"
     },
@@ -117,7 +141,31 @@
         "Canada ðŸ‡¨ðŸ‡¦",
         "Denmark ðŸ‡©ðŸ‡°",
         "Italy ðŸ‡®ðŸ‡¹",
-        "United Kingdom ðŸ‡¬ðŸ‡§"
+        "United Kingdom ðŸ‡¬ðŸ‡§",
+        "GB-\u003e-\u003eMTN-\u003e@DeamNet_Proxy § 0",
+        "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy § 1",
+        "GB-\u003e-\u003eMTN-\u003e@DeamNet_Proxy (2) § 2",
+        "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (1) § 3",
+        "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (2) § 4",
+        "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy (2) § 5",
+        "GB-\u003e-\u003eMTN-\u003e@DeamNet_Proxy (4) § 6",
+        "✅ %40PewezaVPN (نت ملی)_1 § 7",
+        "✅ %40PewezaVPN (نت ملی)_4 § 8",
+        "vless § 9",
+        "81.29.255.187:699 (1) § 10",
+        "vless § 11",
+        "shadowsocks § 12",
+        "shadowsocks § 13",
+        "shadowsocks § 14",
+        "shadowsocks § 15",
+        "shadowsocks § 16",
+        "vless § 17",
+        "vless § 18",
+        "vless § 19",
+        "🔒 VL-TCP-NONE 🇮🇷 IR-85.133.249.124:39387 § 20",
+        "🇮🇷IR_216_@Surfboardv2ray § 21",
+        "🔒 SS-TCP-NA 🇮🇷 IR-37.32.22.18:8132 § 22",
+        "🔒 SS-TCP-NA 🇮🇷 IR-37.32.20.78:8132 § 23"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -386,6 +434,244 @@
             "type": "http",
             "username": "purevpn0s14356271"
         },
+    {
+      "type": "shadowsocks",
+      "tag": "GB-\u003e-\u003eMTN-\u003e@DeamNet_Proxy § 0",
+      "server": "admin.c2.webramz.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "WstuSnlu4ieA9M0L"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy § 1",
+      "server": "admin.c4.webramz.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "69MUii7VDwMqh7Hz"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "GB-\u003e-\u003eMTN-\u003e@DeamNet_Proxy (2) § 2",
+      "server": "series-a2-mec.samanehha.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "u17T3BvpYaaiuW2c"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (1) § 3",
+      "server": "series-a1.samanehha.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "mps3FwmDjLrWaOVg"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (2) § 4",
+      "server": "admin.c1.webramz.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "W74XFALLLuw6m5IA"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy (2) § 5",
+      "server": "series-a2.varzesh360.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "mps3FwmDjLrWaOVg"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "GB-\u003e-\u003eMTN-\u003e@DeamNet_Proxy (4) § 6",
+      "server": "series-a2-mec.varzesh360.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "u17T3BvpYaaiuW2c"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "✅ %40PewezaVPN (نت ملی)_1 § 7",
+      "server": "api.namasha.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "u17T3BvpYaaiuW2c"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "✅ %40PewezaVPN (نت ملی)_4 § 8",
+      "server": "2FreakConfig.usecharge.ir",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "W74XFALLLuw6m5IA"
+    },
+    {
+      "type": "vless",
+      "tag": "vless § 9",
+      "server": "84.47.233.110",
+      "server_port": 59761,
+      "uuid": "ae9539b5-70dd-41b5-9666-11a29559a840",
+      "transport": {
+        "type": "http",
+        "host": "Fast.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "81.29.255.187:699 (1) § 10",
+      "server": "81.29.255.187",
+      "server_port": 699,
+      "uuid": "512c8ed7-13dc-9d8d-039a-d0d47c84a0be",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "telewebion.com,user.telewebion.com,plus.telewebion.com,api.telewebion.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "vless § 11",
+      "server": "www.speedtest.net",
+      "server_port": 80,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "transport": {
+        "type": "ws",
+        "path": "/Vb2kRpQSrEqsUKCX",
+        "headers": {
+          "Host": "uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks § 12",
+      "server": "74.177.141.93",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "mps3FwmDjLrWaOVg"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks § 13",
+      "server": "74.177.141.237",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "69MUii7VDwMqh7Hz"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks § 14",
+      "server": "74.177.240.157",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "WstuSnlu4ieA9M0L"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks § 15",
+      "server": "series-a2.samanehha.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "mps3FwmDjLrWaOVg"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks § 16",
+      "server": "freakconfig13.felafel.org",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "1xO2cqPazqjGfCfd"
+    },
+    {
+      "type": "vless",
+      "tag": "vless § 17",
+      "server": "188.212.97.192",
+      "server_port": 2070,
+      "uuid": "0296a016-82c7-4d0b-8d8a-4dfb79467f1a",
+      "transport": {
+        "type": "http",
+        "host": "telewebion.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "vless § 18",
+      "server": "212.80.9.180",
+      "server_port": 54848,
+      "uuid": "2b4a6b04-9924-4206-b08a-9f0e81382efa",
+      "transport": {
+        "type": "http",
+        "host": "anten.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "vless § 19",
+      "server": "46.38.148.83",
+      "server_port": 4002,
+      "uuid": "adb34ed3-d31e-40cb-8e54-4d2d83f5908e",
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-NONE 🇮🇷 IR-85.133.249.124:39387 § 20",
+      "server": "85.133.249.124",
+      "server_port": 39387,
+      "uuid": "289c0de5-81ba-4af8-aeb2-7e7e49f5c8a8",
+      "transport": {
+        "type": "http",
+        "host": "fast.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷IR_216_@Surfboardv2ray § 21",
+      "server": "buy.mobiletoskan.com",
+      "server_port": 2070,
+      "uuid": "0296a016-82c7-4d0b-8d8a-4dfb79467f1a",
+      "transport": {
+        "type": "http",
+        "host": "telewebion.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇮🇷 IR-37.32.22.18:8132 § 22",
+      "server": "37.32.22.18",
+      "server_port": 8132,
+      "method": "aes-256-gcm",
+      "password": "ZGE3ZWEzNGEyMTkyOTFiNDMyMzllYzI0ZDYzYTRm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🔒 SS-TCP-NA 🇮🇷 IR-37.32.20.78:8132 § 23",
+      "server": "37.32.20.78",
+      "server_port": 8132,
+      "method": "aes-256-gcm",
+      "password": "ZGE3ZWEzNGEyMTkyOTFiNDMyMzllYzI0ZDYzYTRm"
+    },
     {
       "type": "dns",
       "tag": "dns-out"
