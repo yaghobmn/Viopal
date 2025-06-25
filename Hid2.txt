@@ -218,12 +218,12 @@
         "Host": "google.com",
         "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
       },
-      "password": "6XRH177bpL",
-      "server": "179.61.138.128",
-      "server_port": 11001,
+      "password": "cEOxwqYEeW",
+      "server": "178.236.254.188",
+      "server_port": 8443,
       "tag": "VPNy-DE",
       "type": "http",
-      "username": "VPNy-DE-A"
+      "username": "KevinZakarian-DE"
     },
     {
       "headers": {
