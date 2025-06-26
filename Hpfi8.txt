@@ -85,17 +85,10 @@
         "auto",
         "u04",
         "u06",
-        "⚫️ IRCP",
         "VPNy-DE",
         "VPNy-NL2",
-        "VPNy-NLL",
-        "VPNy-DEE",
-        "none 3 § 7",
         "Finland ðŸ‡«ðŸ‡®",
-        "France ðŸ‡«ðŸ‡·",
         "Canada ðŸ‡¨ðŸ‡¦",
-        "Denmark ðŸ‡©ðŸ‡°",
-        "Italy ðŸ‡®ðŸ‡¹",
         "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy § 1",
         "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (1) § 3",
         "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (2) § 4",
@@ -114,17 +107,10 @@
       "outbounds": [
         "u04",
         "u06",
-        "⚫️ IRCP",
         "VPNy-DE",
         "VPNy-NL2",
-        "VPNy-NLL",
-        "VPNy-DEE",
-        "none 3 § 7",
         "Finland ðŸ‡«ðŸ‡®",
-        "France ðŸ‡«ðŸ‡·",
         "Canada ðŸ‡¨ðŸ‡¦",
-        "Denmark ðŸ‡©ðŸ‡°",
-        "Italy ðŸ‡®ðŸ‡¹",
         "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy § 1",
         "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (1) § 3",
         "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (2) § 4",
@@ -202,62 +188,11 @@
       "type": "http",
       "username": "VPNy-NL"
     },
-    {
-      "headers": {
-        "Host": "google.com",
-        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-      },
-      "password": "HoscSnOUaT",
-      "server": "141.11.62.217",
-      "server_port": 8443,
-      "tag": "VPNy-NLL",
-      "type": "http",
-      "username": "KevinZakarian-NL"
-    },
-    {
-      "headers": {
-        "Host": "google.com",
-        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-      },
-      "password": "PKws9aYcaP",
-      "server": "179.61.138.128",
-      "server_port": 11001,
-      "tag": "VPNy-DEE",
-      "type": "http",
-      "username": "KevinZakarian-DE"
-    },
-    {
-      "type": "vless",
-      "tag": "none 3 § 7",
-      "server": "8.210.29.68",
-      "server_port": 443,
-      "uuid": "ea286109-d20f-415e-849e-4af20ab04b65",
-      "tls": {
-        "enabled": true,
-        "server_name": "147135001195.sec22org.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "packet_encoding": ""
-    },
+     
 
      
   
-{
-      "type": "http",
-      "tag": "⚫️ IRCP",
-      "domain_strategy": "ipv4_only",
-      "server": "206.71.158.30",
-      "server_port": 10001,
-      "username": "UsrtM4JJNL70Bnk347bV988WL0avi3A0ATx",
-      "password": "PassS806Z0636DX08M8j4R4xx2Oz5aw44081",
-      "headers": {
-        "host": "ieee.org",
-        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-      }
-    },
+ 
     {
             "headers": {
                 "Host": [
@@ -282,54 +217,6 @@
             "type": "http",
             "username": "purevpn0s14356271"
         },
-        {
-            "headers": {
-                "Host": [
-                    "stream.meet.google.com"
-                ]
-            },
-            "password": "IUjWlr0gAPZSMc",
-            "path": "",
-            "server": "prox-it.pointtoserver.com",
-            "server_port": 10780,
-            "domain_strategy": "",
-            "tag": "Italy ðŸ‡®ðŸ‡¹",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": false,
-
-                "server_name": "ieee.org"
-            },
-            "type": "http",
-            "username": "purevpn0s14356271"
-        },
-        {
-            "headers": {
-                "Host": [
-                    "stream.meet.google.com"
-                ]
-            },
-            "password": "IUjWlr0gAPZSMc",
-            "path": "",
-            "server": "prox-dk.pointtoserver.com",
-            "server_port": 10780,
-            "domain_strategy": "",
-            "tag": "Denmark ðŸ‡©ðŸ‡°",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": false,
-
-                "server_name": "ieee.org"
-            },
-            "type": "http",
-            "username": "purevpn0s14356271"
-        },
             {
             "headers": {
                 "Host": [
@@ -342,30 +229,6 @@
             "server_port": 10780,
             "domain_strategy": "",
             "tag": "Canada ðŸ‡¨ðŸ‡¦",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": false,
-
-                "server_name": "ieee.org"
-            },
-            "type": "http",
-            "username": "purevpn0s14356271"
-        },
-            {
-            "headers": {
-                "Host": [
-                    "stream.meet.google.com"
-                ]
-            },
-            "password": "IUjWlr0gAPZSMc",
-            "path": "",
-            "server": "prox-fr.pointtoserver.com",
-            "server_port": 10780,
-            "domain_strategy": "",
-            "tag": "France ðŸ‡«ðŸ‡·",
             "tls": {
                 "alpn": [
                     "h2,http/1.1"
