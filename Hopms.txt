@@ -103,7 +103,6 @@
         "🇸🇪 hu_@JavidnamanIran",
         "🇸🇪 hh_شاه",
         "VPNy.net-DE-5",
-        "VPNy.net-US-6",
         "VPNy.net-US-6-R",
         "VPNy.net-DE-5-R"
       ],
@@ -133,7 +132,6 @@
         "🇸🇪 hu_@JavidnamanIran",
         "🇸🇪 hh_شاه",
         "VPNy.net-DE-5",
-        "VPNy.net-US-6",
         "VPNy.net-US-6-R",
         "VPNy.net-DE-5-R"
       ],
@@ -448,18 +446,6 @@
       "tag": "VPNy.net-DE-5",
       "type": "http",
       "username": "VPNy.net-DE-5"
-    },
-    {
-      "headers": {
-        "Host": "google.com",
-        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-      },
-      "password": "pBIna0zhd3",
-      "server": "104.234.74.23",
-      "server_port": 11001,
-      "tag": "VPNy.net-US-6",
-      "type": "http",
-      "username": "VPNy.net-US-6"
     },
     {
       "flow": "xtls-rprx-vision",
