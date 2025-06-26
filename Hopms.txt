@@ -448,7 +448,7 @@
       "tag": "VPNy.net-DE-5",
       "type": "http",
       "username": "VPNy.net-DE-5"
-    }
+    },
     {
       "headers": {
         "Host": "google.com",
@@ -460,7 +460,7 @@
       "tag": "VPNy.net-US-6",
       "type": "http",
       "username": "VPNy.net-US-6"
-    }
+    },
     {
       "flow": "xtls-rprx-vision",
       "server": "104.234.74.23",
@@ -490,7 +490,7 @@
       },
       "type": "vless",
       "uuid": "3185f90f-f8eb-499b-b76c-6a27afaf970d"
-    }
+    },
     {
       "flow": "xtls-rprx-vision",
       "multiplex": {},
@@ -521,7 +521,7 @@
       },
       "type": "vless",
       "uuid": "82af21a9-6a98-4da6-b951-72347b8e40d9"
-    }
+    },
     {
       "type": "dns",
       "tag": "dns-out"
