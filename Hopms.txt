@@ -98,7 +98,14 @@
         "shadowsocks § 15",
         "shadowsocks § 16",
         "vless § 17",
-        "🇮🇷IR_216_@Surfboardv2ray § 21"
+        "🇮🇷IR_216_@Surfboardv2ray § 21",
+        "🇸🇪 rr_Viva_Iran",
+        "🇸🇪 hu_@JavidnamanIran",
+        "🇸🇪 hh_شاه",
+        "VPNy.net-DE-5",
+        "VPNy.net-US-6",
+        "VPNy.net-US-6-R",
+        "VPNy.net-DE-5-R"
       ],
       "default": "auto"
     },
@@ -121,7 +128,14 @@
         "shadowsocks § 15",
         "shadowsocks § 16",
         "vless § 17",
-        "🇮🇷IR_216_@Surfboardv2ray § 21"
+        "🇮🇷IR_216_@Surfboardv2ray § 21",
+        "🇸🇪 rr_Viva_Iran",
+        "🇸🇪 hu_@JavidnamanIran",
+        "🇸🇪 hh_شاه",
+        "VPNy.net-DE-5",
+        "VPNy.net-US-6",
+        "VPNy.net-US-6-R",
+        "VPNy.net-DE-5-R"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -362,6 +376,152 @@
       },
       "packet_encoding": ""
     },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 rr_Viva_Iran",
+      "server": "homa.cybsecguru.com",
+      "server_port": 62001,
+      "uuid": "c1af5b42-283a-4e1d-9b5a-89a757aa65f6",
+      "tls": {
+        "enabled": true,
+        "server_name": "tile.openstreetmap.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bGnpkihzVNt2CX8pvwL92oiVRIjvnlw6btZ3qhB9wXs",
+          "short_id": "438e39c2bb187bb3"
+        }
+      },
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇸🇪 hu_@JavidnamanIran",
+      "server": "homa.cybsecguru.com",
+      "server_port": 62003,
+      "uuid": "fa00d36b-ea4a-4e14-a1ab-072909943f30",
+      "security": "",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport": {
+        "type": "httpupgrade",
+        "host": "tile.openstreetmap.org",
+        "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇸🇪 hh_شاه",
+      "server": "homa.cybsecguru.com",
+      "server_port": 62004,
+      "uuid": "fa00d36b-ea4a-4e14-a1ab-072909943f30",
+      "security": "",
+      "multiplex": {
+        "protocol": "h2mux",
+        "max_streams": 8
+      },
+      "transport": {
+        "type": "http",
+        "host": "tile.openstreetmap.org",
+        "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/",
+        "method": "GET",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      }
+    },
+    {
+      "headers": {
+        "Host": "google.com",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+      },
+      "password": "OLZZrmAjS4",
+      "server": "85.93.8.142",
+      "server_port": 11001,
+      "tag": "VPNy.net-DE-5",
+      "type": "http",
+      "username": "VPNy.net-DE-5"
+    }
+    {
+      "headers": {
+        "Host": "google.com",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+      },
+      "password": "pBIna0zhd3",
+      "server": "104.234.74.23",
+      "server_port": 11001,
+      "tag": "VPNy.net-US-6",
+      "type": "http",
+      "username": "VPNy.net-US-6"
+    }
+    {
+      "flow": "xtls-rprx-vision",
+      "server": "104.234.74.23",
+      "server_port": 11002,
+      "tag": "VPNy.net-US-6-R",
+      "tls": {
+        "enabled": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "R_zZS27sEP3wbCa7qX7jV0CcLiv1sAL_i_snquX-MAA",
+          "short_id": "4f"
+        },
+        "server_name": "gallery.sourceforge.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "headers": {
+          "Host": "gallery.sourceforge.net",
+          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        },
+        "host": "gallery.sourceforge.net",
+        "path": "/ws",
+        "type": "httpupgrade"
+      },
+      "type": "vless",
+      "uuid": "3185f90f-f8eb-499b-b76c-6a27afaf970d"
+    }
+    {
+      "flow": "xtls-rprx-vision",
+      "multiplex": {},
+      "server": "85.93.8.142",
+      "server_port": 11002,
+      "tag": "VPNy.net-DE-5-R",
+      "tls": {
+        "enabled": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "cT2LpCh0dCr4jmoG6N2pDi8Pf8wxZZ4MFU-yDiVT_zI",
+          "short_id": "b535db"
+        },
+        "server_name": "gallery.sourceforge.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "headers": {
+          "Host": "gallery.sourceforge.net",
+          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        },
+        "host": "gallery.sourceforge.net",
+        "path": "/ws",
+        "type": "httpupgrade"
+      },
+      "type": "vless",
+      "uuid": "82af21a9-6a98-4da6-b951-72347b8e40d9"
+    }
     {
       "type": "dns",
       "tag": "dns-out"
