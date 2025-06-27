@@ -88,8 +88,9 @@
         "Warp-IP6",
         "VPNy-DE",
         "VPNy-NL2",
-        "Finland ðŸ‡«ðŸ‡®",
-        "Canada ðŸ‡¨ðŸ‡¦",
+        "Finland 🇫🇮",
+        "United Kingdom 🇬🇧",
+        "Canada 🇨🇦",
         "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy § 1",
         "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (1) § 3",
         "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (2) § 4",
@@ -112,8 +113,9 @@
         "Warp-IP6",
         "VPNy-DE",
         "VPNy-NL2",
-        "Finland ðŸ‡«ðŸ‡®",
-        "Canada ðŸ‡¨ðŸ‡¦",
+        "Finland 🇫🇮",
+        "United Kingdom 🇬🇧",
+        "Canada 🇨🇦",
         "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy § 1",
         "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (1) § 3",
         "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (2) § 4",
@@ -219,7 +221,7 @@
             "server": "prox-is.pointtoserver.com",
             "server_port": 10780,
             "domain_strategy": "",
-            "tag": "United Kingdom ðŸ‡¬ðŸ‡§",
+            "tag": "United Kingdom 🇬🇧",
             "tls": {
                 "alpn": [
                     "h2,http/1.1"
@@ -243,7 +245,7 @@
             "server": "prox-ca.pointtoserver.com",
             "server_port": 10780,
             "domain_strategy": "",
-            "tag": "Canada ðŸ‡¨ðŸ‡¦",
+            "tag": "Canada 🇨🇦",
             "tls": {
                 "alpn": [
                     "h2,http/1.1"
@@ -267,7 +269,7 @@
             "server": "prox-fi.pointtoserver.com",
             "server_port": 10780,
             "domain_strategy": "",
-            "tag": "Finland ðŸ‡«ðŸ‡®",
+            "tag": "Finland 🇫🇮",
             "tls": {
                 "alpn": [
                     "h2,http/1.1"
