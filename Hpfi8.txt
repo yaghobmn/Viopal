@@ -98,8 +98,6 @@
         "shadowsocks § 16",
         "vless § 17",
         "🇮🇷IR_216_@Surfboardv2ray § 21",
-        "🇸🇪 rr_Viva_Iran",
-        "🇸🇪 hh_شاه",
         "VPNy.net-DE-5",
         "VPNy.net-US-6-R",
         "VPNy.net-DE-5-R"
@@ -125,8 +123,6 @@
         "shadowsocks § 16",
         "vless § 17",
         "🇮🇷IR_216_@Surfboardv2ray § 21",
-        "🇸🇪 rr_Viva_Iran",
-        "🇸🇪 hh_شاه",
         "VPNy.net-DE-5",
         "VPNy.net-US-6-R",
         "VPNy.net-DE-5-R"
@@ -358,50 +354,6 @@
         "method": "GET"
       },
       "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 rr_Viva_Iran",
-      "server": "homa.cybsecguru.com",
-      "server_port": 62001,
-      "uuid": "f94d67bc-9e21-4399-98f9-d30c8715149c",
-      "tls": {
-        "enabled": true,
-        "server_name": "tile.openstreetmap.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bGnpkihzVNt2CX8pvwL92oiVRIjvnlw6btZ3qhB9wXs",
-          "short_id": "438e39c2bb187bb3"
-        }
-      },
-      "multiplex": {
-        "protocol": "h2mux",
-        "max_streams": 8
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇸🇪 hh_شاه",
-      "server": "homa.cybsecguru.com",
-      "server_port": 62004,
-      "uuid": "ff57c16b-eb93-4807-9e42-de4ce24ed378",
-      "security": "",
-      "multiplex": {
-        "protocol": "h2mux",
-        "max_streams": 8
-      },
-      "transport": {
-        "type": "http",
-        "host": "tile.openstreetmap.org",
-        "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/",
-        "method": "GET",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      }
     },
     {
       "headers": {
