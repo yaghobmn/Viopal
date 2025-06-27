@@ -99,7 +99,6 @@
         "vless § 17",
         "🇮🇷IR_216_@Surfboardv2ray § 21",
         "🇸🇪 rr_Viva_Iran",
-        "🇸🇪 hu_@JavidnamanIran",
         "🇸🇪 hh_شاه",
         "VPNy.net-DE-5",
         "VPNy.net-US-6-R",
@@ -127,7 +126,6 @@
         "vless § 17",
         "🇮🇷IR_216_@Surfboardv2ray § 21",
         "🇸🇪 rr_Viva_Iran",
-        "🇸🇪 hu_@JavidnamanIran",
         "🇸🇪 hh_شاه",
         "VPNy.net-DE-5",
         "VPNy.net-US-6-R",
@@ -383,23 +381,6 @@
       "multiplex": {
         "protocol": "h2mux",
         "max_streams": 8
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇸🇪 hu_@JavidnamanIran",
-      "server": "homa.cybsecguru.com",
-      "server_port": 62003,
-      "uuid": "ff57c16b-eb93-4807-9e42-de4ce24ed378",
-      "security": "",
-      "multiplex": {
-        "protocol": "h2mux",
-        "max_streams": 8
-      },
-      "transport": {
-        "type": "httpupgrade",
-        "host": "tile.openstreetmap.org",
-        "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/"
       }
     },
     {
