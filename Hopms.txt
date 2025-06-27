@@ -97,8 +97,6 @@
         "✅ %40PewezaVPN (نت ملی)_4 § 8",
         "shadowsocks § 15",
         "shadowsocks § 16",
-        "vless § 17",
-        "🇮🇷IR_216_@Surfboardv2ray § 21",
         "VPNy.net-DE-5",
         "VPNy.net-US-6-R",
         "VPNy.net-DE-5-R"
@@ -123,8 +121,6 @@
         "✅ %40PewezaVPN (نت ملی)_4 § 8",
         "shadowsocks § 15",
         "shadowsocks § 16",
-        "vless § 17",
-        "🇮🇷IR_216_@Surfboardv2ray § 21",
         "VPNy.net-DE-5",
         "VPNy.net-US-6-R",
         "VPNy.net-DE-5-R"
@@ -339,34 +335,6 @@
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "1xO2cqPazqjGfCfd"
-    },
-    {
-      "type": "vless",
-      "tag": "vless § 17",
-      "server": "188.212.97.192",
-      "server_port": 2070,
-      "uuid": "0296a016-82c7-4d0b-8d8a-4dfb79467f1a",
-      "transport": {
-        "type": "http",
-        "host": "telewebion.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷IR_216_@Surfboardv2ray § 21",
-      "server": "buy.mobiletoskan.com",
-      "server_port": 2070,
-      "uuid": "0296a016-82c7-4d0b-8d8a-4dfb79467f1a",
-      "transport": {
-        "type": "http",
-        "host": "telewebion.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
     },
     {
       "headers": {
