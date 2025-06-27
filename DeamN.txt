@@ -2,6 +2,7 @@
 http://KevinZakarian-DE:cEOxwqYEeW@178.236.254.188:8443#VPNy-DE
 http://VPNy-NL:OLZZrmAjS4@92.112.126.34:11001#VPNy-NL2
 http://purevpn0s14356271:IUjWlr0gAPZSMc@prox-is.pointtoserver.com:10780#United%20Kingdom%20%C3%B0%C5%B8%E2%80%A1%C2%AC%C3%B0%C5%B8%E2%80%A1%C2%A7
+http://purevpn0s14356271:IUjWlr0gAPZSMc@prox-ca.pointtoserver.com:10780#Canada%20%C3%B0%C5%B8%E2%80%A1%C2%A8%C3%B0%C5%B8%E2%80%A1%C2%A6
 http://purevpn0s14356271:IUjWlr0gAPZSMc@prox-fi.pointtoserver.com:10780#Finland%20%C3%B0%C5%B8%E2%80%A1%C2%AB%C3%B0%C5%B8%E2%80%A1%C2%AE
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2OU1VaWk3VkR3TXFoN0h6@admin.c4.webramz.co:443#GB-%3E-%3EADL-%3E@DeamNet_Proxy
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@series-a1.samanehha.co:443#GB-%3E-%3ERTL-%3E@DeamNet_Proxy%20(1)
@@ -13,4 +14,3 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@freakconfig13.felafel.
 http://VPNy.net-DE-5:OLZZrmAjS4@85.93.8.142:11001#VPNy.net-DE-5
 http://KevinZakarian-DE:cEOxwqYEeW@178.236.254.188:8443#VPNy-DE
 vless://3185f90f-f8eb-499b-b76c-6a27afaf970d@104.234.74.23:11002?encryption=none&flow=xtls-rprx-vision&fp=chrome&host=gallery.sourceforge.net&path=%2Fws&pbk=R_zZS27sEP3wbCa7qX7jV0CcLiv1sAL_i_snquX-MAA&security=reality&sid=4f&sni=gallery.sourceforge.net&type=httpupgrade#VPNy.net-US-6-R
-http://purevpn0s14356271:IUjWlr0gAPZSMc@prox-ca.pointtoserver.com:10780#Canada%20%C3%B0%C5%B8%E2%80%A1%C2%A8%C3%B0%C5%B8%E2%80%A1%C2%A6
