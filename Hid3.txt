@@ -366,7 +366,7 @@
       "tag": "🇸🇪 rr_Viva_Iran",
       "server": "homa.cybsecguru.com",
       "server_port": 62001,
-      "uuid": "c1af5b42-283a-4e1d-9b5a-89a757aa65f6",
+      "uuid": "f94d67bc-9e21-4399-98f9-d30c8715149c",
       "tls": {
         "enabled": true,
         "server_name": "tile.openstreetmap.org",
@@ -390,7 +390,7 @@
       "tag": "🇸🇪 hu_@JavidnamanIran",
       "server": "homa.cybsecguru.com",
       "server_port": 62003,
-      "uuid": "fa00d36b-ea4a-4e14-a1ab-072909943f30",
+      "uuid": "ff57c16b-eb93-4807-9e42-de4ce24ed378",
       "security": "",
       "multiplex": {
         "protocol": "h2mux",
@@ -407,7 +407,7 @@
       "tag": "🇸🇪 hh_شاه",
       "server": "homa.cybsecguru.com",
       "server_port": 62004,
-      "uuid": "fa00d36b-ea4a-4e14-a1ab-072909943f30",
+      "uuid": "ff57c16b-eb93-4807-9e42-de4ce24ed378",
       "security": "",
       "multiplex": {
         "protocol": "h2mux",
