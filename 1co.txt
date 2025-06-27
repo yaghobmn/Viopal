@@ -91,10 +91,7 @@
         "United Kingdom 🇬🇧",
         "Canada 🇨🇦",
         "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy § 1",
-        "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (1) § 3",
-        "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (2) § 4",
         "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy (2) § 5",
-        "✅ %40PewezaVPN (نت ملی)_4 § 8",
         "shadowsocks § 15",
         "shadowsocks § 16",
         "VPNy.net-DE-5",
@@ -115,10 +112,7 @@
         "United Kingdom 🇬🇧",
         "Canada 🇨🇦",
         "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy § 1",
-        "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (1) § 3",
-        "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (2) § 4",
         "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy (2) § 5",
-        "✅ %40PewezaVPN (نت ملی)_4 § 8",
         "shadowsocks § 15",
         "shadowsocks § 16",
         "VPNy.net-DE-5",
@@ -279,35 +273,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (1) § 3",
-      "server": "series-a1.samanehha.co",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "mps3FwmDjLrWaOVg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "GB-\u003e-\u003eRTL-\u003e@DeamNet_Proxy (2) § 4",
-      "server": "admin.c1.webramz.co",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "W74XFALLLuw6m5IA"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy (2) § 5",
       "server": "series-a2.varzesh360.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "mps3FwmDjLrWaOVg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "✅ %40PewezaVPN (نت ملی)_4 § 8",
-      "server": "2FreakConfig.usecharge.ir",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "W74XFALLLuw6m5IA"
     },
     {
       "type": "shadowsocks",
