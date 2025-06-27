@@ -12,5 +12,3 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@2FreakConfig.usecharge
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@series-a2.samanehha.co:443
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@freakconfig13.felafel.org:443
 http://VPNy.net-DE-5:OLZZrmAjS4@85.93.8.142:11001#VPNy.net-DE-5
-http://KevinZakarian-DE:cEOxwqYEeW@178.236.254.188:8443#VPNy-DE
-vless://3185f90f-f8eb-499b-b76c-6a27afaf970d@104.234.74.23:11002?encryption=none&flow=xtls-rprx-vision&fp=chrome&host=gallery.sourceforge.net&path=%2Fws&pbk=R_zZS27sEP3wbCa7qX7jV0CcLiv1sAL_i_snquX-MAA&security=reality&sid=4f&sni=gallery.sourceforge.net&type=httpupgrade#VPNy.net-US-6-R
