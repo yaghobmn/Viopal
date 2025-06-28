@@ -87,8 +87,8 @@
         "u06",
         "VPNy-DE",
         "VPNy-NL2",
-        "United Kingdom ��",
-        "Finland ��",
+        "United Kingdom 🇬🇧",
+        "Finland 🇫🇮",
         "VPNy.net-DE-5",
         "VPNy.net-DE-5-R"
       ],
@@ -102,8 +102,8 @@
         "u06",
         "VPNy-DE",
         "VPNy-NL2",
-        "United Kingdom ��",
-        "Finland ��",
+        "United Kingdom 🇬🇧",
+        "Finland 🇫🇮",
         "VPNy.net-DE-5",
         "VPNy.net-DE-5-R"
       ],
