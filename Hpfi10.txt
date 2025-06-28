@@ -87,15 +87,9 @@
         "u06",
         "VPNy-DE",
         "VPNy-NL2",
-        "Finland 🇫🇮",
         "United Kingdom 🇬🇧",
-        "Canada 🇨🇦",
-        "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy § 1",
-        "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy (2) § 5",
-        "shadowsocks § 15",
-        "shadowsocks § 16",
+        "Finland 🇫🇮",
         "VPNy.net-DE-5",
-        "VPNy.net-US-6-R",
         "VPNy.net-DE-5-R"
       ],
       "default": "auto"
@@ -108,15 +102,9 @@
         "u06",
         "VPNy-DE",
         "VPNy-NL2",
-        "Finland 🇫🇮",
         "United Kingdom 🇬🇧",
-        "Canada 🇨🇦",
-        "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy § 1",
-        "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy (2) § 5",
-        "shadowsocks § 15",
-        "shadowsocks § 16",
+        "Finland 🇫🇮",
         "VPNy.net-DE-5",
-        "VPNy.net-US-6-R",
         "VPNy.net-DE-5-R"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
@@ -215,30 +203,6 @@
             "type": "http",
             "username": "purevpn0s14356271"
         },
-            {
-            "headers": {
-                "Host": [
-                    "stream.meet.google.com"
-                ]
-            },
-            "password": "IUjWlr0gAPZSMc",
-            "path": "",
-            "server": "prox-ca.pointtoserver.com",
-            "server_port": 10780,
-            "domain_strategy": "",
-            "tag": "Canada 🇨🇦",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": false,
-
-                "server_name": "ieee.org"
-            },
-            "type": "http",
-            "username": "purevpn0s14356271"
-        },
          {
             "headers": {
                 "Host": [
@@ -264,38 +228,6 @@
             "username": "purevpn0s14356271"
         },
     {
-      "type": "shadowsocks",
-      "tag": "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy § 1",
-      "server": "admin.c4.webramz.co",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "69MUii7VDwMqh7Hz"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "GB-\u003e-\u003eADL-\u003e@DeamNet_Proxy (2) § 5",
-      "server": "series-a2.varzesh360.co",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "mps3FwmDjLrWaOVg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "shadowsocks § 15",
-      "server": "series-a2.samanehha.co",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "mps3FwmDjLrWaOVg"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "shadowsocks § 16",
-      "server": "freakconfig13.felafel.org",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1xO2cqPazqjGfCfd"
-    },
-    {
       "headers": {
         "Host": "google.com",
         "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
@@ -306,36 +238,6 @@
       "tag": "VPNy.net-DE-5",
       "type": "http",
       "username": "VPNy.net-DE-5"
-    },
-    {
-      "flow": "xtls-rprx-vision",
-      "server": "104.234.74.23",
-      "server_port": 11002,
-      "tag": "VPNy.net-US-6-R",
-      "tls": {
-        "enabled": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "R_zZS27sEP3wbCa7qX7jV0CcLiv1sAL_i_snquX-MAA",
-          "short_id": "4f"
-        },
-        "server_name": "gallery.sourceforge.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "headers": {
-          "Host": "gallery.sourceforge.net",
-          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-        },
-        "host": "gallery.sourceforge.net",
-        "path": "/ws",
-        "type": "httpupgrade"
-      },
-      "type": "vless",
-      "uuid": "3185f90f-f8eb-499b-b76c-6a27afaf970d"
     },
     {
       "flow": "xtls-rprx-vision",
