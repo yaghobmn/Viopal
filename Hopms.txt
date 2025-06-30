@@ -91,7 +91,8 @@
         "United Kingdom 🇬🇧",
         "Finland 🇫🇮",
         "VPNy.net-DE-5",
-        "VPNy.net-DE-5-R"
+        "VPNy.net-DE-5-R",
+        "VPNy-US-EMS"
       ],
       "default": "auto"
     },
@@ -107,7 +108,8 @@
         "United Kingdom 🇬🇧",
         "Finland 🇫🇮",
         "VPNy.net-DE-5",
-        "VPNy.net-DE-5-R"
+        "VPNy.net-DE-5-R",
+        "VPNy-US-EMS"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -283,6 +285,18 @@
       "type": "vless",
       "uuid": "82af21a9-6a98-4da6-b951-72347b8e40d9"
     },
+    {
+  "headers": {
+    "Host": "google.com",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+  },
+  "password": "yHFqYPbYgs",
+  "server": "50.114.206.150",
+  "server_port": 11001,
+  "tag": "VPNy-US-EMS",
+  "type": "http",
+  "username": "Babak-US-1"
+  },
     {
       "type": "dns",
       "tag": "dns-out"
