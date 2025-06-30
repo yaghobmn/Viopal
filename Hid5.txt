@@ -87,8 +87,6 @@
         "u06",
         "VPNy-DE",
         "VPNy-NL2",
-        "United Kingdom 🇬🇧",
-        "Finland 🇫🇮",
         "VPNy.net-DE-5",
         "VPNy.net-DE-5-R",
         "VPNy-US-EMS"
@@ -103,8 +101,6 @@
         "u06",
         "VPNy-DE",
         "VPNy-NL2",
-        "United Kingdom 🇬🇧",
-        "Finland 🇫🇮",
         "VPNy.net-DE-5",
         "VPNy.net-DE-5-R",
         "VPNy-US-EMS"
@@ -181,54 +177,6 @@
      
   
  
-    {
-            "headers": {
-                "Host": [
-                    "stream.meet.google.com"
-                ]
-            },
-            "password": "IUjWlr0gAPZSMc",
-            "path": "",
-            "server": "prox-is.pointtoserver.com",
-            "server_port": 10780,
-            "domain_strategy": "",
-            "tag": "United Kingdom 🇬🇧",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": false,
-
-                "server_name": "ieee.org"
-            },
-            "type": "http",
-            "username": "purevpn0s14356271"
-        },
-         {
-            "headers": {
-                "Host": [
-                    "stream.meet.google.com"
-                ]
-            },
-            "password": "IUjWlr0gAPZSMc",
-            "path": "",
-            "server": "prox-fi.pointtoserver.com",
-            "server_port": 10780,
-            "domain_strategy": "",
-            "tag": "Finland 🇫🇮",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": false,
-
-                "server_name": "ieee.org"
-            },
-            "type": "http",
-            "username": "purevpn0s14356271"
-        },
     {
       "headers": {
         "Host": "google.com",
