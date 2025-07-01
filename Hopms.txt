@@ -88,8 +88,14 @@
         "Warp-IP6",
         "VPNy-DE",
         "VPNy-NL2",
-        "VPNy.net-DE-5",
         "VPNy.net-DE-5-R",
+        "Finland 🇫🇮",
+        "United Kingdom 🇬🇧",
+        "@KevinZakarian pri2",
+        "@KevinZakarian pri4",
+        "@KevinZakarian pri5",
+        "@KevinZakarian Pub5",
+        "@KevinZakarian Pub8",
         "VPNy-US-EMS"
       ],
       "default": "auto"
@@ -103,8 +109,14 @@
         "Warp-IP6",
         "VPNy-DE",
         "VPNy-NL2",
-        "VPNy.net-DE-5",
         "VPNy.net-DE-5-R",
+        "Finland 🇫🇮",
+        "United Kingdom 🇬🇧",
+        "@KevinZakarian pri2",
+        "@KevinZakarian pri4",
+        "@KevinZakarian pri5",
+        "@KevinZakarian Pub5",
+        "@KevinZakarian Pub8",
         "VPNy-US-EMS"
       ],
       "url": "http://cp.cloudflare.com/",
@@ -185,22 +197,203 @@
       "type": "http",
       "username": "VPNy-NL"
     },
-     
+     {
+            "headers": {
+                "Host": [
+                    "stream.meet.google.com"
+                ]
+            },
+            "password": "dUsOF552ZXVAWD",
+            "path": "",
+            "server": "prox-fi.pointtoserver.com",
+            "server_port": 10780,
+            "domain_strategy": "",
+            "tag": "Finland 🇫🇮",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": false,
 
-     
-  
- 
-    {
-      "headers": {
-        "Host": "google.com",
-        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                "server_name": "ieee.org"
+            },
+            "type": "http",
+            "username": "purevpn0s14187318"
+        },
+        {
+            "headers": {
+                "Host": [
+                    "stream.meet.google.com"
+                ]
+            },
+            "password": "dUsOF552ZXVAWD",
+            "path": "",
+            "server": "prox-is.pointtoserver.com",
+            "server_port": 10780,
+            "domain_strategy": "",
+            "tag": "United Kingdom 🇬🇧",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": false,
+
+                "server_name": "ieee.org"
+            },
+            "type": "http",
+            "username": "purevpn0s14187318"
+        },
+       {
+      "flow": "xtls-rprx-vision",
+      "server": "45.141.150.90",
+      "server_port": 11002,
+      "tag": "@KevinZakarian pri2",
+      "tls": {
+        "enabled": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "FtcyCO7Lzhk_u2K03ZmJpPo35EwOUiswSouqH4eOcXQ",
+          "short_id": "2e"
+        },
+        "server_name": "gallery.sourceforge.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
-      "password": "OLZZrmAjS4",
-      "server": "85.93.8.142",
+      "transport": {
+        "headers": {
+          "Host": "gallery.sourceforge.net",
+          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        },
+        "host": "gallery.sourceforge.net",
+        "path": "/ws",
+        "type": "httpupgrade"
+      },
+      "type": "vless",
+      "uuid": "4f614910-50bc-49b1-c40f-4ba5815b4e52"
+    },
+    {
+      "flow": "xtls-rprx-vision",
+      "server": "50.114.206.98",
+      "server_port": 11002,
+      "tag": "@KevinZakarian pri4",
+      "tls": {
+        "enabled": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "j_e17YTRlLEbkFOcnKqXgfnOClxmomlfnI8OKwKkSXg",
+          "short_id": "9b"
+        },
+        "server_name": "gallery.sourceforge.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "headers": {
+          "Host": "gallery.sourceforge.net",
+          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        },
+        "host": "gallery.sourceforge.net",
+        "path": "/ws",
+        "type": "httpupgrade"
+      },
+      "type": "vless",
+      "uuid": "8790859f-27f2-4194-ddab-8c07baa7c0c5"
+    },
+    {
+      "flow": "xtls-rprx-vision",
+      "server": "50.114.206.99",
+      "server_port": 11002,
+      "tag": "@KevinZakarian pri5",
+      "tls": {
+        "enabled": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "lcgBls_IKXntFo8PXTo7xop85RCnOBHlQL9wGv-GtnA",
+          "short_id": "df8a3f"
+        },
+        "server_name": "gallery.sourceforge.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "headers": {
+          "Host": "gallery.sourceforge.net",
+          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        },
+        "host": "gallery.sourceforge.net",
+        "path": "/ws",
+        "type": "httpupgrade"
+      },
+      "type": "vless",
+      "uuid": "8e96b7f2-f600-40d6-abb8-47861d62020b"
+    },
+    {
+      "flow": "xtls-rprx-vision",
+      "server": "104.234.74.23",
+      "server_port": 11003,
+      "tag": "@KevinZakarian Pub5",
+      "tls": {
+        "enabled": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "R_zZS27sEP3wbCa7qX7jV0CcLiv1sAL_i_snquX-MAA",
+          "short_id": "65ca62"
+        },
+        "server_name": "gallery.sourceforge.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "headers": {
+          "Host": "gallery.sourceforge.net",
+          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        },
+        "host": "gallery.sourceforge.net",
+        "path": "/ws",
+        "type": "httpupgrade"
+      },
+      "type": "vless",
+      "uuid": "bf52c08f-67a4-43a9-8de0-5ca5ada06dde"
+    },
+    {
+      "flow": "xtls-rprx-vision",
+      "server": "178.236.254.188",
       "server_port": 11001,
-      "tag": "VPNy.net-DE-5",
-      "type": "http",
-      "username": "VPNy.net-DE-5"
+      "tag": "@KevinZakarian Pub8",
+      "tls": {
+        "enabled": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "CQby3rROi9zKZaUF-Z3RMlObL1Co1X8-ypBQyEl-608",
+          "short_id": "01af"
+        },
+        "server_name": "gallery.sourceforge.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "headers": {
+          "Host": "gallery.sourceforge.net",
+          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+        },
+        "host": "gallery.sourceforge.net",
+        "path": "/ws",
+        "type": "httpupgrade"
+      },
+      "type": "vless",
+      "uuid": "d56c0983-b2ff-4276-b94a-a565012a2fa5"
     },
     {
       "flow": "xtls-rprx-vision",
