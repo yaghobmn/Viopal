@@ -86,17 +86,13 @@
         "Warp-IR",
         "Warp-Main",
         "Warp-IP6",
-        "VPNy-DE",
-        "VPNy-NL2",
-        "VPNy.net-DE-5-R",
         "Finland 🇫🇮",
         "United Kingdom 🇬🇧",
         "@KevinZakarian pri2",
         "@KevinZakarian pri4",
         "@KevinZakarian pri5",
         "@KevinZakarian Pub5",
-        "@KevinZakarian Pub8",
-        "VPNy-US-EMS"
+        "@KevinZakarian Pub8"
       ],
       "default": "auto"
     },
@@ -107,17 +103,13 @@
         "Warp-IR",
         "Warp-Main",
         "Warp-IP6",
-        "VPNy-DE",
-        "VPNy-NL2",
-        "VPNy.net-DE-5-R",
         "Finland 🇫🇮",
         "United Kingdom 🇬🇧",
         "@KevinZakarian pri2",
         "@KevinZakarian pri4",
         "@KevinZakarian pri5",
         "@KevinZakarian Pub5",
-        "@KevinZakarian Pub8",
-        "VPNy-US-EMS"
+        "@KevinZakarian Pub8"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -173,30 +165,7 @@
       "fake_packets_delay": "20-250"
     },
      
-    {
-      "headers": {
-        "Host": "google.com",
-        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-      },
-      "password": "cEOxwqYEeW",
-      "server": "178.236.254.188",
-      "server_port": 8443,
-      "tag": "VPNy-DE",
-      "type": "http",
-      "username": "KevinZakarian-DE"
-    },
-    {
-      "headers": {
-        "Host": "google.com",
-        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-      },
-      "password": "OLZZrmAjS4",
-      "server": "92.112.126.34",
-      "server_port": 11001,
-      "tag": "VPNy-NL2",
-      "type": "http",
-      "username": "VPNy-NL"
-    },
+    
      {
             "headers": {
                 "Host": [
@@ -395,49 +364,6 @@
       "type": "vless",
       "uuid": "d56c0983-b2ff-4276-b94a-a565012a2fa5"
     },
-    {
-      "flow": "xtls-rprx-vision",
-      "multiplex": {},
-      "server": "85.93.8.142",
-      "server_port": 11002,
-      "tag": "VPNy.net-DE-5-R",
-      "tls": {
-        "enabled": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "cT2LpCh0dCr4jmoG6N2pDi8Pf8wxZZ4MFU-yDiVT_zI",
-          "short_id": "b535db"
-        },
-        "server_name": "gallery.sourceforge.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "headers": {
-          "Host": "gallery.sourceforge.net",
-          "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-        },
-        "host": "gallery.sourceforge.net",
-        "path": "/ws",
-        "type": "httpupgrade"
-      },
-      "type": "vless",
-      "uuid": "82af21a9-6a98-4da6-b951-72347b8e40d9"
-    },
-    {
-  "headers": {
-    "Host": "google.com",
-    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-  },
-  "password": "yHFqYPbYgs",
-  "server": "50.114.206.150",
-  "server_port": 11001,
-  "tag": "VPNy-US-EMS",
-  "type": "http",
-  "username": "Babak-US-1"
-  },
     {
       "type": "dns",
       "tag": "dns-out"
