@@ -526,7 +526,7 @@
   "tag": "@KevinZakarian-H Pub10",
   "type": "http",
   "username": "@KevinZakarian-10"
-}،
+},
 {
   "flow": "xtls-rprx-vision",
   "server": "50.114.206.150",
