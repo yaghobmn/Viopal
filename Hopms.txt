@@ -83,11 +83,11 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "Finland 🇫🇮",
+        "United Kingdom 🇬🇧",
         "Warp-IR",
         "Warp-Main",
         "Warp-IP6",
-        "Finland 🇫🇮",
-        "United Kingdom 🇬🇧",
         "@KevinZakarian-H Pub7",
         "@KevinZakarian-R Pub7",
         "@KevinZakarian-H2 Pub7",
