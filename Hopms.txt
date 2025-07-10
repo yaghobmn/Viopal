@@ -165,55 +165,7 @@
       "fake_packets_delay": "20-250"
     },
      
-    
-     {
-            "headers": {
-                "Host": [
-                    "stream.meet.google.com"
-                ]
-            },
-            "password": "dUsOF552ZXVAWD",
-            "path": "",
-            "server": "prox-fi.pointtoserver.com",
-            "server_port": 10780,
-            "domain_strategy": "",
-            "tag": "Finland 🇫🇮",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": false,
-
-                "server_name": "ieee.org"
-            },
-            "type": "http",
-            "username": "purevpn0s14187318"
-        },
-        {
-            "headers": {
-                "Host": [
-                    "stream.meet.google.com"
-                ]
-            },
-            "password": "dUsOF552ZXVAWD",
-            "path": "",
-            "server": "prox-is.pointtoserver.com",
-            "server_port": 10780,
-            "domain_strategy": "",
-            "tag": "United Kingdom 🇬🇧",
-            "tls": {
-                "alpn": [
-                    "h2,http/1.1"
-                ],
-                "disable_sni": false,
-                "enabled": false,
-
-                "server_name": "ieee.org"
-            },
-            "type": "http",
-            "username": "purevpn0s14187318"
-        },
+ 
        {
   "headers": {
     "Host": "google.com",

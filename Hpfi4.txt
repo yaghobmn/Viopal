@@ -83,10 +83,10 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "u04",
-        "u06",
         "Finland 🇫🇮",
         "United Kingdom 🇬🇧",
+        "u04",
+        "u06",
         "@KevinZakarian-H Pub7",
         "@KevinZakarian-R Pub7",
         "@KevinZakarian-H2 Pub7",
@@ -99,10 +99,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "u04",
-        "u06",
         "Finland 🇫🇮",
         "United Kingdom 🇬🇧",
+        "u04",
+        "u06",
         "@KevinZakarian-H Pub7",
         "@KevinZakarian-R Pub7",
         "@KevinZakarian-H2 Pub7",
@@ -113,46 +113,6 @@
       "interval": "10m0s",
       "idle_timeout": "1h40m0s"
     },
-    {
-      "type": "wireguard",
-      "tag": "u06",
-      "local_address": [
-        "172.16.0.2/32","2606:4700:110:8cb9:7ded:96da:a52a:9d70/128"
-      ],
-      "private_key": "SLvqMz+F866piNzuwFA8OKsX9SctkhTFQZAWbbrdC3E=",
-      "server": "2606:4700:d1::1c6b:6aa3:9f79:2eea",
-      "server_port": 2408,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [
-      212,219,17
-      ],
-      "mtu":1280,
-      "domain_strategy": "prefer_ipv6",
-      "fake_packets": "40-80",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "4-8"
-    },
-    {
-      "type": "wireguard",
-      "tag": "u04",
-      "local_address": [
-        "172.16.0.2/32","2606:4700:110:8c09:6a06:e895:4617:78fb/128"
-      ],
-      "private_key": "+NgNGJ8/yMLnrRy3WBEsetwRjWugzdTxE0qlq9mLJlM=",
-      "server": "162.159.192.68",
-      "server_port": 859,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [
-      216,116,106
-      ],
-      "mtu":1280,
-      "domain_strategy": "prefer_ipv4",
-      "fake_packets": "40-80",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "4-8"
-    },
-     
-    
      {
             "headers": {
                 "Host": [
@@ -201,6 +161,46 @@
             "type": "http",
             "username": "purevpn0s14187318"
         },
+    {
+      "type": "wireguard",
+      "tag": "u06",
+      "local_address": [
+        "172.16.0.2/32","2606:4700:110:8cb9:7ded:96da:a52a:9d70/128"
+      ],
+      "private_key": "SLvqMz+F866piNzuwFA8OKsX9SctkhTFQZAWbbrdC3E=",
+      "server": "2606:4700:d1::1c6b:6aa3:9f79:2eea",
+      "server_port": 2408,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [
+      212,219,17
+      ],
+      "mtu":1280,
+      "domain_strategy": "prefer_ipv6",
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8"
+    },
+    {
+      "type": "wireguard",
+      "tag": "u04",
+      "local_address": [
+        "172.16.0.2/32","2606:4700:110:8c09:6a06:e895:4617:78fb/128"
+      ],
+      "private_key": "+NgNGJ8/yMLnrRy3WBEsetwRjWugzdTxE0qlq9mLJlM=",
+      "server": "162.159.192.68",
+      "server_port": 859,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [
+      216,116,106
+      ],
+      "mtu":1280,
+      "domain_strategy": "prefer_ipv4",
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8"
+    },
+     
+ 
        {
   "headers": {
     "Host": "google.com",
