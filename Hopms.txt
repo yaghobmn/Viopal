@@ -91,8 +91,8 @@
         "@KevinZakarian-H Pub7",
         "@KevinZakarian-R Pub7",
         "@KevinZakarian-H2 Pub7",
-        "🇸🇪 @JavidnamanIran",
-        "🇸🇪 JavidReza"
+        "@JavidnamanIran",
+        "JavidReza"
       ],
       "default": "auto"
     },
@@ -108,8 +108,8 @@
         "@KevinZakarian-H Pub7",
         "@KevinZakarian-R Pub7",
         "@KevinZakarian-H2 Pub7",
-        "🇸🇪 @JavidnamanIran",
-        "🇸🇪 JavidReza"
+        "@JavidnamanIran",
+        "JavidReza"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -274,7 +274,7 @@
 },
     {
       "type": "shadowsocks",
-      "tag": "🇸🇪 @JavidnamanIran",
+      "tag": "@JavidnamanIran",
       "server": "homa.cybsecguru.com",
       "server_port": 62005,
       "method": "chacha20-ietf-poly1305",
@@ -286,7 +286,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇸🇪 JavidReza",
+      "tag": "JavidReza",
       "server": "homa.cybsecguru.com",
       "server_port": 62002,
       "uuid": "3453dcc1-1846-4824-baa9-32f7797b81ad",
