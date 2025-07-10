@@ -201,7 +201,6 @@
             "type": "http",
             "username": "purevpn0s14187318"
         },
-        },
        {
   "headers": {
     "Host": "google.com",
