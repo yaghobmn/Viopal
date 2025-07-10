@@ -100,11 +100,11 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "Finland 🇫🇮",
+        "United Kingdom 🇬🇧",
         "Warp-IR",
         "Warp-Main",
         "Warp-IP6",
-        "Finland 🇫🇮",
-        "United Kingdom 🇬🇧",
         "@KevinZakarian-H Pub7",
         "@KevinZakarian-R Pub7",
         "@KevinZakarian-H2 Pub7",
@@ -114,6 +114,54 @@
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
     },
+    {
+            "headers": {
+                "Host": [
+                    "stream.meet.google.com"
+                ]
+            },
+            "password": "dUsOF552ZXVAWD",
+            "path": "",
+            "server": "prox-fi.pointtoserver.com",
+            "server_port": 10780,
+            "domain_strategy": "",
+            "tag": "Finland 🇫🇮",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": false,
+
+                "server_name": "ieee.org"
+            },
+            "type": "http",
+            "username": "purevpn0s14187318"
+        },
+        {
+            "headers": {
+                "Host": [
+                    "stream.meet.google.com"
+                ]
+            },
+            "password": "dUsOF552ZXVAWD",
+            "path": "",
+            "server": "prox-is.pointtoserver.com",
+            "server_port": 10780,
+            "domain_strategy": "",
+            "tag": "United Kingdom 🇬🇧",
+            "tls": {
+                "alpn": [
+                    "h2,http/1.1"
+                ],
+                "disable_sni": false,
+                "enabled": false,
+
+                "server_name": "ieee.org"
+            },
+            "type": "http",
+            "username": "purevpn0s14187318"
+        },
     {
       "type": "wireguard",
       "tag": "Warp-IR",
