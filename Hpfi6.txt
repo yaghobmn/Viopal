@@ -90,6 +90,11 @@
         "@KevinZakarian-R Pub7",
         "@KevinZakarian-H2 Pub7",
         "VIP",
+        "bestOfTheBest 70",
+        "bestOfTheBest 121",
+        "bestOfTheBest 120",
+        "bestOfTheBest 73",
+        "bestOfTheBest 152",
         "@JavidnamanIran",
         "JavidReza",
         "🔴 Emergency!"
@@ -107,6 +112,11 @@
         "@KevinZakarian-R Pub7",
         "@KevinZakarian-H2 Pub7",
         "VIP",
+        "bestOfTheBest 70",
+        "bestOfTheBest 121",
+        "bestOfTheBest 120",
+        "bestOfTheBest 73",
+        "bestOfTheBest 152",
         "@JavidnamanIran",
         "JavidReza",
         "🔴 Emergency!"
@@ -267,6 +277,83 @@
           "enabled": true,
           "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
           "short_id": "16895459a2c7768d"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "bestOfTheBest 70",
+      "server": "91.99.179.201",
+      "server_port": 443,
+      "uuid": "88b9da00-7a25-45ec-859b-14ad57a6bd2b",
+      "transport": {
+        "type": "http",
+        "host": "zula.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "bestOfTheBest 121",
+      "server": "91.99.177.240",
+      "server_port": 443,
+      "uuid": "c39a101c-0a7b-4940-8e6a-f8346d70b24b",
+      "transport": {
+        "type": "http",
+        "host": "zula.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "bestOfTheBest 120",
+      "server": "91.99.160.183",
+      "server_port": 57271,
+      "uuid": "c1fc99fa-9bef-4a09-9805-8339cee2fe03",
+      "transport": {
+        "type": "http",
+        "host": "exo.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "bestOfTheBest 73",
+      "server": "216.22.5.73",
+      "server_port": 443,
+      "uuid": "8f8b1ca4-d206-46ed-83c6-7691d14beaef",
+      "transport": {
+        "type": "http",
+        "host": "zula.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "bestOfTheBest 152",
+      "server": "45.77.244.249",
+      "server_port": 443,
+      "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
         }
       },
       "packet_encoding": ""
