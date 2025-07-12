@@ -199,8 +199,8 @@
         "172.16.0.2/32","2606:4700:110:8eb6:3bc3:5fb9:d831:8169/128"
       ],
       "private_key": "sP7TomHd8fzRiYLy/J2YS0Pvu5vpbeHEAaz+8HBSpmU=",
-      "server": "162.159.192.68",
-      "server_port": 859,
+      "server": "188.114.97.27",
+      "server_port": 928,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [
       162,216,206
