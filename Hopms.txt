@@ -182,7 +182,7 @@
         "2606:4700:110:8f0d:793a:1636:8e4c:e200/128"
       ],
       "private_key": "YCAPUQmqv+mjcJWL4ivYNN/8t59jPeC3OIxn5RIiUHo=",
-      "server": "188.114.99.187",
+      "server": "188.114.97.27",
       "server_port": 928,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [203,2,229],
