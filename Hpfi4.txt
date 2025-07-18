@@ -90,6 +90,9 @@
         "@KevinZakarian-R Pub7",
         "@KevinZakarian-H2 Pub7",
         "VIP",
+        "ستایش شریفی نیا 🇫🇷",
+        "مریم آروین 🇧🇪",
+        "اسرا پناهی 🇩🇰",
         "bestOfTheBest 70",
         "bestOfTheBest 126",
         "bestOfTheBest 37",
@@ -110,6 +113,9 @@
         "@KevinZakarian-R Pub7",
         "@KevinZakarian-H2 Pub7",
         "VIP",
+        "ستایش شریفی نیا 🇫🇷",
+        "مریم آروین 🇧🇪",
+        "اسرا پناهی 🇩🇰",
         "bestOfTheBest 70",
         "bestOfTheBest 126",
         "bestOfTheBest 37",
@@ -276,6 +282,51 @@
         }
       },
       "packet_encoding": ""
+    },
+    {
+      "type": "http",
+      "tag": "ستایش شریفی نیا 🇫🇷",
+      "server": "prox-fr.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "uBPmk8cUCXDEW0",
+      "tls": {
+        "server_name": "ieee.org",
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "stream.meet.google.com"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "مریم آروین 🇧🇪",
+      "server": "prox-be.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "uBPmk8cUCXDEW0",
+      "tls": {
+        "server_name": "ieee.org",
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "stream.meet.google.com"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "اسرا پناهی 🇩🇰",
+      "server": "prox-dk.pointtoserver.com",
+      "server_port": 10780,
+      "username": "purevpn0s14187318",
+      "password": "uBPmk8cUCXDEW0",
+      "tls": {
+        "server_name": "ieee.org",
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "stream.meet.google.com"
+      }
     },
     {
       "type": "vless",
