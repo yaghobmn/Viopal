@@ -92,13 +92,11 @@
         "@KevinZakarian-H2 Pub7",
         "VIP",
         "bestOfTheBest 70",
-        "bestOfTheBest 121",
-        "bestOfTheBest 120",
-        "bestOfTheBest 73",
-        "bestOfTheBest 152",
-        "@JavidnamanIran",
-        "JavidReza",
-        "🔴 Emergency!"
+        "bestOfTheBest 126",
+        "bestOfTheBest 37",
+        "bestOfTheBest 10",
+        "bestOfTheBest 8",
+        "bestOfTheBest 18"
       ],
       "default": "auto"
     },
@@ -115,13 +113,11 @@
         "@KevinZakarian-H2 Pub7",
         "VIP",
         "bestOfTheBest 70",
-        "bestOfTheBest 121",
-        "bestOfTheBest 120",
-        "bestOfTheBest 73",
-        "bestOfTheBest 152",
-        "@JavidnamanIran",
-        "JavidReza",
-        "🔴 Emergency!"
+        "bestOfTheBest 126",
+        "bestOfTheBest 37",
+        "bestOfTheBest 10",
+        "bestOfTheBest 8",
+        "bestOfTheBest 18"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -310,103 +306,101 @@
     },
     {
       "type": "vless",
-      "tag": "bestOfTheBest 121",
-      "server": "91.99.177.240",
-      "server_port": 443,
-      "uuid": "c39a101c-0a7b-4940-8e6a-f8346d70b24b",
+      "tag": "bestOfTheBest 126",
+      "server": "185.231.205.239",
+      "server_port": 8880,
+      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "transport": {
-        "type": "http",
-        "host": "zula.ir",
-        "path": "/",
-        "method": "GET"
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "bestOfTheBest 120",
-      "server": "91.99.160.183",
-      "server_port": 57271,
-      "uuid": "c1fc99fa-9bef-4a09-9805-8339cee2fe03",
-      "transport": {
-        "type": "http",
-        "host": "exo.ir",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "bestOfTheBest 73",
-      "server": "216.22.5.73",
-      "server_port": 443,
-      "uuid": "8f8b1ca4-d206-46ed-83c6-7691d14beaef",
-      "transport": {
-        "type": "http",
-        "host": "zula.ir",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "bestOfTheBest 152",
-      "server": "45.77.244.249",
-      "server_port": 443,
-      "uuid": "e8f25e87-f17f-4b38-9ba8-3d3ffd345186",
-      "flow": "xtls-rprx-vision",
+      "tag": "bestOfTheBest 37",
+      "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+      "server_port": 2096,
+      "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
       "tls": {
         "enabled": true,
-        "server_name": "ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.googleapis.com",
+        "server_name": "KtT44fPtXh.DaStAtSaRd.OrG",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "KtT44fPtXh.DaStAtSaRd.OrG"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
     },
     {
-      "type": "shadowsocks",
-      "tag": "@JavidnamanIran",
-      "server": "homa.cybsecguru.com",
-      "server_port": 62005,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ZKXXiGlr-JIYPrp-1q8VlQ",
-      "multiplex": {
-        "protocol": "h2mux",
-        "max_streams": 8
-      }
+      "type": "vless",
+      "tag": "bestOfTheBest 10",
+      "server": "51.38.207.189",
+      "server_port": 2082,
+      "uuid": "17953b21-65ee-4b59-bf8f-6ebe90601e85",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "refersion.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
     },
     {
-      "type": "vmess",
-      "tag": "JavidReza",
-      "server": "homa.cybsecguru.com",
-      "server_port": 62002,
-      "uuid": "3453dcc1-1846-4824-baa9-32f7797b81ad",
-      "security": "",
-      "multiplex": {
-        "protocol": "h2mux",
-        "max_streams": 8
-      }
+      "type": "vless",
+      "tag": "bestOfTheBest 8",
+      "server": "104.21.112.1",
+      "server_port": 8080,
+      "uuid": "17034eef-9472-45cc-bca5-a71f90e36244",
+      "transport": {
+        "type": "ws",
+        "path": "/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@vmessorg----@unlimiteddev----@unlimiteddev",
+        "headers": {
+          "Host": "join-to-unlimiteddev.sabadyt.ir"
+        },
+        "max_early_data": 2480,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
     },
     {
-      "type": "http",
-      "tag": "🔴 Emergency!",
-      "domain_strategy": "ipv4_only",
-      "server": "homa.cybsecguru.com",
-      "server_port": 10001,
-      "username": "Usr1kw4KXi1dDHBdjXBGE1cfLSh1iZIe264",
-      "password": "Pass1Nh4h6DIEbMpgZQ0AsDW1leeu1TDKeG5",
-      "headers": {
-        "host": "ieee.org",
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36"
-      }
+      "type": "vless",
+      "tag": "bestOfTheBest 18",
+      "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+      "server_port": 2096,
+      "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
+      "tls": {
+        "enabled": true,
+        "server_name": "X12kNvScH9.sAlAmGoJaI09-2.iNfO",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "X12kNvScH9.sAlAmGoJaI09-2.iNfO"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
     },
     {
       "type": "dns",
