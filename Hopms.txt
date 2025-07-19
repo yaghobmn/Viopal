@@ -91,6 +91,7 @@
         "@KevinZakarian-R Pub7",
         "@KevinZakarian-H2 Pub7",
         "VIP",
+        "FarVPN",
         "ستایش شریفی نیا 🇫🇷",
         "مریم آروین 🇧🇪",
         "اسرا پناهی 🇩🇰",
@@ -115,6 +116,7 @@
         "@KevinZakarian-R Pub7",
         "@KevinZakarian-H2 Pub7",
         "VIP",
+        "FarVPN",
         "ستایش شریفی نیا 🇫🇷",
         "مریم آروین 🇧🇪",
         "اسرا پناهی 🇩🇰",
@@ -295,6 +297,21 @@
         }
       },
       "packet_encoding": ""
+    },
+    {
+      "obfs": {
+        "password": "FarzanehDreams",
+        "type": "salamander"
+      },
+      "password": "5oITDYnNW7",
+      "server": "45.138.99.213",
+      "server_port": 8443,
+      "tag": "FarVPN",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "type": "hysteria2"
     },
     {
       "type": "http",
