@@ -94,7 +94,7 @@
         "FarVPN",
         "🇩🇪GERMANY",
         "🇮🇹ITALY",
-        "🇫🇷FRANCE","
+        "🇫🇷FRANCE",
         "bestOfTheBest 70",
         "bestOfTheBest 126",
         "bestOfTheBest 37",
