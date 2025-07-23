@@ -96,11 +96,11 @@
         "🇩🇪GERMANY",
         "🇮🇹ITALY",
         "🇫🇷FRANCE",
-        "KasraVPN",
-        "IdinVPN",
         "bestOfTheBest 70",
         "bestOfTheBest 126",
-        "bestOfTheBest 10"
+        "bestOfTheBest 10",
+        "KasraVPN",
+        "IdinVPN"
       ],
       "default": "auto"
     },
@@ -121,11 +121,11 @@
         "🇩🇪GERMANY",
         "🇮🇹ITALY",
         "🇫🇷FRANCE",
-        "KasraVPN",
-        "IdinVPN",
         "bestOfTheBest 70",
         "bestOfTheBest 126",
-        "bestOfTheBest 10"
+        "bestOfTheBest 10",
+        "KasraVPN",
+        "IdinVPN"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
