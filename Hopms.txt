@@ -96,12 +96,11 @@
         "🇩🇪GERMANY",
         "🇮🇹ITALY",
         "🇫🇷FRANCE",
+        "KasraVPN",
+        "IdinVPN",
         "bestOfTheBest 70",
         "bestOfTheBest 126",
-        "bestOfTheBest 37",
-        "bestOfTheBest 10",
-        "bestOfTheBest 8",
-        "bestOfTheBest 18"
+        "bestOfTheBest 10"
       ],
       "default": "auto"
     },
@@ -122,12 +121,11 @@
         "🇩🇪GERMANY",
         "🇮🇹ITALY",
         "🇫🇷FRANCE",
+        "KasraVPN",
+        "IdinVPN",
         "bestOfTheBest 70",
         "bestOfTheBest 126",
-        "bestOfTheBest 37",
-        "bestOfTheBest 10",
-        "bestOfTheBest 8",
-        "bestOfTheBest 18"
+        "bestOfTheBest 10"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -407,30 +405,6 @@
     },
     {
       "type": "vless",
-      "tag": "bestOfTheBest 37",
-      "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-      "server_port": 2096,
-      "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
-      "tls": {
-        "enabled": true,
-        "server_name": "KtT44fPtXh.DaStAtSaRd.OrG",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "KtT44fPtXh.DaStAtSaRd.OrG"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
       "tag": "bestOfTheBest 10",
       "server": "51.38.207.189",
       "server_port": 2082,
@@ -446,45 +420,34 @@
       "packet_encoding": ""
     },
     {
-      "type": "vless",
-      "tag": "bestOfTheBest 8",
-      "server": "104.21.112.1",
-      "server_port": 8080,
-      "uuid": "17034eef-9472-45cc-bca5-a71f90e36244",
-      "transport": {
-        "type": "ws",
-        "path": "/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@vmessorg----@unlimiteddev----@unlimiteddev",
-        "headers": {
-          "Host": "join-to-unlimiteddev.sabadyt.ir"
-        },
-        "max_early_data": 2480,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+      "obfs": {
+        "password": "TabassomDreams",
+        "type": "salamander"
       },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "bestOfTheBest 18",
-      "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-      "server_port": 2096,
-      "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
+      "password": "BZnk2SlPkq",
+      "server": "144.172.106.192",
+      "server_port": 8443,
+      "tag": "KasraVPN",
       "tls": {
         "enabled": true,
-        "server_name": "X12kNvScH9.sAlAmGoJaI09-2.iNfO",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": true
       },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "X12kNvScH9.sAlAmGoJaI09-2.iNfO"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+      "type": "hysteria2"
+    },
+    {
+      "obfs": {
+        "password": "KevinZakarian",
+        "type": "salamander"
       },
-      "packet_encoding": ""
+      "password": "@KevinZakarian",
+      "server": "54.36.225.180",
+      "server_port": 8443,
+      "tag": "IdinVPN",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "type": "hysteria2"
     },
     {
       "type": "dns",
