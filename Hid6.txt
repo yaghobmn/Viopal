@@ -94,7 +94,11 @@
         "bestOfTheBest 126",
         "bestOfTheBest 10",
         "KasraVPN",
-        "IdinVPN"
+        "IdinVPN",
+        "@GetNetworkBot",
+        "BenVPN",
+        "NamelessVPN",
+        "MohsenVPN"
       ],
       "default": "auto"
     },
@@ -113,7 +117,11 @@
         "bestOfTheBest 126",
         "bestOfTheBest 10",
         "KasraVPN",
-        "IdinVPN"
+        "IdinVPN",
+        "@GetNetworkBot",
+        "BenVPN",
+        "NamelessVPN",
+        "MohsenVPN"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -337,6 +345,73 @@
       "server": "54.36.225.180",
       "server_port": 8443,
       "tag": "IdinVPN",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "type": "hysteria2"
+    },
+    {
+      "type": "vless",
+      "tag": "@GetNetworkBot",
+      "server": "5.231.29.29",
+      "server_port": 443,
+      "uuid": "19029831-477f-498e-a280-bd5291e955fb",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.tgju.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "E1oJ5W7lA10Eum9t5cSlnq_GEirJat2lf2PWRfJDyVg",
+          "short_id": "f7f1058c"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "obfs": {
+        "password": "KevinZakarian",
+        "type": "salamander"
+      },
+      "password": "@KevinZakarian",
+      "server": "129.212.182.3",
+      "server_port": 8443,
+      "tag": "BenVPN",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "type": "hysteria2"
+    },
+    {
+      "obfs": {
+        "password": "KevinZakarian",
+        "type": "salamander"
+      },
+      "password": "aFs3HWCicZ",
+      "server": "103.83.86.119",
+      "server_port": 8443,
+      "tag": "NamelessVPN",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "type": "hysteria2"
+    },
+    {
+      "obfs": {
+        "password": "MOhsenpiMI1370",
+        "type": "salamander"
+      },
+      "password": "JMbuUvn2sX",
+      "server": "35.180.251.237",
+      "server_port": 54789,
+      "tag": "MohsenVPN",
       "tls": {
         "enabled": true,
         "insecure": true
