@@ -83,8 +83,6 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "اسرا پناهی",
-        "علی اکبر ربیعی",
         "u04",
         "u06",
         "🇳🇱 IRCP-1-IPv6\n@Ln2Ray",
@@ -92,9 +90,6 @@
         "@KevinZakarian-H2 Pub7",
         "VIP",
         "FarVPN",
-        "🇩🇪GERMANY",
-        "🇮🇹ITALY",
-        "🇫🇷FRANCE",
         "bestOfTheBest 70",
         "bestOfTheBest 126",
         "bestOfTheBest 10",
@@ -107,8 +102,6 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "اسرا پناهی",
-        "علی اکبر ربیعی",
         "u04",
         "u06",
         "🇳🇱 IRCP-1-IPv6\n@Ln2Ray",
@@ -116,9 +109,6 @@
         "@KevinZakarian-H2 Pub7",
         "VIP",
         "FarVPN",
-        "🇩🇪GERMANY",
-        "🇮🇹ITALY",
-        "🇫🇷FRANCE",
         "bestOfTheBest 70",
         "bestOfTheBest 126",
         "bestOfTheBest 10",
@@ -129,40 +119,7 @@
       "interval": "10m0s",
       "idle_timeout": "1h40m0s"
     },
-     {
-      "type": "http",
-      "tag": "اسرا پناهی",
-      "server": "146.70.182.179",
-      "server_port": 7070,
-      "username": "telegram_iranramona",
-      "password": "0EBCBB23-C337-0909-4655-BC85BCDCFC02",
-      "tls": {
-        "enabled": true,
-        "server_name": "scitopia.org",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "stream.meet.google.com"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "علی اکبر ربیعی",
-      "server": "146.70.181.76",
-      "server_port": 7070,
-      "username": "telegram_iranramona",
-      "password": "0EBCBB23-C337-0909-4655-BC85BCDCFC02",
-      "tls": {
-        "enabled": true,
-        "server_name": "scitopia.org",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "stream.meet.google.com"
-      }
-    },
+     
     {
       "type": "wireguard",
       "tag": "u06",
@@ -312,57 +269,7 @@
       },
       "type": "hysteria2"
     },
-    {
-      "type": "http",
-      "tag": "🇩🇪GERMANY",
-      "server": "194.233.96.24",
-      "server_port": 90,
-      "username": "XWYvRVwmMgwTMhB2LVwAkWAW",
-      "password": "mvgojzp3aSXrWgD9AfyeLWMN",
-      "tls": {
-        "enabled": true,
-        "server_name": "ieee.org",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "stream.meet.google.com"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇮🇹ITALY",
-      "server": "85.190.232.156",
-      "server_port": 89,
-      "username": "XWYvRVwmMgwTMhB2LVwAkWAW",
-      "password": "mvgojzp3aSXrWgD9AfyeLWMN",
-      "tls": {
-        "enabled": true,
-        "server_name": "ieee.org",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "stream.meet.google.com"
-      }
-    },
-    {
-      "type": "http",
-      "tag": "🇫🇷FRANCE",
-      "server": "185.81.125.67",
-      "server_port": 89,
-      "username": "XWYvRVwmMgwTMhB2LVwAkWAW",
-      "password": "mvgojzp3aSXrWgD9AfyeLWMN",
-      "tls": {
-        "enabled": true,
-        "server_name": "ieee.org",
-        "insecure": true,
-        "alpn": "h2,http/1.1"
-      },
-      "headers": {
-        "Host": "stream.meet.google.com"
-      }
-    },
+    
     {
       "type": "vless",
       "tag": "bestOfTheBest 70",
