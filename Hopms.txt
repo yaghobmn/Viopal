@@ -87,19 +87,18 @@
         "Warp-Main",
         "Warp-IP6",
         "🇳🇱 IRCP-1-IPv6\n@Ln2Ray",
-        "@KevinZakarian-R Pub7",
-        "@KevinZakarian-H2 Pub7",
-        "VIP",
-        "FarVPN",
-        "bestOfTheBest 70",
         "bestOfTheBest 126",
         "bestOfTheBest 10",
+        "bestOfTheBest 11",
+        "bestOfTheBest 81",
+        "bestOfTheBest 16",
+        "bestOfTheBest 18",
+        "🌎 JNIR\n@JavidnamanIran",
+        "🌎 JNIR - IPv6\n@JavidnamanIran",
         "KasraVPN",
         "IdinVPN",
-        "@GetNetworkBot",
         "BenVPN",
-        "NamelessVPN",
-        "MohsenVPN"
+        "NamelessVPN"
       ],
       "default": "auto"
     },
@@ -111,19 +110,18 @@
         "Warp-Main",
         "Warp-IP6",
         "🇳🇱 IRCP-1-IPv6\n@Ln2Ray",
-        "@KevinZakarian-R Pub7",
-        "@KevinZakarian-H2 Pub7",
-        "VIP",
-        "FarVPN",
-        "bestOfTheBest 70",
         "bestOfTheBest 126",
         "bestOfTheBest 10",
+        "bestOfTheBest 11",
+        "bestOfTheBest 81",
+        "bestOfTheBest 16",
+        "bestOfTheBest 18",
+        "🌎 JNIR\n@JavidnamanIran",
+        "🌎 JNIR - IPv6\n@JavidnamanIran",
         "KasraVPN",
         "IdinVPN",
-        "@GetNetworkBot",
         "BenVPN",
-        "NamelessVPN",
-        "MohsenVPN"
+        "NamelessVPN"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -208,103 +206,7 @@
         }
       }
     },
-    {
-  "flow": "xtls-rprx-vision",
-  "server": "92.112.126.34",
-  "server_port": 11002,
-  "tag": "@KevinZakarian-R Pub7",
-  "tls": {
-    "enabled": true,
-    "reality": {
-      "enabled": true,
-      "public_key": "onYhi7WJAagIg9liEjsjDDdgpJQ5h-T8Z_lanR-kakQ",
-      "short_id": ""
-    },
-    "server_name": "gallery.sourceforge.net",
-    "utls": {
-      "enabled": true,
-      "fingerprint": "chrome"
-    }
-  },
-  "transport": {
-    "headers": {
-      "Host": "gallery.sourceforge.net",
-      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-    },
-    "host": "gallery.sourceforge.net",
-    "path": "/ws",
-    "type": "httpupgrade"
-  },
-  "type": "vless",
-  "uuid": "242faa6e-777b-4be8-d3b7-d370a86558d8"
-},
-{
-  "obfs": {
-    "password": "KevinZakarian",
-    "type": "salamander"
-  },
-  "password": "@KevinZakarian",
-  "server": "92.112.126.34",
-  "server_port": 11001,
-  "tag": "@KevinZakarian-H2 Pub7",
-  "tls": {
-    "enabled": true,
-    "insecure": true
-  },
-  "type": "hysteria2"
-},
-{
-      "type": "vless",
-      "tag": "VIP",
-      "server": "ru.sfasti.ru",
-      "server_port": 443,
-      "uuid": "5475990d-e0ce-46ea-95e5-50f9e4879af9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ru.sfasti.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-          "short_id": "16895459a2c7768d"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "obfs": {
-        "password": "FarzanehDreams",
-        "type": "salamander"
-      },
-      "password": "5oITDYnNW7",
-      "server": "45.138.99.213",
-      "server_port": 8443,
-      "tag": "FarVPN",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2"
-    },
     
-    {
-      "type": "vless",
-      "tag": "bestOfTheBest 70",
-      "server": "91.99.179.201",
-      "server_port": 443,
-      "uuid": "88b9da00-7a25-45ec-859b-14ad57a6bd2b",
-      "transport": {
-        "type": "http",
-        "host": "zula.ir",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
     {
       "type": "vless",
       "tag": "bestOfTheBest 126",
@@ -335,6 +237,116 @@
       "packet_encoding": ""
     },
     {
+      "type": "vless",
+      "tag": "bestOfTheBest 11",
+      "server": "54.38.214.56",
+      "server_port": 37171,
+      "uuid": "19199927-fb46-4203-8872-672fd1daca14",
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "bestOfTheBest 81",
+      "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+      "server_port": 443,
+      "uuid": "7591436e-64b6-4eca-bf45-c2f847425890",
+      "tls": {
+        "enabled": true,
+        "server_name": "638892846452855303.hamedan-prx-dnraaao.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/opejwsws",
+        "headers": {
+          "Host": "638892846452855303.hamedan-prx-dnraaao.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "bestOfTheBest 16",
+      "server": "87.248.129.226",
+      "server_port": 80,
+      "uuid": "2367e117-0d3e-4b8c-9fd6-0abceb115933",
+      "transport": {
+        "type": "http",
+        "host": "www.varzesh3.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "bestOfTheBest 18",
+      "server": "49.13.216.199",
+      "server_port": 2020,
+      "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
+      "packet_encoding": ""
+    },
+    {
+  "type": "hysteria2",
+  "tag": "🌎 JNIR\n@JavidnamanIran",
+  "domain_strategy": "ipv4_only",
+  "server": "dir.cybsecguru.com",
+  "server_port": 42984,
+  "obfs": {
+    "type": "salamander",
+    "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+  },
+  "password": "34997c4d-a521-456e-a213-af648b66d400",
+  "tls": {
+    "enabled": true,
+    "server_name": "jnir.pichondan.com",
+    "alpn": "h3",
+    "min_version": "1.3",
+    "max_version": "1.3",
+    "ech": {
+      "enabled": true,
+      "config": [
+        "-----BEGIN ECH CONFIGS-----",
+        "AEv+DQBHAAAgACBdESPqW7Qg/mDy4xXQg7m3zPFrxI5Ba5zro2ZMqOjQFQAIAAEA",
+        "AQABAAMAFGpuaXItMS5waWNob25kYW4uY29tAAA=",
+        "-----END ECH CONFIGS-----"
+      ]
+    }
+  }
+},
+{
+  "type": "hysteria2",
+  "tag": "🌎 JNIR - IPv6\n@JavidnamanIran",
+  "domain_strategy": "ipv6_only",
+  "server": "dir.cybsecguru.com",
+  "server_port": 38492,
+  "obfs": {
+    "type": "salamander",
+    "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+  },
+  "password": "34997c4d-a521-456e-a213-af648b66d400",
+  "tls": {
+    "enabled": true,
+    "server_name": "jnir.pichondan.com",
+    "alpn": "h3",
+    "min_version": "1.3",
+    "max_version": "1.3",
+    "ech": {
+      "enabled": true,
+      "config": [
+        "-----BEGIN ECH CONFIGS-----",
+        "AEv+DQBHAAAgACBdESPqW7Qg/mDy4xXQg7m3zPFrxI5Ba5zro2ZMqOjQFQAIAAEA",
+        "AQABAAMAFGpuaXItMS5waWNob25kYW4uY29tAAA=",
+        "-----END ECH CONFIGS-----"
+      ]
+    }
+  }
+},
+    {
       "obfs": {
         "password": "TabassomDreams",
         "type": "salamander"
@@ -364,28 +376,7 @@
       },
       "type": "hysteria2"
     },
-    {
-      "type": "vless",
-      "tag": "@GetNetworkBot",
-      "server": "5.231.29.29",
-      "server_port": 443,
-      "uuid": "19029831-477f-498e-a280-bd5291e955fb",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.tgju.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "E1oJ5W7lA10Eum9t5cSlnq_GEirJat2lf2PWRfJDyVg",
-          "short_id": "f7f1058c"
-        }
-      },
-      "packet_encoding": ""
-    },
+    
     {
       "obfs": {
         "password": "KevinZakarian",
@@ -416,21 +407,7 @@
       },
       "type": "hysteria2"
     },
-    {
-      "obfs": {
-        "password": "MOhsenpiMI1370",
-        "type": "salamander"
-      },
-      "password": "JMbuUvn2sX",
-      "server": "35.180.251.237",
-      "server_port": 54789,
-      "tag": "MohsenVPN",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2"
-    },
+    
     {
       "type": "dns",
       "tag": "dns-out"
