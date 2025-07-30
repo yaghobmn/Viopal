@@ -91,8 +91,6 @@
         "bestOfTheBest 10",
         "bestOfTheBest 11",
         "bestOfTheBest 81",
-        "bestOfTheBest 16",
-        "bestOfTheBest 18",
         "🌎 JNIR\n@JavidnamanIran",
         "🌎 JNIR - IPv6\n@JavidnamanIran",
         "KasraVPN",
@@ -114,8 +112,6 @@
         "bestOfTheBest 10",
         "bestOfTheBest 11",
         "bestOfTheBest 81",
-        "bestOfTheBest 16",
-        "bestOfTheBest 18",
         "🌎 JNIR\n@JavidnamanIran",
         "🌎 JNIR - IPv6\n@JavidnamanIran",
         "KasraVPN",
@@ -266,28 +262,6 @@
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "bestOfTheBest 16",
-      "server": "87.248.129.226",
-      "server_port": 80,
-      "uuid": "2367e117-0d3e-4b8c-9fd6-0abceb115933",
-      "transport": {
-        "type": "http",
-        "host": "www.varzesh3.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "bestOfTheBest 18",
-      "server": "49.13.216.199",
-      "server_port": 2020,
-      "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
       "packet_encoding": ""
     },
     {
