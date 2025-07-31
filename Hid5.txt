@@ -93,7 +93,6 @@
         "bestOfTheBest 81",
         "🌎 JNIR\n@JavidnamanIran",
         "🌎 JNIR - IPv6\n@JavidnamanIran",
-        "KasraVPN",
         "IdinVPN",
         "BenVPN",
         "NamelessVPN"
@@ -114,7 +113,6 @@
         "bestOfTheBest 81",
         "🌎 JNIR\n@JavidnamanIran",
         "🌎 JNIR - IPv6\n@JavidnamanIran",
-        "KasraVPN",
         "IdinVPN",
         "BenVPN",
         "NamelessVPN"
@@ -324,21 +322,6 @@
     }
   }
 },
-    {
-      "obfs": {
-        "password": "TabassomDreams",
-        "type": "salamander"
-      },
-      "password": "BZnk2SlPkq",
-      "server": "144.172.106.192",
-      "server_port": 8443,
-      "tag": "KasraVPN",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2"
-    },
     {
       "obfs": {
         "password": "KevinZakarian",
