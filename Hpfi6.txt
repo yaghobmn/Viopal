@@ -87,7 +87,6 @@
         "u06",
         "🇳🇱 IRCP-1-IPv6\n@Ln2Ray",
         "bestOfTheBest 126",
-        "bestOfTheBest 10",
         "VPNy.net-@VPNynet",
         "bestOfTheBest 11",
         "bestOfTheBest 81",
@@ -107,7 +106,6 @@
         "u06",
         "🇳🇱 IRCP-1-IPv6\n@Ln2Ray",
         "bestOfTheBest 126",
-        "bestOfTheBest 10",
         "VPNy.net-@VPNynet",
         "bestOfTheBest 11",
         "bestOfTheBest 81",
@@ -204,22 +202,6 @@
       "packet_encoding": ""
     },
     {
-      "type": "vless",
-      "tag": "bestOfTheBest 10",
-      "server": "51.38.207.189",
-      "server_port": 2082,
-      "uuid": "17953b21-65ee-4b59-bf8f-6ebe90601e85",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "refersion.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
       "obfs": {
         "password": "VPNy.net-@VPNynet",
         "type": "salamander"
@@ -271,12 +253,12 @@
   "tag": "🌎 JNIR\n@JavidnamanIran",
   "domain_strategy": "ipv4_only",
   "server": "dir.cybsecguru.com",
-  "server_port": 42984,
+  "server_port": 37509,
   "obfs": {
     "type": "salamander",
     "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
   },
-  "password": "34997c4d-a521-456e-a213-af648b66d400",
+  "password": "27c96fb9-1de0-4856-ada2-432ab05b0d17",
   "tls": {
     "enabled": true,
     "server_name": "jnir.pichondan.com",
@@ -299,12 +281,12 @@
   "tag": "🌎 JNIR - IPv6\n@JavidnamanIran",
   "domain_strategy": "ipv6_only",
   "server": "dir.cybsecguru.com",
-  "server_port": 38492,
+  "server_port": 39568,
   "obfs": {
     "type": "salamander",
     "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
   },
-  "password": "34997c4d-a521-456e-a213-af648b66d400",
+  "password": "27c96fb9-1de0-4856-ada2-432ab05b0d17",
   "tls": {
     "enabled": true,
     "server_name": "jnir.pichondan.com",
