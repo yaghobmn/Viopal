@@ -6,7 +6,6 @@ vless://19199927-fb46-4203-8872-672fd1daca14@54.38.214.56:37171?security=&encryp
 vless://7591436e-64b6-4eca-bf45-c2f847425890@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2Fopejwsws&security=tls&encryption=none&host=638892846452855303.hamedan-prx-dnraaao.info&type=ws&sni=638892846452855303.hamedan-prx-dnraaao.info#bestOfTheBest%2081
 hysteria2://1189b7d8-97a1-487e-8db8-3d5b3452ba43@dir.cybsecguru.com:37504?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%8C%8E%20JNIR%5Cn%40JavidnamanIran
 hysteria2://1189b7d8-97a1-487e-8db8-3d5b3452ba43@dir.cybsecguru.com:39602?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%8C%8E%20JNIR%20-%20IPv6%5Cn%40JavidnamanIran
-hysteria2://yZ6gCWyJv9@104.194.156.75:11001?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#KasraVPN
 hysteria2://%40KevinZakarian@54.36.225.180:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#IdinVPN
 hysteria2://%40KevinZakarian@129.212.182.3:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#BenVPN
 hysteria2://aFs3HWCicZ@103.83.86.119:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#NamelessVPN
