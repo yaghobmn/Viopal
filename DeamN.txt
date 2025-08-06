@@ -1,7 +1,7 @@
 //profile-update-interval: 24
 hysteria2://Telegram--%3E%40Ln2Ray@[2a14:3f87:f001:9::a]:47821?security=tls&obfs=salamander&obfs-password=Telegram--%3E%40Ln2Ray&insecure=0&sni=gavazn.55994421.xyz#%F0%9F%87%B3%F0%9F%87%B1%20IRCP-1-IPv6%5Cn%40Ln2Ray
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.239:8880?security=&encryption=none&type=grpc#bestOfTheBest%20126
-hysteria2://VPNy.net-%40VPNynet@kevin.vpny.online:11002?security=tls&obfs=salamander&obfs-password=VPNy.net-%40VPNynet&insecure=1#VPNy.net-%40VPNynet
+hysteria2://VPNy.net-%40VPNynet@kevin.vpny.online:11001?security=tls&obfs=salamander&obfs-password=VPNy.net-%40VPNynet&insecure=1#VPNy.net-%40VPNynet
 vless://19199927-fb46-4203-8872-672fd1daca14@54.38.214.56:37171?security=&encryption=none&headerType=none&type=tcp#bestOfTheBest%2011
 vless://7591436e-64b6-4eca-bf45-c2f847425890@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2Fopejwsws&security=tls&encryption=none&host=638892846452855303.hamedan-prx-dnraaao.info&type=ws&sni=638892846452855303.hamedan-prx-dnraaao.info#bestOfTheBest%2081
 hysteria2://1189b7d8-97a1-487e-8db8-3d5b3452ba43@dir.cybsecguru.com:37504?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%8C%8E%20JNIR%5Cn%40JavidnamanIran
