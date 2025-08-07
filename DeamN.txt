@@ -1,16 +1,5 @@
 //profile-update-interval: 24
-hysteria2://Telegram--%3E%40Ln2Ray@[2a14:3f87:f001:9::a]:47821?security=tls&obfs=salamander&obfs-password=Telegram--%3E%40Ln2Ray&insecure=0&sni=gavazn.55994421.xyz#%F0%9F%87%B3%F0%9F%87%B1%20IRCP-1-IPv6%5Cn%40Ln2Ray
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.239:8880?security=&encryption=none&type=grpc#bestOfTheBest%20126
-hysteria2://VPNy.net-%40VPNynet@kevin.vpny.online:11001?security=tls&obfs=salamander&obfs-password=VPNy.net-%40VPNynet&insecure=1#VPNy.net-%40VPNynet
-vless://19199927-fb46-4203-8872-672fd1daca14@54.38.214.56:37171?security=&encryption=none&headerType=none&type=tcp#bestOfTheBest%2011
-vless://7591436e-64b6-4eca-bf45-c2f847425890@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2Fopejwsws&security=tls&encryption=none&host=638892846452855303.hamedan-prx-dnraaao.info&type=ws&sni=638892846452855303.hamedan-prx-dnraaao.info#bestOfTheBest%2081
-hysteria2://1189b7d8-97a1-487e-8db8-3d5b3452ba43@dir.cybsecguru.com:37504?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%8C%8E%20JNIR%5Cn%40JavidnamanIran
-hysteria2://1189b7d8-97a1-487e-8db8-3d5b3452ba43@dir.cybsecguru.com:39602?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%8C%8E%20JNIR%20-%20IPv6%5Cn%40JavidnamanIran
-hysteria2://%40KevinZakarian@54.36.225.180:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#IdinVPN
-hysteria2://%40KevinZakarian@129.212.182.3:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#BenVPN
-hysteria2://aFs3HWCicZ@103.83.86.119:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#NamelessVPN
-wireguard://mOMxVTvdSXXCP9rH5pvaICEXGtOcHXfVPZK7ivC%2FYV8%3D@[2606:4700:d1::1c6b:6aa3:9f79:2eea]:2408?address=172.16.0.2%2F32&reserved=46%2C57%2C186&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1280#Warp%20ip6
-wireguard://WMke%2F%2FNFD4fYVsXPHhA5tWgRYWJn9zQu1IVVHaYP1G8%3D@188.114.97.27:928?address=172.16.0.2%2F32&reserved=67%2C155%2C107&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1280#Warp%20ip4
+[
 {
   "dns": {
     "servers": [
@@ -197,4 +186,17 @@ wireguard://WMke%2F%2FNFD4fYVsXPHhA5tWgRYWJn9zQu1IVVHaYP1G8%3D@188.114.97.27:928
       }
     ]
   }
-}
+},
+hysteria2://Telegram--%3E%40Ln2Ray@[2a14:3f87:f001:9::a]:47821?security=tls&obfs=salamander&obfs-password=Telegram--%3E%40Ln2Ray&insecure=0&sni=gavazn.55994421.xyz#%F0%9F%87%B3%F0%9F%87%B1%20IRCP-1-IPv6%5Cn%40Ln2Ray
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.239:8880?security=&encryption=none&type=grpc#bestOfTheBest%20126
+hysteria2://VPNy.net-%40VPNynet@kevin.vpny.online:11001?security=tls&obfs=salamander&obfs-password=VPNy.net-%40VPNynet&insecure=1#VPNy.net-%40VPNynet
+vless://19199927-fb46-4203-8872-672fd1daca14@54.38.214.56:37171?security=&encryption=none&headerType=none&type=tcp#bestOfTheBest%2011
+vless://7591436e-64b6-4eca-bf45-c2f847425890@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2Fopejwsws&security=tls&encryption=none&host=638892846452855303.hamedan-prx-dnraaao.info&type=ws&sni=638892846452855303.hamedan-prx-dnraaao.info#bestOfTheBest%2081
+hysteria2://1189b7d8-97a1-487e-8db8-3d5b3452ba43@dir.cybsecguru.com:37504?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%8C%8E%20JNIR%5Cn%40JavidnamanIran
+hysteria2://1189b7d8-97a1-487e-8db8-3d5b3452ba43@dir.cybsecguru.com:39602?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%8C%8E%20JNIR%20-%20IPv6%5Cn%40JavidnamanIran
+hysteria2://%40KevinZakarian@54.36.225.180:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#IdinVPN
+hysteria2://%40KevinZakarian@129.212.182.3:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#BenVPN
+hysteria2://aFs3HWCicZ@103.83.86.119:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#NamelessVPN
+wireguard://mOMxVTvdSXXCP9rH5pvaICEXGtOcHXfVPZK7ivC%2FYV8%3D@[2606:4700:d1::1c6b:6aa3:9f79:2eea]:2408?address=172.16.0.2%2F32&reserved=46%2C57%2C186&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1280#Warp%20ip6
+wireguard://WMke%2F%2FNFD4fYVsXPHhA5tWgRYWJn9zQu1IVVHaYP1G8%3D@188.114.97.27:928?address=172.16.0.2%2F32&reserved=67%2C155%2C107&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1280#Warp%20ip4
+]
