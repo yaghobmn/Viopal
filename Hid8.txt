@@ -202,8 +202,9 @@
       "packet_encoding": ""
     },
     {
+      "down_mbps": 20,
       "obfs": {
-        "password": "VPNy.net-@VPNynet",
+        "password": "KevinZakarian",
         "type": "salamander"
       },
       "password": "VPNy.net-@VPNynet",
@@ -214,7 +215,8 @@
         "enabled": true,
         "insecure": true
       },
-      "type": "hysteria2"
+      "type": "hysteria2",
+      "up_mbps": 10
     },
     {
       "type": "vless",
