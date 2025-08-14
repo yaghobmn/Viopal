@@ -87,7 +87,12 @@
         "u06",
         "🇳🇱 IRCP-1-IPv6\n@Ln2Ray",
         "bestOfTheBest 126",
-        "VPNy.net-@VPNynet",
+        "VPNy.net-NL1 🇳🇱",
+                "VPNy.net-NL2 🇳🇱",
+                "VPNy.net-NL3 🇳🇱",
+                "VPNy.net-NL4 🇳🇱",
+                "VPNy.net-NL5 🇳🇱",
+                "VPNy.net-@VPNynet",
         "bestOfTheBest 11",
         "bestOfTheBest 81",
         "🌎 JNIR\n@JavidnamanIran",
@@ -106,7 +111,12 @@
         "u06",
         "🇳🇱 IRCP-1-IPv6\n@Ln2Ray",
         "bestOfTheBest 126",
-        "VPNy.net-@VPNynet",
+        "VPNy.net-NL1 🇳🇱",
+                "VPNy.net-NL2 🇳🇱",
+                "VPNy.net-NL3 🇳🇱",
+                "VPNy.net-NL4 🇳🇱",
+                "VPNy.net-NL5 🇳🇱",
+                "VPNy.net-@VPNynet",
         "bestOfTheBest 11",
         "bestOfTheBest 81",
         "🌎 JNIR\n@JavidnamanIran",
@@ -202,22 +212,97 @@
       "packet_encoding": ""
     },
     {
-      "down_mbps": 20,
-      "obfs": {
-        "password": "KevinZakarian",
-        "type": "salamander"
-      },
-      "password": "VPNy.net-@VPNynet",
-      "server": "kevin.vpny.online",
-      "server_port": 11001,
-      "tag": "VPNy.net-@VPNynet",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2",
-      "up_mbps": 10
-    },
+            "obfs": {
+                "password": "VPNy.net-@VPNynet",
+                "type": "salamander"
+            },
+            "password": "VPNy.net-@VPNynet",
+            "server": "kevin.vpny.online",
+            "server_port": 21001,
+            "tag": "VPNy.net-NL1 🇳🇱",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "obfs": {
+                "password": "VPNy.net-@VPNynet",
+                "type": "salamander"
+            },
+            "password": "VPNy.net-@VPNynet",
+            "server": "kevin.vpny.online",
+            "server_port": 21002,
+            "tag": "VPNy.net-NL2 🇳🇱",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "obfs": {
+                "password": "VPNy.net-@VPNynet",
+                "type": "salamander"
+            },
+            "password": "VPNy.net-@VPNynet",
+            "server": "kevin.vpny.online",
+            "server_port": 21003,
+            "tag": "VPNy.net-NL3 🇳🇱",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "obfs": {
+                "password": "VPNy.net-@VPNynet",
+                "type": "salamander"
+            },
+            "password": "VPNy.net-@VPNynet",
+            "server": "kevin.vpny.online",
+            "server_port": 21004,
+            "tag": "VPNy.net-NL4 🇳🇱",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "obfs": {
+                "password": "VPNy.net-@VPNynet",
+                "type": "salamander"
+            },
+            "password": "VPNy.net-@VPNynet",
+            "server": "kevin.vpny.online",
+            "server_port": 21005,
+            "tag": "VPNy.net-NL5 🇳🇱",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "down_mbps": 20,
+            "obfs": {
+                "password": "KevinZakarian",
+                "type": "salamander"
+            },
+            "password": "VPNy.net-@VPNynet",
+            "server": "kevin.vpny.online",
+            "server_port": 11001,
+            "tag": "VPNy.net-@VPNynet",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2",
+            "up_mbps": 10
+        },
     {
       "type": "vless",
       "tag": "bestOfTheBest 11",
