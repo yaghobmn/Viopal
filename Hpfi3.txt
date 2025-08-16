@@ -93,8 +93,6 @@
                 "VPNy.net-NL4 🇳🇱",
                 "VPNy.net-NL5 🇳🇱",
                 "VPNy.net-@VPNynet",
-        "bestOfTheBest 11",
-        "bestOfTheBest 81",
         "🌎 JNIR\n@JavidnamanIran",
         "🌎 JNIR - IPv6\n@JavidnamanIran",
         "IdinVPN",
@@ -117,8 +115,6 @@
                 "VPNy.net-NL4 🇳🇱",
                 "VPNy.net-NL5 🇳🇱",
                 "VPNy.net-@VPNynet",
-        "bestOfTheBest 11",
-        "bestOfTheBest 81",
         "🌎 JNIR\n@JavidnamanIran",
         "🌎 JNIR - IPv6\n@JavidnamanIran",
         "IdinVPN",
@@ -303,38 +299,6 @@
             "type": "hysteria2",
             "up_mbps": 10
         },
-    {
-      "type": "vless",
-      "tag": "bestOfTheBest 11",
-      "server": "54.38.214.56",
-      "server_port": 37171,
-      "uuid": "19199927-fb46-4203-8872-672fd1daca14",
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "bestOfTheBest 81",
-      "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-      "server_port": 443,
-      "uuid": "7591436e-64b6-4eca-bf45-c2f847425890",
-      "tls": {
-        "enabled": true,
-        "server_name": "638892846452855303.hamedan-prx-dnraaao.info",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/opejwsws",
-        "headers": {
-          "Host": "638892846452855303.hamedan-prx-dnraaao.info"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
     {
   "type": "hysteria2",
   "tag": "🌎 JNIR\n@JavidnamanIran",
