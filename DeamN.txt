@@ -6,7 +6,7 @@ hysteria2://VPNy.net-%40VPNynet@kevin.vpny.online:21002?security=tls&obfs=salama
 hysteria2://VPNy.net-%40VPNynet@kevin.vpny.online:21003?security=tls&obfs=salamander&obfs-password=VPNy.net-%40VPNynet&insecure=1#VPNy.net-NL3%20%F0%9F%87%B3%F0%9F%87%B1
 hysteria2://VPNy.net-%40VPNynet@kevin.vpny.online:21004?security=tls&obfs=salamander&obfs-password=VPNy.net-%40VPNynet&insecure=1#VPNy.net-NL4%20%F0%9F%87%B3%F0%9F%87%B1
 hysteria2://VPNy.net-%40VPNynet@kevin.vpny.online:21005?security=tls&obfs=salamander&obfs-password=VPNy.net-%40VPNynet&insecure=1#VPNy.net-NL5%20%F0%9F%87%B3%F0%9F%87%B1
-hysteria2://VPNy.net-%40VPNynet@kevin.vpny.online:11001?security=tls&obfs=salamander&obfs-password=VPNy.net-%40VPNynet&insecure=1#VPNy.net-%40VPNynet
+hysteria2://VPNy.net-%40VPNynet@kevin.vpny.online:11001?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#VPNy.net-%40VPNynet
 hysteria2://406034dd-4b2a-41f5-8405-cf3dedd5760f@dir.cybsecguru.com:37504?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%8C%8E%20JNIR%5Cn%40JavidnamanIran
 hysteria2://406034dd-4b2a-41f5-8405-cf3dedd5760f@dir.cybsecguru.com:39602?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%8C%8E%20JNIR%20-%20IPv6%5Cn%40JavidnamanIran
 hysteria2://%40KevinZakarian@129.212.182.3:8443?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#BenVPN
