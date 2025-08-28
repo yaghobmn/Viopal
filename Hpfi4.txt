@@ -95,9 +95,7 @@
                 "VPNy.net-@VPNynet",
         "🌎 JNIR\n@JavidnamanIran",
         "🌎 JNIR - IPv6\n@JavidnamanIran",
-        "IdinVPN",
-        "BenVPN",
-        "NamelessVPN"
+        "BenVPN"
       ],
       "default": "auto"
     },
@@ -117,9 +115,7 @@
                 "VPNy.net-@VPNynet",
         "🌎 JNIR\n@JavidnamanIran",
         "🌎 JNIR - IPv6\n@JavidnamanIran",
-        "IdinVPN",
-        "BenVPN",
-        "NamelessVPN"
+        "BenVPN"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -361,40 +357,9 @@
         "type": "salamander"
       },
       "password": "@KevinZakarian",
-      "server": "54.36.225.180",
-      "server_port": 8443,
-      "tag": "IdinVPN",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2"
-    },
-    
-    {
-      "obfs": {
-        "password": "KevinZakarian",
-        "type": "salamander"
-      },
-      "password": "@KevinZakarian",
       "server": "129.212.182.3",
       "server_port": 8443,
       "tag": "BenVPN",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2"
-    },
-    {
-      "obfs": {
-        "password": "KevinZakarian",
-        "type": "salamander"
-      },
-      "password": "aFs3HWCicZ",
-      "server": "103.83.86.119",
-      "server_port": 8443,
-      "tag": "NamelessVPN",
       "tls": {
         "enabled": true,
         "insecure": true
