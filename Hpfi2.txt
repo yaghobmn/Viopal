@@ -95,7 +95,8 @@
                 "VPNy.net-@VPNynet",
         "🌎 JNIR\n@JavidnamanIran",
         "🌎 JNIR - IPv6\n@JavidnamanIran",
-        "BenVPN"
+        "BenVPN",
+        "BenVPN2"
       ],
       "default": "auto"
     },
@@ -115,7 +116,8 @@
                 "VPNy.net-@VPNynet",
         "🌎 JNIR\n@JavidnamanIran",
         "🌎 JNIR - IPv6\n@JavidnamanIran",
-        "BenVPN"
+        "BenVPN",
+        "BenVPN2"
       ],
       "url": "http://connectivitycheck.gstatic.com/generate_204",
       "interval": "10m0s",
@@ -360,6 +362,21 @@
       "server": "129.212.182.3",
       "server_port": 8443,
       "tag": "BenVPN",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "type": "hysteria2"
+    },
+    {
+      "obfs": {
+        "password": "KevinZakarian",
+        "type": "salamander"
+      },
+      "password": "@KevinZakarian",
+      "server": "172.233.46.5",
+      "server_port": 8443,
+      "tag": "BenVPN2",
       "tls": {
         "enabled": true,
         "insecure": true
