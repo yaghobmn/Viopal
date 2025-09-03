@@ -88,12 +88,10 @@
         "Warp-IP6",
         "🇳🇱 IRCP-1-IPv6\n@Ln2Ray",
         "bestOfTheBest 126",
-        "VPNy.net-NL1 🇳🇱",
-                "VPNy.net-NL2 🇳🇱",
-                "VPNy.net-NL3 🇳🇱",
-                "VPNy.net-NL4 🇳🇱",
-                "VPNy.net-NL5 🇳🇱",
-                "VPNy.net-@VPNynet",
+        "@KevinZakarian-1",
+                "@KevinZakarian-2",
+                "@KevinZakarian-3",
+                "@KevinZakarian-4",
         "🌎 JNIR\n@JavidnamanIran",
         "🌎 JNIR - IPv6\n@JavidnamanIran",
         "BenVPN",
@@ -110,12 +108,10 @@
         "Warp-IP6",
         "🇳🇱 IRCP-1-IPv6\n@Ln2Ray",
         "bestOfTheBest 126",
-        "VPNy.net-NL1 🇳🇱",
-                "VPNy.net-NL2 🇳🇱",
-                "VPNy.net-NL3 🇳🇱",
-                "VPNy.net-NL4 🇳🇱",
-                "VPNy.net-NL5 🇳🇱",
-                "VPNy.net-@VPNynet",
+        "@KevinZakarian-1",
+                "@KevinZakarian-2",
+                "@KevinZakarian-3",
+                "@KevinZakarian-4",
         "🌎 JNIR\n@JavidnamanIran",
         "🌎 JNIR - IPv6\n@JavidnamanIran",
         "BenVPN",
@@ -220,95 +216,63 @@
     },
     {
             "obfs": {
-                "password": "VPNy.net-@VPNynet",
+                "password": "@KevinZakarian",
                 "type": "salamander"
             },
-            "password": "VPNy.net-@VPNynet",
-            "server": "kevin.vpny.online",
-            "server_port": 21001,
-            "tag": "VPNy.net-NL1 🇳🇱",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2"
-        },
-        {
-            "obfs": {
-                "password": "VPNy.net-@VPNynet",
-                "type": "salamander"
-            },
-            "password": "VPNy.net-@VPNynet",
-            "server": "kevin.vpny.online",
-            "server_port": 21002,
-            "tag": "VPNy.net-NL2 🇳🇱",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2"
-        },
-        {
-            "obfs": {
-                "password": "VPNy.net-@VPNynet",
-                "type": "salamander"
-            },
-            "password": "VPNy.net-@VPNynet",
-            "server": "kevin.vpny.online",
-            "server_port": 21003,
-            "tag": "VPNy.net-NL3 🇳🇱",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2"
-        },
-        {
-            "obfs": {
-                "password": "VPNy.net-@VPNynet",
-                "type": "salamander"
-            },
-            "password": "VPNy.net-@VPNynet",
-            "server": "kevin.vpny.online",
-            "server_port": 21004,
-            "tag": "VPNy.net-NL4 🇳🇱",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2"
-        },
-        {
-            "obfs": {
-                "password": "VPNy.net-@VPNynet",
-                "type": "salamander"
-            },
-            "password": "VPNy.net-@VPNynet",
-            "server": "kevin.vpny.online",
-            "server_port": 21005,
-            "tag": "VPNy.net-NL5 🇳🇱",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2"
-        },
-        {
-            "down_mbps": 20,
-            "obfs": {
-                "password": "KevinZakarian",
-                "type": "salamander"
-            },
-            "password": "VPNy.net-@VPNynet",
+            "password": "@KevinZakarian",
             "server": "kevin.vpny.online",
             "server_port": 11001,
-            "tag": "VPNy.net-@VPNynet",
+            "tag": "@KevinZakarian-1",
             "tls": {
                 "enabled": true,
                 "insecure": true
             },
-            "type": "hysteria2",
-            "up_mbps": 10
+            "type": "hysteria2"
+        },
+        {
+            "obfs": {
+                "password": "@KevinZakarian",
+                "type": "salamander"
+            },
+            "password": "@KevinZakarian",
+            "server": "kevin.vpny.online",
+            "server_port": 11002,
+            "tag": "@KevinZakarian-2",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "obfs": {
+                "password": "@KevinZakarian",
+                "type": "salamander"
+            },
+            "password": "@KevinZakarian",
+            "server": "kevin.vpny.online",
+            "server_port": 11003,
+            "tag": "@KevinZakarian-3",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
+        {
+            "obfs": {
+                "password": "@KevinZakarian",
+                "type": "salamander"
+            },
+            "password": "@KevinZakarian",
+            "server": "kevin.vpny.online",
+            "server_port": 11004,
+            "tag": "@KevinZakarian-4",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2"
         },
     {
   "type": "hysteria2",
