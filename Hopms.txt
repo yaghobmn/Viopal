@@ -87,15 +87,12 @@
         "Warp-Main",
         "Warp-IP6",
         "🇳🇱 IRCP-1-IPv6\n@Ln2Ray",
-        "bestOfTheBest 126",
         "@KevinZakarian-1",
                 "@KevinZakarian-2",
                 "@KevinZakarian-3",
                 "@KevinZakarian-4",
         "🌎 JNIR\n@JavidnamanIran",
-        "🌎 JNIR - IPv6\n@JavidnamanIran",
-        "BenVPN",
-        "BenVPN2"
+        "🌎 JNIR - IPv6\n@JavidnamanIran"
       ],
       "default": "auto"
     },
@@ -107,15 +104,12 @@
         "Warp-Main",
         "Warp-IP6",
         "🇳🇱 IRCP-1-IPv6\n@Ln2Ray",
-        "bestOfTheBest 126",
         "@KevinZakarian-1",
                 "@KevinZakarian-2",
                 "@KevinZakarian-3",
                 "@KevinZakarian-4",
         "🌎 JNIR\n@JavidnamanIran",
-        "🌎 JNIR - IPv6\n@JavidnamanIran",
-        "BenVPN",
-        "BenVPN2"
+        "🌎 JNIR - IPv6\n@JavidnamanIran"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -201,19 +195,6 @@
       }
     },
     
-    {
-      "type": "vless",
-      "tag": "bestOfTheBest 126",
-      "server": "185.231.205.239",
-      "server_port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
     {
             "obfs": {
                 "password": "@KevinZakarian",
@@ -330,36 +311,6 @@
     }
   }
 },
-    {
-      "obfs": {
-        "password": "KevinZakarian",
-        "type": "salamander"
-      },
-      "password": "@KevinZakarian",
-      "server": "129.212.182.3",
-      "server_port": 8443,
-      "tag": "BenVPN",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2"
-    },
-    {
-      "obfs": {
-        "password": "KevinZakarian",
-        "type": "salamander"
-      },
-      "password": "@KevinZakarian",
-      "server": "172.233.46.5",
-      "server_port": 8443,
-      "tag": "BenVPN2",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2"
-    },
     
     {
       "type": "dns",
