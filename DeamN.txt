@@ -4,7 +4,7 @@ hysteria2://%40KevinZakarian@kevin.vpny.online:11001?security=tls&obfs=salamande
 hysteria2://%40KevinZakarian@kevin.vpny.online:11002?security=tls&obfs=salamander&obfs-password=%40KevinZakarian&insecure=1#%40KevinZakarian-2
 hysteria2://%40KevinZakarian@kevin.vpny.online:11003?security=tls&obfs=salamander&obfs-password=%40KevinZakarian&insecure=1#%40KevinZakarian-3
 hysteria2://%40KevinZakarian@kevin.vpny.online:11004?security=tls&obfs=salamander&obfs-password=%40KevinZakarian&insecure=1#%40KevinZakarian-4
-hysteria2://406034dd-4b2a-41f5-8405-cf3dedd5760f@dir.cybsecguru.com:37504?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%8C%8E%20JNIR%5Cn%40JavidnamanIran
-hysteria2://406034dd-4b2a-41f5-8405-cf3dedd5760f@dir.cybsecguru.com:39602?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%8C%8E%20JNIR%20-%20IPv6%5Cn%40JavidnamanIran
+hysteria2://4e5fdf31-1aac-419c-9a95-c43be04adcb2@dir.cybsecguru.com:37504?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%8C%8E%20JNIR%5Cn%40JavidnamanIran
+hysteria2://4e5fdf31-1aac-419c-9a95-c43be04adcb2@dir.cybsecguru.com:39602?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%8C%8E%20JNIR%20-%20IPv6%5Cn%40JavidnamanIran
 wireguard://mOMxVTvdSXXCP9rH5pvaICEXGtOcHXfVPZK7ivC%2FYV8%3D@[2606:4700:d1::1c6b:6aa3:9f79:2eea]:2408?address=172.16.0.2%2F32&reserved=46%2C57%2C186&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1280#Warp%20ip6
 wireguard://WMke%2F%2FNFD4fYVsXPHhA5tWgRYWJn9zQu1IVVHaYP1G8%3D@188.114.97.27:928?address=172.16.0.2%2F32&reserved=67%2C155%2C107&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1280#Warp%20ip4

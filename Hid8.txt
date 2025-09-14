@@ -252,7 +252,7 @@
     "type": "salamander",
     "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
   },
-  "password": "406034dd-4b2a-41f5-8405-cf3dedd5760f",
+  "password": "4e5fdf31-1aac-419c-9a95-c43be04adcb2",
   "tls": {
     "enabled": true,
     "server_name": "jnir.pichondan.com",
@@ -280,7 +280,7 @@
     "type": "salamander",
     "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
   },
-  "password": "406034dd-4b2a-41f5-8405-cf3dedd5760f",
+  "password": "4e5fdf31-1aac-419c-9a95-c43be04adcb2",
   "tls": {
     "enabled": true,
     "server_name": "jnir.pichondan.com",
