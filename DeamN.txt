@@ -1,5 +1,5 @@
 //profile-update-interval: 24
-hysteria2://Telegram--%3E%40Ln2Ray@gavazn.lnmarketplace.net:47821?security=tls&obfs=salamander&obfs-password=Telegram--%3E%40Ln2Ray&insecure=0&sni=gavazn.55994421.xyz#%F0%9F%87%B3%F0%9F%87%B1%20IRCP%5Cn%40Ln2Ray
+hysteria2://Telegram--%3E%40Ln2Ray@gavazn.lnmarketplace.net:46806?security=tls&obfs=salamander&obfs-password=Telegram--%3E%40Ln2Ray&insecure=0&sni=gavazn.55994421.xyz#%F0%9F%87%B3%F0%9F%87%B1%20IRCP%5Cn%40Ln2Ray
 hysteria2://Telegram--%3E%40Ln2Ray@[2a14:3f87:f001:9::a]:47821?security=tls&obfs=salamander&obfs-password=Telegram--%3E%40Ln2Ray&insecure=0&sni=gavazn.55994421.xyz#%F0%9F%87%B3%F0%9F%87%B1%20IRCP%20-%20IPv6%5Cn%40Ln2Ray
 hysteria2://%40KevinZakarian@kevin.vpny.online:11001?security=tls&obfs=salamander&obfs-password=%40KevinZakarian&insecure=1#%40KevinZakarian-1
 hysteria2://%40KevinZakarian@kevin.vpny.online:11002?security=tls&obfs=salamander&obfs-password=%40KevinZakarian&insecure=1#%40KevinZakarian-2
