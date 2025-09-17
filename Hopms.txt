@@ -91,8 +91,8 @@
                 "@KevinZakarian-2",
                 "@KevinZakarian-3",
                 "@KevinZakarian-4",
-        "🌎 JNIR\n@JavidnamanIran",
-        "🌎 JNIR - IPv6\n@JavidnamanIran"
+        "🕊 JNIR\n@JavidnamanIran",
+        "🕊 JNIR - IPv6\n@JavidnamanIran"
       ],
       "default": "auto"
     },
@@ -108,8 +108,8 @@
                 "@KevinZakarian-2",
                 "@KevinZakarian-3",
                 "@KevinZakarian-4",
-        "🌎 JNIR\n@JavidnamanIran",
-        "🌎 JNIR - IPv6\n@JavidnamanIran"
+        "🕊 JNIR\n@JavidnamanIran",
+        "🕊 JNIR - IPv6\n@JavidnamanIran"
       ],
       "url": "http://cp.cloudflare.com/",
       "interval": "10m0s"
@@ -257,10 +257,10 @@
         },
     {
   "type": "hysteria2",
-  "tag": "🌎 JNIR\n@JavidnamanIran",
+  "tag": "🕊 JNIR\n@JavidnamanIran",
   "domain_strategy": "ipv4_only",
   "server": "dir.cybsecguru.com",
-  "server_port": 37509,
+  "server_port": 38950,
   "obfs": {
     "type": "salamander",
     "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
@@ -276,8 +276,8 @@
       "enabled": true,
       "config": [
         "-----BEGIN ECH CONFIGS-----",
-        "AEv+DQBHAAAgACBdESPqW7Qg/mDy4xXQg7m3zPFrxI5Ba5zro2ZMqOjQFQAIAAEA",
-        "AQABAAMAFGpuaXItMS5waWNob25kYW4uY29tAAA=",
+        "AEP+DQA/AAAgACAhrMuVZvRSQBndy2AU/IHugCC/fXns1VqCaS9+S/MmDgAMAAEA",
+        "AQABAAIAAQADAAhpZWVlLm9yZwAA",
         "-----END ECH CONFIGS-----"
       ]
     }
@@ -285,10 +285,10 @@
 },
 {
   "type": "hysteria2",
-  "tag": "🌎 JNIR - IPv6\n@JavidnamanIran",
+  "tag": "🕊 JNIR - IPv6\n@JavidnamanIran",
   "domain_strategy": "ipv6_only",
   "server": "dir.cybsecguru.com",
-  "server_port": 39568,
+  "server_port": 36970,
   "obfs": {
     "type": "salamander",
     "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
@@ -304,8 +304,8 @@
       "enabled": true,
       "config": [
         "-----BEGIN ECH CONFIGS-----",
-        "AEv+DQBHAAAgACBdESPqW7Qg/mDy4xXQg7m3zPFrxI5Ba5zro2ZMqOjQFQAIAAEA",
-        "AQABAAMAFGpuaXItMS5waWNob25kYW4uY29tAAA=",
+        "AEP+DQA/AAAgACAhrMuVZvRSQBndy2AU/IHugCC/fXns1VqCaS9+S/MmDgAMAAEA",
+        "AQABAAIAAQADAAhpZWVlLm9yZwAA",
         "-----END ECH CONFIGS-----"
       ]
     }
