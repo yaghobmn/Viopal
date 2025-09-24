@@ -87,10 +87,7 @@
         "u06",
         "🇳🇱 IRCP\n@Ln2Ray",
                 "🇳🇱 IRCP - IPv6\n@Ln2Ray",
-        "@KevinZakarian-1",
-                "@KevinZakarian-2",
-                "@KevinZakarian-3",
-                "@KevinZakarian-4",
+        "@KevinZakarian",
         "🕊 JNIR\n@JavidnamanIran",
         "🕊 JNIR - IPv6\n@JavidnamanIran"
       ],
@@ -104,10 +101,7 @@
         "u06",
         "🇳🇱 IRCP\n@Ln2Ray",
                 "🇳🇱 IRCP - IPv6\n@Ln2Ray",
-        "@KevinZakarian-1",
-                "@KevinZakarian-2",
-                "@KevinZakarian-3",
-                "@KevinZakarian-4",
+        "@KevinZakarian",
         "🕊 JNIR\n@JavidnamanIran",
         "🕊 JNIR - IPv6\n@JavidnamanIran"
       ],
@@ -213,58 +207,13 @@
     
     {
             "obfs": {
-                "password": "@KevinZakarian",
+                "password": "KevinZakarian",
                 "type": "salamander"
             },
             "password": "@KevinZakarian",
             "server": "kevin.vpny.online",
             "server_port": 11001,
-            "tag": "@KevinZakarian-1",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2"
-        },
-        {
-            "obfs": {
-                "password": "@KevinZakarian",
-                "type": "salamander"
-            },
-            "password": "@KevinZakarian",
-            "server": "kevin.vpny.online",
-            "server_port": 11002,
-            "tag": "@KevinZakarian-2",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2"
-        },
-        {
-            "obfs": {
-                "password": "@KevinZakarian",
-                "type": "salamander"
-            },
-            "password": "@KevinZakarian",
-            "server": "kevin.vpny.online",
-            "server_port": 11003,
-            "tag": "@KevinZakarian-3",
-            "tls": {
-                "enabled": true,
-                "insecure": true
-            },
-            "type": "hysteria2"
-        },
-        {
-            "obfs": {
-                "password": "@KevinZakarian",
-                "type": "salamander"
-            },
-            "password": "@KevinZakarian",
-            "server": "kevin.vpny.online",
-            "server_port": 11004,
-            "tag": "@KevinZakarian-4",
+            "tag": "@KevinZakarian",
             "tls": {
                 "enabled": true,
                 "insecure": true
