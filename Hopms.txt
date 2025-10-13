@@ -224,8 +224,8 @@
                 "type": "salamander"
             },
             "password": "@KevinZakarian",
-      "server": "kevin.vpny.online",
-      "server_port": 22002,
+            "server": "kevin.vpny.online",
+            "server_port": 22002,
             "tag": "@KevinZakarian",
             "tls": {
                 "enabled": true,
