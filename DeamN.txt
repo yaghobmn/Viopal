@@ -1,6 +1,6 @@
 //profile-update-interval: 24
-hysteria2://Telegram--%3E%40Ln2Ray@gavazn.lnmarketplace.net:46806?security=tls&obfs=salamander&obfs-password=Telegram--%3E%40Ln2Ray&insecure=0&sni=gavazn.55994421.xyz#%F0%9F%87%B3%F0%9F%87%B1%20IRCP%5Cn%40Ln2Ray
-hysteria2://Telegram--%3E%40Ln2Ray@[2a14:3f87:f001:9::a]:47821?security=tls&obfs=salamander&obfs-password=Telegram--%3E%40Ln2Ray&insecure=0&sni=gavazn.55994421.xyz#%F0%9F%87%B3%F0%9F%87%B1%20IRCP%20-%20IPv6%5Cn%40Ln2Ray
+hysteria2://Yet-Another-Public-Config-1@YAPC-1.adamhayward.co.uk:36806?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=0&sni=YAPC-1.afshin.ir#%F0%9F%87%B3%F0%9F%87%B1%20%F0%9D%90%98%F0%9D%90%80%F0%9D%90%8F%F0%9D%90%82
+hysteria2://Yet-Another-Public-Config-1@YAPC-1.adamhayward.co.uk:37821?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=0&sni=YAPC-1.afshin.ir#%F0%9F%87%B3%F0%9F%87%B1%20%F0%9D%90%98%F0%9D%90%80%F0%9D%90%8F%F0%9D%90%82%20-%20IPv6
 hysteria2://%40KevinZakarian@kevin.vpny.online:22002?security=tls&obfs=salamander&obfs-password=KevinZakarian&insecure=1#%40KevinZakarian
 hysteria2://5f89ac2a-b6d6-4c66-98d8-39c4d552138c@dir.cybsecguru.com:37504?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%95%8A%20JNIR%5Cn%40JavidnamanIran
 hysteria2://5f89ac2a-b6d6-4c66-98d8-39c4d552138c@dir.cybsecguru.com:39602?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=0&sni=jnir.pichondan.com#%F0%9F%95%8A%20JNIR%20-%20IPv6%5Cn%40JavidnamanIran
