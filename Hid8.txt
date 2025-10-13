@@ -155,9 +155,7 @@
   "tag": "🇳🇱 𝐘𝐀𝐏𝐂",
   "domain_strategy": "ipv4_only",
   "server": "YAPC-1.adamhayward.co.uk",
-  "server_port": 0,
-  "server_ports": "35000:45000",
-  "hop_interval": "2m0s",
+  "server_port": 37095,
   "obfs": {
     "type": "salamander",
     "password": "Yet-Another-Public-Config-1"
@@ -185,9 +183,7 @@
   "tag": "🇳🇱 𝐘𝐀𝐏𝐂 - IPv6",
   "domain_strategy": "ipv6_only",
   "server": "YAPC-1.adamhayward.co.uk",
-  "server_port": 0,
-  "server_ports": "35000:45000",
-  "hop_interval": "2m0s",
+  "server_port": 39409,
   "obfs": {
     "type": "salamander",
     "password": "Yet-Another-Public-Config-1"
