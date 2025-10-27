@@ -89,7 +89,9 @@
                 "🇳🇱 𝐘𝐀𝐏𝐂",
                 "🇳🇱 𝐘𝐀𝐏𝐂 - IPv6",
                 "🕊 JNIR\n@JavidnamanIran",
-                "🕊 JNIR - IPv6\n@JavidnamanIran"
+                "🕊 JNIR - IPv6\n@JavidnamanIran",
+                "RoyaVPN",
+                "MehdiVPN"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -101,7 +103,9 @@
                 "🇳🇱 𝐘𝐀𝐏𝐂",
                 "🇳🇱 𝐘𝐀𝐏𝐂 - IPv6",
                 "🕊 JNIR\n@JavidnamanIran",
-                "🕊 JNIR - IPv6\n@JavidnamanIran"
+                "🕊 JNIR - IPv6\n@JavidnamanIran",
+                "RoyaVPN",
+                "MehdiVPN"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -236,7 +240,37 @@
       ]
     }
   }
-}
+},
+{
+      "obfs": {
+        "password": "KevinZakarian",
+        "type": "salamander"
+      },
+      "password": "UznDfL6EYQ",
+      "server": "199.195.250.69",
+      "server_port": 11001,
+      "tag": "RoyaVPN",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "type": "hysteria2"
+    },
+{
+      "obfs": {
+        "password": "KevinZakarian",
+        "type": "salamander"
+      },
+      "password": "4TImZd9aiT",
+      "server": "89.116.64.211",
+      "server_port": 11001,
+      "tag": "MehdiVPN",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      },
+      "type": "hysteria2"
+    }
     ],
     "route": {
         "auto_detect_interface": true,
