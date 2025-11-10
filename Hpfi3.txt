@@ -86,8 +86,6 @@
                 "auto",
                 "direct",
                 "@KevinZakarian",
-                "🇳🇱 𝐘𝐀𝐏𝐂",
-                "🇳🇱 𝐘𝐀𝐏𝐂 - IPv6",
                 "🕊 JNIR\n@JavidnamanIran",
                 "🕊 JNIR - IPv6\n@JavidnamanIran",
                 "BijanVPN",
@@ -100,8 +98,6 @@
             "interval": "10m",
             "outbounds": [
                 "@KevinZakarian",
-                "🇳🇱 𝐘𝐀𝐏𝐂",
-                "🇳🇱 𝐘𝐀𝐏𝐂 - IPv6",
                 "🕊 JNIR\n@JavidnamanIran",
                 "🕊 JNIR - IPv6\n@JavidnamanIran",
                 "BijanVPN",
@@ -131,62 +127,6 @@
             },
             "type": "hysteria2"
         },
-       {
-  "type": "hysteria2",
-  "tag": "🇳🇱 𝐘𝐀𝐏𝐂",
-  "domain_strategy": "ipv4_only",
-  "server": "YAPC-1.adamhayward.co.uk",
-  "server_port": 38920,
-  "obfs": {
-    "type": "salamander",
-    "password": "Yet-Another-Public-Config-1"
-  },
-  "password": "Yet-Another-Public-Config-1",
-  "tls": {
-    "enabled": true,
-    "server_name": "YAPC-1.afshin.ir",
-    "alpn": "h3",
-    "min_version": "1.3",
-    "max_version": "1.3",
-    "ech": {
-      "enabled": true,
-      "config": [
-        "-----BEGIN ECH CONFIGS-----",
-        "AEP+DQA/AAAgACAhrMuVZvRSQBndy2AU/IHugCC/fXns1VqCaS9+S/MmDgAMAAEA",
-        "AQABAAIAAQADAAhpZWVlLm9yZwAA",
-        "-----END ECH CONFIGS-----"
-      ]
-    }
-  }
-},
-      {
-  "type": "hysteria2",
-  "tag": "🇳🇱 𝐘𝐀𝐏𝐂 - IPv6",
-  "domain_strategy": "ipv6_only",
-  "server": "YAPC-1.adamhayward.co.uk",
-  "server_port": 37209,
-  "obfs": {
-    "type": "salamander",
-    "password": "Yet-Another-Public-Config-1"
-  },
-  "password": "Yet-Another-Public-Config-1",
-  "tls": {
-    "enabled": true,
-    "server_name": "YAPC-1.afshin.ir",
-    "alpn": "h3",
-    "min_version": "1.3",
-    "max_version": "1.3",
-    "ech": {
-      "enabled": true,
-      "config": [
-        "-----BEGIN ECH CONFIGS-----",
-        "AEP+DQA/AAAgACAhrMuVZvRSQBndy2AU/IHugCC/fXns1VqCaS9+S/MmDgAMAAEA",
-        "AQABAAIAAQADAAhpZWVlLm9yZwAA",
-        "-----END ECH CONFIGS-----"
-      ]
-    }
-  }
-},
          {
   "type": "hysteria2",
   "tag": "🕊 JNIR\n@JavidnamanIran",
