@@ -90,7 +90,7 @@
                 "🇳🇱 𝐘𝐀𝐏𝐂 - IPv6",
                 "🕊 JNIR\n@JavidnamanIran",
                 "🕊 JNIR - IPv6\n@JavidnamanIran",
-                "RoyaVPN",
+                "BijanVPN",
                 "MehdiVPN"
             ],
             "tag": "proxy",
@@ -104,7 +104,7 @@
                 "🇳🇱 𝐘𝐀𝐏𝐂 - IPv6",
                 "🕊 JNIR\n@JavidnamanIran",
                 "🕊 JNIR - IPv6\n@JavidnamanIran",
-                "RoyaVPN",
+                "BijanVPN",
                 "MehdiVPN"
             ],
             "tag": "auto",
@@ -243,13 +243,13 @@
 },
 {
       "obfs": {
-        "password": "KevinZakarian",
+        "password": "GreatBijan",
         "type": "salamander"
       },
-      "password": "UznDfL6EYQ",
-      "server": "199.195.250.69",
+      "password": "CcEXQF74EE",
+      "server": "51.77.215.176",
       "server_port": 11001,
-      "tag": "RoyaVPN",
+      "tag": "BijanVPN",
       "tls": {
         "enabled": true,
         "insecure": true
