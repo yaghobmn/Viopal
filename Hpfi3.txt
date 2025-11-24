@@ -86,11 +86,12 @@
                 "auto",
                 "direct",
                 "@KevinZakarian",
-                "Homa",
-                "Homa h",
-                "IRCP\n@Ln2Ray",
-                "JNIR\n@JavidnamanIran",
-                "JNIR - IPv6\n@JavidnamanIran",
+                "🇸🇪 Homa",
+                "🇸🇪 Homa h",
+                "🇳🇱 IRCP\n@Ln2Ray",
+                "🇳🇱 IRCP - IPv6\n@Ln2Ray",
+                "🕊 JNIR\n@JavidnamanIran",
+                "🕊 JNIR - IPv6\n@JavidnamanIran",
                 "MehdiVPN"
             ],
             "tag": "proxy",
@@ -100,11 +101,12 @@
             "interval": "10m",
             "outbounds": [
                 "@KevinZakarian",
-                "Homa",
-                "Homa h",
-                "IRCP\n@Ln2Ray",
-                "JNIR\n@JavidnamanIran",
-                "JNIR - IPv6\n@JavidnamanIran",
+                "🇸🇪 Homa",
+                "🇸🇪 Homa h",
+                "🇳🇱 IRCP\n@Ln2Ray",
+                "🇳🇱 IRCP - IPv6\n@Ln2Ray",
+                "🕊 JNIR\n@JavidnamanIran",
+                "🕊 JNIR - IPv6\n@JavidnamanIran",
                 "MehdiVPN"
             ],
             "tag": "auto",
@@ -133,7 +135,7 @@
         },
     {
       "type": "hysteria2",
-      "tag": "Homa",
+      "tag": "🇸🇪 Homa",
       "server": "dd.openaccessnode.com",
       "server_port": 989,
       "obfs": {
@@ -148,7 +150,7 @@
     },
     {
       "type": "vmess",
-      "tag": "Homa h",
+      "tag": "🇸🇪 Homa h",
       "server": "dd.openaccessnode.com",
       "server_port": 5230,
       "uuid": "77238c49-bd20-e407-f05e-0c073ad08fdb",
@@ -161,7 +163,7 @@
     },
 {
             "type": "hysteria2",
-            "tag": "IRCP\n@Ln2Ray",
+            "tag": "🇳🇱 IRCP\n@Ln2Ray",
             "domain_strategy": "ipv4_only",
             "server": "gavazn.lnmarketplace.net",
             "server_port": 47802,
@@ -188,7 +190,34 @@
         },
 {
   "type": "hysteria2",
-  "tag": "JNIR\n@JavidnamanIran",
+  "tag": "🇳🇱 IRCP - IPv6\n@Ln2Ray",
+  "domain_strategy": "ipv6_only",
+  "server": "2a14:3f87:f001:9::a",
+  "server_port": 48403,
+  "obfs": {
+    "type": "salamander",
+    "password": "Telegram-->@Ln2Ray"
+  },
+  "password": "Telegram-->@Ln2Ray",
+  "tls": {
+    "enabled": true,
+    "server_name": "gavazn.55994421.xyz",
+    "alpn": "h3",
+    "min_version": "1.3",
+    "ech": {
+      "enabled": true,
+      "config": [
+        "-----BEGIN ECH CONFIGS-----",
+        "AEP+DQA/AAAgACAhrMuVZvRSQBndy2AU/IHugCC/fXns1VqCaS9+S/MmDgAMAAEA",
+        "AQABAAIAAQADAAhpZWVlLm9yZwAA",
+        "-----END ECH CONFIGS-----"
+      ]
+    }
+  }
+},
+{
+  "type": "hysteria2",
+  "tag": "🕊 JNIR\n@JavidnamanIran",
   "domain_strategy": "ipv4_only",
   "server": "api.kermanshahi.org",
   "server_port": 38904,
@@ -215,7 +244,7 @@
 },
 {
   "type": "hysteria2",
-  "tag": "JNIR - IPv6\n@JavidnamanIran",
+  "tag": "🕊 JNIR - IPv6\n@JavidnamanIran",
   "domain_strategy": "ipv6_only",
   "server": "api.kermanshahi.org",
   "server_port": 42709,
