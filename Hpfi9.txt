@@ -86,9 +86,11 @@
                 "auto",
                 "direct",
                 "@KevinZakarian",
-                "🕊 JNIR\n@JavidnamanIran",
-                "🕊 JNIR - IPv6\n@JavidnamanIran",
-                "BijanVPN",
+                "Homa",
+                "Homa h",
+                "IRCP\n@Ln2Ray",
+                "JNIR\n@JavidnamanIran",
+                "JNIR - IPv6\n@JavidnamanIran",
                 "MehdiVPN"
             ],
             "tag": "proxy",
@@ -98,9 +100,11 @@
             "interval": "10m",
             "outbounds": [
                 "@KevinZakarian",
-                "🕊 JNIR\n@JavidnamanIran",
-                "🕊 JNIR - IPv6\n@JavidnamanIran",
-                "BijanVPN",
+                "Homa",
+                "Homa h",
+                "IRCP\n@Ln2Ray",
+                "JNIR\n@JavidnamanIran",
+                "JNIR - IPv6\n@JavidnamanIran",
                 "MehdiVPN"
             ],
             "tag": "auto",
@@ -127,12 +131,67 @@
             },
             "type": "hysteria2"
         },
-         {
+    {
+      "type": "hysteria2",
+      "tag": "Homa",
+      "server": "dd.openaccessnode.com",
+      "server_port": 989,
+      "obfs": {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi"
+      },
+      "password": "77238c49bd20e407f05e0c073ad08fdb",
+      "tls": {
+        "enabled": true,
+        "server_name": "dd.ircybersec.org"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "Homa h",
+      "server": "dd.openaccessnode.com",
+      "server_port": 5230,
+      "uuid": "77238c49-bd20-e407-f05e-0c073ad08fdb",
+      "security": "",
+      "transport": {
+        "type": "http",
+        "host": "ieee.org",
+        "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/"
+      }
+    },
+{
+            "type": "hysteria2",
+            "tag": "IRCP\n@Ln2Ray",
+            "domain_strategy": "ipv4_only",
+            "server": "gavazn.lnmarketplace.net",
+            "server_port": 47802,
+            "obfs": {
+                "type": "salamander",
+                "password": "Telegram-->@Ln2Ray"
+            },
+            "password": "Telegram-->@Ln2Ray",
+            "tls": {
+                "enabled": true,
+                "server_name": "gavazn.55994421.xyz",
+                "alpn": "h3",
+                "min_version": "1.3",
+                "ech": {
+                    "enabled": true,
+                    "config": [
+                        "-----BEGIN ECH CONFIGS-----",
+                        "AEP+DQA/AAAgACAhrMuVZvRSQBndy2AU/IHugCC/fXns1VqCaS9+S/MmDgAMAAEA",
+                        "AQABAAIAAQADAAhpZWVlLm9yZwAA",
+                        "-----END ECH CONFIGS-----"
+                    ]
+                }
+            }
+        },
+{
   "type": "hysteria2",
-  "tag": "🕊 JNIR\n@JavidnamanIran",
+  "tag": "JNIR\n@JavidnamanIran",
   "domain_strategy": "ipv4_only",
-  "server": "dir.cybsecguru.com",
-  "server_port": 39406,
+  "server": "api.kermanshahi.org",
+  "server_port": 38904,
   "obfs": {
     "type": "salamander",
     "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
@@ -140,34 +199,7 @@
   "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
   "tls": {
     "enabled": true,
-    "server_name": "jnir.pichondan.com",
-    "alpn": "h3",
-    "min_version": "1.3",
-    "ech": {
-      "enabled": true,
-      "config": [
-        "-----BEGIN ECH CONFIGS-----",
-        "AEP+DQA/AAAgACAhrMuVZvRSQBndy2AU/IHugCC/fXns1VqCaS9+S/MmDgAMAAEA",
-        "AQABAAIAAQADAAhpZWVlLm9yZwAA",
-        "-----END ECH CONFIGS-----"
-      ]
-    }
-  }
-},
-          {
-  "type": "hysteria2",
-  "tag": "🕊 JNIR - IPv6\n@JavidnamanIran",
-  "domain_strategy": "ipv6_only",
-  "server": "dir.cybsecguru.com",
-  "server_port": 42304,
-  "obfs": {
-    "type": "salamander",
-    "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-  },
-  "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
-  "tls": {
-    "enabled": true,
-    "server_name": "jnir.pichondan.com",
+    "server_name": "api.kermanshahi.org",
     "alpn": "h3",
     "min_version": "1.3",
     "ech": {
@@ -182,20 +214,32 @@
   }
 },
 {
-      "obfs": {
-        "password": "GreatBijan",
-        "type": "salamander"
-      },
-      "password": "CcEXQF74EE",
-      "server": "51.77.215.176",
-      "server_port": 11001,
-      "tag": "BijanVPN",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2"
-    },
+  "type": "hysteria2",
+  "tag": "JNIR - IPv6\n@JavidnamanIran",
+  "domain_strategy": "ipv6_only",
+  "server": "api.kermanshahi.org",
+  "server_port": 42709,
+  "obfs": {
+    "type": "salamander",
+    "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+  },
+  "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+  "tls": {
+    "enabled": true,
+    "server_name": "api.kermanshahi.org",
+    "alpn": "h3",
+    "min_version": "1.3",
+    "ech": {
+      "enabled": true,
+      "config": [
+        "-----BEGIN ECH CONFIGS-----",
+        "AEP+DQA/AAAgACAhrMuVZvRSQBndy2AU/IHugCC/fXns1VqCaS9+S/MmDgAMAAEA",
+        "AQABAAIAAQADAAhpZWVlLm9yZwAA",
+        "-----END ECH CONFIGS-----"
+      ]
+    }
+  }
+},
 {
       "obfs": {
         "password": "KevinZakarian",
