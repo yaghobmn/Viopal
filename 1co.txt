@@ -87,7 +87,6 @@
                 "direct",
                 "@KevinZakarian",
                 "🇸🇪 Homa",
-                "🇸🇪 Homa h",
                 "🇳🇱 IRCP\n@Ln2Ray",
                 "🇳🇱 IRCP - IPv6\n@Ln2Ray",
                 "🕊 JNIR\n@JavidnamanIran",
@@ -102,7 +101,6 @@
             "outbounds": [
                 "@KevinZakarian",
                 "🇸🇪 Homa",
-                "🇸🇪 Homa h",
                 "🇳🇱 IRCP\n@Ln2Ray",
                 "🇳🇱 IRCP - IPv6\n@Ln2Ray",
                 "🕊 JNIR\n@JavidnamanIran",
@@ -149,19 +147,6 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇸🇪 Homa h",
-      "server": "dd.openaccessnode.com",
-      "server_port": 5230,
-      "uuid": "77238c49-bd20-e407-f05e-0c073ad08fdb",
-      "security": "",
-      "transport": {
-        "type": "http",
-        "host": "ieee.org",
-        "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/"
-      }
-    },
-{
             "type": "hysteria2",
             "tag": "🇳🇱 IRCP\n@Ln2Ray",
             "domain_strategy": "ipv4_only",
