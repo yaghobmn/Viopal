@@ -140,10 +140,11 @@
         "type": "salamander",
         "password": "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi"
       },
-      "password": "77238c49bd20e407f05e0c073ad08fdb",
+      "password": "b0881a940ce4c34f4cfa5fec574a1826",
       "tls": {
         "enabled": true,
-        "server_name": "dd.ircybersec.org"
+        "server_name": "dd.ircybersec.org",
+        "alpn": "h3"
       }
     },
     {
