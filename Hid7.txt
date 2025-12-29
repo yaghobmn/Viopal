@@ -133,7 +133,7 @@
       "type": "hysteria2",
       "up_mbps": 100
     },
-    {
+     {
       "type": "hysteria2",
       "tag": "🇸🇪 Homa",
       "server": "dd.openaccessnode.com",
@@ -142,7 +142,7 @@
         "type": "salamander",
         "password": "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi"
       },
-      "password": "e20cc63dc06088fba56bf786860aadaf",
+      "password": "1ce7a53ecb991eb4c91587c366b68333",
       "tls": {
         "enabled": true,
         "server_name": "dd.ircybersec.org",
