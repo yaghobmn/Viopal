@@ -117,22 +117,20 @@
             "type": "direct"
         },
         {
-      "down_mbps": 50,
-      "obfs": {
-        "password": "KevinZakarian",
-        "type": "salamander"
-      },
-      "password": "@KevinZakarian",
-      "server": "kevin.vpny.online",
-      "server_port": 44001,
-      "tag": "@KevinZakarian",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2",
-      "up_mbps": 100
-    },
+            "obfs": {
+                "password": "KevinZakarian",
+                "type": "salamander"
+            },
+            "password": "@KevinZakarian",
+            "server": "keviny.vpny.online",
+            "server_port": 33001,
+            "tag": "@KevinZakarian",
+            "tls": {
+                "enabled": true,
+                "insecure": true
+            },
+            "type": "hysteria2"
+        },
      {
       "type": "hysteria2",
       "tag": "🇸🇪 Homa",
