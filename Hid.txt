@@ -87,6 +87,7 @@
                 "direct",
                 "@KevinZakarian",
                 "🇸🇪 Homa",
+                "🇳🇱 Нидерланды, Амстердам",
                 "🇳🇱 IRCP\n@Ln2Ray",
                 "🇳🇱 IRCP - IPv6\n@Ln2Ray",
                 "🕊 JNIR\n@JavidnamanIran",
@@ -101,6 +102,7 @@
             "outbounds": [
                 "@KevinZakarian",
                 "🇸🇪 Homa",
+                "🇳🇱 Нидерланды, Амстердам",
                 "🇳🇱 IRCP\n@Ln2Ray",
                 "🇳🇱 IRCP - IPv6\n@Ln2Ray",
                 "🕊 JNIR\n@JavidnamanIran",
@@ -148,6 +150,28 @@
         "server_name": "dd.ircybersec.org",
         "alpn": "h3"
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 Нидерланды, Амстердам",
+      "server": "5.253.59.44",
+      "server_port": 8443,
+      "uuid": "fd8972d9-cf5e-11f0-9970-45e1d80c4039",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "images.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "H2_xU4399VG3oT9j7e0Bg8qhescX-CTgpeV1HBoCUWY",
+          "short_id": "5d8ae11254"
+        }
+      },
+      "packet_encoding": ""
     },
     {
             "type": "hysteria2",
