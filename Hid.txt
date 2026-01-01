@@ -293,11 +293,7 @@
 {
   "type": "hysteria2",
   "tag": "🕊 JNIR - IPv6\n@JavidnamanIran",
-{
-        "type": "vless",
-              "tag": "🇳🇱 Нидерланды, Амстердам",
-                    "server": "5.253.59.44",
-}  "domain_strategy": "ipv6_only",
+  "domain_strategy": "ipv6_only",
   "server": "api.kermanshahi.org",
   "server_port": 42709,
   "obfs": {
