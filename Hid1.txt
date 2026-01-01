@@ -87,8 +87,8 @@
                 "direct",
                 "@KevinZakarian",
                 "🇸🇪 Homa",
-        "🇩🇪-@PewezaVPN",
-        "✅ @PewezaVPN",
+                "Javid1",
+                "Javid2",
                 "🇳🇱 Нидерланды, Амстердам",
                 "🇳🇱 IRCP\n@Ln2Ray",
                 "🇳🇱 IRCP - IPv6\n@Ln2Ray",
@@ -104,8 +104,8 @@
             "outbounds": [
                 "@KevinZakarian",
                 "🇸🇪 Homa",
-        "🇩🇪-@PewezaVPN",
-        "✅ @PewezaVPN",
+                "Javid1",
+                "Javid2",
                 "🇳🇱 Нидерланды, Амстердам",
                 "🇳🇱 IRCP\n@Ln2Ray",
                 "🇳🇱 IRCP - IPv6\n@Ln2Ray",
@@ -157,7 +157,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇩🇪-@PewezaVPN",
+      "tag": "Javid1",
       "server": "77.90.41.197",
       "server_port": 35000,
       "obfs": {
@@ -173,7 +173,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "✅ @PewezaVPN",
+      "tag": "Javid2",
       "server": "206.71.158.40",
       "server_port": 35000,
       "obfs": {
@@ -213,7 +213,7 @@
             "type": "hysteria2",
             "tag": "🇳🇱 IRCP\n@Ln2Ray",
             "domain_strategy": "ipv4_only",
-            "server": "gavazn.lnmarketplace.net",
+            "server": "206.71.158.23",
             "server_port": 47802,
             "obfs": {
                 "type": "salamander",
