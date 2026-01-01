@@ -157,7 +157,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇩🇪-@PewezaVPN § 38",
+      "tag": "🇩🇪-@PewezaVPN",
       "server": "77.90.41.197",
       "server_port": 35000,
       "obfs": {
@@ -173,7 +173,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "✅ @PewezaVPN (نت ملی) § 39",
+      "tag": "✅ @PewezaVPN",
       "server": "206.71.158.40",
       "server_port": 35000,
       "obfs": {
