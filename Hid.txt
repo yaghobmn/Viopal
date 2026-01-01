@@ -87,6 +87,8 @@
                 "direct",
                 "@KevinZakarian",
                 "🇸🇪 Homa",
+        "🇩🇪-@PewezaVPN",
+        "✅ @PewezaVPN",
                 "🇳🇱 Нидерланды, Амстердам",
                 "🇳🇱 IRCP\n@Ln2Ray",
                 "🇳🇱 IRCP - IPv6\n@Ln2Ray",
@@ -102,6 +104,8 @@
             "outbounds": [
                 "@KevinZakarian",
                 "🇸🇪 Homa",
+        "🇩🇪-@PewezaVPN",
+        "✅ @PewezaVPN",
                 "🇳🇱 Нидерланды, Амстердам",
                 "🇳🇱 IRCP\n@Ln2Ray",
                 "🇳🇱 IRCP - IPv6\n@Ln2Ray",
@@ -149,6 +153,38 @@
         "enabled": true,
         "server_name": "dd.ircybersec.org",
         "alpn": "h3"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇩🇪-@PewezaVPN § 38",
+      "server": "77.90.41.197",
+      "server_port": 35000,
+      "obfs": {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls": {
+        "enabled": true,
+        "server_name": "jnir.pichondan.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "✅ @PewezaVPN (نت ملی) § 39",
+      "server": "206.71.158.40",
+      "server_port": 35000,
+      "obfs": {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org",
+        "insecure": true
       }
     },
     {
@@ -257,7 +293,11 @@
 {
   "type": "hysteria2",
   "tag": "🕊 JNIR - IPv6\n@JavidnamanIran",
-  "domain_strategy": "ipv6_only",
+{
+        "type": "vless",
+              "tag": "🇳🇱 Нидерланды, Амстердам",
+                    "server": "5.253.59.44",
+}  "domain_strategy": "ipv6_only",
   "server": "api.kermanshahi.org",
   "server_port": 42709,
   "obfs": {
