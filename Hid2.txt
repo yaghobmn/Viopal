@@ -87,6 +87,8 @@
                 "direct",
                 "@KevinZakarian",
                 "🇸🇪 Homa",
+                "Meli",
+                "Meli1",
                 "Javid1",
                 "Javid2",
                 "🇳🇱 Нидерланды, Амстердам",
@@ -104,6 +106,8 @@
             "outbounds": [
                 "@KevinZakarian",
                 "🇸🇪 Homa",
+                "Meli",
+                "Meli1",
                 "Javid1",
                 "Javid2",
                 "🇳🇱 Нидерланды, Амстердам",
@@ -138,6 +142,57 @@
       },
       "type": "hysteria2",
       "up_mbps": 100
+    },
+     {
+      "type": "vless",
+      "tag": "Meli",
+      "server": "192.71.82.2",
+      "server_port": 443,
+      "uuid": "a5c05c1e-aa68-443f-8598-09800244bd4b",
+      "tls": {
+        "enabled": true,
+        "server_name": "kingmethode.bIack.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/LiL",
+        "headers": {
+          "Host": "kingmethode.bIack.ir"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "Meli1",
+      "server": "162.19.248.238",
+      "server_port": 550,
+      "uuid": "ede27a79-b039-490b-932c-495de4b68880",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "direct",
+      "tag": "direct-fragment",
+      "tls_fragment": {
+        "enabled": true,
+        "size": "1-500",
+        "sleep": "0-500"
+      }
     },
      {
       "type": "hysteria2",
