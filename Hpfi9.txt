@@ -88,6 +88,8 @@
                 "@KevinZakarian",
                 "🇸🇪 Homa",
                 "Meli",
+                "✅ @PewezaVPN (نت ملی) 18",
+                "✅ @PewezaVPN (نت ملی) 26",
                 "Meli1",
                 "Javid1",
                 "Javid2",
@@ -107,6 +109,8 @@
                 "@KevinZakarian",
                 "🇸🇪 Homa",
                 "Meli",
+                "✅ @PewezaVPN (نت ملی) 18",
+                "✅ @PewezaVPN (نت ملی) 26",
                 "Meli1",
                 "Javid1",
                 "Javid2",
@@ -164,6 +168,47 @@
           "Host": "kingmethode.bIack.ir"
         },
         "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "✅ @PewezaVPN (نت ملی) 18",
+      "server": "172.64.146.20",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.111000.cc.cd",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=",
+        "headers": {
+          "Host": "sni.111000.cc.cd"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "✅ @PewezaVPN (نت ملی) 26",
+      "server": "server.ultra-irancell.com",
+      "server_port": 80,
+      "uuid": "turboo-server",
+      "transport": {
+        "type": "ws",
+        "path": "/ed=2560",
+        "headers": {
+          "Host": "turboo-server.io"
+        },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
