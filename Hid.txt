@@ -85,20 +85,18 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "@KevinZakarian",
-                "🇸🇪 Homa",
-                "Meli",
-                "✅ @PewezaVPN (نت ملی) 18",
-                "✅ @PewezaVPN (نت ملی) 26",
-                "Meli1",
-                "Javid1",
-                "Javid2",
-                "🇳🇱 Нидерланды, Амстердам",
-                "🇳🇱 IRCP\n@Ln2Ray",
-                "🇳🇱 IRCP - IPv6\n@Ln2Ray",
-                "🕊 JNIR\n@JavidnamanIran",
-                "🕊 JNIR - IPv6\n@JavidnamanIran",
-                "MehdiVPN"
+                "SouthKorea2",
+"USA4",
+"USA6",
+"Nether 3",
+"Nether 4",
+"Nether 5",
+"Russia0",
+"Canada0",
+"Canada1",
+"✅ @PewezaVPN (نت ملی)0",
+"✅ @PewezaVPN (نت ملی)1",
+"✅ @PewezaVPN (نت ملی) 18"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -106,20 +104,18 @@
         {
             "interval": "10m",
             "outbounds": [
-                "@KevinZakarian",
-                "🇸🇪 Homa",
-                "Meli",
-                "✅ @PewezaVPN (نت ملی) 18",
-                "✅ @PewezaVPN (نت ملی) 26",
-                "Meli1",
-                "Javid1",
-                "Javid2",
-                "🇳🇱 Нидерланды, Амстердам",
-                "🇳🇱 IRCP\n@Ln2Ray",
-                "🇳🇱 IRCP - IPv6\n@Ln2Ray",
-                "🕊 JNIR\n@JavidnamanIran",
-                "🕊 JNIR - IPv6\n@JavidnamanIran",
-                "MehdiVPN"
+                "SouthKorea2",
+"USA4",
+"USA6",
+"Nether 3",
+"Nether 4",
+"Nether 5",
+"Russia0",
+"Canada0",
+"Canada1",
+"✅ @PewezaVPN (نت ملی)0",
+"✅ @PewezaVPN (نت ملی)1",
+"✅ @PewezaVPN (نت ملی) 18"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -131,48 +127,224 @@
             "type": "direct"
         },
         {
-      "down_mbps": 50,
-      "obfs": {
-        "password": "KevinZakarian",
-        "type": "salamander"
-      },
-      "password": "@KevinZakarian",
-      "server": "kevin.vpny.online",
-      "server_port": 44001,
-      "tag": "@KevinZakarian",
+      "tag": "SouthKorea2",
+      "type": "tuic",
+      "server": "130.162.157.157",
+      "server_port": 52706,
+      "uuid": "d9812081-7f61-456d-9340-a1fb8dfd603b",
+      "password": "d9812081-7f61-456d-9340-a1fb8dfd603b",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
       "tls": {
         "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2",
-      "up_mbps": 100
+        "server_name": "shouer.nezhasu.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
     },
-     {
-      "type": "vless",
-      "tag": "Meli",
-      "server": "192.71.82.2",
-      "server_port": 443,
-      "uuid": "a5c05c1e-aa68-443f-8598-09800244bd4b",
+{
+      "tag": "USA4",
+      "type": "tuic",
+      "server": "132.226.99.211",
+      "server_port": 64015,
+      "uuid": "d9812081-7f61-456d-9340-a1fb8dfd603b",
+      "password": "d9812081-7f61-456d-9340-a1fb8dfd603b",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
       "tls": {
         "enabled": true,
-        "server_name": "kingmethode.bIack.ir",
+        "server_name": "lundun2.nezhasu.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+{
+      "tag": "USA6",
+      "type": "tuic",
+      "server": "141.148.44.35",
+      "server_port": 51500,
+      "uuid": "d9812081-7f61-456d-9340-a1fb8dfd603b",
+      "password": "d9812081-7f61-456d-9340-a1fb8dfd603b",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "lundun2.nezhasu.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+{
+      "tag": "Nether 3",
+      "type": "hysteria2",
+      "server": "206.71.158.37",
+      "server_port": 35000,
+      "password": "Yet-Another-Public-Config-1",
+      "obfs": {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Nether 4",
+      "type": "hysteria2",
+      "server": "206.71.158.37",
+      "server_port": 36400,
+      "password": "Yet-Another-Public-Config-1",
+      "obfs": {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "tag": "Nether 5",
+      "type": "hysteria2",
+      "server": "206.71.158.37",
+      "server_port": 36300,
+      "password": "Yet-Another-Public-Config-1",
+      "obfs": {
+        "type": "salamander",
+        "password": "Yet-Another-Public-Config-1"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "YAPC-1.afshin.ir",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+{
+      "tag": "Russia0",
+      "type": "vless",
+      "server": "109.248.222.151",
+      "server_port": 443,
+      "uuid": "a91e64f0-9295-499d-bf4a-661ad99d4938",
+      "flow": "xtls-rprx-vision",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "nsk.geodema.network",
+        "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
+          "short_id": "1ed136481e0ede74"
+        }
+      }
+    },
+{
+      "tag": "Canada0",
+      "type": "vless",
+      "server": "104.26.6.89",
+      "server_port": 80,
+      "uuid": "c5b129d7-f133-4b34-a9c6-68c9a8f70248",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "EMotioNaL-peRMIsSiONf1bs65u5f4.EcOTOuRISs.Co.uK"
+        }
+      }
+    },
+{
+      "tag": "Canada1",
+      "type": "vless",
+      "server": "198.50.119.86",
+      "server_port": 8080,
+      "uuid": "e2be0db4-4110-42eb-bca1-ba8df0897319",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/39427/Nextlife",
+        "headers": {
+          "Host": "telewebion.com"
+        }
+      }
+    },
+{
+      "type": "vless",
+      "tag": "✅ @PewezaVPN (نت ملی)0",
+      "server": "25.129.197.138",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.111000.de5.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/LiL",
+        "path": "/?Telegram%40V2rayAlpha=",
         "headers": {
-          "Host": "kingmethode.bIack.ir"
+          "Host": "sni.111000.de5.net"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
-      "packet_encoding": ""
+      "packet_encoding": "xudp"
     },
     {
+      "type": "vless",
+      "tag": "✅ @PewezaVPN (نت ملی)1",
+      "server": "25.129.199.148",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.111000.v6.rocks",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=",
+        "headers": {
+          "Host": "sni.111000.v6.rocks"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    }
+  ]
+},
+{
       "type": "vless",
       "tag": "✅ @PewezaVPN (نت ملی) 18",
       "server": "172.64.146.20",
@@ -196,241 +368,6 @@
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "✅ @PewezaVPN (نت ملی) 26",
-      "server": "server.ultra-irancell.com",
-      "server_port": 80,
-      "uuid": "turboo-server",
-      "transport": {
-        "type": "ws",
-        "path": "/ed=2560",
-        "headers": {
-          "Host": "turboo-server.io"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vmess",
-      "tag": "Meli1",
-      "server": "162.19.248.238",
-      "server_port": 550,
-      "uuid": "ede27a79-b039-490b-932c-495de4b68880",
-      "security": "auto",
-      "authenticated_length": true
-    },
-    {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "direct",
-      "tag": "direct-fragment",
-      "tls_fragment": {
-        "enabled": true,
-        "size": "1-500",
-        "sleep": "0-500"
-      }
-    },
-     {
-      "type": "hysteria2",
-      "tag": "🇸🇪 Homa",
-      "server": "dd.openaccessnode.com",
-      "server_port": 989,
-      "obfs": {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi"
-      },
-      "password": "1ce7a53ecb991eb4c91587c366b68333",
-      "tls": {
-        "enabled": true,
-        "server_name": "dd.ircybersec.org",
-        "alpn": "h3"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "Javid1",
-      "server": "77.90.41.197",
-      "server_port": 35000,
-      "obfs": {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-      },
-      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
-      "tls": {
-        "enabled": true,
-        "server_name": "jnir.pichondan.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "Javid2",
-      "server": "206.71.158.40",
-      "server_port": 35000,
-      "obfs": {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-      },
-      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.kermanshahi.org",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 Нидерланды, Амстердам",
-      "server": "5.253.59.44",
-      "server_port": 8443,
-      "uuid": "fd8972d9-cf5e-11f0-9970-45e1d80c4039",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "images.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "H2_xU4399VG3oT9j7e0Bg8qhescX-CTgpeV1HBoCUWY",
-          "short_id": "5d8ae11254"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-            "type": "hysteria2",
-            "tag": "🇳🇱 IRCP\n@Ln2Ray",
-            "domain_strategy": "ipv4_only",
-            "server": "206.71.158.23",
-            "server_port": 47802,
-            "obfs": {
-                "type": "salamander",
-                "password": "Telegram-->@Ln2Ray"
-            },
-            "password": "Telegram-->@Ln2Ray",
-            "tls": {
-                "enabled": true,
-                "server_name": "gavazn.55994421.xyz",
-                "alpn": "h3",
-                "min_version": "1.3",
-                "ech": {
-                    "enabled": true,
-                    "config": [
-                        "-----BEGIN ECH CONFIGS-----",
-                        "AEP+DQA/AAAgACAhrMuVZvRSQBndy2AU/IHugCC/fXns1VqCaS9+S/MmDgAMAAEA",
-                        "AQABAAIAAQADAAhpZWVlLm9yZwAA",
-                        "-----END ECH CONFIGS-----"
-                    ]
-                }
-            }
-        },
-{
-  "type": "hysteria2",
-  "tag": "🇳🇱 IRCP - IPv6\n@Ln2Ray",
-  "domain_strategy": "ipv6_only",
-  "server": "2a14:3f87:f001:9::a",
-  "server_port": 48403,
-  "obfs": {
-    "type": "salamander",
-    "password": "Telegram-->@Ln2Ray"
-  },
-  "password": "Telegram-->@Ln2Ray",
-  "tls": {
-    "enabled": true,
-    "server_name": "gavazn.55994421.xyz",
-    "alpn": "h3",
-    "min_version": "1.3",
-    "ech": {
-      "enabled": true,
-      "config": [
-        "-----BEGIN ECH CONFIGS-----",
-        "AEP+DQA/AAAgACAhrMuVZvRSQBndy2AU/IHugCC/fXns1VqCaS9+S/MmDgAMAAEA",
-        "AQABAAIAAQADAAhpZWVlLm9yZwAA",
-        "-----END ECH CONFIGS-----"
-      ]
-    }
-  }
-},
-{
-  "type": "hysteria2",
-  "tag": "🕊 JNIR\n@JavidnamanIran",
-  "domain_strategy": "ipv4_only",
-  "server": "api.kermanshahi.org",
-  "server_port": 38904,
-  "obfs": {
-    "type": "salamander",
-    "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-  },
-  "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
-  "tls": {
-    "enabled": true,
-    "server_name": "api.kermanshahi.org",
-    "alpn": "h3",
-    "min_version": "1.3",
-    "ech": {
-      "enabled": true,
-      "config": [
-        "-----BEGIN ECH CONFIGS-----",
-        "AEP+DQA/AAAgACAhrMuVZvRSQBndy2AU/IHugCC/fXns1VqCaS9+S/MmDgAMAAEA",
-        "AQABAAIAAQADAAhpZWVlLm9yZwAA",
-        "-----END ECH CONFIGS-----"
-      ]
-    }
-  }
-},
-{
-  "type": "hysteria2",
-  "tag": "🕊 JNIR - IPv6\n@JavidnamanIran",
-  "domain_strategy": "ipv6_only",
-  "server": "api.kermanshahi.org",
-  "server_port": 42709,
-  "obfs": {
-    "type": "salamander",
-    "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-  },
-  "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
-  "tls": {
-    "enabled": true,
-    "server_name": "api.kermanshahi.org",
-    "alpn": "h3",
-    "min_version": "1.3",
-    "ech": {
-      "enabled": true,
-      "config": [
-        "-----BEGIN ECH CONFIGS-----",
-        "AEP+DQA/AAAgACAhrMuVZvRSQBndy2AU/IHugCC/fXns1VqCaS9+S/MmDgAMAAEA",
-        "AQABAAIAAQADAAhpZWVlLm9yZwAA",
-        "-----END ECH CONFIGS-----"
-      ]
-    }
-  }
-},
-{
-      "obfs": {
-        "password": "KevinZakarian",
-        "type": "salamander"
-      },
-      "password": "4TImZd9aiT",
-      "server": "89.116.64.211",
-      "server_port": 11001,
-      "tag": "MehdiVPN",
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      },
-      "type": "hysteria2"
     }
     ],
     "route": {
