@@ -94,6 +94,8 @@
 "Russia0",
 "Canada0",
 "Canada1",
+"Meli Sh 1",
+"Meli Sh 2",
 "✅ @PewezaVPN (نت ملی) 18"
             ],
             "tag": "proxy",
@@ -111,6 +113,8 @@
 "Russia0",
 "Canada0",
 "Canada1",
+"Meli Sh 1",
+"Meli Sh 2",
 "✅ @PewezaVPN (نت ملی) 18"
             ],
             "tag": "auto",
@@ -287,6 +291,55 @@
           "Host": "telewebion.com"
         }
       }
+    },
+{
+      "type": "vless",
+      "tag": "Meli Sh 1",
+      "server": "192.71.82.245",
+      "server_port": 2096,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.111000.cc.Cd",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?Telegram-VPNMaan---Telegram-VPNman---Telegram-VPNman---Telegram-VPNman---Telegram-VPNman---Telegram-VPNman---Telegram-VPNman=",
+        "headers": {
+          "Host": "sni.111000.cc.Cd"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Meli Sh 2",
+      "server": "45.146.201.251",
+      "server_port": 443,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.111000.cc.Cd",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram-VPNman---Telegram-VPNMAAN---Telegram-VPNman---Telegram-VPNMAAN---Telegram-VPNMAAN---Telegram-VPNMAAN---Telegram-VPNMAAN",
+        "headers": {
+          "Host": "sni.111000.cc.Cd"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
     },
 {
       "type": "vless",
