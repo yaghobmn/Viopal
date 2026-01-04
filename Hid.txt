@@ -94,8 +94,6 @@
 "Russia0",
 "Canada0",
 "Canada1",
-"✅ @PewezaVPN (نت ملی)0",
-"✅ @PewezaVPN (نت ملی)1",
 "✅ @PewezaVPN (نت ملی) 18"
             ],
             "tag": "proxy",
@@ -113,8 +111,6 @@
 "Russia0",
 "Canada0",
 "Canada1",
-"✅ @PewezaVPN (نت ملی)0",
-"✅ @PewezaVPN (نت ملی)1",
 "✅ @PewezaVPN (نت ملی) 18"
             ],
             "tag": "auto",
@@ -292,58 +288,6 @@
         }
       }
     },
-{
-      "type": "vless",
-      "tag": "✅ @PewezaVPN (نت ملی)0",
-      "server": "25.129.197.138",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.de5.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?Telegram%40V2rayAlpha=",
-        "headers": {
-          "Host": "sni.111000.de5.net"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "✅ @PewezaVPN (نت ملی)1",
-      "server": "25.129.199.148",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.v6.rocks",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=",
-        "headers": {
-          "Host": "sni.111000.v6.rocks"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    }
-  ]
-},
 {
       "type": "vless",
       "tag": "✅ @PewezaVPN (نت ملی) 18",
