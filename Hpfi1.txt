@@ -96,7 +96,12 @@
 "Canada1",
 "Meli Sh 1",
 "Meli Sh 2",
-"✅ @PewezaVPN (نت ملی) 18"
+"✅ @PewezaVPN (نت ملی) 18",
+"✅ @PewezaVPN 01",
+"✅ @PewezaVPN 03",
+"✅ @PewezaVPN 04",
+"✅ @PewezaVPN 05",
+"✅ @PewezaVPN 06"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,7 +120,12 @@
 "Canada1",
 "Meli Sh 1",
 "Meli Sh 2",
-"✅ @PewezaVPN (نت ملی) 18"
+"✅ @PewezaVPN (نت ملی) 18",
+"✅ @PewezaVPN 01",
+"✅ @PewezaVPN 03",
+"✅ @PewezaVPN 04",
+"✅ @PewezaVPN 05",
+"✅ @PewezaVPN 06"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -365,6 +375,81 @@
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "✅ @PewezaVPN 01",
+      "server": "Cr7.zx-shop.ir",
+      "server_port": 2096,
+      "uuid": "725f7cc0-af7e-40b8-e2c1-72e29bc00529",
+      "tls": {
+        "enabled": true,
+        "server_name": "Nvm.website-game.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config",
+        "headers": {
+          "Host": "Nvm.website-game.ir"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "✅ @PewezaVPN 03",
+      "server": "hxmel2.hxno.ir",
+      "server_port": 9000,
+      "uuid": "051de884-d4d2-4b59-b740-a10795c78ad2",
+      "transport": {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "✅ @PewezaVPN 04",
+      "server": "fast38.funfil.link",
+      "server_port": 31541,
+      "uuid": "41792324-68e1-413b-be71-f26a28213e21",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "hysteria2",
+      "tag": "✅ @PewezaVPN 05",
+      "server": "51.178.55.157",
+      "server_port": 35000,
+      "obfs": {
+        "type": "salamander",
+        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+      },
+      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.kermanshahi.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "✅ @PewezaVPN 06",
+      "server": "193.123.76.84",
+      "server_port": 443,
+      "password": "e343471a-aad3-40da-9dea-72cc8c7dce5f",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true
+      }
     }
     ],
     "route": {
