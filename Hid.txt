@@ -85,23 +85,21 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "SouthKorea2",
-"USA4",
-"USA6",
-"Nether 3",
-"Nether 4",
-"Nether 5",
-"Russia0",
-"Canada0",
-"Canada1",
-"Meli Sh 1",
-"Meli Sh 2",
-"✅ @PewezaVPN (نت ملی) 18",
-"✅ @PewezaVPN 01",
-"✅ @PewezaVPN 03",
-"✅ @PewezaVPN 04",
-"✅ @PewezaVPN 05",
-"✅ @PewezaVPN 06"
+                "Nether 3",
+                "Nether 4",
+                "Nether 5",
+        "Channel id: @ShadowProxy66 🇺🇸",
+        "Channel id: @ShadowProxy66 🇯🇵",
+        "Channel id: @ShadowProxy663",
+        "Channel id: @ShadowProxy66 🇨🇦",
+        "Channel id: @ShadowProxy665",
+        "Channel id: @ShadowProxy66 🇮🇳",
+        "Channel id: @ShadowProxy66 🇺🇸",
+        "Channel id: @ShadowProxy66 🇳🇱",
+        "Channel id: @ShadowProxy66 🇨🇦",
+        "Channel id: @ShadowProxy66 🇮🇳",
+        "Channel id: @ShadowProxy66 🇭🇰",
+        "Channel id: @ShadowProxy66 🇯🇵"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -109,23 +107,21 @@
         {
             "interval": "10m",
             "outbounds": [
-                "SouthKorea2",
-"USA4",
-"USA6",
-"Nether 3",
-"Nether 4",
-"Nether 5",
-"Russia0",
-"Canada0",
-"Canada1",
-"Meli Sh 1",
-"Meli Sh 2",
-"✅ @PewezaVPN (نت ملی) 18",
-"✅ @PewezaVPN 01",
-"✅ @PewezaVPN 03",
-"✅ @PewezaVPN 04",
-"✅ @PewezaVPN 05",
-"✅ @PewezaVPN 06"
+                "Nether 3",
+                "Nether 4",
+                "Nether 5",
+        "Channel id: @ShadowProxy66 🇺🇸",
+        "Channel id: @ShadowProxy66 🇯🇵",
+        "Channel id: @ShadowProxy663",
+        "Channel id: @ShadowProxy66 🇨🇦",
+        "Channel id: @ShadowProxy665",
+        "Channel id: @ShadowProxy66 🇮🇳",
+        "Channel id: @ShadowProxy66 🇺🇸",
+        "Channel id: @ShadowProxy66 🇳🇱",
+        "Channel id: @ShadowProxy66 🇨🇦",
+        "Channel id: @ShadowProxy66 🇮🇳",
+        "Channel id: @ShadowProxy66 🇭🇰",
+        "Channel id: @ShadowProxy66 🇯🇵"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -136,60 +132,6 @@
             "tag": "direct",
             "type": "direct"
         },
-        {
-      "tag": "SouthKorea2",
-      "type": "tuic",
-      "server": "130.162.157.157",
-      "server_port": 52706,
-      "uuid": "d9812081-7f61-456d-9340-a1fb8dfd603b",
-      "password": "d9812081-7f61-456d-9340-a1fb8dfd603b",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "shouer.nezhasu.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-{
-      "tag": "USA4",
-      "type": "tuic",
-      "server": "132.226.99.211",
-      "server_port": 64015,
-      "uuid": "d9812081-7f61-456d-9340-a1fb8dfd603b",
-      "password": "d9812081-7f61-456d-9340-a1fb8dfd603b",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "lundun2.nezhasu.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-{
-      "tag": "USA6",
-      "type": "tuic",
-      "server": "141.148.44.35",
-      "server_port": 51500,
-      "uuid": "d9812081-7f61-456d-9340-a1fb8dfd603b",
-      "password": "d9812081-7f61-456d-9340-a1fb8dfd603b",
-      "congestion_control": "bbr",
-      "udp_relay_mode": "native",
-      "tls": {
-        "enabled": true,
-        "server_name": "lundun2.nezhasu.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
 {
       "tag": "Nether 3",
       "type": "hysteria2",
@@ -247,80 +189,35 @@
         ]
       }
     },
+Hossein, [2/18/2026 9:07 PM]
 {
-      "tag": "Russia0",
+      "type": "vmess",
+      "tag": "Channel id: @ShadowProxy66 🇺🇸",
+      "server": "172.233.229.91",
+      "server_port": 14102,
+      "uuid": "27ba87fc-583f-4763-9060-83cf0b9264db",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
       "type": "vless",
-      "server": "109.248.222.151",
-      "server_port": 443,
-      "uuid": "a91e64f0-9295-499d-bf4a-661ad99d4938",
-      "flow": "xtls-rprx-vision",
-      "packet_encoding": "xudp",
+      "tag": "Channel id: @ShadowProxy66 🇯🇵",
+      "server": "45.77.25.6",
+      "server_port": 48828,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": {
         "enabled": true,
-        "server_name": "nsk.geodema.network",
-        "insecure": true,
+        "server_name": "sni.111000.indevs.in",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
-          "short_id": "1ed136481e0ede74"
-        }
-      }
-    },
-{
-      "tag": "Canada0",
-      "type": "vless",
-      "server": "104.26.6.89",
-      "server_port": 80,
-      "uuid": "c5b129d7-f133-4b34-a9c6-68c9a8f70248",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "EMotioNaL-peRMIsSiONf1bs65u5f4.EcOTOuRISs.Co.uK"
-        }
-      }
-    },
-{
-      "tag": "Canada1",
-      "type": "vless",
-      "server": "198.50.119.86",
-      "server_port": 8080,
-      "uuid": "e2be0db4-4110-42eb-bca1-ba8df0897319",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/39427/Nextlife",
-        "headers": {
-          "Host": "telewebion.com"
-        }
-      }
-    },
-{
-      "type": "vless",
-      "tag": "Meli Sh 1",
-      "server": "192.71.82.245",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.cc.Cd",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/?Telegram-VPNMaan---Telegram-VPNman---Telegram-VPNman---Telegram-VPNman---Telegram-VPNman---Telegram-VPNman---Telegram-VPNman=",
+        "path": "/?Telegram%F0%9F%87%AE%F0%9F%87%B7+%40ShadowProxy66=",
         "headers": {
-          "Host": "sni.111000.cc.Cd"
+          "Host": "sni.111000.indevs.in"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -329,37 +226,97 @@
     },
     {
       "type": "vless",
-      "tag": "Meli Sh 2",
-      "server": "45.146.201.251",
+      "tag": "Channel id: @ShadowProxy663",
+      "server": "45.82.251.208",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "trojan",
+      "tag": "Channel id: @ShadowProxy66 🇨🇦",
+      "server": "104.18.32.47",
       "server_port": 443,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "sni.111000.cc.Cd",
+        "server_name": "www.gossipglove.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/Telegram-VPNman---Telegram-VPNMAAN---Telegram-VPNman---Telegram-VPNMAAN---Telegram-VPNMAAN---Telegram-VPNMAAN---Telegram-VPNMAAN",
+        "path": "/assignment",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Channel id: @ShadowProxy665",
+      "server": "yesok42v2.ip4exordir.shop",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Channel id: @ShadowProxy66 🇮🇳",
+      "server": "35.154.123.52",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.111000.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?Telegram%F0%9F%87%AE%F0%9F%87%B7+%40ShadowProxy66=",
         "headers": {
-          "Host": "sni.111000.cc.Cd"
+          "Host": "sni.111000.indevs.in"
         },
+        "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
     },
-{
+    {
       "type": "vless",
-      "tag": "✅ @PewezaVPN (نت ملی) 18",
-      "server": "172.64.146.20",
-      "server_port": 2096,
-      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "tag": "Channel id: @ShadowProxy66 🇺🇸",
+      "server": "45.82.251.116",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Channel id: @ShadowProxy66 🇳🇱",
+      "server": "147.45.43.58",
+      "server_port": 2053,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": {
         "enabled": true,
-        "server_name": "sni.111000.cc.cd",
+        "server_name": "sni.111000.indevs.in",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -369,7 +326,57 @@
         "type": "ws",
         "path": "/?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=",
         "headers": {
-          "Host": "sni.111000.cc.cd"
+          "Host": "sni.111000.indevs.in"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+
+Hossein, [2/18/2026 9:07 PM]
+},
+      "packet_encoding": ""
+    },
+    {
+      "type": "trojan",
+      "tag": "Channel id: @ShadowProxy66 🇨🇦",
+      "server": "172.64.152.23",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.gossipglove.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.gossipglove.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Channel id: @ShadowProxy66 🇮🇳",
+      "server": "43.205.45.56",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.111000.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?Telegram%F0%9F%87%AE%F0%9F%87%B7+%40ShadowProxy66=",
+        "headers": {
+          "Host": "sni.111000.indevs.in"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -378,13 +385,13 @@
     },
     {
       "type": "vless",
-      "tag": "✅ @PewezaVPN 01",
-      "server": "Cr7.zx-shop.ir",
-      "server_port": 2096,
-      "uuid": "725f7cc0-af7e-40b8-e2c1-72e29bc00529",
+      "tag": "Channel id: @ShadowProxy66 🇭🇰",
+      "server": "8.223.63.150",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": {
         "enabled": true,
-        "server_name": "Nvm.website-game.ir",
+        "server_name": "sni.111000.indevs.in",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -392,64 +399,39 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config",
+        "path": "/?Telegram%F0%9F%87%AE%F0%9F%87%B7+%40ShadowProxy66=",
         "headers": {
-          "Host": "Nvm.website-game.ir"
+          "Host": "sni.111000.indevs.in"
         },
-        "max_early_data": 2048,
+        "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "✅ @PewezaVPN 03",
-      "server": "hxmel2.hxno.ir",
-      "server_port": 9000,
-      "uuid": "051de884-d4d2-4b59-b740-a10795c78ad2",
+      "tag": "Channel id: @ShadowProxy66 🇯🇵",
+      "server": "138.2.10.149",
+      "server_port": 45638,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.111000.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
-        "type": "http",
-        "path": "/",
-        "method": "GET"
+        "type": "ws",
+        "path": "/?Telegram%F0%9F%87%AE%F0%9F%87%B7+%40ShadowProxy66=",
+        "headers": {
+          "Host": "sni.111000.indevs.in"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
-    },
-    {
-      "type": "vmess",
-      "tag": "✅ @PewezaVPN 04",
-      "server": "fast38.funfil.link",
-      "server_port": 31541,
-      "uuid": "41792324-68e1-413b-be71-f26a28213e21",
-      "security": "auto",
-      "authenticated_length": true
-    },
-    {
-      "type": "hysteria2",
-      "tag": "✅ @PewezaVPN 05",
-      "server": "51.178.55.157",
-      "server_port": 35000,
-      "obfs": {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-      },
-      "password": "b4bd0613-ff7c-4f2f-954d-185915e6ddad",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.kermanshahi.org",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "✅ @PewezaVPN 06",
-      "server": "193.123.76.84",
-      "server_port": 443,
-      "password": "e343471a-aad3-40da-9dea-72cc8c7dce5f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true
-      }
     }
     ],
     "route": {
