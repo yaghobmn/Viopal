@@ -189,7 +189,6 @@
         ]
       }
     },
-Hossein, [2/18/2026 9:07 PM]
 {
       "type": "vmess",
       "tag": "Channel id: @ShadowProxy66 🇺🇸",
@@ -330,9 +329,7 @@ Hossein, [2/18/2026 9:07 PM]
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
-
-Hossein, [2/18/2026 9:07 PM]
-},
+      },
       "packet_encoding": ""
     },
     {
