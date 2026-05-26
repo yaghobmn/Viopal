@@ -89,7 +89,7 @@
         "Channel id: @ShadowProxy66 10",
         "Channel id: @ShadowProxy66 11",
         "Channel id: @ShadowProxy66 12",
-        "v2go | 🇺🇸 US | VLESS | 1687 @WhiteDNS",
+        "v2go | US | VLESS | 1687 @WhiteDNS",
         "@oxnet_ir 4"
             ],
             "tag": "proxy",
@@ -102,7 +102,7 @@
         "Channel id: @ShadowProxy66 10",
         "Channel id: @ShadowProxy66 11",
         "Channel id: @ShadowProxy66 12",
-        "v2go | 🇺🇸 US | VLESS | 1687 @WhiteDNS",
+        "v2go | US | VLESS | 1687 @WhiteDNS",
         "@oxnet_ir 4"
             ],
             "tag": "auto",
@@ -213,7 +213,7 @@
     },
     {
       "type": "vless",
-      "tag": "v2go | 🇺🇸 US | VLESS | 1687 @WhiteDNS",
+      "tag": "v2go | US | VLESS | 1687 @WhiteDNS",
       "server": "160.153.0.78",
       "server_port": 2053,
       "uuid": "8c4604ef-749c-4b56-adf1-7da405002a21",
