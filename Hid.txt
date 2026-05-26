@@ -90,7 +90,10 @@
         "Channel id: @ShadowProxy66 11",
         "Channel id: @ShadowProxy66 12",
         "v2go | US | VLESS | 1687 @WhiteDNS",
-        "@oxnet_ir 4"
+        "@oxnet_ir 4",
+        "Peweza-VIP-4",
+        "Peweza-VIP-5",
+        "Peweza-VIP-6"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +106,10 @@
         "Channel id: @ShadowProxy66 11",
         "Channel id: @ShadowProxy66 12",
         "v2go | US | VLESS | 1687 @WhiteDNS",
-        "@oxnet_ir 4"
+        "@oxnet_ir 4",
+        "Peweza-VIP-4",
+        "Peweza-VIP-5",
+        "Peweza-VIP-6"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -251,6 +257,48 @@
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
+    },
+   {
+      "type": "vmess",
+      "tag": "Peweza-VIP-4",
+      "server": "v.srv.peweza.com",
+      "server_port": 44950,
+      "uuid": "3a4f1a20-a84f-47ef-b2a7-00389cf41006",
+      "security": "auto",
+      "authenticated_length": true,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "Peweza-VIP-5",
+      "server": "z.xpt.peweza.com",
+      "server_port": 44950,
+      "uuid": "172820b2-b799-4fdb-b127-0a0c5f58dc70",
+      "security": "auto",
+      "authenticated_length": true,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "Peweza-VIP-6",
+      "server": "f.jum.peweza.com",
+      "server_port": 44950,
+      "uuid": "b1cb3af6-5469-4fb7-b766-7b54d682e49d",
+      "security": "auto",
+      "authenticated_length": true,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     }
     ],
     "route": {
