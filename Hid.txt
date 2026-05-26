@@ -85,21 +85,12 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "Nether 3",
-                "Nether 4",
-                "Nether 5",
-        "Channel id: @ShadowProxy66 🇺🇸 1",
-        "Channel id: @ShadowProxy66 🇯🇵 2",
-        "Channel id: @ShadowProxy66 3",
-        "Channel id: @ShadowProxy66 🇨🇦 4",
-        "Channel id: @ShadowProxy66 5",
-        "Channel id: @ShadowProxy66 🇮🇳 6",
-        "Channel id: @ShadowProxy66 🇺🇸 7",
-        "Channel id: @ShadowProxy66 🇳🇱 8",
-        "Channel id: @ShadowProxy66 🇨🇦 9",
-        "Channel id: @ShadowProxy66 🇮🇳 10",
-        "Channel id: @ShadowProxy66 🇭🇰 11",
-        "Channel id: @ShadowProxy66 🇯🇵 12"
+                "wearestand",
+        "Channel id: @ShadowProxy66 �� 10",
+        "Channel id: @ShadowProxy66 �� 11",
+        "Channel id: @ShadowProxy66 �� 12",
+        "v2go | 🇺🇸 US | VLESS | 1687 @WhiteDNS",
+        "@oxnet_ir 4"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,21 +98,12 @@
         {
             "interval": "10m",
             "outbounds": [
-                "Nether 3",
-                "Nether 4",
-                "Nether 5",
-        "Channel id: @ShadowProxy66 🇺🇸 1",
-        "Channel id: @ShadowProxy66 🇯🇵 2",
-        "Channel id: @ShadowProxy66 3",
-        "Channel id: @ShadowProxy66 🇨🇦 4",
-        "Channel id: @ShadowProxy66 5",
-        "Channel id: @ShadowProxy66 🇮🇳 6",
-        "Channel id: @ShadowProxy66 🇺🇸 7",
-        "Channel id: @ShadowProxy66 🇳🇱 8",
-        "Channel id: @ShadowProxy66 🇨🇦 9",
-        "Channel id: @ShadowProxy66 🇮🇳 10",
-        "Channel id: @ShadowProxy66 🇭🇰 11",
-        "Channel id: @ShadowProxy66 🇯🇵 12"
+                "wearestand",
+        "Channel id: @ShadowProxy66 �� 10",
+        "Channel id: @ShadowProxy66 �� 11",
+        "Channel id: @ShadowProxy66 �� 12",
+        "v2go | 🇺🇸 US | VLESS | 1687 @WhiteDNS",
+        "@oxnet_ir 4"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -133,228 +115,28 @@
             "type": "direct"
         },
 {
-      "tag": "Nether 3",
-      "type": "hysteria2",
-      "server": "206.71.158.37",
-      "server_port": 35000,
-      "password": "Yet-Another-Public-Config-1",
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "Nether 4",
-      "type": "hysteria2",
-      "server": "206.71.158.37",
-      "server_port": 36400,
-      "password": "Yet-Another-Public-Config-1",
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "Nether 5",
-      "type": "hysteria2",
-      "server": "206.71.158.37",
-      "server_port": 36300,
-      "password": "Yet-Another-Public-Config-1",
-      "obfs": {
-        "type": "salamander",
-        "password": "Yet-Another-Public-Config-1"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "YAPC-1.afshin.ir",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-{
-      "type": "vmess",
-      "tag": "Channel id: @ShadowProxy66 🇺🇸 1",
-      "server": "172.233.229.91",
-      "server_port": 14102,
-      "uuid": "27ba87fc-583f-4763-9060-83cf0b9264db",
-      "security": "auto",
-      "authenticated_length": true
-    },
-    {
-      "type": "vless",
-      "tag": "Channel id: @ShadowProxy66 🇯🇵 2",
-      "server": "45.77.25.6",
-      "server_port": 48828,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.indevs.in",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?Telegram%F0%9F%87%AE%F0%9F%87%B7+%40ShadowProxy66=",
-        "headers": {
-          "Host": "sni.111000.indevs.in"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Channel id: @ShadowProxy66 3",
-      "server": "45.82.251.208",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "trojan",
-      "tag": "Channel id: @ShadowProxy66 🇨🇦 4",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.gossipglove.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Channel id: @ShadowProxy66 5",
-      "server": "yesok42v2.ip4exordir.shop",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Channel id: @ShadowProxy66 🇮🇳 6",
-      "server": "35.154.123.52",
-      "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.indevs.in",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?Telegram%F0%9F%87%AE%F0%9F%87%B7+%40ShadowProxy66=",
-        "headers": {
-          "Host": "sni.111000.indevs.in"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Channel id: @ShadowProxy66 🇺🇸 7",
-      "server": "45.82.251.116",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Channel id: @ShadowProxy66 🇳🇱 8",
-      "server": "147.45.43.58",
-      "server_port": 2053,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.indevs.in",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=",
-        "headers": {
-          "Host": "sni.111000.indevs.in"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "trojan",
-      "tag": "Channel id: @ShadowProxy66 🇨🇦 9",
-      "server": "172.64.152.23",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.gossipglove.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.gossipglove.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
+  "domain_strategy": "",
+  "headers": {
+    "Host": [
+      "scholar.google.com"
+    ]
+  },
+  "password": "i67s60ep",
+  "path": "",
+  "server": "135.136.28.62",
+  "server_port": 10780,
+  "tag": "wearestand",
+  "tls": {
+    "alpn": [
+      "h2,http/1.1"
+    ],
+    "disable_sni": false,
+    "enabled": false,
+    "server_name": ""
+  },
+  "type": "http",
+  "username": "purevpn0s8732217"
+},
     {
       "type": "vless",
       "tag": "Channel id: @ShadowProxy66 🇮🇳 10",
@@ -382,7 +164,7 @@
     },
     {
       "type": "vless",
-      "tag": "Channel id: @ShadowProxy66 🇭🇰 11",
+      "tag": "Channel id: @ShadowProxy66 �� 11",
       "server": "8.223.63.150",
       "server_port": 443,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
@@ -407,7 +189,7 @@
     },
     {
       "type": "vless",
-      "tag": "Channel id: @ShadowProxy66 🇯🇵 12",
+      "tag": "Channel id: @ShadowProxy66 �� 12",
       "server": "138.2.10.149",
       "server_port": 45638,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
@@ -424,6 +206,47 @@
         "path": "/?Telegram%F0%9F%87%AE%F0%9F%87%B7+%40ShadowProxy66=",
         "headers": {
           "Host": "sni.111000.indevs.in"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "v2go | 🇺🇸 US | VLESS | 1687 @WhiteDNS",
+      "server": "160.153.0.78",
+      "server_port": 2053,
+      "uuid": "8c4604ef-749c-4b56-adf1-7da405002a21",
+      "tls": {
+        "enabled": true,
+        "server_name": "qyi.fqjd663.ggff.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "qyi.fqjd663.ggff.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@oxnet_ir 4",
+      "server": "104.16.7.70",
+      "server_port": 2095,
+      "uuid": "2b5f8588-87f6-40af-a785-322c8fa1df77",
+      "transport": {
+        "type": "ws",
+        "path": "/XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn",
+        "headers": {
+          "Host": "sni.111000.dynv6.azazilvpn.sbs"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
