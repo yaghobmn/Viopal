@@ -86,6 +86,7 @@
                 "auto",
                 "direct",
                 "wearestand",
+                "wearestand2",
         "Channel id: @ShadowProxy66 10",
         "Channel id: @ShadowProxy66 11",
         "Channel id: @ShadowProxy66 12",
@@ -112,6 +113,7 @@
             "interval": "10m",
             "outbounds": [
                 "wearestand",
+                "wearestand2",
         "Channel id: @ShadowProxy66 10",
         "Channel id: @ShadowProxy66 11",
         "Channel id: @ShadowProxy66 12",
@@ -162,6 +164,29 @@
   "type": "http",
   "username": "purevpn0s8732217"
 },
+ {
+      "headers": {
+        "Host": [
+          "scholar.google.com"
+        ]
+      },
+      "password": "i67s60ep",
+      "path": "",
+      "server": "79.127.181.234",
+      "server_port": 10780,
+      "domain_strategy": "",
+      "tag": "wearestand2",
+      "tls": {
+        "alpn": [
+          "h2,http/1.1"
+        ],
+        "disable_sni": false,
+        "enabled": false,
+        "server_name": ""
+      },
+      "type": "http",
+      "username": "purevpn0s8732217"
+    },
     {
       "type": "vless",
       "tag": "Channel id: @ShadowProxy66 10",
