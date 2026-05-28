@@ -87,11 +87,6 @@
                 "direct",
                 "wearestand",
                 "wearestand2",
-        "Channel id: @ShadowProxy66 10",
-        "Channel id: @ShadowProxy66 11",
-        "Channel id: @ShadowProxy66 12",
-        "v2go | US | VLESS | 1687 @WhiteDNS",
-        "@oxnet_ir 4",
         "[openproxylist.com] ss-TW 0",
         "[openproxylist.com] ss-TW 1",
         "[openproxylist.com] ss-TW 2",
@@ -102,9 +97,6 @@
         "[openproxylist.com] vless-RO 7",
         "[openproxylist.com] ss-SG 8",
         "[openproxylist.com] ss-NL 9",
-        "NANI @TheVPNMethod",
-        "CASH @TheVPNMethod",
-        "NOOSHABE @TheVPNMethod",
         "Server 17",
         "Server 2"
             ],
@@ -116,11 +108,6 @@
             "outbounds": [
                 "wearestand",
                 "wearestand2",
-        "Channel id: @ShadowProxy66 10",
-        "Channel id: @ShadowProxy66 11",
-        "Channel id: @ShadowProxy66 12",
-        "v2go | US | VLESS | 1687 @WhiteDNS",
-        "@oxnet_ir 4",
         "[openproxylist.com] ss-TW 0",
         "[openproxylist.com] ss-TW 1",
         "[openproxylist.com] ss-TW 2",
@@ -131,9 +118,6 @@
         "[openproxylist.com] vless-RO 7",
         "[openproxylist.com] ss-SG 8",
         "[openproxylist.com] ss-NL 9",
-        "NANI @TheVPNMethod",
-        "CASH @TheVPNMethod",
-        "NOOSHABE @TheVPNMethod",
         "Server 17",
         "Server 2"
             ],
@@ -190,122 +174,6 @@
       },
       "type": "http",
       "username": "purevpn0s8732217"
-    },
-    {
-      "type": "vless",
-      "tag": "Channel id: @ShadowProxy66 10",
-      "server": "43.205.45.56",
-      "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.indevs.in",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?Telegram%F0%9F%87%AE%F0%9F%87%B7+%40ShadowProxy66=",
-        "headers": {
-          "Host": "sni.111000.indevs.in"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Channel id: @ShadowProxy66 11",
-      "server": "8.223.63.150",
-      "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.indevs.in",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?Telegram%F0%9F%87%AE%F0%9F%87%B7+%40ShadowProxy66=",
-        "headers": {
-          "Host": "sni.111000.indevs.in"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Channel id: @ShadowProxy66 12",
-      "server": "138.2.10.149",
-      "server_port": 45638,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.indevs.in",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?Telegram%F0%9F%87%AE%F0%9F%87%B7+%40ShadowProxy66=",
-        "headers": {
-          "Host": "sni.111000.indevs.in"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "v2go | US | VLESS | 1687 @WhiteDNS",
-      "server": "160.153.0.78",
-      "server_port": 2053,
-      "uuid": "8c4604ef-749c-4b56-adf1-7da405002a21",
-      "tls": {
-        "enabled": true,
-        "server_name": "qyi.fqjd663.ggff.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "qyi.fqjd663.ggff.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "@oxnet_ir 4",
-      "server": "104.16.7.70",
-      "server_port": 2095,
-      "uuid": "2b5f8588-87f6-40af-a785-322c8fa1df77",
-      "transport": {
-        "type": "ws",
-        "path": "/XnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn",
-        "headers": {
-          "Host": "sni.111000.dynv6.azazilvpn.sbs"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
     },
     {
       "type": "shadowsocks",
@@ -421,78 +289,6 @@
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "vless",
-      "tag": "NANI @TheVPNMethod",
-      "server": "198.41.223.119",
-      "server_port": 443,
-      "uuid": "ae0dd58e-e222-40bf-84ae-365a97532737",
-      "tls": {
-        "enabled": true,
-        "server_name": "pagescm.freen6.de5.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/season/sort/specialfp=chrome",
-        "headers": {
-          "Host": "pagescm.freen6.de5.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "CASH @TheVPNMethod",
-      "server": "104.16.79.73",
-      "server_port": 443,
-      "uuid": "ae0dd58e-e222-40bf-84ae-365a97532737",
-      "tls": {
-        "enabled": true,
-        "server_name": "pagescm.freen32.cc.cd",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/play/settings",
-        "headers": {
-          "Host": "pagescm.freen32.cc.cd"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "NOOSHABE @TheVPNMethod",
-      "server": "104.16.63.25",
-      "server_port": 443,
-      "uuid": "ae0dd58e-e222-40bf-84ae-365a97532737",
-      "tls": {
-        "enabled": true,
-        "server_name": "pagescm.freen6.de5.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/help/jumping",
-        "headers": {
-          "Host": "pagescm.freen6.de5.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
     },
     {
       "type": "vless",
