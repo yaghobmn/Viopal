@@ -87,10 +87,6 @@
                 "direct",
                 "wearestand",
                 "wearestand2",
-        "[openproxylist.com] ss-TW 1",
-        "[openproxylist.com] trojan-FR 3",
-        "[openproxylist.com] ss-NL 6",
-        "[openproxylist.com] ss-NL 9",
         "Server 17",
         "Server 2",
         "Server 16",
@@ -106,10 +102,6 @@
             "outbounds": [
                 "wearestand",
                 "wearestand2",
-        "[openproxylist.com] ss-TW 1",
-        "[openproxylist.com] trojan-FR 3",
-        "[openproxylist.com] ss-NL 6",
-        "[openproxylist.com] ss-NL 9",
         "Server 17",
         "Server 2",
         "Server 16",
@@ -170,53 +162,6 @@
       },
       "type": "http",
       "username": "purevpn0s8732217"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[openproxylist.com] ss-TW 1",
-      "server": "r3mrcg001286ek2.cybervena.com",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    },
-    {
-      "type": "trojan",
-      "tag": "[openproxylist.com] trojan-FR 3",
-      "server": "172.64.229.75",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmloud.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.calmloud.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[openproxylist.com] ss-NL 6",
-      "server": "82.38.31.149",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[openproxylist.com] ss-NL 9",
-      "server": "82.38.31.35",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "vless",
