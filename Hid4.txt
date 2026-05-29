@@ -87,18 +87,16 @@
                 "direct",
                 "wearestand",
                 "wearestand2",
-        "[openproxylist.com] ss-TW 0",
         "[openproxylist.com] ss-TW 1",
-        "[openproxylist.com] ss-TW 2",
         "[openproxylist.com] trojan-FR 3",
-        "[openproxylist.com] vmess-HK 4",
-        "[openproxylist.com] ss-US 5",
         "[openproxylist.com] ss-NL 6",
-        "[openproxylist.com] vless-RO 7",
-        "[openproxylist.com] ss-SG 8",
         "[openproxylist.com] ss-NL 9",
         "Server 17",
-        "Server 2"
+        "Server 2",
+        "Server 16",
+        "Server 24",
+        "Server 26",
+        "Server 34"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -108,18 +106,16 @@
             "outbounds": [
                 "wearestand",
                 "wearestand2",
-        "[openproxylist.com] ss-TW 0",
         "[openproxylist.com] ss-TW 1",
-        "[openproxylist.com] ss-TW 2",
         "[openproxylist.com] trojan-FR 3",
-        "[openproxylist.com] vmess-HK 4",
-        "[openproxylist.com] ss-US 5",
         "[openproxylist.com] ss-NL 6",
-        "[openproxylist.com] vless-RO 7",
-        "[openproxylist.com] ss-SG 8",
         "[openproxylist.com] ss-NL 9",
         "Server 17",
-        "Server 2"
+        "Server 2",
+        "Server 16",
+        "Server 24",
+        "Server 26",
+        "Server 34"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -177,24 +173,8 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "[openproxylist.com] ss-TW 0",
-      "server": "r3mrcg007117fb8.cybervena.com",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "[openproxylist.com] ss-TW 1",
       "server": "r3mrcg001286ek2.cybervena.com",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[openproxylist.com] ss-TW 2",
-      "server": "r3mrcg007147vhp.cybervena.com",
       "server_port": 50099,
       "method": "chacha20-ietf-poly1305",
       "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
@@ -223,64 +203,12 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "[openproxylist.com] vmess-HK 4",
-      "server": "154.205.136.122",
-      "server_port": 37849,
-      "uuid": "30e88f67-8445-43ca-ff2b-961bbf6339fc",
-      "security": "auto",
-      "authenticated_length": true,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[openproxylist.com] ss-US 5",
-      "server": "142.93.73.182",
-      "server_port": 45389,
-      "method": "chacha20-ietf-poly1305",
-      "password": "hk1SdyRWbYi3Igxeow9JdN"
-    },
-    {
       "type": "shadowsocks",
       "tag": "[openproxylist.com] ss-NL 6",
       "server": "82.38.31.149",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "vless",
-      "tag": "[openproxylist.com] vless-RO 7",
-      "server": "77.81.98.70",
-      "server_port": 443,
-      "uuid": "43488128-319e-f480-64ea-0acdc712e2a8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.aliexpress.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "kkRsTNjRh_XrrTM6eZllllldzoL5Z9IqlBkDtmYLMhw",
-          "short_id": "9b4fc5a116efd6c8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[openproxylist.com] ss-SG 8",
-      "server": "194.233.94.119",
-      "server_port": 80,
-      "method": "aes-256-gcm",
-      "password": "8t2xeemUtyui4zAv"
     },
     {
       "type": "shadowsocks",
@@ -307,6 +235,58 @@
       "type": "vless",
       "tag": "Server 2",
       "server": "sca10.myfymain.com",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 16",
+      "server": "sca13.myfymain.com",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 24",
+      "server": "sca12.myfymain.com",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 26",
+      "server": "sca11.myfymain.com",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 34",
+      "server": "sca17.myfymain.com",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "transport": {
