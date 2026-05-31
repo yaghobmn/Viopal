@@ -87,6 +87,9 @@
                 "direct",
                 "wearestand",
                 "wearestand2",
+                "@Masir_Sefid 0",
+                "@Masir_Sefid 1",
+                "@Masir_Sefid 2",
                 "Server 53",
                 "Server 59",
                 "Server 70",
@@ -109,6 +112,9 @@
             "outbounds": [
                 "wearestand",
                 "wearestand2",
+                "@Masir_Sefid 0",
+                "@Masir_Sefid 1",
+                "@Masir_Sefid 2",
                 "Server 53",
                 "Server 59",
                 "Server 70",
@@ -176,6 +182,51 @@
       },
       "type": "http",
       "username": "purevpn0s8732217"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@Masir_Sefid 0",
+      "server": "18.157.100.78",
+      "server_port": 1040,
+      "obfs": {
+        "type": "salamander",
+        "password": "Masir_Sefid"
+      },
+      "password": "Masir_Sefid",
+      "tls": {
+        "enabled": true,
+        "server_name": "qus.masir-sefid.shop"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@Masir_Sefid 1",
+      "server": "18.157.100.78",
+      "server_port": 54040,
+      "obfs": {
+        "type": "salamander",
+        "password": "Masir_Sefid"
+      },
+      "password": "Masir_Sefid",
+      "tls": {
+        "enabled": true,
+        "server_name": "qus.masir-sefid.shop"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "@Masir_Sefid 2",
+      "server": "18.157.100.78",
+      "server_port": 444,
+      "obfs": {
+        "type": "salamander",
+        "password": "Masir_Sefid"
+      },
+      "password": "Masir_Sefid",
+      "tls": {
+        "enabled": true,
+        "server_name": "qus.masir-sefid.shop"
+      }
     },
     {
       "type": "vless",
