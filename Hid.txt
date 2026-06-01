@@ -95,7 +95,6 @@
                 "Server 75",
                 "Server 11",
                 "Server 36",
-                "Server 68",
                 "Server 71",
                 "Server 72",
                 "Server 20"
@@ -116,7 +115,6 @@
                 "Server 75",
                 "Server 11",
                 "Server 36",
-                "Server 68",
                 "Server 71",
                 "Server 72",
                 "Server 20"
