@@ -90,19 +90,15 @@
                 "@Masir_Sefid 0",
                 "@Masir_Sefid 1",
                 "@Masir_Sefid 2",
-                "Server 53",
                 "Server 59",
                 "Server 70",
                 "Server 75",
                 "Server 11",
-                "Server 29",
-                "Server 31",
-                "Server 33",
                 "Server 36",
                 "Server 68",
                 "Server 71",
                 "Server 72",
-                "Server 81"
+                "Server 20"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,19 +111,15 @@
                 "@Masir_Sefid 0",
                 "@Masir_Sefid 1",
                 "@Masir_Sefid 2",
-                "Server 53",
                 "Server 59",
                 "Server 70",
                 "Server 75",
                 "Server 11",
-                "Server 29",
-                "Server 31",
-                "Server 33",
                 "Server 36",
                 "Server 68",
                 "Server 71",
                 "Server 72",
-                "Server 81"
+                "Server 20"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -186,7 +178,7 @@
     {
       "type": "hysteria2",
       "tag": "@Masir_Sefid 0",
-      "server": "18.196.180.90",
+      "server": "18.194.238.82",
       "server_port": 1040,
       "obfs": {
         "type": "salamander",
@@ -201,7 +193,7 @@
     {
       "type": "hysteria2",
       "tag": "@Masir_Sefid 1",
-      "server": "18.196.180.90",
+      "server": "18.194.238.82",
       "server_port": 54040,
       "obfs": {
         "type": "salamander",
@@ -216,7 +208,7 @@
     {
       "type": "hysteria2",
       "tag": "@Masir_Sefid 2",
-      "server": "18.196.180.90",
+      "server": "18.194.238.82",
       "server_port": 444,
       "obfs": {
         "type": "salamander",
@@ -227,14 +219,6 @@
         "enabled": true,
         "server_name": "qus.masir-sefid.shop"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "Server 53",
-      "server": "3.65.207.158",
-      "server_port": 443,
-      "uuid": "0a335b4d-7a02-4989-a16d-424d265a6420",
-      "packet_encoding": ""
     },
     {
       "type": "vless",
@@ -293,64 +277,12 @@
       "packet_encoding": ""
     },
     {
-      "type": "vless",
-      "tag": "Server 29",
-      "server": "sca10.myfymain.com",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 31",
-      "server": "sca12.myfymain.com",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 33",
-      "server": "sca19.myfymain.com",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
       "type": "shadowsocks",
       "tag": "Server 36",
       "server": "49.13.3.249",
       "server_port": 23997,
       "method": "2022-blake3-aes-256-gcm",
       "password": "dyL+KqX8hIMn+UyADwSJOPm72A0A83TsDOFXBn6I2mA="
-    },
-    {
-      "type": "vless",
-      "tag": "Server 68",
-      "server": "sca13.myfymain.com",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
     },
     {
       "type": "trojan",
@@ -386,25 +318,26 @@
       "packet_encoding": ""
     },
     {
-      "type": "trojan",
-      "tag": "Server 81",
-      "server": "45.130.125.76",
+      "type": "vless",
+      "tag": "Server 20",
+      "server": "185.221.199.37",
       "server_port": 443,
-      "password": "ylRh2jfDft",
+      "uuid": "37253a6a-2a9b-42bb-992c-b5f1b1ef1791",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "da.aananas.ir",
+        "server_name": "vruaz.mostserv.xyz",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI",
+          "short_id": "226509f017e4c36d"
         }
       },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      "packet_encoding": ""
     }
         ],
         "rules": [
