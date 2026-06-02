@@ -176,7 +176,7 @@
     {
       "type": "hysteria2",
       "tag": "@Masir_Sefid 0",
-      "server": "18.159.66.5",
+      "server": "34.196.169.182",
       "server_port": 1040,
       "obfs": {
         "type": "salamander",
@@ -191,7 +191,7 @@
     {
       "type": "hysteria2",
       "tag": "@Masir_Sefid 1",
-      "server": "18.159.66.5",
+      "server": "34.196.169.182",
       "server_port": 54040,
       "obfs": {
         "type": "salamander",
@@ -206,7 +206,7 @@
     {
       "type": "hysteria2",
       "tag": "@Masir_Sefid 2",
-      "server": "18.159.66.5",
+      "server": "34.196.169.182",
       "server_port": 444,
       "obfs": {
         "type": "salamander",
