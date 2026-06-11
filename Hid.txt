@@ -87,7 +87,7 @@
                 "direct",
                 "wearestand",
                 "wearestand2",
-                "Server 509",
+                "Server 599",
                 "Reality/Xhttp-Net3rf",
                 "Reality/gRPC-Net3rf",
                 "Server 7",
@@ -108,7 +108,7 @@
             "outbounds": [
                 "wearestand",
                 "wearestand2",
-                "Server 509",
+                "Server 599",
                 "Reality/Xhttp-Net3rf",
                 "Reality/gRPC-Net3rf",
                 "Server 7",
