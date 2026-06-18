@@ -87,6 +87,8 @@
                 "direct",
                 "wearestand",
                 "wearestand2",
+                "HH",
+                "HRE",
                 "Server 7",
                 "Server 48",
                 "Server 97",
@@ -112,6 +114,8 @@
             "outbounds": [
                 "wearestand",
                 "wearestand2",
+                "HH",
+                "HRE",
                 "Server 7",
                 "Server 48",
                 "Server 97",
@@ -182,6 +186,42 @@
       },
       "type": "http",
       "username": "purevpn0s8732217"
+    },
+    {
+      "type": "vmess",
+      "tag": "HH",
+      "server": "dd.ircybersec.org",
+      "server_port": 51,
+      "uuid": "47c7c52a-07ff-77b3-b86b-c514edb92602",
+      "security": "auto",
+      "authenticated_length": true,
+      "transport": {
+        "type": "http",
+        "host": "knox.cdn-apple.com",
+        "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/",
+        "method": "GET"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "HRE",
+      "server": "dd.ircybersec.org",
+      "server_port": 1000,
+      "uuid": "47c7c52a-07ff-77b3-b86b-c514edb92602",
+      "tls": {
+        "enabled": true,
+        "server_name": "knox.cdn-apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY",
+          "short_id": "a62d513cd709744a"
+        }
+      },
+      "packet_encoding": ""
     },
     {
       "type": "vless",
