@@ -89,6 +89,8 @@
                 "wearestand2",
                 "HH",
                 "HRE",
+                "HH 2",
+                "HRE 2",
                 "Server 7",
                 "Server 48",
                 "Server 97",
@@ -116,6 +118,8 @@
                 "wearestand2",
                 "HH",
                 "HRE",
+                "HH 2",
+                "HRE 2",
                 "Server 7",
                 "Server 48",
                 "Server 97",
@@ -208,6 +212,42 @@
       "server": "dd.ircybersec.org",
       "server_port": 1000,
       "uuid": "47c7c52a-07ff-77b3-b86b-c514edb92602",
+      "tls": {
+        "enabled": true,
+        "server_name": "knox.cdn-apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY",
+          "short_id": "a62d513cd709744a"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "HH 2",
+      "server": "dd.ircybersec.org",
+      "server_port": 51,
+      "uuid": "a9d3f779-43ae-ee7d-4dc3-fa073c1797d8",
+      "security": "auto",
+      "authenticated_length": true,
+      "transport": {
+        "type": "http",
+        "host": "knox.cdn-apple.com",
+        "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/",
+        "method": "GET"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "HRE 2",
+      "server": "dd.ircybersec.org",
+      "server_port": 1000,
+      "uuid": "a9d3f779-43ae-ee7d-4dc3-fa073c1797d8",
       "tls": {
         "enabled": true,
         "server_name": "knox.cdn-apple.com",
