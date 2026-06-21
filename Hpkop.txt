@@ -228,7 +228,7 @@
     {
       "type": "vmess",
       "tag": "🇸🇪 HH ➡️ @JavidnamanIran",
-      "server": "dd.ircybersec.org",
+      "server": "direct.ircybersec.org",
       "server_port": 51,
       "uuid": "f04d455b-e889-c2c4-3e03-dab1b75cb0bb",
       "security": "auto",
@@ -243,7 +243,7 @@
     {
       "type": "vless",
       "tag": "🇸🇪 HRE ➡️ @JavidnamanIran",
-      "server": "dd.ircybersec.org",
+      "server": "direct.ircybersec.org",
       "server_port": 1000,
       "uuid": "f04d455b-e889-c2c4-3e03-dab1b75cb0bb",
       "tls": {
@@ -264,9 +264,9 @@
     {
       "type": "vmess",
       "tag": "🇸🇪 HH 2 ➡️ @JavidnamanIran",
-      "server": "dd.ircybersec.org",
+      "server": "direct.ircybersec.org",
       "server_port": 51,
-      "uuid": "4065c3ef-7cf2-8b9f-163c-7f5ffe815fa9",
+      "uuid": "0411b1cc-1fa9-b0ac-1eb2-bb403f1d6b0f",
       "security": "auto",
       "authenticated_length": true,
       "transport": {
@@ -279,9 +279,9 @@
     {
       "type": "vless",
       "tag": "🇸🇪 HRE 2 ➡️ @JavidnamanIran",
-      "server": "dd.ircybersec.org",
+      "server": "direct.ircybersec.org",
       "server_port": 1000,
-      "uuid": "4065c3ef-7cf2-8b9f-163c-7f5ffe815fa9",
+      "uuid": "0411b1cc-1fa9-b0ac-1eb2-bb403f1d6b0f",
       "tls": {
         "enabled": true,
         "server_name": "knox.cdn-apple.com",
