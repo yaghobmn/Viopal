@@ -97,8 +97,6 @@
                 "Server 91",
                 "Server 101",
                 "Server 24",
-                "Server 29",
-                "Server 54",
                 "Server 76",
                 "Server 110",
                 "Server 112",
@@ -108,7 +106,6 @@
                 "Server 3",
                 "Server 17",
                 "Server 26",
-                "Server 27",
                 "Server 28"
             ],
             "tag": "proxy",
@@ -129,8 +126,6 @@
                 "Server 91",
                 "Server 101",
                 "Server 24",
-                "Server 29",
-                "Server 54",
                 "Server 76",
                 "Server 110",
                 "Server 112",
@@ -140,7 +135,6 @@
                 "Server 3",
                 "Server 17",
                 "Server 26",
-                "Server 27",
                 "Server 28"
             ],
             "tag": "auto",
@@ -397,38 +391,6 @@
     },
     {
       "type": "vless",
-      "tag": "Server 29",
-      "server": "45.130.125.114",
-      "server_port": 80,
-      "uuid": "1a2b3c4d-5e6f-4789-8a9b-0c1d2e3f4a5b",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "scale73-cdn.sabzi.name.ng."
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 54",
-      "server": "45.130.125.114",
-      "server_port": 80,
-      "uuid": "1a2b3c4d-5e6f-4789-8a9b-0c1d2e3f4a5b",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "free-hzr01-cdn.sabzi.name.ng."
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
       "tag": "Server 76",
       "server": "45.130.125.158",
       "server_port": 443,
@@ -598,28 +560,6 @@
           "Host": "srv75.perfectbulk.info"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 27",
-      "server": "electro.gtboost.uk",
-      "server_port": 443,
-      "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
-      "tls": {
-        "enabled": true,
-        "server_name": "FierceBolt-AA89.webapi.name",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
       },
       "packet_encoding": ""
     },
