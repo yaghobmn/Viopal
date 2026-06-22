@@ -88,24 +88,21 @@
                 "📅 Update: 1 Tir",
                 "wearestand",
                 "wearestand2",
-                "🇸🇪 HH 2 ➡️ @JavidnamanIran",
-                "🇸🇪 HRE 2 ➡️ @JavidnamanIran",
+                "🇸🇪 HH ➡️ @JavidnamanIran",
+                "🇸🇪 HW ➡️ @JavidnamanIran",
+                "🇸🇪 HRE ➡️ @JavidnamanIran",
                 "Server 5",
                 "Server 18",
                 "Server 55",
                 "Server 108",
                 "Server 91",
                 "Server 101",
-                "Server 24",
                 "Server 76",
-                "Server 110",
                 "Server 112",
-                "Server 114",
                 "Server 115",
                 "Server 123",
-                "Server 3",
-                "Server 17",
                 "Server 26",
+                "Server 27",
                 "Server 28"
             ],
             "tag": "proxy",
@@ -117,24 +114,21 @@
                 "📅 Update: 1 Tir",
                 "wearestand",
                 "wearestand2",
-                "🇸🇪 HH 2 ➡️ @JavidnamanIran",
-                "🇸🇪 HRE 2 ➡️ @JavidnamanIran",
+                "🇸🇪 HH ➡️ @JavidnamanIran",
+                "🇸🇪 HW ➡️ @JavidnamanIran",
+                "🇸🇪 HRE ➡️ @JavidnamanIran",
                 "Server 5",
                 "Server 18",
                 "Server 55",
                 "Server 108",
                 "Server 91",
                 "Server 101",
-                "Server 24",
                 "Server 76",
-                "Server 110",
                 "Server 112",
-                "Server 114",
                 "Server 115",
                 "Server 123",
-                "Server 3",
-                "Server 17",
                 "Server 26",
+                "Server 27",
                 "Server 28"
             ],
             "tag": "auto",
@@ -201,10 +195,10 @@
     },
     {
       "type": "vmess",
-      "tag": "🇸🇪 HH 2 ➡️ @JavidnamanIran",
+      "tag": "🇸🇪 HH ➡️ @JavidnamanIran",
       "server": "direct.ircybersec.org",
       "server_port": 51,
-      "uuid": "0411b1cc-1fa9-b0ac-1eb2-bb403f1d6b0f",
+      "uuid": "060d20e3-9016-41bf-22f3-2ad69a6e4c06",
       "security": "auto",
       "authenticated_length": true,
       "transport": {
@@ -216,10 +210,34 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 HRE 2 ➡️ @JavidnamanIran",
+      "tag": "🇸🇪 HW ➡️ @JavidnamanIran",
+      "server": "cc.ircybersec.org",
+      "server_port": 443,
+      "uuid": "060d20e3-9016-41bf-22f3-2ad69a6e4c06",
+      "tls": {
+        "enabled": true,
+        "server_name": "cp.kermanshahi.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/",
+        "headers": {
+          "Host": "cp.kermanshahi.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 HRE ➡️ @JavidnamanIran",
       "server": "direct.ircybersec.org",
       "server_port": 1000,
-      "uuid": "0411b1cc-1fa9-b0ac-1eb2-bb403f1d6b0f",
+      "uuid": "060d20e3-9016-41bf-22f3-2ad69a6e4c06",
       "tls": {
         "enabled": true,
         "server_name": "knox.cdn-apple.com",
@@ -376,21 +394,6 @@
     },
     {
       "type": "vless",
-      "tag": "Server 24",
-      "server": "dashboard.ShAkHle.ir",
-      "server_port": 2095,
-      "uuid": "f07a3816-f527-4ce8-8d21-ada012618695",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/ws-content/app.js?ed=80",
-        "headers": {
-          "Host": "fIn.xn--googoe.com.ShAkHle.iR."
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
       "tag": "Server 76",
       "server": "45.130.125.158",
       "server_port": 443,
@@ -410,27 +413,6 @@
           "Host": "t1s1.rittbo.kdns.fr"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 110",
-      "server": "check08.allenshop2024.ir",
-      "server_port": 8443,
-      "uuid": "9b02c0ee-3a79-4914-90a5-a0a05d805337",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
       },
       "packet_encoding": ""
     },
@@ -456,20 +438,6 @@
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "Server 114",
-      "server": "geR-mTn.6.6.6.6.Divar.ir.Site.Com.oNthisWebsiteONlycanWin.shAkhLe.iR",
-      "server_port": 52525,
-      "uuid": "f07a3816-f527-4ce8-8d21-ada012618695",
-      "transport": {
-        "type": "http",
-        "host": "status.play.google.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
     },
     {
       "type": "vless",
@@ -499,48 +467,6 @@
     },
     {
       "type": "vless",
-      "tag": "Server 3",
-      "server": "check09.allenshop2024.ir",
-      "server_port": 8443,
-      "uuid": "9b02c0ee-3a79-4914-90a5-a0a05d805337",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 17",
-      "server": "fiN-Jd.jDvpn.ShakHle.iR",
-      "server_port": 22000,
-      "uuid": "f07a3816-f527-4ce8-8d21-ada012618695",
-      "tls": {
-        "enabled": true,
-        "server_name": "fontawesome.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xLCgdUiKeBpYK3YsT96d81yuhFuVgUeANbVeiQACRWw",
-          "short_id": "6ba85179e30d4fc2"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
       "tag": "Server 26",
       "server": "45.130.125.114",
       "server_port": 8443,
@@ -560,6 +486,28 @@
           "Host": "srv75.perfectbulk.info"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 27",
+      "server": "electro.gtboost.uk",
+      "server_port": 443,
+      "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
+      "tls": {
+        "enabled": true,
+        "server_name": "FierceBolt-AA89.webapi.name",
+        "alpn": "h2",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": ""
     },
