@@ -85,25 +85,26 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "📅 Update: 1 Tir",
+                "📅 Update: 2 Tir",
                 "wearestand",
                 "wearestand2",
                 "🇸🇪 HH ➡️ @JavidnamanIran",
                 "🇸🇪 HW ➡️ @JavidnamanIran",
                 "🇸🇪 HRE ➡️ @JavidnamanIran",
                 "Server 5",
+                "Server 6",
+                "Server 7",
+                "Server 15",
                 "Server 18",
-                "Server 55",
-                "Server 108",
-                "Server 91",
-                "Server 101",
-                "Server 76",
-                "Server 112",
-                "Server 115",
-                "Server 123",
                 "Server 26",
-                "Server 27",
-                "Server 28"
+                "Server 28",
+                "Server 45",
+                "Server 48",
+                "Server 55",
+                "Server 58",
+                "Server 62",
+                "Server 108",
+                "Server 188"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,25 +112,26 @@
         {
             "interval": "10m",
             "outbounds": [
-                "📅 Update: 1 Tir",
+                "📅 Update: 2 Tir",
                 "wearestand",
                 "wearestand2",
                 "🇸🇪 HH ➡️ @JavidnamanIran",
                 "🇸🇪 HW ➡️ @JavidnamanIran",
                 "🇸🇪 HRE ➡️ @JavidnamanIran",
                 "Server 5",
+                "Server 6",
+                "Server 7",
+                "Server 15",
                 "Server 18",
-                "Server 55",
-                "Server 108",
-                "Server 91",
-                "Server 101",
-                "Server 76",
-                "Server 112",
-                "Server 115",
-                "Server 123",
                 "Server 26",
-                "Server 27",
-                "Server 28"
+                "Server 28",
+                "Server 45",
+                "Server 48",
+                "Server 55",
+                "Server 58",
+                "Server 62",
+                "Server 108",
+                "Server 188"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -142,7 +144,7 @@
         },
     {
       "type": "vless",
-      "tag": "📅 Update: 1 Tir",
+      "tag": "📅 Update: 2 Tir",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -279,6 +281,44 @@
     },
     {
       "type": "vless",
+      "tag": "Server 6",
+      "server": "sca28.speedmeter.shop",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 7",
+      "server": "151.101.71.151",
+      "server_port": 80,
+      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
+      "transport": {
+        "type": "ws",
+        "path": "/?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=",
+        "headers": {
+          "Host": "max-gb1.global.ssl.fastly.net"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 15",
+      "server": "80.249.112.235",
+      "server_port": 8081,
+      "uuid": "3a0e37f7-b83b-4db2-838a-b93bd5ed7a39",
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
       "tag": "Server 18",
       "server": "104.16.92.229",
       "server_port": 8443,
@@ -303,6 +343,88 @@
     },
     {
       "type": "vless",
+      "tag": "Server 26",
+      "server": "45.130.125.114",
+      "server_port": 8443,
+      "uuid": "f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93",
+      "tls": {
+        "enabled": true,
+        "server_name": "srv75.perfectbulk.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "srv75.perfectbulk.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 28",
+      "server": "45.130.125.114",
+      "server_port": 8443,
+      "uuid": "f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93",
+      "tls": {
+        "enabled": true,
+        "server_name": "srv10.perfectbulk.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "srv10.perfectbulk.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 45",
+      "server": "104.16.75.226",
+      "server_port": 443,
+      "uuid": "b3bd8d0e-3cbe-4241-a4f1-e3dd0a9e432c",
+      "tls": {
+        "enabled": true,
+        "server_name": "server-ir-3.ariyuz.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/page=2",
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 48",
+      "server": "sca36.speedmeter.shop",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
       "tag": "Server 55",
       "server": "45.130.125.158",
       "server_port": 8443,
@@ -320,6 +442,43 @@
         "path": "/",
         "headers": {
           "Host": "srv03.perfectbulk.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 58",
+      "server": "check08.allenshop2024.ir",
+      "server_port": 8443,
+      "uuid": "82da8e0a-c3db-4fea-8181-4c4db16ab43c",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 62",
+      "server": "92.53.191.140",
+      "server_port": 80,
+      "uuid": "f9255507-1b65-433f-bfd8-193b35e068e2",
+      "transport": {
+        "type": "ws",
+        "path": "/Telegram%F0%9F%87%A8%F0%9F%87%B3+@WangCai2",
+        "headers": {
+          "Host": "s5.868001.xyz"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -350,192 +509,23 @@
       "packet_encoding": ""
     },
     {
-      "type": "trojan",
-      "tag": "Server 91",
-      "server": "45.80.111.7",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "type": "vless",
+      "tag": "Server 188",
+      "server": "151.101.170.151",
+      "server_port": 80,
+      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
       "transport": {
         "type": "ws",
-        "path": "/assignment",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Server 101",
-      "server": "141.193.213.21",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmloud.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
+        "path": "/?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=",
         "headers": {
-          "Host": "www.calmloud.com"
+          "Host": "max-gb1.global.ssl.fastly.net"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Server 76",
-      "server": "45.130.125.158",
-      "server_port": 443,
-      "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-      "tls": {
-        "enabled": true,
-        "server_name": "t1s1.rittbo.kdns.fr",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/fp#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
-        "headers": {
-          "Host": "t1s1.rittbo.kdns.fr"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "trojan",
-      "tag": "Server 112",
-      "server": "104.16.174.12",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ignitelimit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.ignitelimit.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Server 115",
-      "server": "sca27.speedmeter.shop",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 123",
-      "server": "151.115.164.110",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 26",
-      "server": "45.130.125.114",
-      "server_port": 8443,
-      "uuid": "f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93",
-      "tls": {
-        "enabled": true,
-        "server_name": "srv75.perfectbulk.info",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "srv75.perfectbulk.info"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 27",
-      "server": "electro.gtboost.uk",
-      "server_port": 443,
-      "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
-      "tls": {
-        "enabled": true,
-        "server_name": "FierceBolt-AA89.webapi.name",
-        "alpn": "h2",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 28",
-      "server": "45.130.125.114",
-      "server_port": 8443,
-      "uuid": "f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93",
-      "tls": {
-        "enabled": true,
-        "server_name": "srv10.perfectbulk.info",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "srv10.perfectbulk.info"
-        },
+        "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
     }
-        ],
+      ],
         "rules": [
             {
                 "action": "sniff"
