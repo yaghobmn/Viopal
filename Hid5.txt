@@ -210,7 +210,7 @@
       "tag": "🇸🇪 WS ➡️ @JavidnamanIran",
       "server": "cc.ircybersec.org",
       "server_port": 443,
-      "uuid": "708fec9e-a6d9-2b5d-ef7f-2e5447638809",
+      "uuid": "3d6e324c-664a-ca9b-869d-945d0b194c9e",
       "tls": {
         "enabled": true,
         "server_name": "cp.kermanshahi.org",
@@ -238,7 +238,7 @@
         "type": "salamander",
         "password": "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi"
       },
-      "password": "708fec9ea6d92b5def7f2e5447638809",
+      "password": "3d6e324c664aca9b869d945d0b194c9e",
       "tls": {
         "enabled": true,
         "server_name": "dd.ircybersec.org"
@@ -249,7 +249,7 @@
       "tag": "🇸🇪 RE ➡️ @JavidnamanIran",
       "server": "d.ircybersec.org",
       "server_port": 1000,
-      "uuid": "708fec9e-a6d9-2b5d-ef7f-2e5447638809",
+      "uuid": "3d6e324c-664a-ca9b-869d-945d0b194c9e",
       "tls": {
         "enabled": true,
         "server_name": "knox.cdn-apple.com",
