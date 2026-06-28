@@ -85,31 +85,26 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "📅 Update: 6 Tir",
+                "📅 Update: 7 Tir",
                 "wearestand",
                 "wearestand2",
-                "🇸🇪 WS ➡️ @JavidnamanIran",
-                "🇸🇪 HY ➡️ @JavidnamanIran",
-                "🇸🇪 RE ➡️ @JavidnamanIran",
                 "Server 5",
                 "Server 8",
                 "Server 28",
-                "Server 29",
-                "Server 33",
                 "Server 35",
-                "Server 43",
-                "Server 54",
-                "Server 55",
-                "Server 66",
                 "Server 67",
                 "Server 72",
                 "Server 89",
-                "Server 94",
-                "Server 111",
+                "Server 95",
+                "Server 98",
+                "Server 113",
                 "Server 115",
                 "Server 136",
                 "Server 139",
-                "Server 156",
+                "Server 140",
+                "Server 146",
+                "Server 154",
+                "Server 180",
                 "Server 203"
             ],
             "tag": "proxy",
@@ -118,31 +113,26 @@
         {
             "interval": "10m",
             "outbounds": [
-                "📅 Update: 6 Tir",
+                "📅 Update: 7 Tir",
                 "wearestand",
                 "wearestand2",
-                "🇸🇪 WS ➡️ @JavidnamanIran",
-                "🇸🇪 HY ➡️ @JavidnamanIran",
-                "🇸🇪 RE ➡️ @JavidnamanIran",
                 "Server 5",
                 "Server 8",
                 "Server 28",
-                "Server 29",
-                "Server 33",
                 "Server 35",
-                "Server 43",
-                "Server 54",
-                "Server 55",
-                "Server 66",
                 "Server 67",
                 "Server 72",
                 "Server 89",
-                "Server 94",
-                "Server 111",
+                "Server 95",
+                "Server 98",
+                "Server 113",
                 "Server 115",
                 "Server 136",
                 "Server 139",
-                "Server 156",
+                "Server 140",
+                "Server 146",
+                "Server 154",
+                "Server 180",
                 "Server 203"
             ],
             "tag": "auto",
@@ -156,7 +146,7 @@
         },
     {
       "type": "vless",
-      "tag": "📅 Update: 6 Tir",
+      "tag": "📅 Update: 7 Tir",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -206,66 +196,6 @@
       },
       "type": "http",
       "username": "purevpn0s8732217"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 WS ➡️ @JavidnamanIran",
-      "server": "cc.ircybersec.org",
-      "server_port": 443,
-      "uuid": "3d6e324c-664a-ca9b-869d-945d0b194c9e",
-      "tls": {
-        "enabled": true,
-        "server_name": "cp.kermanshahi.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/",
-        "headers": {
-          "Host": "cp.kermanshahi.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇸🇪 HY ➡️ @JavidnamanIran",
-      "server": "d.ircybersec.org",
-      "server_port": 989,
-      "obfs": {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi"
-      },
-      "password": "3d6e324c664aca9b869d945d0b194c9e",
-      "tls": {
-        "enabled": true,
-        "server_name": "dd.ircybersec.org"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 RE ➡️ @JavidnamanIran",
-      "server": "d.ircybersec.org",
-      "server_port": 1000,
-      "uuid": "3d6e324c-664a-ca9b-869d-945d0b194c9e",
-      "tls": {
-        "enabled": true,
-        "server_name": "knox.cdn-apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY",
-          "short_id": "a62d513cd709744a"
-        }
-      },
-      "packet_encoding": ""
     },
     {
       "type": "vless",
@@ -330,41 +260,6 @@
       "packet_encoding": ""
     },
     {
-      "type": "vless",
-      "tag": "Server 29",
-      "server": "45.130.125.162",
-      "server_port": 2096,
-      "uuid": "aa92ff64-9cb8-49aa-b011-990dc05f6d65",
-      "tls": {
-        "enabled": true,
-        "server_name": "EssEnTIaL-PhiLoSophY3Xfa1n4rIZ.FiTNesSCLOTHING.weBsite",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "asriran.com.tehrantimes.com.alalamtv.net.farsnews.ir.alalamtv.net.presstv.ir.donya-e-eqtesad.com",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 33",
-      "server": "sca20.speedmeter.shop",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
       "type": "trojan",
       "tag": "Server 35",
       "server": "104.18.152.229",
@@ -386,78 +281,6 @@
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
-    },
-    {
-      "type": "vless",
-      "tag": "Server 43",
-      "server": "check10.allenshop2024.ir",
-      "server_port": 8443,
-      "uuid": "34f37e5d-de6b-47d9-b8f2-8aa3ce927149",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 54",
-      "server": "UsA2-iP4.sHaKhLe.iR",
-      "server_port": 52525,
-      "uuid": "21702d6d-7b35-4faa-8462-c23dc7e20e00",
-      "transport": {
-        "type": "http",
-        "host": "status.play.google.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 55",
-      "server": "sca35.speedmeter.shop",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 66",
-      "server": "104.16.75.227",
-      "server_port": 8443,
-      "uuid": "4bf9601f-87e8-4250-a4e4-250bf54c5db4",
-      "tls": {
-        "enabled": true,
-        "server_name": "splash.ariyuz.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v1",
-        "headers": {
-          "Host": "splash.ariyuz.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
     },
     {
       "type": "vless",
@@ -501,35 +324,13 @@
     },
     {
       "type": "vless",
-      "tag": "Server 94",
-      "server": "45.130.125.114",
-      "server_port": 2096,
-      "uuid": "edd2d926-1564-429e-bfef-39b7432bf0b5",
-      "tls": {
-        "enabled": true,
-        "server_name": "SPARkling-aPpEarAnce33F3Gn8rvT.eCOTOUrIss.CO.uK",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "tabnak.ir.iribnews.ir.irandaily.ir.tabnak.ir.alef.ir.asriran.com.entekhab.ir",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 111",
+      "tag": "Server 95",
       "server": "104.17.108.69",
       "server_port": 443,
-      "uuid": "25c6f65f-73d7-43e3-82b0-aa88f1cbf7c1",
+      "uuid": "81d8a7af-3047-48ee-957d-8a3f78ec5a9d",
       "tls": {
         "enabled": true,
-        "server_name": "a.mirzelo.ir",
+        "server_name": "game5.btech-studio.ir",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -539,9 +340,36 @@
         "type": "ws",
         "path": "/ws-vlees",
         "headers": {
-          "Host": "a.mirzelo.ir"
+          "Host": "game5.btech-studio.ir"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 98",
+      "server": "sca11.speedmeter.shop",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 113",
+      "server": "telewebion.com.Fin2.ShAkHlE.iR",
+      "server_port": 52525,
+      "uuid": "21702d6d-7b35-4faa-8462-c23dc7e20e00",
+      "transport": {
+        "type": "http",
+        "host": "status.play.google.com",
+        "path": "/",
+        "method": "GET"
       },
       "packet_encoding": ""
     },
@@ -586,22 +414,53 @@
     },
     {
       "type": "vless",
-      "tag": "Server 156",
-      "server": "check09.allenshop2024.ir",
-      "server_port": 8443,
-      "uuid": "34f37e5d-de6b-47d9-b8f2-8aa3ce927149",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
+      "tag": "Server 140",
+      "server": "sca35.speedmeter.shop",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 146",
+      "server": "sca26.speedmeter.shop",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 154",
+      "server": "sca24.speedmeter.shop",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 180",
+      "server": "sca35.speedmeter.shop",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": ""
     },
