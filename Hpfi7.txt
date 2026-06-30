@@ -85,25 +85,29 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "📅 Update: 8 Tir",
+                "📅 Update: 9 Tir",
                 "wearestand",
                 "wearestand2",
                 "Server 6",
-                "Server 28",
+                "Server 20",
+                "Server 22",
+                "Server 29",
+                "Server 31",
                 "Server 34",
                 "Server 35",
                 "Server 36",
-                "Server 89",
+                "Server 45",
+                "Server 46",
+                "Server 48",
+                "Server 57",
+                "Server 60",
+                "Server 93",
+                "Server 94",
+                "Server 95",
                 "Server 96",
-                "Server 98",
-                "Server 111",
-                "Server 136",
-                "Server 140",
-                "Server 154",
-                "Server 180",
-                "Server 195",
-                "Server 200",
-                "Server 203"
+                "Server 148",
+                "Server 156",
+                "Server 160"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -111,25 +115,29 @@
         {
             "interval": "10m",
             "outbounds": [
-                "📅 Update: 8 Tir",
+                "📅 Update: 9 Tir",
                 "wearestand",
                 "wearestand2",
                 "Server 6",
-                "Server 28",
+                "Server 20",
+                "Server 22",
+                "Server 29",
+                "Server 31",
                 "Server 34",
                 "Server 35",
                 "Server 36",
-                "Server 89",
+                "Server 45",
+                "Server 46",
+                "Server 48",
+                "Server 57",
+                "Server 60",
+                "Server 93",
+                "Server 94",
+                "Server 95",
                 "Server 96",
-                "Server 98",
-                "Server 111",
-                "Server 136",
-                "Server 140",
-                "Server 154",
-                "Server 180",
-                "Server 195",
-                "Server 200",
-                "Server 203"
+                "Server 148",
+                "Server 156",
+                "Server 160"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -142,7 +150,7 @@
         },
     {
       "type": "vless",
-      "tag": "📅 Update: 8 Tir",
+      "tag": "📅 Update: 9 Tir",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -194,9 +202,17 @@
       "username": "purevpn0s8732217"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "Server 6",
-      "server": "sca20.speedmeter.shop",
+      "server": "82.38.31.183",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "vless",
+      "tag": "Server 20",
+      "server": "sca32.speedmeter.shop",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "transport": {
@@ -208,13 +224,26 @@
     },
     {
       "type": "vless",
-      "tag": "Server 28",
-      "server": "45.130.125.114",
-      "server_port": 8443,
-      "uuid": "f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93",
+      "tag": "Server 22",
+      "server": "sca33.speedmeter.shop",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 29",
+      "server": "love.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "8ad6f598-cd8d-4fca-848e-05fc9be15ff3",
       "tls": {
         "enabled": true,
-        "server_name": "srv10.perfectbulk.info",
+        "server_name": "jyytp.redstone-vex.sbs",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -222,9 +251,33 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/sea",
         "headers": {
-          "Host": "srv10.perfectbulk.info"
+          "Host": "jyytp.redstone-vex.sbs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 31",
+      "server": "love.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "f54f531e-da77-484d-a505-6ecafebcdfae",
+      "tls": {
+        "enabled": true,
+        "server_name": "files109.kamelbash.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/files109",
+        "headers": {
+          "Host": "files109.kamelbash.info"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -292,68 +345,28 @@
     },
     {
       "type": "vless",
-      "tag": "Server 89",
-      "server": "sca11.speedmeter.shop",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 96",
-      "server": "sca32.speedmeter.shop",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 98",
-      "server": "sca11.speedmeter.shop",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 111",
-      "server": "45.130.125.2",
-      "server_port": 2096,
-      "uuid": "dd9f6b58-c02a-4a6d-9356-a62cfedef633",
+      "tag": "Server 45",
+      "server": "check08.allenshop66244.ir",
+      "server_port": 8443,
+      "uuid": "70f3da4d-6984-4c61-a37a-51a4c026c933",
       "tls": {
         "enabled": true,
-        "server_name": "eXCItED-hApPINESsP5Y18uSKR3.FITNeSSclOtHIng.wEbsItE",
+        "server_name": "play.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "parstoday.com.rajanews.com.snn.ir.en.mehrnews.com.iranprimer.usip.org.irandaily.ir.parstoday.com",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 136",
+      "tag": "Server 46",
       "server": "sca23.speedmeter.shop",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -366,7 +379,20 @@
     },
     {
       "type": "vless",
-      "tag": "Server 140",
+      "tag": "Server 48",
+      "server": "sca11.speedmeter.shop",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 57",
       "server": "sca35.speedmeter.shop",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -379,8 +405,8 @@
     },
     {
       "type": "vless",
-      "tag": "Server 154",
-      "server": "sca24.speedmeter.shop",
+      "tag": "Server 60",
+      "server": "151.115.166.43",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "transport": {
@@ -392,28 +418,23 @@
     },
     {
       "type": "vless",
-      "tag": "Server 180",
-      "server": "sca35.speedmeter.shop",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
+      "tag": "Server 93",
+      "server": "love.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "8ad6f598-cd8d-4fca-848e-05fc9be15ff3",
+      "tls": {
+        "enabled": true,
+        "server_name": "vvxio.megalionzone-vex.sbs",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 195",
-      "server": "172.66.47.69",
-      "server_port": 80,
-      "uuid": "9f8e7d6c-5b4a-4321-8b7a-6c5d4e3f2a1b",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/sea",
         "headers": {
-          "Host": "scale47-cdn.sabzi.name.ng."
+          "Host": "vvxio.megalionzone-vex.sbs"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -421,29 +442,53 @@
     },
     {
       "type": "vless",
-      "tag": "Server 200",
-      "server": "204.168.155.175",
+      "tag": "Server 94",
+      "server": "love.ns.cloudflare.com",
       "server_port": 443,
-      "uuid": "a98b4797-226e-4c40-8b17-73b22cf94c8e",
+      "uuid": "e277ac9b-3225-3381-a9fb-3585419f7142",
+      "tls": {
+        "enabled": true,
+        "server_name": "media31.gooshkoob.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/media31",
+        "headers": {
+          "Host": "media31.gooshkoob.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 95",
+      "server": "check10.allenshop66244.ir",
+      "server_port": 8443,
+      "uuid": "70f3da4d-6984-4c61-a37a-51a4c026c933",
       "tls": {
         "enabled": true,
         "server_name": "play.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Qr6_9TMQYMCB2hVSYeONcMvxBqIaT0mzPUy8nIivV1g",
-          "short_id": "b58b"
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
         }
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 203",
-      "server": "sca22.speedmeter.shop",
+      "tag": "Server 96",
+      "server": "sca21.speedmeter.shop",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "transport": {
@@ -452,6 +497,69 @@
         "ping_timeout": "15s"
       },
       "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 148",
+      "server": "love.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "e277ac9b-3225-3381-a9fb-3585419f7142",
+      "tls": {
+        "enabled": true,
+        "server_name": "media58.gooshkoob.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/media58",
+        "headers": {
+          "Host": "media58.gooshkoob.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 156",
+      "server": "love.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "f54f531e-da77-484d-a505-6ecafebcdfae",
+      "tls": {
+        "enabled": true,
+        "server_name": "files102.kamelbash.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/files102",
+        "headers": {
+          "Host": "files102.kamelbash.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "trojan",
+      "tag": "Server 160",
+      "server": "92.119.35.97",
+      "server_port": 443,
+      "password": "urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
       ],
         "rules": [
