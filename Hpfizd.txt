@@ -85,18 +85,23 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "📅 Update: 10 Tir",
+                "📅 Update: 11 Tir",
                 "wearestand",
                 "wearestand2",
-                "Server 16",
-                "Server 35",
-                "Server 186",
-                "Server 108",
+                "Server 4",
+                "Server 81",
                 "Server 28",
+                "Server 139",
+                "Server 172",
                 "Server 138",
-                "Server 160",
+                "Server 56",
+                "Server 157",
+                "Server 82",
+                "Server 35",
+                "Server 195",
+                "Server 92",
                 "Server 3",
-                "Server 195"
+                "Server 177"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -104,18 +109,23 @@
         {
             "interval": "10m",
             "outbounds": [
-                "📅 Update: 10 Tir",
+                "📅 Update: 11 Tir",
                 "wearestand",
                 "wearestand2",
-                "Server 16",
-                "Server 35",
-                "Server 186",
-                "Server 108",
+                "Server 4",
+                "Server 81",
                 "Server 28",
+                "Server 139",
+                "Server 172",
                 "Server 138",
-                "Server 160",
+                "Server 56",
+                "Server 157",
+                "Server 82",
+                "Server 35",
+                "Server 195",
+                "Server 92",
                 "Server 3",
-                "Server 195"
+                "Server 177"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -128,7 +138,7 @@
         },
     {
       "type": "vless",
-      "tag": "📅 Update: 10 Tir",
+      "tag": "📅 Update: 11 Tir",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -180,9 +190,187 @@
       "username": "purevpn0s8732217"
     },
     {
+      "type": "vless",
+      "tag": "Server 4",
+      "server": "45.130.125.239",
+      "server_port": 443,
+      "uuid": "fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301",
+      "tls": {
+        "enabled": true,
+        "server_name": "ConnECT-MaJ-3EpiuMdB.finFiaMET.iNFo",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vlees",
+        "headers": {
+          "Host": "ConnECT-MaJ-3EpiuMdB.finFiaMET.iNFo"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 81",
+      "server": "167.172.38.16",
+      "server_port": 443,
+      "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "chatgpt.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+          "short_id": "a4844ba7"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 28",
+      "server": "217.217.247.254",
+      "server_port": 443,
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "enterprisekitten.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 139",
+      "server": "167.71.51.203",
+      "server_port": 443,
+      "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "chatgpt.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+          "short_id": "a4844ba7"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 172",
+      "server": "159.65.82.32",
+      "server_port": 443,
+      "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "chatgpt.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+          "short_id": "a4844ba7"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 138",
+      "server": "159.65.27.181",
+      "server_port": 443,
+      "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "chatgpt.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+          "short_id": "a4844ba7"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 56",
+      "server": "146.190.25.34",
+      "server_port": 443,
+      "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "chatgpt.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+          "short_id": "a4844ba7"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 157",
+      "server": "167.71.67.173",
+      "server_port": 443,
+      "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "chatgpt.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
+          "short_id": "a4844ba7"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
       "type": "trojan",
-      "tag": "Server 16",
-      "server": "104.16.174.117",
+      "tag": "Server 82",
+      "server": "104.18.152.246",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -227,8 +415,8 @@
     },
     {
       "type": "trojan",
-      "tag": "Server 186",
-      "server": "104.18.152.187",
+      "tag": "Server 195",
+      "server": "104.16.174.12",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -250,21 +438,8 @@
     },
     {
       "type": "vless",
-      "tag": "Server 108",
-      "server": "151.115.164.126",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 28",
-      "server": "217.217.247.254",
+      "tag": "Server 92",
+      "server": "217.217.247.247",
       "server_port": 443,
       "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
       "flow": "xtls-rprx-vision",
@@ -282,34 +457,6 @@
         }
       },
       "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 138",
-      "server": "151.115.166.233",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "trojan",
-      "tag": "Server 160",
-      "server": "92.119.35.97",
-      "server_port": 443,
-      "password": "urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh",
-      "tls": {
-        "enabled": true,
-        "disable_sni": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "type": "vless",
@@ -336,14 +483,14 @@
       "packet_encoding": ""
     },
     {
-      "type": "trojan",
-      "tag": "Server 195",
-      "server": "104.16.174.12",
+      "type": "vless",
+      "tag": "Server 177",
+      "server": "104.17.108.69",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "126a8a77-60e9-4169-87a5-8657fb4484de",
       "tls": {
         "enabled": true,
-        "server_name": "www.ignitelimit.com",
+        "server_name": "game.newj.ir",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -351,12 +498,13 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/ws-vlees",
         "headers": {
-          "Host": "www.ignitelimit.com"
+          "Host": "game.newj.ir"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
+      },
+      "packet_encoding": ""
     }
       ],
         "rules": [
