@@ -85,21 +85,20 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "📅 Update: 13 Tir",
+                "📅 Update: 14 Tir",
                 "wearestand",
                 "wearestand2",
-                "Server 24",
                 "Server 30",
                 "Server 41",
                 "Server 50",
-                "Server 74",
                 "Server 83",
-                "Server 86",
-                "Server 99",
                 "Server 109",
-                "Server 115",
-                "Server 121",
-                "Server 179"
+                "Server 12",
+                "Server 49",
+                "Server 51",
+                "Server 106",
+                "Server 114",
+                "Server 193"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -107,21 +106,20 @@
         {
             "interval": "10m",
             "outbounds": [
-                "📅 Update: 13 Tir",
+                "📅 Update: 14 Tir",
                 "wearestand",
                 "wearestand2",
-                "Server 24",
                 "Server 30",
                 "Server 41",
                 "Server 50",
-                "Server 74",
                 "Server 83",
-                "Server 86",
-                "Server 99",
                 "Server 109",
-                "Server 115",
-                "Server 121",
-                "Server 179"
+                "Server 12",
+                "Server 49",
+                "Server 51",
+                "Server 106",
+                "Server 114",
+                "Server 193"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -134,7 +132,7 @@
         },
     {
       "type": "vless",
-      "tag": "📅 Update: 13 Tir",
+      "tag": "📅 Update: 14 Tir",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -184,30 +182,6 @@
       },
       "type": "http",
       "username": "purevpn0s8732217"
-    },
-    {
-      "type": "vless",
-      "tag": "Server 24",
-      "server": "love.ns.cloudflare.com",
-      "server_port": 443,
-      "uuid": "e277ac9b-3225-3381-a9fb-3585419f7142",
-      "tls": {
-        "enabled": true,
-        "server_name": "media10.okesoft.info",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/media10",
-        "headers": {
-          "Host": "media10.okesoft.info"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
     },
     {
       "type": "vless",
@@ -272,19 +246,6 @@
     },
     {
       "type": "vless",
-      "tag": "Server 74",
-      "server": "sca28.directdnsai.shop",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
       "tag": "Server 83",
       "server": "sca33.directdnsai.shop",
       "server_port": 8880,
@@ -295,35 +256,6 @@
         "ping_timeout": "15s"
       },
       "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 86",
-      "server": "all167.allenshop66245.ir",
-      "server_port": 443,
-      "uuid": "36644091-0cec-47fe-9955-97c3f424baf7",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M",
-          "short_id": "98fa0b00d09419f7"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "Server 99",
-      "server": "82.38.31.47",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "vless",
@@ -340,7 +272,77 @@
     },
     {
       "type": "vless",
-      "tag": "Server 115",
+      "tag": "Server 12",
+      "server": "jush.sukario.ir",
+      "server_port": 443,
+      "uuid": "8a6729c4-81d4-4b05-8747-3fffc17b6a64",
+      "tls": {
+        "enabled": true,
+        "server_name": "FvMaEdXv7.MaKeAcHeCk.oRg",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/mashdi",
+        "headers": {
+          "Host": "FvMaEdXv7.MaKeAcHeCk.oRg"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 49",
+      "server": "104.17.108.69",
+      "server_port": 443,
+      "uuid": "33225a16-88d7-4869-8f05-9a9b4a0b6be6",
+      "tls": {
+        "enabled": true,
+        "server_name": "game2.nmji.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vlees",
+        "headers": {
+          "Host": "game2.nmji.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 51",
+      "server": "77.81.98.70",
+      "server_port": 443,
+      "uuid": "43488128-319e-f480-64ea-0acdc712e2a8",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.aliexpress.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "kkRsTNjRh_XrrTM6eZllllldzoL5Z9IqlBkDtmYLMhw",
+          "short_id": "9b4fc5a116efd6c8"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 106",
       "server": "sca36.directdnsai.shop",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -353,38 +355,38 @@
     },
     {
       "type": "vless",
-      "tag": "Server 121",
-      "server": "jush.sukario.ir",
-      "server_port": 443,
-      "uuid": "8a6729c4-81d4-4b05-8747-3fffc17b6a64",
-      "tls": {
-        "enabled": true,
-        "server_name": "FvMaEdXv6.MaKeAcHeCk.oRg",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/mashdi",
-        "headers": {
-          "Host": "FvMaEdXv6.MaKeAcHeCk.oRg"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 179",
-      "server": "sca27.directdnsai.shop",
+      "tag": "Server 114",
+      "server": "sca34.mysilipdir.com",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "transport": {
         "type": "grpc",
         "idle_timeout": "15s",
         "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 193",
+      "server": "104.17.108.69",
+      "server_port": 443,
+      "uuid": "33225a16-88d7-4869-8f05-9a9b4a0b6be6",
+      "tls": {
+        "enabled": true,
+        "server_name": "game2.nmji.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vlees",
+        "headers": {
+          "Host": "game2.nmji.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
     }
