@@ -1,7 +1,6 @@
 //profile-update-interval: 24
 vless://test@0.0.0.0:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%93%85%20Update%3A%2015%20Tir
 vless://88c2a4b2-a095-7906-5dee-4853ae284141@cc.ircybersec.org:443?path=%2F%40JavidnamanIran%2FJavid-SHAH-KingRezaPahlavi%2F&security=tls&encryption=none&insecure=0&host=cp.kermanshahi.org&type=ws&allowInsecure=0&sni=cp.kermanshahi.org#%F0%9F%87%B8%F0%9F%87%AA%20WS%20%E2%9E%A1%EF%B8%8F%20%40JavidnamanIran
-hysteria2://88c2a4b2a09579065dee4853ae284141@teain.org:989?security=tls&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi&insecure=0&sni=bamak.teain.org#%F0%9F%87%B8%F0%9F%87%AA%20HY%20%E2%9E%A1%EF%B8%8F%20%40JavidnamanIran
 vless://88c2a4b2-a095-7906-5dee-4853ae284141@teain.org:1000?security=reality&encryption=none&pbk=ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY&headerType=none&fp=ios&type=tcp&sni=knox.cdn-apple.com&sid=a62d513cd709744a#%F0%9F%87%B8%F0%9F%87%AA%20RE%20%E2%9E%A1%EF%B8%8F%20%40JavidnamanIran
 vless://33225a16-88d7-4869-8f05-9a9b4a0b6be6@104.17.108.69:443?path=%2Fws-vlees&security=tls&encryption=none&insecure=0&host=game2.nmji.ir&fp=chrome&type=ws&allowInsecure=0&sni=game2.nmji.ir#Server%2049
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca36.directdnsai.shop:8880?mode=gun&security=&encryption=none&fp=chrome&type=grpc#Server%20106
