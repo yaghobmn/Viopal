@@ -89,7 +89,6 @@
                 "wearestand",
                 "wearestand2",
                 "🇸🇪 WS ➡️ @JavidnamanIran",
-                "🇸🇪 HY ➡️ @JavidnamanIran",
                 "🇸🇪 RE ➡️ @JavidnamanIran",
                 "Server 49",
                 "Server 106",
@@ -117,7 +116,6 @@
                 "wearestand",
                 "wearestand2",
                 "🇸🇪 WS ➡️ @JavidnamanIran",
-                "🇸🇪 HY ➡️ @JavidnamanIran",
                 "🇸🇪 RE ➡️ @JavidnamanIran",
                 "Server 49",
                 "Server 106",
@@ -220,21 +218,6 @@
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇸🇪 HY ➡️ @JavidnamanIran",
-      "server": "teain.org",
-      "server_port": 989,
-      "obfs": {
-        "type": "salamander",
-        "password": "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi"
-      },
-      "password": "88c2a4b2a09579065dee4853ae284141",
-      "tls": {
-        "enabled": true,
-        "server_name": "bamak.teain.org"
-      }
     },
     {
       "type": "vless",
