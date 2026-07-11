@@ -86,6 +86,10 @@
                 "auto",
                 "direct",
                 "📅 Update: 20 Tir",
+        "HTTPUpgrade",
+        "TCP Reality",
+        "GRPC Reality",
+        "WS Vless"
                 "wearestand",
                 "wearestand2",
         "Server 7",
@@ -111,6 +115,10 @@
             "interval": "10m",
             "outbounds": [
                 "📅 Update: 20 Tir",
+        "HTTPUpgrade",
+        "TCP Reality",
+        "GRPC Reality",
+        "WS Vless"
                 "wearestand",
                 "wearestand2",
         "Server 7",
@@ -144,6 +152,67 @@
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "HTTPUpgrade",
+      "server": "de-d-178105.homelanderwins.com",
+      "server_port": 10645,
+      "uuid": "37386ca4-9e9e-4e92-bb32-39ada73415db",
+      "transport": {
+        "type": "httpupgrade",
+        "path": "/",
+        "headers": {
+          "Host": "play.google.com"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "trojan",
+      "tag": "TCP Reality",
+      "server": "de-d-178105.homelanderwins.com",
+      "server_port": 27185,
+      "password": "meysocwzrap0kx2w",
+      "tls": {
+        "enabled": true,
+        "server_name": "neshan.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "GRPC Reality",
+      "server": "de-d-178105.homelanderwins.com",
+      "server_port": 16850,
+      "password": "meysocwzrap0kx2w",
+      "tls": {
+        "enabled": true,
+        "server_name": "neshan.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "WS Vless",
+      "server": "de-d-178105.homelanderwins.com",
+      "server_port": 8080,
+      "uuid": "37386ca4-9e9e-4e92-bb32-39ada73415db",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "play.google.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
       "packet_encoding": ""
     },
 {
