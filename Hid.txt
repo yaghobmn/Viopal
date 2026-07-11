@@ -89,7 +89,7 @@
         "HTTPUpgrade",
         "TCP Reality",
         "GRPC Reality",
-        "WS Vless"
+        "WS Vless",
                 "wearestand",
                 "wearestand2",
         "Server 7",
@@ -118,7 +118,7 @@
         "HTTPUpgrade",
         "TCP Reality",
         "GRPC Reality",
-        "WS Vless"
+        "WS Vless",
                 "wearestand",
                 "wearestand2",
         "Server 7",
