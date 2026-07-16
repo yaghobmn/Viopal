@@ -85,30 +85,28 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "📅 Update: 24 Tir",
+                "📅 Update: 25 Tir",
                 "WS Vless",
                 "wearestand",
                 "wearestand2",
         "🇸🇪 WS ➡️ @JavidnamanIran",
         "🇸🇪 RE ➡️ @JavidnamanIran",
-        "Server 41",
-        "Server 51",
-        "Server 56",
-        "Server 77",
-        "Server 119",
-        "Server 2",
-        "Server 15",
+        "Server 1",
+        "Server 4",
+        "Server 6",
+        "Server 10",
+        "Server 11",
         "Server 17",
-        "Server 24",
         "Server 30",
-        "Server 31",
-        "Server 65",
-        "Server 67",
-        "Server 71",
-        "Server 85",
-        "Server 116",
-        "Server 123",
-        "Server 142"
+        "Server 41",
+        "Server 58",
+        "Server 82",
+        "Server 92",
+        "Server 115",
+        "Server 119",
+        "Server 130",
+        "Server 132",
+        "Server 140"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -116,30 +114,28 @@
         {
             "interval": "10m",
             "outbounds": [
-                "📅 Update: 24 Tir",
+                "📅 Update: 25 Tir",
                 "WS Vless",
                 "wearestand",
                 "wearestand2",
         "🇸🇪 WS ➡️ @JavidnamanIran",
         "🇸🇪 RE ➡️ @JavidnamanIran",
-        "Server 41",
-        "Server 51",
-        "Server 56",
-        "Server 77",
-        "Server 119",
-        "Server 2",
-        "Server 15",
+        "Server 1",
+        "Server 4",
+        "Server 6",
+        "Server 10",
+        "Server 11",
         "Server 17",
-        "Server 24",
         "Server 30",
-        "Server 31",
-        "Server 65",
-        "Server 67",
-        "Server 71",
-        "Server 85",
-        "Server 116",
-        "Server 123",
-        "Server 142"
+        "Server 41",
+        "Server 58",
+        "Server 82",
+        "Server 92",
+        "Server 115",
+        "Server 119",
+        "Server 130",
+        "Server 132",
+        "Server 140"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -152,7 +148,7 @@
         },
     {
       "type": "vless",
-      "tag": "📅 Update: 24 Tir",
+      "tag": "📅 Update: 25 Tir",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -266,8 +262,8 @@
     },
     {
       "type": "vless",
-      "tag": "Server 41",
-      "server": "ronaldo18.fordnsdirect.shop",
+      "tag": "Server 1",
+      "server": "ronaldo14.fordnsdirect.shop",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "transport": {
@@ -279,65 +275,266 @@
     },
     {
       "type": "vless",
-      "tag": "Server 51",
-      "server": "arvancloud.ir",
-      "server_port": 2095,
-      "uuid": "6b7cc59c-deb1-41b7-8758-c582c00c1fe3",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "Tu5.pokerpings.com"
+      "tag": "Server 4",
+      "server": "gr178.allenshop66249.ir",
+      "server_port": 2053,
+      "uuid": "fcf4db22-3134-452f-a5d2-107f04afc89c",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality": {
+          "enabled": true,
+          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
+          "short_id": "524efc1f88592266"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "api.v1.data",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 56",
-      "server": "jush.sukario.ir",
-      "server_port": 443,
-      "uuid": "8a6729c4-81d4-4b05-8747-3fffc17b6a64",
+      "tag": "Server 6",
+      "server": "gr142.allenshop66248.ir",
+      "server_port": 2053,
+      "uuid": "fcf4db22-3134-452f-a5d2-107f04afc89c",
       "tls": {
         "enabled": true,
-        "server_name": "WqQdZtWi6.DoVaRi24.oRg",
+        "server_name": "play.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
+          "short_id": "524efc1f88592266"
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/mashdi",
-        "headers": {
-          "Host": "WqQdZtWi6.DoVaRi24.oRg"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "grpc",
+        "service_name": "api.v1.data",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 77",
-      "server": "jush.sukario.ir",
-      "server_port": 443,
-      "uuid": "bfbc48f0-1781-4f29-9206-6325908bea10",
+      "tag": "Server 10",
+      "server": "gr015.allenshop66246.ir",
+      "server_port": 2053,
+      "uuid": "fcf4db22-3134-452f-a5d2-107f04afc89c",
       "tls": {
         "enabled": true,
-        "server_name": "mesh1.mashadiebod.org",
+        "server_name": "play.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
+          "short_id": "524efc1f88592266"
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/mashdi",
-        "headers": {
-          "Host": "mesh1.mashadiebod.org"
+        "type": "grpc",
+        "service_name": "api.v1.data",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 11",
+      "server": "gr135.allenshop66248.ir",
+      "server_port": 2053,
+      "uuid": "fcf4db22-3134-452f-a5d2-107f04afc89c",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality": {
+          "enabled": true,
+          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
+          "short_id": "524efc1f88592266"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "api.v1.data",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 17",
+      "server": "check09.allenshop66244.ir",
+      "server_port": 8443,
+      "uuid": "720642d3-035e-469a-b0a1-6dcd3601a82c",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 30",
+      "server": "151.115.167.6",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 41",
+      "server": "check03.allenshop66244.ir",
+      "server_port": 8443,
+      "uuid": "720642d3-035e-469a-b0a1-6dcd3601a82c",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 58",
+      "server": "gr177.allenshop66249.ir",
+      "server_port": 2053,
+      "uuid": "fcf4db22-3134-452f-a5d2-107f04afc89c",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
+          "short_id": "524efc1f88592266"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "api.v1.data",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 82",
+      "server": "gr162.allenshop66249.ir",
+      "server_port": 2053,
+      "uuid": "fcf4db22-3134-452f-a5d2-107f04afc89c",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
+          "short_id": "524efc1f88592266"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "api.v1.data",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 92",
+      "server": "check07.allenshop66244.ir",
+      "server_port": 8443,
+      "uuid": "720642d3-035e-469a-b0a1-6dcd3601a82c",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 115",
+      "server": "gr179.allenshop66249.ir",
+      "server_port": 2053,
+      "uuid": "fcf4db22-3134-452f-a5d2-107f04afc89c",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
+          "short_id": "524efc1f88592266"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "api.v1.data",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": ""
     },
@@ -363,65 +560,9 @@
       "packet_encoding": ""
     },
     {
-      "type": "shadowsocks",
-      "tag": "Server 2",
-      "server": "ir2.bapple.pro",
-      "server_port": 2025,
-      "method": "chacha20-ietf-poly1305",
-      "password": "nbl7iw3s682ndlgf"
-    },
-    {
       "type": "vless",
-      "tag": "Server 15",
-      "server": "arvancloud.ir",
-      "server_port": 2095,
-      "uuid": "6b7cc59c-deb1-41b7-8758-c582c00c1fe3",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "Tu5.pokerpings.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 17",
-      "server": "jush.sukario.ir",
-      "server_port": 443,
-      "uuid": "8a6729c4-81d4-4b05-8747-3fffc17b6a64",
-      "tls": {
-        "enabled": true,
-        "server_name": "NcKwOcDo0.DoVaRi24.oRg",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/mashdi",
-        "headers": {
-          "Host": "NcKwOcDo0.DoVaRi24.oRg"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "Server 24",
-      "server": "82.38.31.211",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "vless",
-      "tag": "Server 30",
-      "server": "151.115.167.6",
+      "tag": "Server 130",
+      "server": "sca11.directdnsai.shop",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "transport": {
@@ -433,94 +574,7 @@
     },
     {
       "type": "vless",
-      "tag": "Server 31",
-      "server": "jush.sukario.ir",
-      "server_port": 443,
-      "uuid": "5a4abb78-ecd7-4d68-ab2a-c11a3842f261",
-      "tls": {
-        "enabled": true,
-        "server_name": "7uFet5Zl.BilAKHT.OrG",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/mashdi",
-        "headers": {
-          "Host": "7uFet5Zl.BilAKHT.OrG"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "trojan",
-      "tag": "Server 65",
-      "server": "104.16.174.117",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ignitelimit.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.ignitelimit.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Server 67",
-      "server": "104.17.108.69",
-      "server_port": 443,
-      "uuid": "bac1052b-ce0f-4e87-8be4-abef62c671a6",
-      "tls": {
-        "enabled": true,
-        "server_name": "game.ixbr.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vlees",
-        "headers": {
-          "Host": "game.ixbr.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 71",
-      "server": "104.16.92.229",
-      "server_port": 80,
-      "uuid": "e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "free-hzr115-cdn.sabzi.name.ng."
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 85",
+      "tag": "Server 132",
       "server": "ronaldo18.fordnsdirect.shop",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -533,59 +587,28 @@
     },
     {
       "type": "vless",
-      "tag": "Server 116",
-      "server": "jush.sukario.ir",
-      "server_port": 443,
-      "uuid": "8a6729c4-81d4-4b05-8747-3fffc17b6a64",
+      "tag": "Server 140",
+      "server": "gr027.allenshop66246.ir",
+      "server_port": 2053,
+      "uuid": "fcf4db22-3134-452f-a5d2-107f04afc89c",
       "tls": {
         "enabled": true,
-        "server_name": "NcKwOcDo8.DoVaRi24.oRg",
+        "server_name": "play.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/mashdi",
-        "headers": {
-          "Host": "NcKwOcDo8.DoVaRi24.oRg"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 123",
-      "server": "142.93.100.92",
-      "server_port": 38505,
-      "uuid": "d671978b-7904-4702-956f-3496929b3dfc",
-      "transport": {
-        "type": "http",
-        "host": "play.google.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 142",
-      "server": "asl3.feeliran.org",
-      "server_port": 449,
-      "uuid": "1073a3f2-dc7c-46fb-aa7c-4378d4b27785",
-      "tls": {
-        "enabled": true,
-        "disable_sni": true,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
+        "reality": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
+          "short_id": "524efc1f88592266"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "api.v1.data",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": ""
     }
