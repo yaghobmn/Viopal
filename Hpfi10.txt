@@ -85,28 +85,19 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "📅 Update: 28 Tir",
+                "📅 Update: 29 Tir",
                 "WS Vless",
                 "wearestand",
                 "wearestand2",
         "🇸🇪 WS ➡️ @JavidnamanIran",
         "🇸🇪 RE ➡️ @JavidnamanIran",
-        "Server 3",
-        "Server 5",
-        "Server 32",
         "Server 48",
         "Server 81",
-        "Server 85",
-        "Server 100",
-        "Server 125",
-        "Server 127",
         "Server 132",
-        "Server 133",
-        "Server 145",
         "Server 150",
-        "Server 154",
-        "Server 158",
-        "Server 163"
+        "Server 4",
+        "Server 38",
+        "Server 55"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,28 +105,19 @@
         {
             "interval": "10m",
             "outbounds": [
-                "📅 Update: 28 Tir",
+                "📅 Update: 29 Tir",
                 "WS Vless",
                 "wearestand",
                 "wearestand2",
         "🇸🇪 WS ➡️ @JavidnamanIran",
         "🇸🇪 RE ➡️ @JavidnamanIran",
-        "Server 3",
-        "Server 5",
-        "Server 32",
         "Server 48",
         "Server 81",
-        "Server 85",
-        "Server 100",
-        "Server 125",
-        "Server 127",
         "Server 132",
-        "Server 133",
-        "Server 145",
         "Server 150",
-        "Server 154",
-        "Server 158",
-        "Server 163"
+        "Server 4",
+        "Server 38",
+        "Server 55"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -148,7 +130,7 @@
         },
     {
       "type": "vless",
-      "tag": "📅 Update: 28 Tir",
+      "tag": "📅 Update: 29 Tir",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -262,67 +244,6 @@
     },
     {
       "type": "vless",
-      "tag": "Server 3",
-      "server": "check08.allenshop66244.ir",
-      "server_port": 8443,
-      "uuid": "351c2f9d-4ee4-4316-bd23-dd1fe506bb4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 5",
-      "server": "gr059.allenshop66251.ir",
-      "server_port": 2053,
-      "uuid": "70f28a55-1e6c-4082-aef4-2dc2cfa78fca",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
-          "short_id": "524efc1f88592266"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "api.v1.data",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 32",
-      "server": "sca34.mysilipdir.com",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "transport": {
-        "type": "grpc",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
       "tag": "Server 48",
       "server": "moji1.best-cloud.ir",
       "server_port": 8880,
@@ -355,102 +276,6 @@
     },
     {
       "type": "vless",
-      "tag": "Server 85",
-      "server": "check10.allenshop66244.ir",
-      "server_port": 8443,
-      "uuid": "351c2f9d-4ee4-4316-bd23-dd1fe506bb4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 100",
-      "server": "gr095.allenshop66251.ir",
-      "server_port": 2053,
-      "uuid": "70f28a55-1e6c-4082-aef4-2dc2cfa78fca",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
-          "short_id": "524efc1f88592266"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "api.v1.data",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 125",
-      "server": "check07.allenshop66244.ir",
-      "server_port": 8443,
-      "uuid": "351c2f9d-4ee4-4316-bd23-dd1fe506bb4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 127",
-      "server": "gr022.allenshop66250.ir",
-      "server_port": 2053,
-      "uuid": "70f28a55-1e6c-4082-aef4-2dc2cfa78fca",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
-          "short_id": "524efc1f88592266"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "api.v1.data",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
       "tag": "Server 132",
       "server": "ronaldo18.fordnsdirect.shop",
       "server_port": 8880,
@@ -459,54 +284,6 @@
         "type": "grpc",
         "idle_timeout": "15s",
         "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 133",
-      "server": "gr007.allenshop66250.ir",
-      "server_port": 2053,
-      "uuid": "70f28a55-1e6c-4082-aef4-2dc2cfa78fca",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
-          "short_id": "524efc1f88592266"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "api.v1.data",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 145",
-      "server": "check04.allenshop66244.ir",
-      "server_port": 8443,
-      "uuid": "351c2f9d-4ee4-4316-bd23-dd1fe506bb4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
       },
       "packet_encoding": ""
     },
@@ -525,68 +302,42 @@
     },
     {
       "type": "vless",
-      "tag": "Server 154",
-      "server": "check10.allenshop66244.ir",
+      "tag": "Server 4",
+      "server": "136.244.85.174",
+      "server_port": 53753,
+      "uuid": "bbba9d85-8580-4502-a025-e70cebfdd1fe",
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 38",
+      "server": "ca.sannest.ir",
       "server_port": 8443,
-      "uuid": "351c2f9d-4ee4-4316-bd23-dd1fe506bb4a",
+      "uuid": "d204b8c2-7bad-60af-c5f3-e55072c16c78",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "play.google.com",
+        "server_name": "www.yahoo.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
+          "public_key": "oWh0oee2k_PnDXSz87YjCoguptwPF1Z47_4O3wZgLT0",
+          "short_id": "b73cff"
         }
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 158",
-      "server": "check06.allenshop66244.ir",
-      "server_port": 8443,
-      "uuid": "351c2f9d-4ee4-4316-bd23-dd1fe506bb4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 163",
-      "server": "gr133.allenshop66252.ir",
-      "server_port": 2053,
-      "uuid": "70f28a55-1e6c-4082-aef4-2dc2cfa78fca",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
-          "short_id": "524efc1f88592266"
-        }
-      },
+      "tag": "Server 55",
+      "server": "ronaldo14.fordnsdirect.shop",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "transport": {
         "type": "grpc",
-        "service_name": "api.v1.data",
         "idle_timeout": "15s",
         "ping_timeout": "15s"
       },
