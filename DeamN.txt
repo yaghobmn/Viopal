@@ -1,13 +1,16 @@
 //profile-update-interval: 24
-vless://test@0.0.0.0:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%93%85%20Update%3A%2029%20Tir
+vless://test@0.0.0.0:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%93%85%20Update%3A%2030%20Tir
 vless://37386ca4-9e9e-4e92-bb32-39ada73415db@de-d-178105.homelanderwins.com:10645?path=%2F&security=&encryption=none&host=play.google.com&type=httpupgrade#HTTPUpgrade
 vless://37386ca4-9e9e-4e92-bb32-39ada73415db@de-d-178105.homelanderwins.com:8080?path=%2F&security=&encryption=none&host=play.google.com&type=ws#WS%20Vless
 vless://6f436a44-f703-93da-7e45-615824a39d3b@teain.org:1000?security=reality&encryption=none&pbk=ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY&headerType=none&fp=ios&type=tcp&sni=knox.cdn-apple.com&sid=a62d513cd709744a#%F0%9F%87%B8%F0%9F%87%AA%20RE%20%E2%9E%A1%EF%B8%8F%20%40JavidnamanIran
 vless://6f436a44-f703-93da-7e45-615824a39d3b@cc.ircybersec.org:443?path=%2F%40JavidnamanIran%2FJavid-SHAH-KingRezaPahlavi%2F&security=tls&encryption=none&insecure=0&host=cp.kermanshahi.org&type=ws&allowInsecure=0&sni=cp.kermanshahi.org#%F0%9F%87%B8%F0%9F%87%AA%20WS%20%E2%9E%A1%EF%B8%8F%20%40JavidnamanIran
 vless://2820c3fd-dccc-4a51-bb74-f7d6c453ee71@moji1.best-cloud.ir:8880?path=%2F%3Fed&security=&encryption=none&host=play.google.com&type=ws#Server%2048
 vless://d6f738e2-93d5-4091-820b-41a533968e2b@moji1.best-cloud.ir:8880?path=%2F%3Fed&security=&encryption=none&host=play.google.com&type=ws#Server%2081
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo18.fordnsdirect.shop:8880?security=&encryption=none&type=grpc#Server%20132
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca8.directdnsai.shop:8880?security=&encryption=none&type=grpc#Server%20150
-vless://bbba9d85-8580-4502-a025-e70cebfdd1fe@136.244.85.174:53753?security=&encryption=none&headerType=&type=tcp#Server%204
 vless://d204b8c2-7bad-60af-c5f3-e55072c16c78@ca.sannest.ir:8443?security=reality&encryption=none&pbk=oWh0oee2k_PnDXSz87YjCoguptwPF1Z47_4O3wZgLT0&headerType=none&fp=firefox&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.yahoo.com&sid=b73cff#Server%2038
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo14.fordnsdirect.shop:8880?security=&encryption=none&type=grpc#Server%2055
+vless://d6f738e2-93d5-4091-820b-41a533968e2b@moji1.best-cloud.ir:8880?path=%2F%3Fed&security=&encryption=none&host=play.google.com&type=ws#Server%2021
+vless://70f28a55-1e6c-4082-aef4-2dc2cfa78fca@gr162.bamajobin.ir:2053?mode=gun&security=reality&encryption=none&pbk=GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY&fp=firefox&type=grpc&serviceName=api.v1.data&sni=play.google.com&sid=524efc1f88592266#Server%2045
+vless://365a4014-f5d9-4336-aac5-f184eee90e8e@moji1.best-cloud.ir:8880?path=%2F%3Fed&security=&encryption=none&host=play.google.com&type=ws#Server%2057
+vless://70f28a55-1e6c-4082-aef4-2dc2cfa78fca@gr149.bamajobin.ir:2053?mode=gun&security=reality&encryption=none&pbk=GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY&fp=firefox&type=grpc&serviceName=api.v1.data&sni=play.google.com&sid=524efc1f88592266#Server%2072
+vless://70f28a55-1e6c-4082-aef4-2dc2cfa78fca@gr148.bamajobin.ir:2053?mode=gun&security=reality&encryption=none&pbk=GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY&fp=firefox&type=grpc&serviceName=api.v1.data&sni=play.google.com&sid=524efc1f88592266#Server%20104
+vless://8a6729c4-81d4-4b05-8747-3fffc17b6a64@jush.sukario.ir:443?path=%2Fmashdi&security=tls&encryption=none&insecure=0&host=AwBsWrHp14.hAsAnGoT.CoM&fp=firefox&type=ws&allowInsecure=0&sni=AwBsWrHp14.hAsAnGoT.CoM#Server%20128
