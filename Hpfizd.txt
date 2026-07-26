@@ -89,6 +89,7 @@
                 "WS Vless",
                 "wearestand",
                 "wearestand2",
+                "🇩🇪 Germany Trojan WS-@defyxvpn_fa",
         "Server 52",
         "Server 54",
         "Server 93",
@@ -118,6 +119,7 @@
                 "WS Vless",
                 "wearestand",
                 "wearestand2",
+                "🇩🇪 Germany Trojan WS-@defyxvpn_fa",
         "Server 52",
         "Server 54",
         "Server 93",
@@ -214,6 +216,21 @@
       },
       "type": "http",
       "username": "purevpn0s8732217"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇩🇪 Germany Trojan WS-@defyxvpn_fa",
+      "server": "de-d-178105.homelanderwins.com",
+      "server_port": 44600,
+      "password": "ncnr1qxfkf4j1pg1",
+      "transport": {
+        "type": "ws",
+        "path": "/t.me/defyxvpn_fa",
+        "headers": {
+          "Host": "P30day.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
     {
       "type": "vless",
