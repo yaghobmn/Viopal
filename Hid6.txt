@@ -85,29 +85,27 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "📅 Update: 4 Mordad",
+                "📅 Update: 5 Mordad",
                 "WS Vless",
                 "wearestand",
                 "wearestand2",
                 "🇩🇪 Germany Trojan WS-@defyxvpn_fa",
+        "Server 1",
+        "Server 5",
+        "Server 12",
+        "Server 28",
+        "Server 48",
         "Server 52",
         "Server 54",
-        "Server 93",
-        "Server 97",
-        "Server 104",
-        "Server 109",
-        "Server 132",
-        "Server 135",
-        "Server 1",
-        "Server 28",
-        "Server 40",
         "Server 62",
-        "Server 63",
         "Server 75",
-        "Server 86",
+        "Server 93",
+        "Server 96",
+        "Server 97",
         "Server 112",
-        "Server 145",
-        "Server 146"
+        "Server 135",
+        "Server 160",
+        "Server 229"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,29 +113,27 @@
         {
             "interval": "10m",
             "outbounds": [
-                "📅 Update: 4 Mordad",
+                "📅 Update: 5 Mordad",
                 "WS Vless",
                 "wearestand",
                 "wearestand2",
                 "🇩🇪 Germany Trojan WS-@defyxvpn_fa",
+        "Server 1",
+        "Server 5",
+        "Server 12",
+        "Server 28",
+        "Server 48",
         "Server 52",
         "Server 54",
-        "Server 93",
-        "Server 97",
-        "Server 104",
-        "Server 109",
-        "Server 132",
-        "Server 135",
-        "Server 1",
-        "Server 28",
-        "Server 40",
         "Server 62",
-        "Server 63",
         "Server 75",
-        "Server 86",
+        "Server 93",
+        "Server 96",
+        "Server 97",
         "Server 112",
-        "Server 145",
-        "Server 146"
+        "Server 135",
+        "Server 160",
+        "Server 229"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -150,7 +146,7 @@
         },
     {
       "type": "vless",
-      "tag": "📅 Update: 4 Mordad",
+      "tag": "📅 Update: 5 Mordad",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -234,6 +230,98 @@
     },
     {
       "type": "vless",
+      "tag": "Server 1",
+      "server": "check08.rayanekomakplus.ir",
+      "server_port": 8443,
+      "uuid": "33795328-7eca-4493-afe7-825626c36394",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 5",
+      "server": "172.232.216.141",
+      "server_port": 443,
+      "uuid": "694eb5d5-794c-4389-af65-e5a4b8489dae",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Qr6_9TMQYMCB2hVSYeONcMvxBqIaT0mzPUy8nIivV1g",
+          "short_id": "b58b"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 12",
+      "server": "172.232.216.141",
+      "server_port": 443,
+      "uuid": "694eb5d5-794c-4389-af65-e5a4b8489dae",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Qr6_9TMQYMCB2hVSYeONcMvxBqIaT0mzPUy8nIivV1g",
+          "short_id": "b58b"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "Server 28",
+      "server": "185.213.20.110",
+      "server_port": 7001,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
+    },
+    {
+      "type": "vless",
+      "tag": "Server 48",
+      "server": "check05.rayanekomakplus.ir",
+      "server_port": 8443,
+      "uuid": "33795328-7eca-4493-afe7-825626c36394",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
       "tag": "Server 52",
       "server": "sca11.directdnsai.shop",
       "server_port": 8880,
@@ -260,189 +348,6 @@
     },
     {
       "type": "vless",
-      "tag": "Server 93",
-      "server": "check02.rayanekomakplus.ir",
-      "server_port": 8443,
-      "uuid": "33795328-7eca-4493-afe7-825626c36394",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 97",
-      "server": "check03.rayanekomakplus.ir",
-      "server_port": 8443,
-      "uuid": "33795328-7eca-4493-afe7-825626c36394",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 104",
-      "server": "gr148.bamajobin.ir",
-      "server_port": 2053,
-      "uuid": "70f28a55-1e6c-4082-aef4-2dc2cfa78fca",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
-          "short_id": "524efc1f88592266"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "api.v1.data",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 109",
-      "server": "169.40.42.15",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 132",
-      "server": "check09.rayanekomakplus.ir",
-      "server_port": 8443,
-      "uuid": "33795328-7eca-4493-afe7-825626c36394",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 135",
-      "server": "check08.rayanekomakplus.ir",
-      "server_port": 8443,
-      "uuid": "33795328-7eca-4493-afe7-825626c36394",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 1",
-      "server": "check08.rayanekomakplus.ir",
-      "server_port": 8443,
-      "uuid": "33795328-7eca-4493-afe7-825626c36394",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "Server 28",
-      "server": "185.213.20.110",
-      "server_port": 7001,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
-    },
-    {
-      "type": "vless",
-      "tag": "Server 40",
-      "server": "check01.rayanekomakplus.ir",
-      "server_port": 8443,
-      "uuid": "33795328-7eca-4493-afe7-825626c36394",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
       "tag": "Server 62",
       "server": "check07.rayanekomakplus.ir",
       "server_port": 8443,
@@ -458,28 +363,6 @@
           "enabled": true,
           "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
           "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 63",
-      "server": "51.158.206.97",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
         }
       },
       "packet_encoding": ""
@@ -507,22 +390,55 @@
     },
     {
       "type": "vless",
-      "tag": "Server 86",
-      "server": "169.40.42.95",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "flow": "xtls-rprx-vision",
+      "tag": "Server 93",
+      "server": "check02.rayanekomakplus.ir",
+      "server_port": 8443,
+      "uuid": "33795328-7eca-4493-afe7-825626c36394",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "play.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 96",
+      "server": "ronaldo36.fordnsdirect.shop",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 97",
+      "server": "check03.rayanekomakplus.ir",
+      "server_port": 8443,
+      "uuid": "33795328-7eca-4493-afe7-825626c36394",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
         }
       },
       "packet_encoding": ""
@@ -542,46 +458,55 @@
     },
     {
       "type": "vless",
-      "tag": "Server 145",
-      "server": "jush.sukario.ir",
-      "server_port": 443,
-      "uuid": "8ad6f598-cd8d-4fca-848e-05fc9be15ff3",
+      "tag": "Server 135",
+      "server": "check08.rayanekomakplus.ir",
+      "server_port": 8443,
+      "uuid": "33795328-7eca-4493-afe7-825626c36394",
       "tls": {
         "enabled": true,
-        "server_name": "s.try-first.info",
+        "server_name": "play.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sea",
-        "headers": {
-          "Host": "s.try-first.info"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality": {
+          "enabled": true,
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
+        }
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 146",
-      "server": "netraidly.ru",
-      "server_port": 40443,
-      "uuid": "4480161e-2c59-4d37-8736-675c9af32bf1",
-      "flow": "xtls-rprx-vision",
+      "tag": "Server 160",
+      "server": "sca21.exodnsdir.xyz",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "transport": {
+        "type": "grpc",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 229",
+      "server": "check04.rayanekomakplus.ir",
+      "server_port": 8443,
+      "uuid": "33795328-7eca-4493-afe7-825626c36394",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "play.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fWzCKXwvMXaacsl1DdFb1vKQ9l9cTK1G7udqmaYHL0Y",
-          "short_id": "01d1bf2d4755d40c"
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
         }
       },
       "packet_encoding": ""
