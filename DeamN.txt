@@ -1,20 +1,20 @@
 //profile-update-interval: 24
-vless://test@0.0.0.0:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%93%85%20Update%3A%206%20Mordad
+vless://test@0.0.0.0:443?security=&encryption=none&headerType=none&type=tcp#%F0%9F%93%85%20Update%3A%206%20Mordad
 vless://37386ca4-9e9e-4e92-bb32-39ada73415db@de-d-178105.homelanderwins.com:10645?path=%2F&security=&encryption=none&host=play.google.com&type=httpupgrade#HTTPUpgrade
 vless://37386ca4-9e9e-4e92-bb32-39ada73415db@de-d-178105.homelanderwins.com:8080?path=%2F&security=&encryption=none&host=play.google.com&type=ws#WS%20Vless
 trojan://ncnr1qxfkf4j1pg1@de-d-178105.homelanderwins.com:44600?path=%2Ft.me%2Fdefyxvpn_fa&security=none&host=P30day.ir&type=ws#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20Trojan%20WS-%40defyxvpn_fa
-vless://6f436a44-f703-93da-7e45-615824a39d3b@teain.org:1000?security=reality&encryption=none&pbk=ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY&headerType=none&fp=ios&type=tcp&sni=knox.cdn-apple.com&sid=a62d513cd709744a#%F0%9F%87%B8%F0%9F%87%AA%20RE
-vless://6f436a44-f703-93da-7e45-615824a39d3b@cc.ircybersec.org:443?path=%2F%40JavidnamanIran%2FJavid-SHAH-KingRezaPahlavi%2F&security=tls&encryption=none&insecure=0&host=cp.kermanshahi.org&type=ws&allowInsecure=0&sni=cp.kermanshahi.org#%F0%9F%87%B8%F0%9F%87%AA%20WS
+vless://6f436a44-f703-93da-7e45-615824a39d3b@teain.org:1000?security=reality&encryption=none&pbk=ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY&headerType=none&fp=ios&type=tcp&sni=knox.cdn-apple.com&sid=a62d513cd709744a#%F0%9F%87%B8%F0%9F%87%AA%20RE%20%E2%9E%A1%EF%B8%8F%20%40JavidnamanIran
+vless://6f436a44-f703-93da-7e45-615824a39d3b@cc.ircybersec.org:443?path=%2F%40JavidnamanIran%2FJavid-SHAH-KingRezaPahlavi%2F&security=tls&encryption=none&insecure=0&host=cp.kermanshahi.org&type=ws&allowInsecure=0&sni=cp.kermanshahi.org#%F0%9F%87%B8%F0%9F%87%AA%20WS%20%E2%9E%A1%EF%B8%8F%20%40JavidnamanIran
 vless://33795328-7eca-4493-afe7-825626c36394@check08.rayanekomakplus.ir:8443?security=reality&encryption=none&pbk=D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=b7b70c104ad267b8#Server%201
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo37.fordnsdirect.shop:8880?security=&encryption=none&type=grpc#Server%2042
 vless://33795328-7eca-4493-afe7-825626c36394@check05.rayanekomakplus.ir:8443?security=reality&encryption=none&pbk=D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=b7b70c104ad267b8#Server%2048
 vless://33795328-7eca-4493-afe7-825626c36394@check07.rayanekomakplus.ir:8443?security=reality&encryption=none&pbk=D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=b7b70c104ad267b8#Server%2052
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca11.directdnsai.shop:8880?mode=gun&security=none&encryption=none&type=grpc#Server%2053
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca11.directdnsai.shop:8880?mode=gun&security=&encryption=none&type=grpc#Server%2053
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo14.fordnsdirect.shop:8880?mode=gun&security=&encryption=none&type=grpc#Server%2054
 vless://33795328-7eca-4493-afe7-825626c36394@check07.rayanekomakplus.ir:8443?security=reality&encryption=none&pbk=D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=b7b70c104ad267b8#Server%2062
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo36.fordnsdirect.shop:8880?security=&encryption=none&type=grpc#Server%2069
 vless://33795328-7eca-4493-afe7-825626c36394@check10.rayanekomakplus.ir:8443?security=reality&encryption=none&pbk=D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=b7b70c104ad267b8#Server%2075
-vless://33795328-7eca-4493-afe7-825626c36394@check02.rayanekomakplus.ir:8443?security=reality&encryption=none&pbk=D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw&headerType=&fp=firefox&type=tcp&sni=play.google.com&sid=b7b70c104ad267b8#Server%2091
+vless://33795328-7eca-4493-afe7-825626c36394@check02.rayanekomakplus.ir:8443?security=reality&encryption=none&pbk=D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=b7b70c104ad267b8#Server%2091
 vless://33795328-7eca-4493-afe7-825626c36394@check02.rayanekomakplus.ir:8443?security=reality&encryption=none&pbk=D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=b7b70c104ad267b8#Server%2093
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo36.fordnsdirect.shop:8880?security=&encryption=none&type=grpc#Server%2096
 vless://33795328-7eca-4493-afe7-825626c36394@check03.rayanekomakplus.ir:8443?security=reality&encryption=none&pbk=D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw&headerType=none&fp=firefox&type=tcp&sni=play.google.com&sid=b7b70c104ad267b8#Server%2097
