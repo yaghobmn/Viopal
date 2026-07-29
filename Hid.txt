@@ -91,6 +91,12 @@
                 "WS Trojan",
                 "wearestand",
                 "wearestand2",
+        "Server 5",
+        "Server 31",
+        "Server 71",
+        "Server 144",
+        "Server 150",
+        "Server 160"
             ],
             "tag": "proxy",
             "type": "selector"
