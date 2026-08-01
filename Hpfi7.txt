@@ -78,18 +78,18 @@
       "outbounds": [
         "auto",
         "direct",
-                "📅 Update: 9 Mordad",
+                "📅 Update: 10 Mordad",
                 "HTTPUpgrade",
                 "WS Vless",
                 "WS Trojan",
                 "wearestand",
                 "wearestand2",
-        "Server 53",
-        "Server 54",
-        "Server 73",
-        "Server 83",
-        "Server 160",
-        "Server 192"
+        "🇸🇪 WS ➡️ @JavidnamanIran",
+        "🇸🇪 RE ➡️ @JavidnamanIran",
+        "Server 19",
+        "Server 116",
+        "Server 155",
+        "Server 187"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,18 +97,18 @@
     {
       "interval": "10m",
       "outbounds": [
-                "📅 Update: 9 Mordad",
+                "📅 Update: 10 Mordad",
                 "HTTPUpgrade",
                 "WS Vless",
                 "WS Trojan",
                 "wearestand",
                 "wearestand2",
-        "Server 53",
-        "Server 54",
-        "Server 73",
-        "Server 83",
-        "Server 160",
-        "Server 192"
+        "🇸🇪 WS ➡️ @JavidnamanIran",
+        "🇸🇪 RE ➡️ @JavidnamanIran",
+        "Server 19",
+        "Server 116",
+        "Server 155",
+        "Server 187"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -121,7 +121,7 @@
     },
     {
       "type": "vless",
-      "tag": "📅 Update: 9 Mordad",
+      "tag": "📅 Update: 10 Mordad",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -220,10 +220,55 @@
     },
     {
       "type": "vless",
-      "tag": "Server 53",
-      "server": "check07.farsinblog.ir",
-      "server_port": 8443,
-      "uuid": "db840ee9-a3a3-4f4e-b63a-3779fe25eabe",
+      "tag": "🇸🇪 WS ➡️ @JavidnamanIran",
+      "server": "cc.ircybersec.org",
+      "server_port": 443,
+      "uuid": "6f436a44-f703-93da-7e45-615824a39d3b",
+      "tls": {
+        "enabled": true,
+        "server_name": "cp.kermanshahi.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/",
+        "headers": {
+          "Host": "cp.kermanshahi.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 RE ➡️ @JavidnamanIran",
+      "server": "teain.org",
+      "server_port": 1000,
+      "uuid": "6f436a44-f703-93da-7e45-615824a39d3b",
+      "tls": {
+        "enabled": true,
+        "server_name": "knox.cdn-apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY",
+          "short_id": "a62d513cd709744a"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 19",
+      "server": "gr037.bamajobin.ir",
+      "server_port": 2053,
+      "uuid": "e480ec05-1570-4a7d-b377-c3a20f80afa8",
       "tls": {
         "enabled": true,
         "server_name": "play.google.com",
@@ -233,41 +278,13 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
+          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
+          "short_id": "524efc1f88592266"
         }
       },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 54",
-      "server": "check02.farsinblog.ir",
-      "server_port": 8443,
-      "uuid": "db840ee9-a3a3-4f4e-b63a-3779fe25eabe",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 73",
-      "server": "ronaldo26.fordnsdirect.shop",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "transport": {
         "type": "grpc",
+        "service_name": "api.v1.data",
         "idle_timeout": "15s",
         "ping_timeout": "15s"
       },
@@ -275,10 +292,24 @@
     },
     {
       "type": "vless",
-      "tag": "Server 83",
-      "server": "check06.farsinblog.ir",
-      "server_port": 8443,
-      "uuid": "db840ee9-a3a3-4f4e-b63a-3779fe25eabe",
+      "tag": "Server 116",
+      "server": "3.122.19.138",
+      "server_port": 440,
+      "uuid": "35495e54-3b92-4835-9f51-6cba41bacb5e",
+      "transport": {
+        "type": "http",
+        "host": "play.google.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 155",
+      "server": "gr059.bamajobin.ir",
+      "server_port": 2053,
+      "uuid": "e480ec05-1570-4a7d-b377-c3a20f80afa8",
       "tls": {
         "enabled": true,
         "server_name": "play.google.com",
@@ -288,20 +319,13 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
+          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
+          "short_id": "524efc1f88592266"
         }
       },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 160",
-      "server": "sca21.exodnsdir.xyz",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "transport": {
         "type": "grpc",
+        "service_name": "api.v1.data",
         "idle_timeout": "15s",
         "ping_timeout": "15s"
       },
@@ -309,10 +333,10 @@
     },
     {
       "type": "vless",
-      "tag": "Server 192",
-      "server": "check07.farsinblog.ir",
-      "server_port": 8443,
-      "uuid": "db840ee9-a3a3-4f4e-b63a-3779fe25eabe",
+      "tag": "Server 187",
+      "server": "gr017.bamajobin.ir",
+      "server_port": 2053,
+      "uuid": "e480ec05-1570-4a7d-b377-c3a20f80afa8",
       "tls": {
         "enabled": true,
         "server_name": "play.google.com",
@@ -322,9 +346,15 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-          "short_id": "b7b70c104ad267b8"
+          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
+          "short_id": "524efc1f88592266"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "api.v1.data",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       },
       "packet_encoding": ""
     }
