@@ -78,18 +78,23 @@
       "outbounds": [
         "auto",
         "direct",
-                "📅 Update: 10 Mordad",
+                "📅 Update: 11 Mordad",
                 "HTTPUpgrade",
                 "WS Vless",
                 "WS Trojan",
                 "wearestand",
                 "wearestand2",
-        "🇸🇪 WS ➡️ @JavidnamanIran",
-        "🇸🇪 RE ➡️ @JavidnamanIran",
-        "Server 19",
-        "Server 116",
-        "Server 155",
-        "Server 187"
+        "Server 1",
+        "Server 7",
+        "Server 10",
+        "Server 14",
+        "Server 20",
+        "Server 26",
+        "Server 31",
+        "Server 83",
+        "Server 88",
+        "Server 91",
+        "Server 205"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,18 +102,23 @@
     {
       "interval": "10m",
       "outbounds": [
-                "📅 Update: 10 Mordad",
+                "📅 Update: 11 Mordad",
                 "HTTPUpgrade",
                 "WS Vless",
                 "WS Trojan",
                 "wearestand",
                 "wearestand2",
-        "🇸🇪 WS ➡️ @JavidnamanIran",
-        "🇸🇪 RE ➡️ @JavidnamanIran",
-        "Server 19",
-        "Server 116",
-        "Server 155",
-        "Server 187"
+        "Server 1",
+        "Server 7",
+        "Server 10",
+        "Server 14",
+        "Server 20",
+        "Server 26",
+        "Server 31",
+        "Server 83",
+        "Server 88",
+        "Server 91",
+        "Server 205"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -121,7 +131,7 @@
     },
     {
       "type": "vless",
-      "tag": "📅 Update: 10 Mordad",
+      "tag": "📅 Update: 11 Mordad",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -220,13 +230,13 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 WS ➡️ @JavidnamanIran",
-      "server": "cc.ircybersec.org",
+      "tag": "Server 1",
+      "server": "love.ns.cloudflare.com",
       "server_port": 443,
-      "uuid": "6f436a44-f703-93da-7e45-615824a39d3b",
+      "uuid": "49e76398-5127-4005-90cb-c2a971f745f1",
       "tls": {
         "enabled": true,
-        "server_name": "cp.kermanshahi.org",
+        "server_name": "xrbpc.redpixelway-tobi.sbs",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -234,9 +244,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/",
+        "path": "/carbon",
         "headers": {
-          "Host": "cp.kermanshahi.org"
+          "Host": "xrbpc.redpixelway-tobi.sbs"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -244,31 +254,52 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 RE ➡️ @JavidnamanIran",
-      "server": "teain.org",
-      "server_port": 1000,
-      "uuid": "6f436a44-f703-93da-7e45-615824a39d3b",
+      "tag": "Server 7",
+      "server": "check08.farsinblog.ir",
+      "server_port": 8443,
+      "uuid": "cbfd36b0-cba7-48d7-8411-2f5446099ee9",
       "tls": {
         "enabled": true,
-        "server_name": "knox.cdn-apple.com",
+        "server_name": "play.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY",
-          "short_id": "a62d513cd709744a"
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
         }
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 19",
-      "server": "gr037.bamajobin.ir",
+      "tag": "Server 10",
+      "server": "check10.farsinblog.ir",
+      "server_port": 8443,
+      "uuid": "cbfd36b0-cba7-48d7-8411-2f5446099ee9",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+          "short_id": "b7b70c104ad267b8"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 14",
+      "server": "gr005.bamajobin.ir",
       "server_port": 2053,
-      "uuid": "e480ec05-1570-4a7d-b377-c3a20f80afa8",
+      "uuid": "d9aa9ea3-9388-483f-a58d-a754f33ec505",
       "tls": {
         "enabled": true,
         "server_name": "play.google.com",
@@ -292,24 +323,58 @@
     },
     {
       "type": "vless",
-      "tag": "Server 116",
-      "server": "3.122.19.138",
-      "server_port": 440,
-      "uuid": "35495e54-3b92-4835-9f51-6cba41bacb5e",
+      "tag": "Server 20",
+      "server": "love.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "49e76398-5127-4005-90cb-c2a971f745f1",
+      "tls": {
+        "enabled": true,
+        "server_name": "osyoy.skywavebox-qad.sbs",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
-        "type": "http",
-        "host": "play.google.com",
-        "path": "/",
-        "method": "GET"
+        "type": "ws",
+        "path": "/carbon",
+        "headers": {
+          "Host": "osyoy.skywavebox-qad.sbs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 155",
-      "server": "gr059.bamajobin.ir",
+      "tag": "Server 26",
+      "server": "love.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "49e76398-5127-4005-90cb-c2a971f745f1",
+      "tls": {
+        "enabled": true,
+        "server_name": "dcbgd.minipixelport-qad.sbs",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/all",
+        "headers": {
+          "Host": "dcbgd.minipixelport-qad.sbs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 31",
+      "server": "gr079.bamajobin.ir",
       "server_port": 2053,
-      "uuid": "e480ec05-1570-4a7d-b377-c3a20f80afa8",
+      "uuid": "d9aa9ea3-9388-483f-a58d-a754f33ec505",
       "tls": {
         "enabled": true,
         "server_name": "play.google.com",
@@ -333,28 +398,97 @@
     },
     {
       "type": "vless",
-      "tag": "Server 187",
-      "server": "gr017.bamajobin.ir",
-      "server_port": 2053,
-      "uuid": "e480ec05-1570-4a7d-b377-c3a20f80afa8",
+      "tag": "Server 83",
+      "server": "love.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "49e76398-5127-4005-90cb-c2a971f745f1",
       "tls": {
         "enabled": true,
-        "server_name": "play.google.com",
+        "server_name": "loctc.goldcitynode-tobi.sbs",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY",
-          "short_id": "524efc1f88592266"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
-        "type": "grpc",
-        "service_name": "api.v1.data",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
+        "type": "ws",
+        "path": "/carbon",
+        "headers": {
+          "Host": "loctc.goldcitynode-tobi.sbs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 88",
+      "server": "love.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "49e76398-5127-4005-90cb-c2a971f745f1",
+      "tls": {
+        "enabled": true,
+        "server_name": "xrbpc.redpixelway-tobi.sbs",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/carbon",
+        "headers": {
+          "Host": "xrbpc.redpixelway-tobi.sbs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 91",
+      "server": "love.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "49e76398-5127-4005-90cb-c2a971f745f1",
+      "tls": {
+        "enabled": true,
+        "server_name": "loctc.goldcitynode-tobi.sbs",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/carbon",
+        "headers": {
+          "Host": "loctc.goldcitynode-tobi.sbs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 205",
+      "server": "love.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "49e76398-5127-4005-90cb-c2a971f745f1",
+      "tls": {
+        "enabled": true,
+        "disable_sni": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/carbon",
+        "headers": {
+          "Host": "ymrrm.darkfoxport-tobi.sbs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
     }
