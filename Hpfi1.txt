@@ -87,7 +87,11 @@
         "Server 104",
         "Server 48",
         "Server 127",
-        "Server 143"
+        "Server 143",
+        "AT2 @WhiteDNS",
+        "NL2 @WhiteDNS",
+        "DE13 @WhiteDNS",
+        "NL3 @WhiteDNS"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +108,11 @@
         "Server 104",
         "Server 48",
         "Server 127",
-        "Server 143"
+        "Server 143",
+        "AT2 @WhiteDNS",
+        "NL2 @WhiteDNS",
+        "DE13 @WhiteDNS",
+        "NL3 @WhiteDNS"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -304,6 +312,86 @@
           "Host": "rbvcv.maxriverway-tororo.sbs"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "AT2 @WhiteDNS",
+      "server": "jdwabxe.cvewfjg.shop",
+      "server_port": 443,
+      "uuid": "711c018e-2692-4aa8-93f3-544d83fcd16c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs",
+          "short_id": "7a76f3c4b9dd"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "NL2 @WhiteDNS",
+      "server": "51.158.206.86",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "DE13 @WhiteDNS",
+      "server": "168.119.156.100",
+      "server_port": 1234,
+      "uuid": "83b69fd2-ae76-4a35-8f0e-65b90babcc6f",
+      "transport": {
+        "type": "http",
+        "host": "play.google.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "NL3 @WhiteDNS",
+      "server": "51.158.206.103",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
       },
       "packet_encoding": ""
     }
