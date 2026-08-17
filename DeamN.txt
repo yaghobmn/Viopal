@@ -1,11 +1,14 @@
 //profile-update-interval: 24
-vless://test@0.0.0.0:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%93%85%20Update%3A%2022%20Mordad
+vless://test@0.0.0.0:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%93%85%20Update%3A%2026%20Mordad
 vless://ee973ba8-5625-45ed-a470-f2643fc40cfe@de-d-178105.homelanderwins.com:10645?path=%2F&security=&encryption=none&host=play.google.com&type=httpupgrade#HTTPUpgrade
 vless://ee973ba8-5625-45ed-a470-f2643fc40cfe@de-d-178105.homelanderwins.com:8080?path=%2F&security=&encryption=none&host=play.google.com&type=ws#WS%20Vless
 trojan://zp46jso30t65vel9@de-d-178105.homelanderwins.com:28274?path=%2F&security=none&host=play.google.com&type=ws#WS%20Trojan
-vless://3083e4a3-6602-458b-a9c3-ccf9dca49d41@161.35.17.0:55996?security=&encryption=none&host=diwork.com&headerType=http&type=tcp#Server%201
-vless://85980e28-ad93-4d8c-97fb-ade535f7e630@64.227.47.13:48215?security=&encryption=none&host=diwork.com&headerType=http&type=tcp#Server%2012
-vless://f0074e57-6e64-48b9-aa64-cf62c556a008@104.248.168.156:40188?security=&encryption=none&host=diwork.com&headerType=http&type=tcp#Server%2023
-vless://412d7fbe-7474-4f1d-86c6-7eebdc628f72@ip.kickfarsi.com:2087?path=%2F&security=tls&encryption=none&insecure=0&host=norw.utady.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=norw.utady.ir#Server%2040
-vless://33c4afba-1aa9-4860-8d9a-a42ec316cc69@206.189.114.191:17753?security=&encryption=none&host=diwork.com&headerType=http&type=tcp#Server%2066
-vless://28e5ca1f-0289-4c67-84a1-0f96ac88dbce@209.38.207.93:54618?security=&encryption=none&host=diwork.com&headerType=http&type=tcp#Server%2090
+ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@15.204.246.132:7307#Server%2032%20%40DailyV2RY
+vless://e277ac9b-3225-3381-a9fb-3585419f7142@tgju.org:443?path=%2Fmedia18&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=media18.alibackupp.info&fp=chrome&type=ws&allowInsecure=0&sni=media18.alibackupp.info#Server%2050%20%40DailyV2RY
+vless://e277ac9b-3225-3381-a9fb-3585419f7142@tgju.org:443?path=%2Fmedia42&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=media42.baransport.info&fp=chrome&type=ws&allowInsecure=0&sni=media42.baransport.info#Server%20108%20%40DailyV2RY
+vless://39c42b0a-b823-4c93-bb99-74b4183e518d@85.155.226.140:443?security=reality&encryption=none&pbk=5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=getsavesafe.net&sid=82f5d3a1e9c0b661#%40FREE2CONFIG%20-%2039
+vless://b052df40-d51c-456c-9bd6-57af01a87e4e@cdn.pinecloud.net:443?security=reality&encryption=none&pbk=vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=cdn.pinecloud.net&sid=6a2e3af684799b19#%40FREE2CONFIG%20-%2066
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.253.42.79:443?security=reality&encryption=none&pbk=eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=asia.cendora.ru&sid=e53048e82bb20077#%40FREE2CONFIG%20-%20140
+vless://e277ac9b-3225-3381-a9fb-3585419f7142@tgju.org:443?path=%2Fmedia05&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=media05.alibackupp.info&fp=chrome&type=ws&allowInsecure=0&sni=media05.alibackupp.info#Server%20159%20%40DailyV2RY
+vless://b91abe1a-80ca-417b-998b-2b542661c16f@germany.feywebsite.ir:8898?security=reality&encryption=none&pbk=igi9EOZxUt_Zg522HOvlfMDqPfmkYcoIGFl4P2NA9k4&headerType=none&fp=ios&spx=%2Fbaadd804e2d4335&type=tcp&sni=play.googleapis.com&sid=88#Server%20181%20%40DailyV2RY
+vless://e277ac9b-3225-3381-a9fb-3585419f7142@tgju.org:443?path=%2Fmedia84&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=media84.gooshkoob.info&fp=chrome&type=ws&allowInsecure=0&sni=media84.gooshkoob.info#Server%20194%20%40DailyV2RY
