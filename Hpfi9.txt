@@ -78,17 +78,21 @@
       "outbounds": [
         "auto",
         "direct",
-                "📅 Update: 22 Mordad",
+                "📅 Update: 26 Mordad",
                 "HTTPUpgrade",
                 "WS Vless",
                 "WS Trojan",
                 "wearestand",
                 "wearestand2",
-        "Server 1",
-        "Server 12",
-        "Server 23",
-        "Server 66",
-        "Server 90"
+        "Server 32 @DailyV2RY",
+        "Server 50 @DailyV2RY",
+        "Server 108 @DailyV2RY",
+        "@FREE2CONFIG - 39",
+        "@FREE2CONFIG - 66",
+        "@FREE2CONFIG - 140",
+        "Server 159 @DailyV2RY",
+        "Server 181 @DailyV2RY",
+        "Server 194 @DailyV2RY"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,17 +100,21 @@
     {
       "interval": "10m",
       "outbounds": [
-                "📅 Update: 22 Mordad",
+                "📅 Update: 26 Mordad",
                 "HTTPUpgrade",
                 "WS Vless",
                 "WS Trojan",
                 "wearestand",
                 "wearestand2",
-        "Server 1",
-        "Server 12",
-        "Server 23",
-        "Server 66",
-        "Server 90"
+        "Server 32 @DailyV2RY",
+        "Server 50 @DailyV2RY",
+        "Server 108 @DailyV2RY",
+        "@FREE2CONFIG - 39",
+        "@FREE2CONFIG - 66",
+        "@FREE2CONFIG - 140",
+        "Server 159 @DailyV2RY",
+        "Server 181 @DailyV2RY",
+        "Server 194 @DailyV2RY"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -119,7 +127,7 @@
     },
     {
       "type": "vless",
-      "tag": "📅 Update: 22 Mordad",
+      "tag": "📅 Update: 26 Mordad",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -217,72 +225,193 @@
       "username": "purevpn0s8732217"
     },
     {
+      "type": "shadowsocks",
+      "tag": "Server 32 @DailyV2RY",
+      "server": "15.204.246.132",
+      "server_port": 7307,
+      "method": "aes-256-gcm",
+      "password": "FoOiGlkAA9yPEGP"
+    },
+    {
       "type": "vless",
-      "tag": "Server 1",
-      "server": "161.35.17.0",
-      "server_port": 55996,
-      "uuid": "3083e4a3-6602-458b-a9c3-ccf9dca49d41",
+      "tag": "Server 50 @DailyV2RY",
+      "server": "tgju.org",
+      "server_port": 443,
+      "uuid": "e277ac9b-3225-3381-a9fb-3585419f7142",
+      "tls": {
+        "enabled": true,
+        "server_name": "media18.alibackupp.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
-        "type": "http",
-        "host": "diwork.com",
-        "path": "/",
-        "method": "GET"
+        "type": "ws",
+        "path": "/media18",
+        "headers": {
+          "Host": "media18.alibackupp.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 12",
-      "server": "64.227.47.13",
-      "server_port": 48215,
-      "uuid": "85980e28-ad93-4d8c-97fb-ade535f7e630",
+      "tag": "Server 108 @DailyV2RY",
+      "server": "tgju.org",
+      "server_port": 443,
+      "uuid": "e277ac9b-3225-3381-a9fb-3585419f7142",
+      "tls": {
+        "enabled": true,
+        "server_name": "media42.baransport.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
-        "type": "http",
-        "host": "diwork.com",
-        "path": "/",
-        "method": "GET"
+        "type": "ws",
+        "path": "/media42",
+        "headers": {
+          "Host": "media42.baransport.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 23",
-      "server": "104.248.168.156",
-      "server_port": 40188,
-      "uuid": "f0074e57-6e64-48b9-aa64-cf62c556a008",
-      "transport": {
-        "type": "http",
-        "host": "diwork.com",
-        "path": "/",
-        "method": "GET"
+      "tag": "@FREE2CONFIG - 39",
+      "server": "85.155.226.140",
+      "server_port": 443,
+      "uuid": "39c42b0a-b823-4c93-bb99-74b4183e518d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "getsavesafe.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs",
+          "short_id": "82f5d3a1e9c0b661"
+        }
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 66",
-      "server": "206.189.114.191",
-      "server_port": 17753,
-      "uuid": "33c4afba-1aa9-4860-8d9a-a42ec316cc69",
-      "transport": {
-        "type": "http",
-        "host": "diwork.com",
-        "path": "/",
-        "method": "GET"
+      "tag": "@FREE2CONFIG - 66",
+      "server": "cdn.pinecloud.net",
+      "server_port": 443,
+      "uuid": "b052df40-d51c-456c-9bd6-57af01a87e4e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.pinecloud.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8",
+          "short_id": "6a2e3af684799b19"
+        }
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 90",
-      "server": "209.38.207.93",
-      "server_port": 54618,
-      "uuid": "28e5ca1f-0289-4c67-84a1-0f96ac88dbce",
+      "tag": "@FREE2CONFIG - 140",
+      "server": "5.253.42.79",
+      "server_port": 443,
+      "uuid": "423b1d79-08c4-403f-9d5e-c541f791b55f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "asia.cendora.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU",
+          "short_id": "e53048e82bb20077"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 159 @DailyV2RY",
+      "server": "tgju.org",
+      "server_port": 443,
+      "uuid": "e277ac9b-3225-3381-a9fb-3585419f7142",
+      "tls": {
+        "enabled": true,
+        "server_name": "media05.alibackupp.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
-        "type": "http",
-        "host": "diwork.com",
-        "path": "/",
-        "method": "GET"
+        "type": "ws",
+        "path": "/media05",
+        "headers": {
+          "Host": "media05.alibackupp.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 181 @DailyV2RY",
+      "server": "germany.feywebsite.ir",
+      "server_port": 8898,
+      "uuid": "b91abe1a-80ca-417b-998b-2b542661c16f",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "igi9EOZxUt_Zg522HOvlfMDqPfmkYcoIGFl4P2NA9k4",
+          "short_id": "88"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 194 @DailyV2RY",
+      "server": "tgju.org",
+      "server_port": 443,
+      "uuid": "e277ac9b-3225-3381-a9fb-3585419f7142",
+      "tls": {
+        "enabled": true,
+        "server_name": "media84.gooshkoob.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/media84",
+        "headers": {
+          "Host": "media84.gooshkoob.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
     }
