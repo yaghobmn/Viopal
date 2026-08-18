@@ -79,6 +79,9 @@
         "auto",
         "direct",
                 "📅 Update: 27 Mordad",
+                "HTTPUpgrade",
+                "WS Vless",
+                "WS Trojan",
                 "wearestand",
                 "wearestand2",
         "Server 6 @DailyV2RY",
@@ -113,6 +116,9 @@
       "interval": "10m",
       "outbounds": [
                 "📅 Update: 27 Mordad",
+                "HTTPUpgrade",
+                "WS Vless",
+                "WS Trojan",
                 "wearestand",
                 "wearestand2",
         "Server 6 @DailyV2RY",
@@ -156,6 +162,52 @@
       "server_port": 443,
       "uuid": "test",
       "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "HTTPUpgrade",
+      "server": "de-d-178105.homelanderwins.com",
+      "server_port": 10645,
+      "uuid": "f81362b3-ba06-467e-8d3e-821bdf4ffd8d",
+      "transport": {
+        "type": "httpupgrade",
+        "path": "/",
+        "headers": {
+          "Host": "play.google.com"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "WS Vless",
+      "server": "de-d-178105.homelanderwins.com",
+      "server_port": 8080,
+      "uuid": "f81362b3-ba06-467e-8d3e-821bdf4ffd8d",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "play.google.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "trojan",
+      "tag": "WS Trojan",
+      "server": "de-d-178105.homelanderwins.com",
+      "server_port": 28274,
+      "password": "cpxvb6mhe8sngkrn",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "play.google.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
     },
 {
   "headers": {
