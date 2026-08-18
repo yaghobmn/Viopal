@@ -1,5 +1,8 @@
 //profile-update-interval: 24
 vless://test@0.0.0.0:443?security=&encryption=none&headerType=none&type=tcp#%F0%9F%93%85%20Update%3A%2027%20Mordad
+vless://f81362b3-ba06-467e-8d3e-821bdf4ffd8d@de-d-178105.homelanderwins.com:10645?path=%2F&security=&encryption=none&host=play.google.com&type=httpupgrade#HTTPUpgrade
+vless://f81362b3-ba06-467e-8d3e-821bdf4ffd8d@de-d-178105.homelanderwins.com:8080?path=%2F&security=&encryption=none&host=play.google.com&type=ws#WS%20Vless
+trojan://cpxvb6mhe8sngkrn@de-d-178105.homelanderwins.com:28274?path=%2F&security=none&host=play.google.com&type=ws#WS%20Trojan
 vless://768b5e34-a908-4fd5-93d2-481a9923c848@104.18.155.219:2095?path=%2F%3Fed%3D2048&security=&encryption=none&host=dASHbOArd.AzErSTARTups.org.&type=ws#Server%206%20%40DailyV2RY
 vless://3f3d5ac0-ae2b-4cb6-a403-cccb387f0444@speedtest.org:443?path=%2Fwait&security=tls&encryption=none&insecure=0&host=unujg.darkbirdbase-balii.sbs&type=ws&allowInsecure=0&sni=unujg.darkbirdbase-balii.sbs#Server%2044%20%40DailyV2RY
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@172.64.146.153:2095?path=%2F&security=none&encryption=none&host=fangbinxingnmsl.pusytroller.gq&type=ws#%40FREE2CONFIG%20-%2015
