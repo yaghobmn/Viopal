@@ -78,35 +78,29 @@
       "outbounds": [
         "auto",
         "direct",
-                "📅 Update: 30 Mordad",
+                "📅 Update: 2 Shahrivar",
                 "HTTPUpgrade",
                 "WS Vless",
                 "WS Trojan",
                 "wearestand",
                 "wearestand2",
+        "@FREE2CONFIG - 40",
         "@FREE2CONFIG - 51",
         "@FREE2CONFIG - 62",
-        "@FREE2CONFIG - 40",
-        "Server 10",
-        "Server 15",
-        "Server 21",
+        "Server 6",
         "Server 26",
-        "Server 30",
+        "Server 33",
         "Server 38",
-        "Server 57",
-        "Server 61",
-        "Server 66",
-        "Server 82",
-        "Server 93",
-        "Server 127",
-        "Server 133",
+        "Server 49",
+        "Server 99",
+        "Server 103",
         "Server 136",
-        "Server 163",
-        "Server 171",
-        "Server 172",
-        "Server 173",
-        "Server 188",
-        "Server 200"
+        "Server 145",
+        "Server 147",
+        "Server 157",
+        "Server 166",
+        "Server 182",
+        "Server 183"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,35 +108,29 @@
     {
       "interval": "10m",
       "outbounds": [
-                "📅 Update: 30 Mordad",
+                "📅 Update: 2 Shahrivar",
                 "HTTPUpgrade",
                 "WS Vless",
                 "WS Trojan",
                 "wearestand",
                 "wearestand2",
+        "@FREE2CONFIG - 40",
         "@FREE2CONFIG - 51",
         "@FREE2CONFIG - 62",
-        "@FREE2CONFIG - 40",
-        "Server 10",
-        "Server 15",
-        "Server 21",
+        "Server 6",
         "Server 26",
-        "Server 30",
+        "Server 33",
         "Server 38",
-        "Server 57",
-        "Server 61",
-        "Server 66",
-        "Server 82",
-        "Server 93",
-        "Server 127",
-        "Server 133",
+        "Server 49",
+        "Server 99",
+        "Server 103",
         "Server 136",
-        "Server 163",
-        "Server 171",
-        "Server 172",
-        "Server 173",
-        "Server 188",
-        "Server 200"
+        "Server 145",
+        "Server 147",
+        "Server 157",
+        "Server 166",
+        "Server 182",
+        "Server 183"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -155,7 +143,7 @@
     },
     {
       "type": "vless",
-      "tag": "📅 Update: 30 Mordad",
+      "tag": "📅 Update: 2 Shahrivar",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -254,6 +242,28 @@
     },
     {
       "type": "vless",
+      "tag": "@FREE2CONFIG - 40",
+      "server": "cdn.pinecloud.net",
+      "server_port": 443,
+      "uuid": "b052df40-d51c-456c-9bd6-57af01a87e4e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.pinecloud.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8",
+          "short_id": "6a2e3af684799b19"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
       "tag": "@FREE2CONFIG - 51",
       "server": "85.155.226.140",
       "server_port": 443,
@@ -298,78 +308,25 @@
     },
     {
       "type": "vless",
-      "tag": "@FREE2CONFIG - 40",
-      "server": "cdn.pinecloud.net",
-      "server_port": 443,
-      "uuid": "b052df40-d51c-456c-9bd6-57af01a87e4e",
-      "flow": "xtls-rprx-vision",
+      "tag": "Server 6",
+      "server": "whatismyipaddress.com",
+      "server_port": 2053,
+      "uuid": "2f60be6f-be0c-48b4-9772-b56f42b51ba1",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.pinecloud.net",
+        "server_name": "o04pj.thirdcapps.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8",
-          "short_id": "6a2e3af684799b19"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 10",
-      "server": "104.16.53.11",
-      "server_port": 2095,
-      "uuid": "59cb8e74-ea60-41b8-b060-887d9c1991a4",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "SOuRce.aNAaiLeaRNING.co."
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 15",
-      "server": "ipw.ygdfw.com",
-      "server_port": 443,
-      "uuid": "fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301",
-      "tls": {
-        "enabled": true,
-        "server_name": "om2is0n0.veltrixo.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/ws-vlees",
+        "path": "/",
         "headers": {
-          "Host": "om2is0n0.veltrixo.ir"
+          "Host": "o04pj.thirdcapps.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 21",
-      "server": "165.227.135.144",
-      "server_port": 440,
-      "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
-      "transport": {
-        "type": "http",
-        "host": "store.steampowered.com",
-        "path": "/",
-        "method": "GET"
       },
       "packet_encoding": ""
     },
@@ -399,18 +356,15 @@
     },
     {
       "type": "vless",
-      "tag": "Server 30",
-      "server": "104.18.152.225",
-      "server_port": 2095,
-      "uuid": "3bfc8446-9b0a-46ae-a766-3b86518a2c1e",
+      "tag": "Server 33",
+      "server": "188.166.38.251",
+      "server_port": 440,
+      "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
       "transport": {
-        "type": "ws",
+        "type": "http",
+        "host": "store.steampowered.com",
         "path": "/",
-        "headers": {
-          "Host": "dB.AlLcheCKedhOstING.oRG."
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "method": "GET"
       },
       "packet_encoding": ""
     },
@@ -440,85 +394,34 @@
     },
     {
       "type": "vless",
-      "tag": "Server 57",
-      "server": "ipw.ygdfw.com",
+      "tag": "Server 49",
+      "server": "45.131.212.61",
       "server_port": 443,
-      "uuid": "fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301",
+      "uuid": "5322390f-20ee-49e4-9b38-51fc1b5a1758",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "4r4zaj0h.telqor.ir",
+        "server_name": "ai.sellflow.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vlees",
-        "headers": {
-          "Host": "4r4zaj0h.telqor.ir"
+          "fingerprint": "firefox"
         },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+        }
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 61",
-      "server": "ipw.ygdfw.com",
+      "tag": "Server 99",
+      "server": "116.202.19.249",
       "server_port": 443,
-      "uuid": "fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301",
-      "tls": {
-        "enabled": true,
-        "server_name": "28x6376z.veltrixo.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vlees",
-        "headers": {
-          "Host": "28x6376z.veltrixo.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 66",
-      "server": "tgju.org",
-      "server_port": 443,
-      "uuid": "e277ac9b-3225-3381-a9fb-3585419f7142",
-      "tls": {
-        "enabled": true,
-        "server_name": "media35.baransport.info",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/media35",
-        "headers": {
-          "Host": "media35.baransport.info"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 82",
-      "server": "144.31.157.104",
-      "server_port": 20017,
-      "uuid": "d2733ae6-44e7-4b14-8c2d-3f5bef74cdec",
+      "uuid": "cf990ae8-ee77-4436-aa3a-bbc2fb040c53",
       "transport": {
         "type": "http",
-        "host": "play.google.com",
+        "host": "store.steampowered.com",
         "path": "/",
         "method": "GET"
       },
@@ -526,37 +429,13 @@
     },
     {
       "type": "vless",
-      "tag": "Server 93",
+      "tag": "Server 103",
       "server": "ipw.ygdfw.com",
-      "server_port": 443,
-      "uuid": "fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301",
+      "server_port": 8443,
+      "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
       "tls": {
         "enabled": true,
-        "server_name": "bh185t9v.telqor.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vlees",
-        "headers": {
-          "Host": "bh185t9v.telqor.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 127",
-      "server": "198.62.62.171",
-      "server_port": 443,
-      "uuid": "fde409be-29f9-4998-8758-3c24ed57249f",
-      "tls": {
-        "enabled": true,
-        "server_name": "639222734213707653.forester-homaxe.info",
+        "server_name": "ssl.soren-app.com.",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -564,27 +443,10 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/mjylbews",
-        "headers": {
-          "Host": "639222734213707653.forester-homaxe.info"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 133",
-      "server": "104.16.53.11",
-      "server_port": 2095,
-      "uuid": "ac5934f6-c578-4fef-a1c2-481ea83f4d10",
-      "transport": {
-        "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "stAT.AnaAiLEaRninG.CO."
+          "Host": "free-hzr83-cdn.soren-app.com."
         },
-        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
@@ -615,23 +477,23 @@
     },
     {
       "type": "vless",
-      "tag": "Server 163",
-      "server": "ipw.ygdfw.com",
-      "server_port": 443,
-      "uuid": "fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301",
+      "tag": "Server 145",
+      "server": "whatismyipaddress.com",
+      "server_port": 2053,
+      "uuid": "2f60be6f-be0c-48b4-9772-b56f42b51ba1",
       "tls": {
         "enabled": true,
-        "server_name": "om2is0n0.veltrixo.ir",
+        "server_name": "tqr8z.sixtmapp.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "unsafe"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/ws-vlees",
+        "path": "/",
         "headers": {
-          "Host": "om2is0n0.veltrixo.ir"
+          "Host": "tqr8z.sixtmapp.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -639,37 +501,13 @@
     },
     {
       "type": "vless",
-      "tag": "Server 171",
+      "tag": "Server 147",
       "server": "ipw.ygdfw.com",
-      "server_port": 443,
-      "uuid": "fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301",
+      "server_port": 8443,
+      "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
       "tls": {
         "enabled": true,
-        "server_name": "4r4zaj0h.telqor.ir",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vlees",
-        "headers": {
-          "Host": "4r4zaj0h.telqor.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 172",
-      "server": "198.62.62.171",
-      "server_port": 443,
-      "uuid": "fde409be-29f9-4998-8758-3c24ed57249f",
-      "tls": {
-        "enabled": true,
-        "server_name": "639222734213707653.forester-homaxe.info",
+        "server_name": "ssl.soren-app.com.",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -677,9 +515,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/mjylbews",
+        "path": "/",
         "headers": {
-          "Host": "639222734213707653.forester-homaxe.info"
+          "Host": "new-scale27-cdn.soren-app.com."
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -687,65 +525,81 @@
     },
     {
       "type": "vless",
-      "tag": "Server 173",
-      "server": "ipw.ygdfw.com",
+      "tag": "Server 157",
+      "server": "195.184.247.226",
       "server_port": 443,
-      "uuid": "fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301",
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lmirgalv.veltrixo.ir",
+        "server_name": "savesafe.co",
         "utls": {
           "enabled": true,
-          "fingerprint": "unsafe"
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI",
+          "short_id": "f63805c3ecc7a483"
         }
       },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vlees",
-        "headers": {
-          "Host": "lmirgalv.veltrixo.ir"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 188",
-      "server": "178.62.209.70",
-      "server_port": 440,
-      "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
-      "transport": {
-        "type": "http",
-        "host": "store.steampowered.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 200",
+      "tag": "Server 166",
       "server": "speedtest.org",
       "server_port": 443,
-      "uuid": "0fc0e114-8ed6-4c8e-931e-7e3674929750",
+      "uuid": "3f3d5ac0-ae2b-4cb6-a403-cccb387f0444",
       "tls": {
         "enabled": true,
-        "server_name": "7jm168cx.noro-market.ir",
+        "server_name": "vbkil.bluecloudnode-balii.sbs",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/adycon",
+        "path": "/wait",
         "headers": {
-          "Host": "7jm168cx.noro-market.ir"
+          "Host": "vbkil.bluecloudnode-balii.sbs"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 182",
+      "server": "speedtest.org",
+      "server_port": 443,
+      "uuid": "3f3d5ac0-ae2b-4cb6-a403-cccb387f0444",
+      "tls": {
+        "enabled": true,
+        "server_name": "vbkil.bluecloudnode-balii.sbs",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wait",
+        "headers": {
+          "Host": "vbkil.bluecloudnode-balii.sbs"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "Server 183",
+      "server": "193.29.139.225",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     }
   ],
   "route": {
