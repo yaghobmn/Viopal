@@ -79,9 +79,11 @@
         "auto",
         "direct",
                 "📅 Update: 2 Shahrivar",
-                "HTTPUpgrade",
-                "WS Vless",
-                "WS Trojan",
+                "CDN WS",
+                "TCP Reality",
+                "GRPC Reality",
+                "🇩🇪 Germany Trojan WS",
+                "🇩🇪 Germany GRPC Reality",
                 "wearestand",
                 "wearestand2",
         "@FREE2CONFIG - 40",
@@ -109,9 +111,11 @@
       "interval": "10m",
       "outbounds": [
                 "📅 Update: 2 Shahrivar",
-                "HTTPUpgrade",
-                "WS Vless",
-                "WS Trojan",
+                "CDN WS",
+                "TCP Reality",
+                "GRPC Reality",
+                "🇩🇪 Germany Trojan WS",
+                "🇩🇪 Germany GRPC Reality",
                 "wearestand",
                 "wearestand2",
         "@FREE2CONFIG - 40",
@@ -151,30 +155,23 @@
     },
     {
       "type": "vless",
-      "tag": "HTTPUpgrade",
-      "server": "de-d-178105.homelanderwins.com",
-      "server_port": 10645,
+      "tag": "CDN WS",
+      "server": "188.114.97.6",
+      "server_port": 443,
       "uuid": "f81362b3-ba06-467e-8d3e-821bdf4ffd8d",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/",
-        "headers": {
-          "Host": "play.google.com"
+      "tls": {
+        "enabled": true,
+        "server_name": "panel.homelanderwins.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "WS Vless",
-      "server": "de-d-178105.homelanderwins.com",
-      "server_port": 8080,
-      "uuid": "f81362b3-ba06-467e-8d3e-821bdf4ffd8d",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "play.google.com"
+          "Host": "panel.homelanderwins.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -182,17 +179,68 @@
     },
     {
       "type": "trojan",
-      "tag": "WS Trojan",
+      "tag": "TCP Reality",
       "server": "de-d-178105.homelanderwins.com",
-      "server_port": 28274,
+      "server_port": 27185,
+      "password": "cpxvb6mhe8sngkrn",
+      "tls": {
+        "enabled": true,
+        "server_name": "neshan.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "GRPC Reality",
+      "server": "de-d-178105.homelanderwins.com",
+      "server_port": 16850,
+      "password": "cpxvb6mhe8sngkrn",
+      "tls": {
+        "enabled": true,
+        "server_name": "neshan.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇩🇪 Germany Trojan WS",
+      "server": "de-d-178105.homelanderwins.com",
+      "server_port": 44600,
       "password": "cpxvb6mhe8sngkrn",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/t.me/defyxvpn_fa",
         "headers": {
-          "Host": "play.google.com"
+          "Host": "P30day.ir"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇩🇪 Germany GRPC Reality",
+      "server": "de-d-178105.homelanderwins.com",
+      "server_port": 18617,
+      "password": "cpxvb6mhe8sngkrn",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.neshan.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "t.me/defyxvpn_fa",
+        "idle_timeout": "15s",
+        "ping_timeout": "15s"
       }
     },
 {
