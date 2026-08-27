@@ -81,8 +81,6 @@
                 "📅 Update: 5 Shahrivar",
                 "CDN WS",
                 "🇩🇪 Germany Trojan WS",
-                "wearestand",
-                "wearestand2",
         "@FREE2CONFIG - 38",
         "@FREE2CONFIG - 82",
         "@FREE2CONFIG - 90",
@@ -109,8 +107,6 @@
                 "📅 Update: 5 Shahrivar",
                 "CDN WS",
                 "🇩🇪 Germany Trojan WS",
-                "wearestand",
-                "wearestand2",
         "@FREE2CONFIG - 38",
         "@FREE2CONFIG - 82",
         "@FREE2CONFIG - 90",
@@ -183,51 +179,6 @@
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
-    },
-{
-  "headers": {
-    "Host": [
-      "scholar.google.com"
-    ]
-  },
-  "password": "i67s60ep",
-  "path": "",
-  "server": "135.136.28.62",
-  "server_port": 10780,
-  "tag": "wearestand",
-  "tls": {
-    "alpn": [
-      "h2,http/1.1"
-    ],
-    "disable_sni": false,
-    "enabled": false,
-    "server_name": ""
-  },
-  "type": "http",
-  "username": "purevpn0s8732217"
-},
- {
-      "headers": {
-        "Host": [
-          "scholar.google.com"
-        ]
-      },
-      "password": "i67s60ep",
-      "path": "",
-      "server": "79.127.181.234",
-      "server_port": 10780,
-      "domain_strategy": "",
-      "tag": "wearestand2",
-      "tls": {
-        "alpn": [
-          "h2,http/1.1"
-        ],
-        "disable_sni": false,
-        "enabled": false,
-        "server_name": ""
-      },
-      "type": "http",
-      "username": "purevpn0s8732217"
     },
     {
       "type": "vless",
