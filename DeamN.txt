@@ -1,13 +1,12 @@
 //profile-update-interval: 24
-vless://test@0.0.0.0:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%93%85%20Update%3A%208%20Shahrivar
-vless://59906cb2-a61b-4cf3-b77b-5762ef61d2b0@64.226.114.196:440?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%2015
-vless://59906cb2-a61b-4cf3-b77b-5762ef61d2b0@164.92.143.164:440?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%2024
-vless://603819a3-dd65-408a-abab-15d8dc49887f@104.248.93.196:8880?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%2029
-vless://59906cb2-a61b-4cf3-b77b-5762ef61d2b0@165.227.156.128:440?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%2081
-vless://603819a3-dd65-408a-abab-15d8dc49887f@143.110.162.130:443?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%2088
-vless://18f1b94e-35f1-4c7f-953c-7b4681c52339@188.166.113.156:443?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20189
-vless://59906cb2-a61b-4cf3-b77b-5762ef61d2b0@165.22.18.205:440?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20246
-vless://5fb3ebfe-a998-4ffa-b854-3cffacbb9b67@91.107.241.29:443?path=%2F&security=reality&encryption=none&pbk=94R5Qc5cek_AMwH904kAx4c-HriEjCYUAattL5ZfIXM&fp=chrome&spx=%2F&type=xhttp&sni=amp-api-edge.apps.apple.com&sid=b58b#Server%20247
-vless://59906cb2-a61b-4cf3-b77b-5762ef61d2b0@159.89.16.85:440?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20272
-vless://5fb3ebfe-a998-4ffa-b854-3cffacbb9b67@91.107.246.101:443?path=%2F&security=reality&encryption=none&pbk=94R5Qc5cek_AMwH904kAx4c-HriEjCYUAattL5ZfIXM&fp=chrome&spx=%2F&type=xhttp&sni=amp-api-edge.apps.apple.com&sid=b58b#Server%20284
-vless://603819a3-dd65-408a-abab-15d8dc49887f@206.81.31.10:8880?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20334
+vless://test@0.0.0.0:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%93%85%20Update%3A%2010%20Shahrivar
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.24.3.30:22223?security=&encryption=none&headerType=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20%7C%20%40WhiteDNS%20%7C%20GB462%7C7.7MB%2Fs%7CDNSOK%7CGPT%E2%81%BA-GB
+vless://7668f678-faee-40cc-9b56-9c39dc773388@185.126.238.87:2083?security=&encryption=none&type=grpc&serviceName=security.debian.org#%40FREE2CONFIG%20-%2040
+vless://f6190ff2-864c-46cf-ac16-93908c069b75@129.121.95.159:443?path=%2Fconnect&security=tls&encryption=none&insecure=0&host=129.121.95.159&type=ws&allowInsecure=0&sni=129.121.95.159#%40FREE2CONFIG%20-%2038%20-%20173
+vless://76186f1e-3062-4a2b-98c2-fab3c61a9511@91.224.87.22:9873?security=reality&encryption=none&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&fp=qq&type=grpc&serviceName=grpc-tunnel&sni=dl.google.com&sid=aabbccdd#%40FREE2CONFIG%20-%2013
+vless://c6c1760f-f6af-4a54-8600-cf9c9971f7d8@104.21.70.21:8080?path=%2Fvless&security=&encryption=none&host=sgdo1.cassanova.biz.id&type=ws#%40FREE2CONFIG%20-%20109%20-%20109
+vless://c6c1760f-f6af-4a54-8600-cf9c9971f7d8@104.21.70.21:8080?path=%2Fvless&security=&encryption=none&host=sgdo1.cassanova.biz.id&type=ws#%40FREE2CONFIG%20-%2099%20-%20234
+vless://c6c1760f-f6af-4a54-8600-cf9c9971f7d8@104.21.70.21:8080?path=%2Fvless&security=&encryption=none&host=sgdo1.cassanova.biz.id&type=ws#%40FREE2CONFIG%20-%20118%20-%20253
+vless://76186f1e-3062-4a2b-98c2-fab3c61a9511@91.224.87.22:9882?security=reality&encryption=none&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&fp=firefox&type=grpc&serviceName=grpc-tunnel&sni=dl.google.com&sid=aabb#%40FREE2CONFIG%20-%2014
+vless://56ba5d34-ef22-4ba6-8090-4188b807df54@163.8.195.241:2087?path=%2F29c8fed7ca22&security=&encryption=none&type=ws#%40FREE2CONFIG%20-%2033
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.180.214.110:5600#Server%2033
