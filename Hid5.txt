@@ -78,17 +78,12 @@
       "outbounds": [
         "auto",
         "direct",
-                "📅 Update: 10 Shahrivar",
-        "🇬🇧 | @WhiteDNS | GB462|7.7MB/s|DNSOK|GPT⁺-GB",
-        "@FREE2CONFIG - 40",
-        "@FREE2CONFIG - 38 - 173",
-        "@FREE2CONFIG - 13",
-        "@FREE2CONFIG - 109 - 109",
-        "@FREE2CONFIG - 99 - 234",
-        "@FREE2CONFIG - 118 - 253",
-        "@FREE2CONFIG - 14",
-        "@FREE2CONFIG - 33",
-        "Server 33"
+                "📅 Update: 13 Shahrivar",
+        "Server 9",
+        "Server 64",
+        "Server 148",
+        "Server 149",
+        "Server 183"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,17 +91,12 @@
     {
       "interval": "10m",
       "outbounds": [
-                "📅 Update: 10 Shahrivar",
-        "🇬🇧 | @WhiteDNS | GB462|7.7MB/s|DNSOK|GPT⁺-GB",
-        "@FREE2CONFIG - 40",
-        "@FREE2CONFIG - 38 - 173",
-        "@FREE2CONFIG - 13",
-        "@FREE2CONFIG - 109 - 109",
-        "@FREE2CONFIG - 99 - 234",
-        "@FREE2CONFIG - 118 - 253",
-        "@FREE2CONFIG - 14",
-        "@FREE2CONFIG - 33",
-        "Server 33"
+                "📅 Update: 13 Shahrivar",
+        "Server 9",
+        "Server 64",
+        "Server 148",
+        "Server 149",
+        "Server 183"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -119,7 +109,7 @@
     },
     {
       "type": "vless",
-      "tag": "📅 Update: 10 Shahrivar",
+      "tag": "📅 Update: 13 Shahrivar",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -127,172 +117,75 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 | @WhiteDNS | GB462|7.7MB/s|DNSOK|GPT⁺-GB",
-      "server": "51.24.3.30",
-      "server_port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "@FREE2CONFIG - 40",
-      "server": "185.126.238.87",
-      "server_port": 2083,
-      "uuid": "7668f678-faee-40cc-9b56-9c39dc773388",
-      "transport": {
-        "type": "grpc",
-        "service_name": "security.debian.org",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "@FREE2CONFIG - 38 - 173",
-      "server": "129.121.95.159",
+      "tag": "Server 9",
+      "server": "138.68.76.122",
       "server_port": 443,
-      "uuid": "f6190ff2-864c-46cf-ac16-93908c069b75",
+      "uuid": "18f1b94e-35f1-4c7f-953c-7b4681c52339",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 64",
+      "server": "64.226.91.200",
+      "server_port": 440,
+      "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 148",
+      "server": "64.176.66.177",
+      "server_port": 443,
+      "uuid": "18f1b94e-35f1-4c7f-953c-7b4681c52339",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 149",
+      "server": "94.183.170.135",
+      "server_port": 8443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
       "tls": {
         "enabled": true,
-        "server_name": "129.121.95.159",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/connect",
-        "headers": {
-          "Host": "129.121.95.159"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "@FREE2CONFIG - 13",
-      "server": "91.224.87.22",
-      "server_port": 9873,
-      "uuid": "76186f1e-3062-4a2b-98c2-fab3c61a9511",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
-          "short_id": "aabbccdd"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc-tunnel",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "@FREE2CONFIG - 109 - 109",
-      "server": "104.21.70.21",
-      "server_port": 8080,
-      "uuid": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "sgdo1.cassanova.biz.id"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "@FREE2CONFIG - 99 - 234",
-      "server": "104.21.70.21",
-      "server_port": 8080,
-      "uuid": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "sgdo1.cassanova.biz.id"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "@FREE2CONFIG - 118 - 253",
-      "server": "104.21.70.21",
-      "server_port": 8080,
-      "uuid": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "sgdo1.cassanova.biz.id"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "@FREE2CONFIG - 14",
-      "server": "91.224.87.22",
-      "server_port": 9882,
-      "uuid": "76186f1e-3062-4a2b-98c2-fab3c61a9511",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
+        "server_name": "estproxy4.lockdwn.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
-          "short_id": "aabb"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc-tunnel",
-        "idle_timeout": "15s",
-        "ping_timeout": "15s"
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "@FREE2CONFIG - 33",
-      "server": "163.8.195.241",
-      "server_port": 2087,
-      "uuid": "56ba5d34-ef22-4ba6-8090-4188b807df54",
+      "tag": "Server 183",
+      "server": "206.81.19.97",
+      "server_port": 440,
+      "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
       "transport": {
-        "type": "ws",
-        "path": "/29c8fed7ca22",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
       },
       "packet_encoding": ""
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "Server 33",
-      "server": "38.180.214.110",
-      "server_port": 5600,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
     }
   ],
   "route": {
