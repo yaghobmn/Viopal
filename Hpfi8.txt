@@ -78,12 +78,15 @@
       "outbounds": [
         "auto",
         "direct",
-                "📅 Update: 13 Shahrivar",
-        "Server 9",
-        "Server 64",
-        "Server 148",
-        "Server 149",
-        "Server 183"
+                "📅 Update: 15 Shahrivar",
+        "@JavidnamanIran 🇹🇷",
+        "@JavidnamanIran 2 🇹🇷",
+        "US 🇺🇸 | @Raydikalx | 08D56C",
+        "US 🇺🇸 | @Raydikalx | EF20C9",
+        "@FREE2CONFIG - 59",
+        "@FREE2CONFIG - 136",
+        "Server 250",
+        "Server 264"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,12 +94,15 @@
     {
       "interval": "10m",
       "outbounds": [
-                "📅 Update: 13 Shahrivar",
-        "Server 9",
-        "Server 64",
-        "Server 148",
-        "Server 149",
-        "Server 183"
+                "📅 Update: 15 Shahrivar",
+        "@JavidnamanIran 🇹🇷",
+        "@JavidnamanIran 2 🇹🇷",
+        "US 🇺🇸 | @Raydikalx | 08D56C",
+        "US 🇺🇸 | @Raydikalx | EF20C9",
+        "@FREE2CONFIG - 59",
+        "@FREE2CONFIG - 136",
+        "Server 250",
+        "Server 264"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -109,81 +115,145 @@
     },
     {
       "type": "vless",
-      "tag": "📅 Update: 13 Shahrivar",
+      "tag": "📅 Update: 15 Shahrivar",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
       "packet_encoding": ""
     },
     {
+      "type": "http",
+      "tag": "@JavidnamanIran 🇹🇷",
+      "server": "149.50.208.199",
+      "server_port": 10780,
+      "username": "purevpn0s8732217",
+      "password": "i67s60ep",
+      "tls": {
+        "server_name": "scholar.google.com",
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "scholar.google.com"
+      }
+    },
+    {
+      "type": "http",
+      "tag": "@JavidnamanIran 2 🇹🇷",
+      "server": "149.50.208.137",
+      "server_port": 10780,
+      "username": "purevpn0s8732217",
+      "password": "i67s60ep",
+      "tls": {
+        "server_name": "scholar.google.com",
+        "alpn": "h2,http/1.1"
+      },
+      "headers": {
+        "Host": "scholar.google.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "US 🇺🇸 | @Raydikalx | 08D56C",
+      "server": "us.jcnas.vip",
+      "server_port": 20002,
+      "uuid": "81b28b96-e14a-4610-a82e-3f5361be5ffc",
+      "security": "auto",
+      "authenticated_length": true
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "US 🇺🇸 | @Raydikalx | EF20C9",
+      "server": "15.204.246.189",
+      "server_port": 8119,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
+    },
+    {
       "type": "vless",
-      "tag": "Server 9",
-      "server": "138.68.76.122",
+      "tag": "@FREE2CONFIG - 59",
+      "server": "194.110.207.75",
       "server_port": 443,
-      "uuid": "18f1b94e-35f1-4c7f-953c-7b4681c52339",
-      "transport": {
-        "type": "http",
-        "host": "store.steampowered.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 64",
-      "server": "64.226.91.200",
-      "server_port": 440,
-      "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
-      "transport": {
-        "type": "http",
-        "host": "store.steampowered.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 148",
-      "server": "64.176.66.177",
-      "server_port": 443,
-      "uuid": "18f1b94e-35f1-4c7f-953c-7b4681c52339",
-      "transport": {
-        "type": "http",
-        "host": "store.steampowered.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 149",
-      "server": "94.183.170.135",
-      "server_port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "uuid": "3aaf6f5a-bebe-42c9-a2da-0c5500146451",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
+        "server_name": "fernandfoxgloveinteriors.co.uk",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wHf1nSF3byWgtI0aprUDgbEBrgtE6Y8bpqnNxl9lhhg",
+          "short_id": "763a06472e66efff"
         }
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 183",
-      "server": "206.81.19.97",
-      "server_port": 440,
-      "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
+      "tag": "@FREE2CONFIG - 136",
+      "server": "194.110.207.48",
+      "server_port": 443,
+      "uuid": "474f10e3-c205-4204-999a-466ffcca1b10",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 250",
+      "server": "83.168.111.58",
+      "server_port": 443,
+      "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "soulful.host",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4h74KXbkBMYOhJkZabJNsf85cI91ytap_gkl56mzjTU"
+        }
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 264",
+      "server": "172.67.217.230",
+      "server_port": 443,
+      "uuid": "365747d7-9c6e-4ecd-8bbb-a9a7d5f71c3f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ant-todo.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
-        "type": "http",
-        "host": "store.steampowered.com",
-        "path": "/",
-        "method": "GET"
+        "type": "ws",
+        "path": "/balad",
+        "headers": {
+          "Host": "ant-todo.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
     }
