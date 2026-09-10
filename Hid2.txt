@@ -79,6 +79,7 @@
         "auto",
         "direct",
                 "📅 Update: 15 Shahrivar",
+        "@NecoVpn Germany⚡",
         "@JavidnamanIran 🇹🇷",
         "@JavidnamanIran 2 🇹🇷",
         "US 🇺🇸 | @Raydikalx | 08D56C",
@@ -95,6 +96,7 @@
       "interval": "10m",
       "outbounds": [
                 "📅 Update: 15 Shahrivar",
+        "@NecoVpn Germany⚡",
         "@JavidnamanIran 🇹🇷",
         "@JavidnamanIran 2 🇹🇷",
         "US 🇺🇸 | @Raydikalx | 08D56C",
@@ -120,6 +122,15 @@
       "server_port": 443,
       "uuid": "test",
       "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "@NecoVpn Germany⚡",
+      "server": "31.56.89.43",
+      "server_port": 9093,
+      "uuid": "6445e0d3-d5fd-4a7d-a5a3-a1538ef42ed2",
+      "security": "auto",
+      "authenticated_length": true
     },
     {
       "type": "http",
