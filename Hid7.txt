@@ -78,16 +78,24 @@
       "outbounds": [
         "auto",
         "direct",
-                "📅 Update: 15 Shahrivar",
-        "@NecoVpn Germany⚡",
+                "📅 Update: 22 Shahrivar",
         "@JavidnamanIran 🇹🇷",
         "@JavidnamanIran 2 🇹🇷",
-        "US 🇺🇸 | @Raydikalx | 08D56C",
-        "US 🇺🇸 | @Raydikalx | EF20C9",
-        "@FREE2CONFIG - 59",
-        "@FREE2CONFIG - 136",
-        "Server 250",
-        "Server 264"
+        "Server 7",
+        "Server 8",
+        "Server 56",
+        "Server 99",
+        "Server 128",
+        "Server 133",
+        "Server 135",
+        "Server 136",
+        "Server 147",
+        "Server 171",
+        "Server 181",
+        "Server 184",
+        "Server 188",
+        "Server 124",
+        "Server 231"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,16 +103,24 @@
     {
       "interval": "10m",
       "outbounds": [
-                "📅 Update: 15 Shahrivar",
-        "@NecoVpn Germany⚡",
+                "📅 Update: 22 Shahrivar",
         "@JavidnamanIran 🇹🇷",
         "@JavidnamanIran 2 🇹🇷",
-        "US 🇺🇸 | @Raydikalx | 08D56C",
-        "US 🇺🇸 | @Raydikalx | EF20C9",
-        "@FREE2CONFIG - 59",
-        "@FREE2CONFIG - 136",
-        "Server 250",
-        "Server 264"
+        "Server 7",
+        "Server 8",
+        "Server 56",
+        "Server 99",
+        "Server 128",
+        "Server 133",
+        "Server 135",
+        "Server 136",
+        "Server 147",
+        "Server 171",
+        "Server 181",
+        "Server 184",
+        "Server 188",
+        "Server 124",
+        "Server 231"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -117,20 +133,11 @@
     },
     {
       "type": "vless",
-      "tag": "📅 Update: 15 Shahrivar",
+      "tag": "📅 Update: 22 Shahrivar",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
       "packet_encoding": ""
-    },
-    {
-      "type": "vmess",
-      "tag": "@NecoVpn Germany⚡",
-      "server": "31.56.89.43",
-      "server_port": 9093,
-      "uuid": "6445e0d3-d5fd-4a7d-a5a3-a1538ef42ed2",
-      "security": "auto",
-      "authenticated_length": true
     },
     {
       "type": "http",
@@ -163,96 +170,14 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "US 🇺🇸 | @Raydikalx | 08D56C",
-      "server": "us.jcnas.vip",
-      "server_port": 20002,
-      "uuid": "81b28b96-e14a-4610-a82e-3f5361be5ffc",
-      "security": "auto",
-      "authenticated_length": true
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "US 🇺🇸 | @Raydikalx | EF20C9",
-      "server": "15.204.246.189",
-      "server_port": 8119,
-      "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
-    },
-    {
       "type": "vless",
-      "tag": "@FREE2CONFIG - 59",
-      "server": "194.110.207.75",
+      "tag": "Server 7",
+      "server": "d842-mveg4t.truearchcap.com",
       "server_port": 443,
-      "uuid": "3aaf6f5a-bebe-42c9-a2da-0c5500146451",
-      "flow": "xtls-rprx-vision",
+      "uuid": "65c7123f-d469-440d-8a86-839fcf79d871",
       "tls": {
         "enabled": true,
-        "server_name": "fernandfoxgloveinteriors.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wHf1nSF3byWgtI0aprUDgbEBrgtE6Y8bpqnNxl9lhhg",
-          "short_id": "763a06472e66efff"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "@FREE2CONFIG - 136",
-      "server": "194.110.207.48",
-      "server_port": 443,
-      "uuid": "474f10e3-c205-4204-999a-466ffcca1b10",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "kibi-institut.de",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 250",
-      "server": "83.168.111.58",
-      "server_port": 443,
-      "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "soulful.host",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4h74KXbkBMYOhJkZabJNsf85cI91ytap_gkl56mzjTU"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 264",
-      "server": "172.67.217.230",
-      "server_port": 443,
-      "uuid": "365747d7-9c6e-4ecd-8bbb-a9a7d5f71c3f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ant-todo.info",
+        "server_name": "d842-mveg4t.truearchcap.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -260,11 +185,227 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/balad",
+        "path": "/65c7123f-d469-440d-8a86-839fcf79d871",
         "headers": {
-          "Host": "ant-todo.info"
+          "Host": "d842-mveg4t.truearchcap.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 8",
+      "server": "138.68.77.203",
+      "server_port": 440,
+      "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 56",
+      "server": "104.21.70.21",
+      "server_port": 443,
+      "uuid": "bbab81f3-87a0-4e63-8b3b-010c645d8da7",
+      "tls": {
+        "enabled": true,
+        "server_name": "1-5-1g0jg89i.gamefictoinspeed.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/meti",
+        "headers": {
+          "Host": "1-5-1g0jg89i.gamefictoinspeed.info"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 99",
+      "server": "d8x6-mveg4q.turnstileconsult.com",
+      "server_port": 443,
+      "uuid": "922a83c7-d569-48bc-bc8f-40c8fab3fe3c",
+      "tls": {
+        "enabled": true,
+        "server_name": "d8x6-mveg4q.turnstileconsult.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/922a83c7-d569-48bc-bc8f-40c8fab3fe3c",
+        "headers": {
+          "Host": "d8x6-mveg4q.turnstileconsult.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 128",
+      "server": "64.226.115.223",
+      "server_port": 440,
+      "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 133",
+      "server": "138.197.187.33",
+      "server_port": 440,
+      "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 135",
+      "server": "104.248.242.79",
+      "server_port": 443,
+      "uuid": "18f1b94e-35f1-4c7f-953c-7b4681c52339",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 136",
+      "server": "164.92.170.132",
+      "server_port": 443,
+      "uuid": "18f1b94e-35f1-4c7f-953c-7b4681c52339",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 147",
+      "server": "209.38.97.43",
+      "server_port": 11186,
+      "uuid": "fd4b654f-9ae2-42c5-977b-6aa54e8e9a83",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 171",
+      "server": "167.99.92.72",
+      "server_port": 11186,
+      "uuid": "fd4b654f-9ae2-42c5-977b-6aa54e8e9a83",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 181",
+      "server": "207.154.208.100",
+      "server_port": 443,
+      "uuid": "18f1b94e-35f1-4c7f-953c-7b4681c52339",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 184",
+      "server": "164.90.227.101",
+      "server_port": 440,
+      "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 188",
+      "server": "188.166.163.166",
+      "server_port": 11186,
+      "uuid": "fd4b654f-9ae2-42c5-977b-6aa54e8e9a83",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 124",
+      "server": "207.154.204.36",
+      "server_port": 440,
+      "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 231",
+      "server": "178.128.254.191",
+      "server_port": 11186,
+      "uuid": "fd4b654f-9ae2-42c5-977b-6aa54e8e9a83",
+      "transport": {
+        "type": "http",
+        "host": "store.steampowered.com",
+        "path": "/",
+        "method": "GET"
       },
       "packet_encoding": ""
     }
