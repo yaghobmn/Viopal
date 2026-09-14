@@ -1,17 +1,12 @@
 //profile-update-interval: 24
-vless://test@0.0.0.0:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%93%85%20Update%3A%2022%20Shahrivar
-vless://65c7123f-d469-440d-8a86-839fcf79d871@d842-mveg4t.truearchcap.com:443?path=%2F65c7123f-d469-440d-8a86-839fcf79d871&security=tls&encryption=none&insecure=0&host=d842-mveg4t.truearchcap.com&type=ws&allowInsecure=0&sni=d842-mveg4t.truearchcap.com#Server%207
-vless://59906cb2-a61b-4cf3-b77b-5762ef61d2b0@138.68.77.203:440?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%208
+vless://test@0.0.0.0:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%93%85%20Update%3A%2023%20Shahrivar
+vless://fd4b654f-9ae2-42c5-977b-6aa54e8e9a83@142.93.140.131:11186?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%2018
+vless://59906cb2-a61b-4cf3-b77b-5762ef61d2b0@164.92.200.122:440?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%2039
 vless://bbab81f3-87a0-4e63-8b3b-010c645d8da7@104.21.70.21:443?path=%2Fmeti&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=1-5-1g0jg89i.gamefictoinspeed.info&fp=unsafe&type=ws&allowInsecure=0&sni=1-5-1g0jg89i.gamefictoinspeed.info#Server%2056
-vless://922a83c7-d569-48bc-bc8f-40c8fab3fe3c@d8x6-mveg4q.turnstileconsult.com:443?path=%2F922a83c7-d569-48bc-bc8f-40c8fab3fe3c&security=tls&encryption=none&insecure=0&host=d8x6-mveg4q.turnstileconsult.com&type=ws&allowInsecure=0&sni=d8x6-mveg4q.turnstileconsult.com#Server%2099
-vless://59906cb2-a61b-4cf3-b77b-5762ef61d2b0@64.226.115.223:440?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20128
-vless://59906cb2-a61b-4cf3-b77b-5762ef61d2b0@138.197.187.33:440?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20133
-vless://18f1b94e-35f1-4c7f-953c-7b4681c52339@104.248.242.79:443?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20135
-vless://18f1b94e-35f1-4c7f-953c-7b4681c52339@164.92.170.132:443?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20136
-vless://fd4b654f-9ae2-42c5-977b-6aa54e8e9a83@209.38.97.43:11186?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20147
-vless://fd4b654f-9ae2-42c5-977b-6aa54e8e9a83@167.99.92.72:11186?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20171
-vless://18f1b94e-35f1-4c7f-953c-7b4681c52339@207.154.208.100:443?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20181
-vless://59906cb2-a61b-4cf3-b77b-5762ef61d2b0@164.90.227.101:440?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20184
-vless://fd4b654f-9ae2-42c5-977b-6aa54e8e9a83@188.166.163.166:11186?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20188
-vless://59906cb2-a61b-4cf3-b77b-5762ef61d2b0@207.154.204.36:440?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20124
-vless://fd4b654f-9ae2-42c5-977b-6aa54e8e9a83@178.128.254.191:11186?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20231
+vless://18f1b94e-35f1-4c7f-953c-7b4681c52339@159.223.214.231:443?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%2066
+vless://59906cb2-a61b-4cf3-b77b-5762ef61d2b0@209.38.206.37:440?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%2099
+vless://922a83c7-d569-48bc-bc8f-40c8fab3fe3c@d8x6-mveg4q.turnstileconsult.com:443?path=%2F922a83c7-d569-48bc-bc8f-40c8fab3fe3c&security=tls&encryption=none&insecure=0&host=d8x6-mveg4q.turnstileconsult.com&type=ws&allowInsecure=0&sni=d8x6-mveg4q.turnstileconsult.com#Server%20992
+vless://18f1b94e-35f1-4c7f-953c-7b4681c52339@209.38.39.43:443?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20111
+vless://18f1b94e-35f1-4c7f-953c-7b4681c52339@164.92.130.31:443?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20121
+vless://3a5d5fec-bb6c-4e52-a57d-4a6134d5ad78@meshddeck.ir:2096?mode=stream-up&path=%2Fmashdi&security=tls&alpn=h2&encryption=none&extra=%7B%22mode%22%3A%22stream-up%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&host=UfQrSpMu.jEeShPeCh.bOnD&fp=unsafe&type=xhttp&allowInsecure=0&sni=UfQrSpMu.jEeShPeCh.bOnD#Server%20125
+vless://59906cb2-a61b-4cf3-b77b-5762ef61d2b0@159.89.101.150:440?security=&encryption=none&host=store.steampowered.com&headerType=http&type=tcp#Server%20247
