@@ -78,7 +78,7 @@
       "outbounds": [
         "auto",
         "direct",
-                "📅 Update: 28 Shahrivar",
+                "📅 Update: 29 Shahrivar",
         "@JavidnamanIran 🇹🇷",
         "@JavidnamanIran 2 🇹🇷",
         "@FREE2CONFIG - 99",
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-                "📅 Update: 28 Shahrivar",
+                "📅 Update: 29 Shahrivar",
         "@JavidnamanIran 🇹🇷",
         "@JavidnamanIran 2 🇹🇷",
         "@FREE2CONFIG - 99",
@@ -123,7 +123,7 @@
     },
     {
       "type": "vless",
-      "tag": "📅 Update: 28 Shahrivar",
+      "tag": "📅 Update: 29 Shahrivar",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
