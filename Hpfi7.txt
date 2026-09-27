@@ -78,15 +78,13 @@
       "outbounds": [
         "auto",
         "direct",
-                "📅 Update: 1 Mehr",
+                "📅 Update: 5 Mehr",
         "@JavidnamanIran 🇹🇷",
         "@JavidnamanIran 2 🇹🇷",
-        "@FREE2CONFIG - 18",
-        "@FREE2CONFIG - 104",
-        "@FREE2CONFIG - 117",
-        "Server 175",
-        "Server 253",
-        "Server 362"
+        "@FREE2CONFIG - 141",
+        "Server 102",
+        "Server 192",
+        "Server 259"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,15 +92,13 @@
     {
       "interval": "10m",
       "outbounds": [
-                "📅 Update: 1 Mehr",
+                "📅 Update: 5 Mehr",
         "@JavidnamanIran 🇹🇷",
         "@JavidnamanIran 2 🇹🇷",
-        "@FREE2CONFIG - 18",
-        "@FREE2CONFIG - 104",
-        "@FREE2CONFIG - 117",
-        "Server 175",
-        "Server 253",
-        "Server 362"
+        "@FREE2CONFIG - 141",
+        "Server 102",
+        "Server 192",
+        "Server 259"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,7 +111,7 @@
     },
     {
       "type": "vless",
-      "tag": "📅 Update: 1 Mehr",
+      "tag": "📅 Update: 5 Mehr",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -153,15 +149,15 @@
     },
     {
       "type": "vless",
-      "tag": "@FREE2CONFIG - 18",
-      "server": "82.24.203.20",
-      "server_port": 2087,
-      "uuid": "5fcdc9b7-e70f-4a5c-85c3-e018ad818326",
+      "tag": "@FREE2CONFIG - 141",
+      "server": "undef.network",
+      "server_port": 2052,
+      "uuid": "b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df",
       "transport": {
         "type": "ws",
-        "path": "/fd5ba98a3970",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "82.24.203.20"
+          "Host": "uwu.blueknightnet.qzz.io"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -169,78 +165,43 @@
     },
     {
       "type": "vless",
-      "tag": "@FREE2CONFIG - 104",
-      "server": "82.24.203.20",
-      "server_port": 2087,
-      "uuid": "5fcdc9b7-e70f-4a5c-85c3-e018ad818326",
+      "tag": "Server 102",
+      "server": "167.172.57.40",
+      "server_port": 443,
+      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
       "transport": {
-        "type": "ws",
-        "path": "/fd5ba98a3970",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "http",
+        "host": "speedtest.megafon.tj.prod.hosts.ooklaserver.net:8080",
+        "path": "/",
+        "method": "GET"
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "@FREE2CONFIG - 117",
-      "server": "82.24.203.20",
-      "server_port": 2087,
-      "uuid": "5fcdc9b7-e70f-4a5c-85c3-e018ad818326",
+      "tag": "Server 192",
+      "server": "164.90.200.62",
+      "server_port": 443,
+      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
       "transport": {
-        "type": "ws",
-        "path": "/fd5ba98a3970",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "http",
+        "host": "maps.google.com",
+        "path": "/",
+        "method": "GET"
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 175",
-      "server": "193.23.201.65",
-      "server_port": 5432,
-      "uuid": "e84e0918-68ca-4fcc-a1d1-b566fd9ac7ee",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "disable_sni": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 253",
-      "server": "ndi.lavivas.org",
-      "server_port": 2096,
-      "uuid": "44e1105d-b46e-402f-933b-eaa136fcbb24",
-      "flow": "xtls-rprx-vision-udp443",
-      "tls": {
-        "enabled": true,
-        "server_name": "ndi.lavivas.org",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 362",
-      "server": "82.24.203.20",
-      "server_port": 2087,
-      "uuid": "5fcdc9b7-e70f-4a5c-85c3-e018ad818326",
+      "tag": "Server 259",
+      "server": "138.68.129.218",
+      "server_port": 443,
+      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
       "transport": {
-        "type": "ws",
-        "path": "/fd5ba98a3970",
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "type": "http",
+        "host": "cafebazaar.ir",
+        "path": "/",
+        "method": "GET"
       },
       "packet_encoding": ""
     }
