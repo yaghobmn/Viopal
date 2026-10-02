@@ -78,9 +78,9 @@
       "outbounds": [
         "auto",
         "direct",
-                "ðŸ“… Update: 10 Mehr",
-        "@JavidnamanIran ðŸ‡¹ðŸ‡·",
-        "@JavidnamanIran 2 ðŸ‡¹ðŸ‡·",
+                "📅 Update: 10 Mehr",
+        "@JavidnamanIran 🇹🇷",
+        "@JavidnamanIran 2 🇹🇷",
         "Server 2",
         "Server 117",
         "Server 143",
@@ -97,9 +97,9 @@
     {
       "interval": "10m",
       "outbounds": [
-                "ðŸ“… Update: 10 Mehr",
-        "@JavidnamanIran ðŸ‡¹ðŸ‡·",
-        "@JavidnamanIran 2 ðŸ‡¹ðŸ‡·",
+                "📅 Update: 10 Mehr",
+        "@JavidnamanIran 🇹🇷",
+        "@JavidnamanIran 2 🇹🇷",
         "Server 2",
         "Server 117",
         "Server 143",
@@ -121,7 +121,7 @@
     },
     {
       "type": "vless",
-      "tag": "ðŸ“… Update: 10 Mehr",
+      "tag": "📅 Update: 10 Mehr",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -129,7 +129,7 @@
     },
     {
       "type": "http",
-      "tag": "@JavidnamanIran ðŸ‡¹ðŸ‡·",
+      "tag": "@JavidnamanIran 🇹🇷",
       "server": "149.50.208.199",
       "server_port": 10780,
       "username": "purevpn0s8732217",
@@ -144,7 +144,7 @@
     },
     {
       "type": "http",
-      "tag": "@JavidnamanIran 2 ðŸ‡¹ðŸ‡·",
+      "tag": "@JavidnamanIran 2 🇹🇷",
       "server": "149.50.208.137",
       "server_port": 10780,
       "username": "purevpn0s8732217",
