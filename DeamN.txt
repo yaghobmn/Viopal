@@ -6,5 +6,6 @@ vless://40992c2a-513e-4837-9594-23411fd42afd@167.99.192.193:443?security=&encryp
 vless://40992c2a-513e-4837-9594-23411fd42afd@165.22.77.239:443?security=&encryption=none&host=khamenei.ir&headerType=http&type=tcp#Server%20174
 vless://40992c2a-513e-4837-9594-23411fd42afd@165.22.201.234:443?security=&encryption=none&host=bmi.ir&headerType=http&type=tcp#Server%20195
 vless://40992c2a-513e-4837-9594-23411fd42afd@178.128.175.115:443?security=&encryption=none&host=khamenei.ir&headerType=http&type=tcp#Server%20255
+vless://6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8@milo.rubinaz.xyz:8080?security=&encryption=none&headerType=none&type=tcp#Server%20283
 vless://40992c2a-513e-4837-9594-23411fd42afd@159.65.90.86:443?security=&encryption=none&host=www.google.com&headerType=http&type=tcp#Server%20284
 vless://40992c2a-513e-4837-9594-23411fd42afd@167.172.174.148:443?security=&encryption=none&host=bmi.ir&headerType=http&type=tcp#Server%20309
