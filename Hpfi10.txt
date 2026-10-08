@@ -78,18 +78,12 @@
       "outbounds": [
         "auto",
         "direct",
-                "📅 Update: 10 Mehr",
+                "📅 Update: 16 Mehr",
         "@JavidnamanIran 🇹🇷",
         "@JavidnamanIran 2 🇹🇷",
-        "Server 2",
-        "Server 117",
-        "Server 143",
-        "Server 174",
-        "Server 195",
-        "Server 255",
-        "Server 283",
-        "Server 284",
-        "Server 309"
+        "Server 7",
+        "Server 52",
+        "Server 156"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,18 +91,12 @@
     {
       "interval": "10m",
       "outbounds": [
-                "📅 Update: 10 Mehr",
+                "📅 Update: 16 Mehr",
         "@JavidnamanIran 🇹🇷",
         "@JavidnamanIran 2 🇹🇷",
-        "Server 2",
-        "Server 117",
-        "Server 143",
-        "Server 174",
-        "Server 195",
-        "Server 255",
-        "Server 283",
-        "Server 284",
-        "Server 309"
+        "Server 7",
+        "Server 52",
+        "Server 156"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -121,7 +109,7 @@
     },
     {
       "type": "vless",
-      "tag": "📅 Update: 10 Mehr",
+      "tag": "📅 Update: 16 Mehr",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -159,127 +147,51 @@
     },
     {
       "type": "vless",
-      "tag": "Server 2",
-      "server": "212.46.33.90",
+      "tag": "Server 7",
+      "server": "178.62.223.148",
       "server_port": 443,
-      "uuid": "d4cae7df-50a1-428c-bd62-881c8f3bbd90",
-      "flow": "xtls-rprx-vision",
+      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
+      "transport": {
+        "type": "http",
+        "host": "dns.shecan.ir",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "Server 52",
+      "server": "199.232.78.187",
+      "server_port": 443,
+      "uuid": "c326b0af-e926-4dc8-a8a3-e7790cc0bdec",
       "tls": {
         "enabled": true,
-        "server_name": "slowkd.sadiepinki.com",
+        "server_name": "default.ssl.fastly.net",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "z37XIezsPyfMgmdXyFd9qT4C4maDAs1OcRt-wfyrXVo",
-          "short_id": "9c2378562188c3cb"
         }
       },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 117",
-      "server": "178.62.19.57",
-      "server_port": 443,
-      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
       "transport": {
-        "type": "http",
-        "host": "speedtest.megafon.tj.prod.hosts.ooklaserver.net:8080",
+        "type": "ws",
         "path": "/",
-        "method": "GET"
+        "headers": {
+          "Host": "SEPAHA1.global.ssl.fastly.net"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": ""
     },
     {
       "type": "vless",
-      "tag": "Server 143",
-      "server": "167.99.192.193",
+      "tag": "Server 156",
+      "server": "167.71.15.194",
       "server_port": 443,
       "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
       "transport": {
         "type": "http",
-        "host": "grs.dbankcloud.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 174",
-      "server": "165.22.77.239",
-      "server_port": 443,
-      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
-      "transport": {
-        "type": "http",
-        "host": "khamenei.ir",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 195",
-      "server": "165.22.201.234",
-      "server_port": 443,
-      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
-      "transport": {
-        "type": "http",
-        "host": "bmi.ir",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 255",
-      "server": "178.128.175.115",
-      "server_port": 443,
-      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
-      "transport": {
-        "type": "http",
-        "host": "khamenei.ir",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 283",
-      "server": "milo.rubinaz.xyz",
-      "server_port": 8080,
-      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 284",
-      "server": "159.65.90.86",
-      "server_port": 443,
-      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
-      "transport": {
-        "type": "http",
-        "host": "www.google.com",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
-    },
-    {
-      "type": "vless",
-      "tag": "Server 309",
-      "server": "167.172.174.148",
-      "server_port": 443,
-      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
-      "transport": {
-        "type": "http",
-        "host": "bmi.ir",
+        "host": "dns1.begzar.ir",
         "path": "/",
         "method": "GET"
       },
