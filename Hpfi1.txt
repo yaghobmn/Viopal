@@ -78,12 +78,18 @@
       "outbounds": [
         "auto",
         "direct",
-                "📅 Update: 16 Mehr",
+                "📅 Update: 17 Mehr",
         "@JavidnamanIran 🇹🇷",
         "@JavidnamanIran 2 🇹🇷",
-        "Server 7",
-        "Server 52",
-        "Server 156"
+        "Server 69",
+        "Server 155",
+        "Server 159",
+        "@FREE2CONFIG - 1",
+        "@FREE2CONFIG - 50",
+        "@FREE2CONFIG - 59",
+        "@FREE2CONFIG - 61",
+        "@FREE2CONFIG - 160",
+        "@FREE2CONFIG - 177"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,12 +97,18 @@
     {
       "interval": "10m",
       "outbounds": [
-                "📅 Update: 16 Mehr",
+                "📅 Update: 17 Mehr",
         "@JavidnamanIran 🇹🇷",
         "@JavidnamanIran 2 🇹🇷",
-        "Server 7",
-        "Server 52",
-        "Server 156"
+        "Server 69",
+        "Server 155",
+        "Server 159",
+        "@FREE2CONFIG - 1",
+        "@FREE2CONFIG - 50",
+        "@FREE2CONFIG - 59",
+        "@FREE2CONFIG - 61",
+        "@FREE2CONFIG - 160",
+        "@FREE2CONFIG - 177"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -109,7 +121,7 @@
     },
     {
       "type": "vless",
-      "tag": "📅 Update: 16 Mehr",
+      "tag": "📅 Update: 17 Mehr",
       "server": "0.0.0.0",
       "server_port": 443,
       "uuid": "test",
@@ -146,28 +158,22 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "Server 7",
-      "server": "178.62.223.148",
-      "server_port": 443,
-      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
-      "transport": {
-        "type": "http",
-        "host": "dns.shecan.ir",
-        "path": "/",
-        "method": "GET"
-      },
-      "packet_encoding": ""
+      "type": "shadowsocks",
+      "tag": "Server 69",
+      "server": "185.212.171.202",
+      "server_port": 18670,
+      "method": "aes-128-gcm",
+      "password": "59ded1591b0b45f0b1e9361334c0f7d9"
     },
     {
-      "type": "vless",
-      "tag": "Server 52",
-      "server": "199.232.78.187",
+      "type": "trojan",
+      "tag": "Server 155",
+      "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "c326b0af-e926-4dc8-a8a3-e7790cc0bdec",
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "default.ssl.fastly.net",
+        "server_name": "www.pleadcourt.org",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -175,9 +181,45 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/assignment",
         "headers": {
-          "Host": "SEPAHA1.global.ssl.fastly.net"
+          "Host": "www.pleadcourt.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Server 159",
+      "server": "104.248.170.218",
+      "server_port": 443,
+      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
+      "transport": {
+        "type": "http",
+        "path": "/",
+        "method": "GET"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@FREE2CONFIG - 1",
+      "server": "77.72.85.247",
+      "server_port": 8443,
+      "uuid": "6c713691-3ca2-4446-ad25-113d1bed6b03",
+      "tls": {
+        "enabled": true,
+        "server_name": "fdghyt.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vpn-wss/fluxor/59011/",
+        "headers": {
+          "Host": "fdghyt.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -185,15 +227,111 @@
     },
     {
       "type": "vless",
-      "tag": "Server 156",
-      "server": "167.71.15.194",
-      "server_port": 443,
-      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
+      "tag": "@FREE2CONFIG - 50",
+      "server": "8.47.69.0",
+      "server_port": 2053,
+      "uuid": "9d672694-c146-422e-b3b5-3717a38a0fcc",
+      "tls": {
+        "enabled": true,
+        "server_name": "fr.api-music-fa.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      },
       "transport": {
-        "type": "http",
-        "host": "dns1.begzar.ir",
-        "path": "/",
-        "method": "GET"
+        "type": "ws",
+        "path": "/api/voip/updates/static/fr2035",
+        "headers": {
+          "Host": "fr.api-music-fa.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@FREE2CONFIG - 59",
+      "server": "172.67.181.232",
+      "server_port": 2052,
+      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
+      "transport": {
+        "type": "ws",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
+        "headers": {
+          "Host": "uwu.blueknightnet.qzz.io"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@FREE2CONFIG - 61",
+      "server": "172.67.185.98",
+      "server_port": 2053,
+      "uuid": "9d672694-c146-422e-b3b5-3717a38a0fcc",
+      "tls": {
+        "enabled": true,
+        "server_name": "fr.api-music-fa.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/voip/updates/static/fr2035",
+        "headers": {
+          "Host": "fr.api-music-fa.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@FREE2CONFIG - 160",
+      "server": "77.72.85.247",
+      "server_port": 8443,
+      "uuid": "6c713691-3ca2-4446-ad25-113d1bed6b03",
+      "tls": {
+        "enabled": true,
+        "server_name": "fdghyt.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vpn-wss/fluxor/59011/",
+        "headers": {
+          "Host": "fdghyt.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": ""
+    },
+    {
+      "type": "vless",
+      "tag": "@FREE2CONFIG - 177",
+      "server": "91.233.8.141",
+      "server_port": 443,
+      "uuid": "81d8f575-a9c3-03e7-be6b-c0e1dc1d2e20",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tnt-cloud.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw",
+          "short_id": "6e5f2a3b"
+        }
       },
       "packet_encoding": ""
     }
